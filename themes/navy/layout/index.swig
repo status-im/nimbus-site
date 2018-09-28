@@ -6,12 +6,48 @@
                 <span class="logo-span"><a class="logo-text" href="/">nimbus</a></span>
             </div>
 
-            <ul class="main-nav">
-                <li><a href="/docs/nimbus.html">Docs</a></li>
-                <li><a href="/docs/contributor_guide.html">Contribute</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="https://our.status.im/tag/research" target="_blank">Blog</a></li>
-            </ul>
+            <header class="dropdown">
+                <nav>
+                    <ul>
+                    <li><a href="#">Status App</a>
+                        <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Desktop</a></li>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contribute</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Embark</a>
+                        <ul>
+                        <li><a href="https://embark.status.im">About</a></li>
+                        <li><a href="https://embark.status.im/docs">Docs</a></li>
+                        <li><a href="https://our.status.im/tag/embark">Blog</a></li>
+                        <li><a href="https://gitter.im/embark-framework/Lobby">Contribute</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="https://our.status.im/tag/studio">Studio</a></li>
+
+                    <li><a href="https://status.im/incubate">Incubate</a></li>
+
+                    <li class="current"><a href="/">Nimbus</a>
+                        <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="/docs/">Docs</a></li>
+                        <li><a href="https://our.status.im/tag/research">Blog</a></li>
+                        <li><a href="https://gitter.im/status-im/nimbus">Contribute</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="https://our.status.im/tag/hardwallet">Hardwallet</a></li>
+
+                    <li><a href="https://our.status.im">Community</a></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
 
         <div class="secondary-nav">
