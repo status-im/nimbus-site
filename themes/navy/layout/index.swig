@@ -2,7 +2,8 @@
     <div class="header">
         <div class="header-left">
             <div class="logo-wrap">
-                <a class="logo" href="/"></a>
+                <span class="logo-span"><a class="logo" href="/"></a></span>
+                <span class="logo-span"><a class="logo-text" href="/">nimbus</a></span>
             </div>
 
             <ul class="main-nav">
