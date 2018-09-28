@@ -41,55 +41,54 @@ logo-size = 50px
   background-repeat: no-repeat;
 
 .dropdown
-    display flex
-    align-items center
-    margin-left 32px
+    display: flex
+    align-items: center
+    margin-left: 32px
     nav
         ul
             li
-                float left
-                margin 8px
-                position relative
+                float: left
+                margin: 8px
+                position: relative
                 a
-                    color #FFFFFF
-                    text-decoration none
-                    font-weight bold
+                    color: #FFFFFF
+                    text-decoration: none
+                    font-weight: bold
                     &:hover
-                        opacity .7
+                        opacity: .7
                     &:focus
-                        color rgba(255, 255,255,1)
+                        color: rgba(255, 255,255,1)
                 &.current
-                    text-decoration underline
+                    text-decoration: underline
                     a
-                        color rgba(255,255,255,0.7)
+                        color: rgba(255,255,255,0.7)
                 &:hover
                     & > ul
-                        display block
+                        display: block
+                        z-index: 1
                 ul
-                    background #ffffff
-                    border-radius 5px
-  display: none
-                    left 0
-                    padding 10px 5px 5px 5px
-                    position absolute
-                    top 100%
-                    border-top 5px solid #ff9c00
+                    background: #ffffff
+                    border-radius: 5px
+                    left: 0
+                    padding: 10px 5px 5px 5px
+                    position: absolute
+                    top: 100%
                     li
-                        float none
-                        width 8.125em
+                        float: none
+                        width: 8.125em
                         a
                             &:hover
                                 color #000
 
 .dropdown:before,
 .dropdown:after
-    clear both
-    content ""
-    display table
+    clear: both
+    content: ""
+    display: table
 
 .dropdown nav ul li ul li a:link,
 .dropdown nav ul li ul li a:visited
-    color #8d99a4
+    color: #8d99a4
 
 #search-input-wrap
   display: none
