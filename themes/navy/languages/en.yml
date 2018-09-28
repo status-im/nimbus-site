@@ -1,0 +1,26 @@
+menu:
+  docs: Docs
+  news: News
+  plugins: Plugins
+  themes: Themes
+  search: Search
+  chat: Chat
+  blog: Blog
+  tutorials: Tutorials
+
+index:
+  get_started: Get started
+
+page:
+  contents: Contents
+  back_to_top: Back to Top
+  improve: Improve this doc
+  prev: Prev
+  next: Next
+  last_updated: "Last updated: %s"
+
+sidebar:
+  docs:
+    Nimbus: Nimbus
+    introduction: What Is Nimbus?
+    contributor_guide: How Can I Contribute?
