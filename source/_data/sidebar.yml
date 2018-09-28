@@ -1,5 +1,10 @@
 docs:
   Nimbus:
-    introduction: nimbus.html
+    introduction: index.html
+    milestones: milestones.html
+    design: design.html
+    ideas_for_implementation: ideas_for_implementation.html
+    resources: resources.html
+    team: team.html
     contributor_guide: contributor_guide.html
     

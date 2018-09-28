@@ -12,48 +12,84 @@ logo-size = 50px
   display: flex
   flex-flow: row nowrap
   align-items: center
+  width: 1190px
+  margin-left: -120px
   @media mq-mobile
     justify-content: center
 
-#logo-wrap
-  flex: 0 logo-size
-  margin-top: 19px
+.button--header
+  margin-top: 7px
+
+#logo-wrap-page
+  flex: 0
+  -webkit-flex: none
+  margin-top: 8px
+  width: 200px
 
 #logo
   hide-text()
   display: block
-  width: 40px;
-  height: 40px;
-  background-image: url(../img/status_logo.svg);
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/logo_ogn.png);
   text-decoration: none;
   margin: -20px 0 0 30px;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(255,255,255,1);
   border-radius: 50%;
   background-size: 22px;
   background-position: center;
   background-repeat: no-repeat;
 
-#main-nav
+.dropdown
+    display flex
+    align-items center
+    margin-left 32px
+    nav
+        ul
+            li
+                float left
+                margin 8px
+                position relative
+                a
+                    color #FFFFFF
+                    text-decoration none
+                    font-weight bold
+                    &:hover
+                        opacity .7
+                    &:focus
+                        color rgba(255, 255,255,1)
+                &.current
+                    text-decoration underline
+                    a
+                        color rgba(255,255,255,0.7)
+                &:hover
+                    & > ul
+                        display block
+                ul
+                    background #ffffff
+                    border-radius 5px
   display: none
-  flex: 1 auto
-  padding-left: 20px
-  @media mq-normal
-    display: block
+                    left 0
+                    padding 10px 5px 5px 5px
+                    position absolute
+                    top 100%
+                    border-top 5px solid #ff9c00
+                    li
+                        float none
+                        width 8.125em
+                        a
+                            &:hover
+                                color #000
 
-.main-nav-link
-  color: color-main-link
-  text-decoration: none
-  line-height: logo-size
-  opacity: 1.0
-  transition: 0.2s
-  font-family: font-sans
-  font-size: 15px
-  font-weight: bold;
-  display: inline-block
-  padding: 0 15px
-  &:hover
-    opacity: 1
-    color: color-link-hover
+.dropdown:before,
+.dropdown:after
+    clear both
+    content ""
+    display table
+
+.dropdown nav ul li ul li a:link,
+.dropdown nav ul li ul li a:visited
+    color #8d99a4
 
 #search-input-wrap
   display: none

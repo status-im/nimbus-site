@@ -21,4 +21,9 @@ sidebar:
   docs:
     Nimbus: Nimbus
     introduction: What Is Nimbus?
-    contributor_guide: How Can I Contribute?
+    milestones: Milestones
+    design: Design
+    ideas_for_implementation: Ideas For Implementation
+    resources: Resources
+    team: Team
+    contributor_guide: Contributor Guide
