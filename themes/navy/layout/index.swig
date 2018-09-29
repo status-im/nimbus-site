@@ -11,12 +11,12 @@
                     <ul>
                     <li><a href="#">Status App</a>
                         <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Desktop</a></li>
-                        <li><a href="#">Docs</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contribute</a></li>
+                        <li><a href="https://status/im">About</a></li>
+                        <li><a href="https://status.im">Features</a></li>
+                        <li><a href="https://desktop.status.im">Desktop</a></li>
+                        <li><a href="https://docs.status/im">Docs</a></li>
+                        <li><a href="https://our.status/im">Blog</a></li>
+                        <li><a href="https://people-ops.status.im/">Contribute</a></li>
                         </ul>
                     </li>
 
