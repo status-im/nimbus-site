@@ -1,11 +1,11 @@
-title: Status
-subtitle: "A new kind of tool for a new kind of internet"
-description: "Status is the mobile windown onto Ethereum, the platform with which we will onboard the first million users of a truly distributed web."
-author: Status
+title: Nimbus
+subtitle: "Light clients for everyone!"
+description: "Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware."
+author: Nimbus
 language: en
 timezone: UTC
 
-url: https://dev-docs.status.im/
+url: https://dev-nimbus.status.im/
 root: /
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -19,7 +19,7 @@ deploy:
   type: git
   branch: gh-pages
   name: status-im-auto
-  repo: git@github.com:status-im/docs.status.im.git
+  repo: git@github.com:status-im/nimbus.status.im.git
 
 theme_config:
     favicon: img/logo-32.png
