@@ -98,7 +98,7 @@ hexo.extend.helper.register('url_for_lang', function(path) {
 });
 
 hexo.extend.helper.register('raw_link', function(path) {
-  return 'https://github.com/status-im/docs.status.im/edit/develop/source/' + path;
+  return 'https://github.com/status-im/nimbus.status.im/edit/develop/source/' + path;
 });
 
 hexo.extend.helper.register('page_anchor', function(str) {
