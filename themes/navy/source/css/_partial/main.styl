@@ -1,4 +1,57 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-UI-Regular.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("../fonts/Inter-UI-Italic.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("../fonts/Inter-UI-Medium.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 500;
+  src: url("../fonts/Inter-UI-MediumItalic.woff2") format("woff2"),
+       url("../fonts/Inter-UI-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("../fonts/Inter-UI-Bold.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 700;
+  src: url("../fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
+       url("../fonts/Inter-UI-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('../fonts/GTWalsheim-Bold.woff2') format('woff2'),
+        url('../fonts/GTWalsheim-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -40,6 +93,13 @@ table {
 
 div {
   box-sizing: border-box;
+}
+
+a{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* ----------------------------------------------------------------------------------------------------
@@ -167,31 +227,14 @@ select[multiple] {
   vertical-align: top;
 }
 
-@font-face {
-  font-family: PostGrotesk-Medium;
-  src: url(../fonts/PostGrotesk-Medium.eot);
-  src: url(../fonts/PostGrotesk-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/PostGrotesk-Medium.woff) format("woff"), url(../fonts/PostGrotesk-Medium.svg#PostGrotesk-Medium) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: PostGrotesk-Book;
-  src: url(../fonts/PostGrotesk-Book.eot);
-  src: url(../fonts/PostGrotesk-Book.eot?#iefix) format("embedded-opentype"), url(../fonts/PostGrotesk-Book.woff) format("woff"), url(../fonts/PostGrotesk-Book.svg#PostGrotesk-Book) format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-
 .header {
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: space-between;
-  width: 1280px;
+  width: 1200px;
   height: 56px;
-  left: 50%;
   top: 0;
-  margin: 24px 0 0 -598px;
+  margin: 24px 0 0 0;
 }
 
 .header-left {
@@ -200,15 +243,10 @@ select[multiple] {
 }
 
 .logo-wrap {
-  display: block;
-  width: 160px;
-  height: 26px;
   position: relative;
-}
-
-.logo-span {
-  float: left;
-  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -217,7 +255,7 @@ select[multiple] {
   height: 56px;
   background-image: url(../img/logo_ogn.png);
   text-decoration: none;
-  margin: -12px 0 0 -20px;
+  margin: 0;
   background-color: #ffffff;
   border-radius: 50%;
   background-size: 22px;
@@ -230,6 +268,8 @@ select[multiple] {
   font-weight: bold;
   color: #ffffff;
   text-decoration: none;
+  font-family: "GT Walsheim", sans-serif;
+  margin-left: 10px;
 }
 
 .logo-sign {
@@ -265,9 +305,12 @@ select[multiple] {
 }
 
 .dropdown nav ul li a {
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 10px 0;
+  display: block;
 }
 
 .dropdown nav ul li a:hover {
@@ -276,10 +319,6 @@ select[multiple] {
 
 .dropdown nav ul li a:focus {
   color: rgba(255, 255,255,1);
-}
-
-.dropdown nav ul li.current {
-  text-decoration: underline;
 }
 
 .dropdown nav ul li.current a {
@@ -291,17 +330,42 @@ select[multiple] {
 }
 
 .dropdown nav ul li ul {
-  background: #ffffff;
-  border-radius: 5px
-  display: none;
-  left: 0;
-  padding: 10px 5px 5px 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(43, 59, 71, 0.124066);
+  border-radius: 8px;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.dropdown .has-submenu{
+  position: relative;
+}
+
+.dropdown .sub-menu {
   position: absolute;
   top: 100%;
-  border-top: 5px solid #ff9c00;
-  border-left: 1 px solid #ffffff;
-  border-right: 1 px solid #ffffff;
-  border-bottom: 1 px solid #ffffff;
+  left: -7px;
+  -webkit-transform: translateY(-20px) rotateX(20deg) scale(0.95);
+  transform: translateY(-20px) rotateX(20deg) scale(0.95);
+  -webkit-transition: all 0.3s ease-in-out, pointer-events 0s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out, pointer-events 0s ease-in-out;
+  -o-transition: all 0.3s ease-in-out, pointer-events 0s ease-in-out;
+  transition: all 0.3s ease-in-out, pointer-events 0s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.dropdown .sub-menu li a{
+  padding: 0;
+}
+
+.dropdown .has-submenu:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0) rotateX(0) scale(1);
+  transform: translateY(0) rotateX(0) scale(1);
 }
 
 .dropdown nav ul li ul li {
@@ -322,6 +386,10 @@ select[multiple] {
   display: flex;
   align-items: center;
   margin-left: 32px;
+}
+
+.secondary-nav .button{
+  margin-right: 8px;
 }
 
 .second-nav-links
@@ -432,16 +500,31 @@ select[multiple] {
   background-color: #ff9c00;
   background-image: url("../img/head_bg.png");
   height: 550px;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .intro {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
   display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
-  padding: 0 0 32px 0;
-  color: #FFFFFF;
+  padding: 78px 0 64px;
+  color: #fff;
   text-align: center;
-  width: 540px;
+  max-width: 590px;
 }
 
 .intro-buttons {
@@ -450,7 +533,7 @@ select[multiple] {
 
 .intro .button {
   margin: 0 6px;
-  width: 194px;
+  width: 260px;
   padding: 10px 0 8px;
 }
 
@@ -475,17 +558,18 @@ select[multiple] {
 }
 
 .intro h1 {
-  font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 36px;
   padding: 0 0 12px 0;
+  font-weight: bold;
 }
 
 .intro p {
-  font-family: "PostGrotesk-Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 25px;
   opacity: .6;
-  padding: 0 0 16px 0;
+  padding: 0 0 25px 0;
 }
 
 .command-wrap {
@@ -605,13 +689,13 @@ select[multiple] {
 .features-item h2 {
   font-size: 20px;
   line-height: 24px;
-  font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   padding: 0 0 8px 0;
   transition: color .2s ease;
 }
 
 .features-item p {
-  font-family: "PostGrotesk-Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   color: #777f86;
   font-size: 16px;
   line-height: 24px;
@@ -671,7 +755,7 @@ select[multiple] {
 }
 
 .pre-footer h3 {
-  font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 24px;
   color: white;
@@ -884,7 +968,7 @@ a.footer-logo:hover {
 }
 
 .language-switcher {
-  font-family: "PostGrotesk-Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
   -webkit-appearance: none;
   font-size: 16px;
@@ -970,7 +1054,7 @@ a.footer-logo:hover {
 }
 
 body {
-  font-family: "PostGrotesk-Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -982,16 +1066,17 @@ body {
 
 .button, a.button {
   display: block;
-  font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #FFFFFF;
-  line-height: 24px;
   padding: 10px 32px 9px;
   border-radius: 22px;
   background-color: rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  line-height: normal;
 }
 
 .button.button--light, a.button.button--light {
@@ -1012,7 +1097,7 @@ body {
   align-content: center;
   display: flex;
   flex-direction: column;
-  margin: 440px 0 0 0;
+  margin: 550px 0 0 0;
   box-shadow: 0 -20px 11px 0 rgba(43, 55, 107, 0.08);
 }
 
@@ -1023,9 +1108,10 @@ body {
 }
 
 .section-header {
-  margin: -60px auto;
-  width: 1200px;
-  padding: 60px 0 32px 0;
+  margin: -136px auto -60px auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 0;
   text-align: center;
   background: #ffffff;
   border-radius: 5px
@@ -1033,21 +1119,36 @@ body {
 
 .section-header h2 {
   font-size: 26px;
-  font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  padding: 0 0 8px 0;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  padding: 0 0 12px 0;
+  font-weight: bold;
 }
 
 .section-header p {
   font-size: 16px;
-  width: 590px;
+  max-width: 590px;
   color: #8D99A4;
   line-height: 24px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 12px auto;
 }
 
 .section-header a {
   color: #ff9c00;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.section-header a img{
+  margin-left: 8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-header a:hover img{
+  transform: translateX(3px);
 }
 
 .clear {
@@ -1055,39 +1156,21 @@ body {
 }
 
 .work-item {
-    margin: 30px auto;
-    text-align: left;
-    padding: 100px 200px;
+  margin: 30px auto;
+  text-align: left;
+  max-width: 910px;
+  padding: 100px 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.work-item-image {
-  margin: -150px 0;
+.work-item-inner{
+  max-width: 480px;
 }
 
-.work-item-left p {
-  margin: 0;
-  width: 400px;
-}
-
-
-.work-item-right {
-  float: right;
-  text-align: right;
-}
-
-.work-item-right p {
-  margin: 0;
-  width: 400px;
-}
-
-.work-item-image-right {
-  float: right;
-}
-
-.work-item-image-left {
-  width: 200px;
-  height: 200px;
-  margin: -120px 0;
+.work-item-inner p {
+  margin: 0 0 10px;
 }
 
 .inner-header {
@@ -1100,7 +1183,7 @@ body {
 
 .inner-header h2 {
   font-size: 26px;
-  font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   padding: 0 0 8px 0;
   text-align: left;
 }
@@ -1140,7 +1223,7 @@ body {
 }
 
 .section__text h2 {
-  font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 24px;
   color: black;
@@ -1148,7 +1231,7 @@ body {
 }
 
 .section__text .text {
-  font-family: "PostGrotesk-Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #777f86;
@@ -1364,8 +1447,4 @@ pre {
 
 .blog {
   height: 400px;
-}
-
-#top-header {
-  margin-top: 60px;
 }

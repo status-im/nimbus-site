@@ -7,37 +7,43 @@
         <header class="dropdown">
             <nav>
                 <ul>
-                <li><a href="#">Status App</a>
-                    <ul>
-                        <li><a href="https://status/im">About</a></li>
-                        <li><a href="https://status.im">Features</a></li>
-                        <li><a href="https://desktop.status.im">Desktop</a></li>
-                        <li><a href="https://docs.status/im">Docs</a></li>
-                        <li><a href="https://our.status/im">Blog</a></li>
-                        <li><a href="https://people-ops.status.im/">Contribute</a></li>
-                    </ul>
+                <li class="has-submenu"><a href="#">Status App</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="https://status/im">About</a></li>
+                            <li><a href="https://status.im">Features</a></li>
+                            <li><a href="https://desktop.status.im">Desktop</a></li>
+                            <li><a href="https://docs.status/im">Docs</a></li>
+                            <li><a href="https://our.status/im">Blog</a></li>
+                            <li><a href="https://people-ops.status.im/">Contribute</a></li>
+                        </ul>
+                    </div>
                 </li>
 
-                <li><a href="#">Embark</a>
-                    <ul>
-                    <li><a href="https://embark.status.im">About</a></li>
-                    <li><a href="https://embark.status.im/docs">Docs</a></li>
-                    <li><a href="https://our.status.im/tag/embark">Blog</a></li>
-                    <li><a href="https://gitter.im/embark-framework/Lobby">Contribute</a></li>
-                    </ul>
+                <li class="has-submenu"><a href="#">Embark</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="https://embark.status.im">About</a></li>
+                            <li><a href="https://embark.status.im/docs">Docs</a></li>
+                            <li><a href="https://our.status.im/tag/embark">Blog</a></li>
+                            <li><a href="https://gitter.im/embark-framework/Lobby">Contribute</a></li>
+                        </ul>
+                    </div>
                 </li>
 
                 <li><a href="https://our.status.im/tag/studio">Studio</a></li>
 
                 <li><a href="https://status.im/incubate">Incubate</a></li>
 
-                <li class="current"><a href="/">Nimbus</a>
-                    <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="/docs/">Docs</a></li>
-                    <li><a href="https://our.status.im/tag/research">Blog</a></li>
-                    <li><a href="https://gitter.im/status-im/nimbus">Contribute</a></li>
-                    </ul>
+                <li class="current has-submenu"><a href="/">Nimbus</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="/docs/">Docs</a></li>
+                            <li><a href="https://our.status.im/tag/research">Blog</a></li>
+                            <li><a href="https://gitter.im/status-im/nimbus">Contribute</a></li>
+                        </ul>
+                    </div>
                 </li>
 
                 <li><a href="https://our.status.im/tag/hardwallet">Hardwallet</a></li>
@@ -56,7 +62,7 @@
             </div>
 
             <div class="second-nav-links">
-                <span><a href="http://get.status.im/chat/public/status" class="button button--secondary button--header">Status Chat</a></span>
+                <span><a href="http://get.status.im/chat/public/status" class="button button--secondary button--header">Status Public Chat</a></span>
                 <span class="social-link social-link--twitter"><a href="https://twitter.com/ethstatus" target="_blank"></a></span>
                 <span class="social-link social-link--gitter"><a href="https://gitter.im/status-im/nimbus" target="_blank"></a></span>
                 <span class="social-link social-link--github"><a href="https://github.com/status-im" target="_blank"></a></span>
