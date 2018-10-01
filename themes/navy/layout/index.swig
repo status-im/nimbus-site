@@ -68,8 +68,8 @@
         <h1>Nimbus</h1>
         <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.</p>
         <div class="intro-buttons">
-            <a class="button button--main" href="/docs/">READ THE DOCS</a>
-            <a class="button button--secondary" href="/docs/contribute.html">GET INVOLVED</a>
+            <a class="button button--main" href="https://gitter.im/status-im/nimbus">JOIN OUR GITTER</a>
+            <a class="button button--secondary" href="/docs/">GET INVOLVED</a>
         </div>
     </div>
 
@@ -78,41 +78,59 @@
 <div class="home-wrap">
 
     <div class="section-header section-header--main">
-        <h2>Future Plans</h2>
-        <p>The Nimbus team kicked off research in March 2018 and has been steadily making progress on X,Y,Z. Below is a list of activities the team will be working on.
+        <h2 id="top-header">Future Plans</h2>
+        <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.
         </p>
-        <span><a href="/docs/">See all the documentation here</a></span> <a href="/docs/"><img src="../img/arrow_orange.png" /></a> 
+        <span><a href="https://github.com/status-im/nimbus">Learn More on Github</a></span> <a href="https://github.com/status-im/nimbus"><img src="../img/arrow_orange.png" /></a> 
 
         
         <div class="work-item">
             <div class="work-item-left">
-                <h2>Work#1</h2>
-                <p>Simple description of work.</p>
-                <img class="work-item-image work-item-image-right" src="../img/padlock.svg" />
+                <h2>Friendly Beginnings</h2>
+                <p>The Nimbus team kicked off research in March 2018 and has steadily been finalizing the blocks needed to deliver a fully stand-alone implementation of 
+                the next generation of Ethereum. Excited about new developments? Get in touch!</p>
+                <span><a href="https://github.com/status-im/nimbus">See docs</a></span> <a href="https://github.com/status-im/nimbus"><img src="../img/arrow_orange.png" /></a>
+                <img class="work-item-image work-item-image-right" src="../img/graphic-friendly-beginnings.png" />
             </div>
         </div>
         <div class="clear"></div>
         <div class="work-item">
-            <img class="work-item-image" src="../img/padlock.svg" />
+            <img class="work-item-image" src="../img/graphic-research.png" />
             <div class="work-item-right">
-                <h2>Work#2</h2>
-                <p>Simple description of work.</p>
+                <h2>Friendly Research</h2>
+                <p>We’re translating the latest Ethereum 2.0 research like BN curves, BLS signatures and RANDAO games into practical, performant and reusable 
+                libraries to provide fertile exploration ground for further R&D. Want to run advanced simulations and tests? Get in touch!</p>
+                <span><a href="https://github.com/status-im/nimbus">See docs</a></span> <a href="https://github.com/status-im/nimbus"><img src="../img/arrow_orange.png" /></a>
             </div>
         </div>
         <div class="clear"></div>
         <div class="work-item">
             <div class="work-item-left">
-                <h2>Work#3</h2>
-                <p>Simple description of work.</p>
-                <img class="work-item-image work-item-image-right" src="../img/padlock.svg" />
+                <h2>Friendly Licensing</h2>
+                <p>We’re building Nimbus as a common good with liberal licensing to allow the widest deployment of Ethereum 2.0 possible. 
+                Want to integrate Nimbus in your product? Get in touch!</p>
+                <span><a href="https://github.com/status-im/nimbus">See docs</a></span> <a href="https://github.com/status-im/nimbus"><img src="../img/arrow_orange.png" /></a>
+                <img class="work-item-image work-item-image-right" src="../img/graphic-research.png" />
             </div>
         </div>
         <div class="clear"></div>
         <div class="work-item">
-            <img class="work-item-image" src="../img/padlock.svg" />
+            <img class="work-item-image" src="../img/graphic-network.png" />
             <div class="work-item-right">
-                <h2>Work#4</h2>
-                <p>Simple description of work.</p>
+                <h2>Friendly Networking</h2>
+                <p>We’re translating the latest Ethereum 2.0 research like BN curves, BLS signatures and RANDAO games into practical, 
+                performant and reusable libraries to provide fertile exploration ground for further R&D. Want to run advanced simulations and tests? Get in touch!</p>
+                <span><a href="https://github.com/status-im/nimbus">See docs</a></span> <a href="https://github.com/status-im/nimbus"><img src="../img/arrow_orange.png" /></a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="work-item">
+            <div class="work-item-left">
+                <h2>Friendly Platform Support</h2>
+                <p>The Nim language delivers safe and performant code on any platform with a C compiler available. Developing the latest RISC-V 
+                boards or simply have an old Windows machine lying around? Get in touch!</p>
+                <span><a href="https://github.com/status-im/nimbus">See docs</a></span> <a href="https://github.com/status-im/nimbus"><img src="../img/arrow_orange.png" /></a>
+                <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.png" />
             </div>
         </div>
         <div class="clear"></div>
@@ -146,54 +164,58 @@
 
         <div class="inner-header">
             <a name="team"></a>
-            <h2>Team</h2>
-            <p>We’re a diverse group of researchers, engineers, and scientists with a passion for web3 technologies. We work primarily in Nim</p>
+            <h2>Core Contributors</h2>
+            <p>We’re a diverse group of researchers, engineers, and scientists with a passion for web3 technologies. We work primarily in Nim.</p>
         </div>
         <div class="contribute-wrap">
-            <div class="contribute team">
-                <h3>Jacek Sieka</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
-            </div>
-            <div class="contribute team">
-                <h3>Zahary Karadjov</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
-            </div>
-            <div class="contribute team">
+            <div class="contribute">
+                <img class="contributor" src="../img/ellipse.png" />
                 <h3>Yevhen Kabanov</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
+                <p>Engineer</p>
+                <p><a href="https://github.com/">See Github profile</a>
+                <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span></p>
             </div>
-            <div class="contribute team">
+            <div class="contribute">
+                <img class="contributor" src="../img/ellipse.png" />
+                <h3>Jacek Sieka</h3>
+                <p>Engineer</p>
+                <p><a href="https://github.com/">See Github profile</a>
+                <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span></p>
+            </div>
+            <div class="contribute">
+                <img class="contributor" src="../img/ellipse.png" />
                 <h3>Mamy Ratsimbazafy</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
+                <p>Engineer</p>
+                <p><a href="https://github.com/">See Github profile</a>
+                <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span></p>
             </div>
-            <div class="contribute team">
-                <h3>Andreas Rumpf</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
+            <div class="contribute">
+                <img class="contributor" src="../img/ellipse.png" />
+                <h3>Ryan Lipscombe</h3>
+                <p>Engineer</p>
+                <p><a href="https://github.com/">See Github profile</a>
+                <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span></p>
             </div>
-            <div class="contribute team">
+            <div class="contribute">
+                <img class="contributor" src="../img/ellipse.png" />
+                <h3>Zahary Karadjov</h3>
+                <p>Engineer</p>
+                <p><a href="https://github.com/">See Github profile</a>
+                <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span></p>
+            </div>
+            <div class="contribute">
+                <img class="contributor" src="../img/ellipse.png" />
                 <h3>Yuriy Glukhov</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
+                <p>Engineer</p>
+                <p><a href="https://github.com/">See Github profile</a>
+                <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span></p>
             </div>
-            <div class="contribute team">
+            <div class="contribute">
+                <img class="contributor" src="../img/ellipse.png" />
                 <h3>Dustin Brody</h3>
                 <p>Engineer<p>
-                <img src="../img/ellipse.png" />
-            </div>
-            <div class="contribute team">
-                <h3>Ryan Lipscombe</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
-            </div>
-            <div class="contribute team">
-                <h3>Yuriy Glukhov</h3>
-                <p>Engineer<p>
-                <img src="../img/ellipse.png" />
+                <a href="https://github.com/">See Github profile</a>
+                <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
         </div>
 
