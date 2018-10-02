@@ -1,35 +1,32 @@
-<div class="pre-footer">
-    <div class="pre-footer-inner">
-        <div class="community">
-            <div class="community-item">
-                <h3>We’re All Open Source</h3>
-                <p>Check out the source code on GitHub and contribute</p>
-                <a href="https://github.com/status-im" class="button" target="_blank">Github</a>
+<footer class="site-footer">
+    <div class="container">
+        <div class="info">
+            <div class="blog-logo">
+                <a href="https://status.im/" ><img src="../img/logo-footer.svg" alt="Status"><span>status</span></a>
             </div>
-            <div class="community-item">
-                <h3>We’re here to help</h3>
-                <p>Contact us for support and join in on the conversation in Status itself</p>
-                <a href="https://get.status.im/chat/public/developers" class="button">Join Chat</a>
-            </div>
+            <p>Status Holdings Pte. Ltd. <br>6 Ubi Road Singapore </p>
         </div>
-        <div class="mail">
-            <div class="mail-inner">
-                <h3>Download Status</h3>
-                <p>If you have an Android, you can easily get Status <a href="https://play.google.com/store/apps/details?id=im.status.ethereum" target="_blank" class="download">here</a>. You can also download our nightlies and desktop builds <a  href="https://status-im.github.io/nightly/" target="_blank" class="download">here</a>.</p>
-                <p>If you're on iOS, you'll need to use <a href="https://testflight.apple.com/join/J8EuJmey" target="_blank" class="download">this form</a> to sign up easily and get TestFlight while we're still in Beta.</p>
-            </div>
+        <div class="social-links">
+            <h3>Social links</h3>
+            <ul class="community">
+                <li><a href="https://www.facebook.com/ethstatus" target="_blank" class="footer-facebook">Facebook</a></li>
+                <li><a href="https://twitter.com/ethstatus" target="_blank" class="footer-twitter">Twitter</a></li>
+                <li><a href="https://chat.status.im/#/register" target="_blank" class="footer-riot">Riot</a></li>
+                <li><a href="https://github.com/status-im" target="_blank" class="footer-github">GitHub</a></li>
+                <li><a href="https://www.reddit.com/r/statusim/" target="_blank" class="footer-reddit">Reddit</a></li>
+                <li><a href="https://www.youtube.com/statusim" target="_blank" class="footer-youtube">YouTube</a></li>
+            </ul>
         </div>
+        <div class="more">
+            <h3>More</h3>
+            <ul>
+                <li><a href="http://docs.status.im/">Status Docs</a></li>
+                <li><a href="https://our.status.im/">Our Status</a></li>
+                <li><a href="https://status.im/open-positions.html">Jobs</a></li>
+                <li><a href="https://status.im/incubate">Incubate</a></li>
+                <li><a href="https://status.im/projects">Projects</a></li>
+                <li><a href="https://status.im/privacy-policy.html">Privacy Policy</a></li>
+            </ul>
     </div>
-</div>
-
-<div class="footer">
-    <div class="footer-inner">
-        <div class="footer-logo-wrap">
-            <div class="footer-logo-wrap__inner">
-                <a class="footer-logo" href="https://status.im" target="_blank"></a>
-                <div class="footer-address">Status Research & Development GmbH<br/>Baarerstrasse 10<br/>Zug, Switzerland
-                </div>
-            </div>
-        </div>
     </div>
-</div>
+</footer>

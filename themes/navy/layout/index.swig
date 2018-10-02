@@ -78,26 +78,26 @@
         <h2 id="top-header">Future Plans</h2>
         <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.
         </p>
-        <a href="https://github.com/status-im/nimbus">Learn More on Github <img src="../img/arrow_orange.png" /></a> 
+        <a href="https://github.com/status-im/nimbus">Learn More on Github <img src="../img/arrow_orange.svg" /></a> 
         <div class="work-item">
             <div class="work-item-inner">
                 <h2>Friendly Beginnings</h2>
                 <p>The Nimbus team kicked off research in March 2018 and has steadily been finalizing the blocks needed to deliver a fully stand-alone implementation of 
                     the next generation of Ethereum. Excited about new developments? Get in touch!
                 </p>
-                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.png" /></a>
+                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
             </div>
-            <img class="work-item-image work-item-image-right" src="../img/graphic-friendly-beginnings.png" />
+            <img class="work-item-image work-item-image-right" src="../img/graphic-friendly-beginnings.svg" />
         </div>
         <div class="clear"></div>
         <div class="work-item">
-            <img class="work-item-image" src="../img/graphic-research.png" />
+            <img class="work-item-image" src="../img/graphic-research.svg" />
             <div class="work-item-inner">
                 <h2>Friendly Research</h2>
                 <p>We’re translating the latest Ethereum 2.0 research like BN curves, BLS signatures and RANDAO games into practical, performant and reusable 
                     libraries to provide fertile exploration ground for further R&D. Want to run advanced simulations and tests? Get in touch!
                 </p>
-                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.png" /></a>
+                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
             </div>
         </div>
         <div class="clear"></div>
@@ -107,19 +107,19 @@
                 <p>We’re building Nimbus as a common good with liberal licensing to allow the widest deployment of Ethereum 2.0 possible. 
                     Want to integrate Nimbus in your product? Get in touch!
                 </p>
-                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.png" /></a>
+                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
             </div>
-            <img class="work-item-image work-item-image-right" src="../img/graphic-research.png" />
+            <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
         </div>
         <div class="clear"></div>
         <div class="work-item">
-            <img class="work-item-image" src="../img/graphic-network.png" />
+            <img class="work-item-image" src="../img/graphic-network.svg" />
             <div class="work-item-inner">
                 <h2>Friendly Networking</h2>
                 <p>We’re translating the latest Ethereum 2.0 research like BN curves, BLS signatures and RANDAO games into practical, 
                     performant and reusable libraries to provide fertile exploration ground for further R&D. Want to run advanced simulations and tests? Get in touch!
                 </p>
-                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.png" /></a>
+                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
             </div>
         </div>
         <div class="clear"></div>
@@ -129,9 +129,9 @@
                 <p>The Nim language delivers safe and performant code on any platform with a C compiler available. Developing the latest RISC-V 
                     boards or simply have an old Windows machine lying around? Get in touch!
                 </p>
-                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.png" /></a>
+                <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
             </div>
-            <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.png" />
+            <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
         </div>
         <div class="clear"></div>
     </div>
@@ -164,7 +164,6 @@
             </div>
         </div>
         <div class="inner-header">
-            <a name="team"></a>
             <h2>Core Contributors</h2>
             <p>We’re a diverse group of researchers, engineers, and scientists with a passion for web3 technologies. We work primarily in Nim.</p>
         </div>
@@ -232,25 +231,19 @@
         </div>
         <div class="contribute-wrap">
             <div class="contribute blog">
-                <h3>Status Partners with the team behind the programming language Nim</h3>
-                <p>To bolster research efforts for Nimbus – a sharding client for Ethereum – status.im have partnered with the core team developing the Nim programming language...
-                <p>
-                    <a href="https://our.status.im/status-partners-with-the-team-behind-the-programming-language-nim/">Read More</a>
-                    <span><a href="https://our.status.im/status-partners-with-the-team-behind-the-programming-language-nim/"><img src="../img/arrow_ogn.png" /></a></span>
+                <h3></h3>
+                <p></p>
+                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
             </div>
             <div class="contribute blog">
-                <h3>Ethereum Client Developers Conference Retrospective</h3>
-                <p>A large part of what makes possible "magic internet money" occurs deep down where most people will never see it - in the actual clients. We hosted all the developers in Berlin. Find out what went down...
-                <p>
-                    <a href="https://our.status.im/ethereum-client-developers-conference/">Read More</a>
-                    <span><a href="https://our.status.im/ethereum-client-developers-conference/"><img src="../img/arrow_ogn.png" /></a></span>
+                <h3></h3>
+                <p></p>
+                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
             </div>
             <div class="contribute blog">
-                <h3>Introducing Nimbus, An Ethereum 2.0 Sharding Client</h3>
-                <p>In order to advance the collective work on scaling Ethereum, we have been building our own client, called Nimbus, which has a particular focus on sharding and resource-restricted devices...
-                <p>
-                    <a href="https://our.status.im/introducing-nimbus-an/">Read More</a>
-                    <span><a href="https://our.status.im/introducing-nimbus-an/"><img src="../img/arrow_ogn.png" /></a></span>
+                <h3></h3>
+                <p></p>
+                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
             </div>
         </div>
     </div>
