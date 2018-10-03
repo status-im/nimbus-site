@@ -1,21 +1,22 @@
-<nav id="mobile-nav">
-  <div id="mobile-nav-inner">
-    <ul id="mobile-nav-list">
-      {{ header_menu('mobile-nav') }}
-      <li class="mobile-nav-item">
-        <a href="https://github.com/{{ config.github }}" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
-      </li>
-    </ul>
-    {% if page.layout == 'page' %}
-      {{ doc_sidebar('mobile-nav') }}
-    {% endif %}
+<div class="backdrop"></div>
+<div class="mobile-menu-container">
+  <div class="mobile-menu-container-inner">
+    <div class="mobile-menu-header">
+      <div class="logo-wrap">
+          <span class="logo-span"><a class="logo" href="/"></a></span>
+          <span class="logo-span"><a class="logo-text" href="/">nimbus</a></span>
+      </div>
+      <a href="#" class="close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 10.574L7.72275 6.2968C7.32616 5.90021 6.68994 5.90241 6.29617 6.29617C5.89966 6.69269 5.90269 7.32864 6.2968 7.72275L10.574 12L6.2968 16.2772C5.90021 16.6738 5.90241 17.3101 6.29617 17.7038C6.69269 18.1003 7.32864 18.0973 7.72275 17.7032L12 13.426L16.2772 17.7032C16.6738 18.0998 17.3101 18.0976 17.7038 17.7038C18.1003 17.3073 18.0973 16.6714 17.7032 16.2772L13.426 12L17.7032 7.72275C18.0998 7.32616 18.0976 6.68994 17.7038 6.29617C17.3073 5.89966 16.6714 5.90269 16.2772 6.2968L12 10.574Z" fill="black"/>
+        </svg>
+      </a>
+    </div>
+    <div class="ecosystem">
+      <span class="title">Ecosystem</span>
+    </div>
+    <div class="community">
+      <span class="title">Community</span>
+    </div>
   </div>
-  <div id="mobile-lang-select-wrap">
-    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>{{ lang_name(page.lang) }}</span></span>
-    <select id="mobile-lang-select" data-canonical="{{ canonical_path_for_nav() }}">
-      {% for lang in site.data.languages %}
-        <option value="{{ loop.key }}"{% if page.lang === loop.key %} selected{% endif %}>{{ lang_name(loop.key) }}</option>
-      {% endfor %}
-    </select>
-  </div>
-</nav>
+</div>
