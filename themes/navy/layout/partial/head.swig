@@ -32,6 +32,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
   <!-- RSS -->
   {{ feed_tag('atom.xml') }}
-  <meta property="og:image" content="/img/share.png" />
-  <meta property="og:title" content="Status, a Mobile Ethereum OS" />
+  <meta property="og:image" content="/img/graphic-licensing.png" />
+  <meta property="og:title" content="Nimbus, a Light Client for Ethereum 2.0" />
 </head>
