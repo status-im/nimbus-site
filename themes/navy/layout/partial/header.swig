@@ -12,11 +12,11 @@
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
-                                <li><a href="https://status/im">About</a></li>
+                                <li><a href="https://status.im">About</a></li>
                                 <li><a href="https://status.im">Features</a></li>
                                 <li><a href="https://desktop.status.im">Desktop</a></li>
-                                <li><a href="https://docs.status/im">Docs</a></li>
-                                <li><a href="https://our.status/im">Blog</a></li>
+                                <li><a href="https://docs.status.im">Docs</a></li>
+                                <li><a href="https://our.status.im">Blog</a></li>
                                 <li><a href="https://people-ops.status.im/">Contribute</a></li>
                             </ul>
                         </div>
@@ -33,7 +33,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="https://our.status.im/tag/studio">Studio</a></li>
+                    <li><a href="#">Studio</a></li>
                     <li><a href="https://status.im/incubate">Incubate</a></li>
                     <li class="current has-submenu">
                         <a href="/" class="main-link">Nimbus</a>
