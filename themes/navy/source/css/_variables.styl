@@ -1,15 +1,55 @@
-// Fonts
 @font-face {
-  font-family: "Post Grotesk Medium";
-  src: url("/fonts/PostGrotesk-Medium.ttf") format("ttf"),
-          url("/fonts/PostGrotesk-Medium.woff") format("woff"),
-          url("/fonts/PostGrotesk-Medium.eot") format("eot");
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-UI-Regular.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Regular.woff") format("woff");
 }
 @font-face {
-  font-family: "Post Grotesk Book";
-  src: url("/fonts/PostGrotesk-Book.ttf") format("ttf"),
-          url("/fonts/PostGrotesk-Book.woff") format("woff"),
-          url("/fonts/PostGrotesk-Book.eot") format("eot");
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("../fonts/Inter-UI-Italic.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("../fonts/Inter-UI-Medium.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 500;
+  src: url("../fonts/Inter-UI-MediumItalic.woff2") format("woff2"),
+       url("../fonts/Inter-UI-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("../fonts/Inter-UI-Bold.woff2") format("woff2"),
+       url("../fonts/Inter-UI-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 700;
+  src: url("../fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
+       url("../fonts/Inter-UI-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('../fonts/GTWalsheim-Bold.woff2') format('woff2'),
+        url('../fonts/GTWalsheim-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
 // Config
@@ -25,20 +65,20 @@ color-navy = #363763
 color-background = #F2F2F5
 color-background-light = #fff
 color-main-link = #fff
-color-link = #7c7db6
+color-link = #fa9d01
 color-link-hover = lighten(color-link, 10%)
 
 // Typography
-font-sans = "Post Grotesk Book", "Helvetica Neue", Helvetica, Arial, sans-serif
-font-mono = "Source Code Pro", Monaco, Menlo, Consolas, monospace
-font-title = "Post Grotesk Medium", font-sans
+font-sans = "Inter UI", "Helvetica Neue", Helvetica, Arial, sans-serif
+font-mono = "Inter UI", Monaco, Menlo, Consolas, monospace
+font-title = "Inter UI", font-sans
 font-size = 16px
 line-height = 24px
 
 // Layout
-max-width = 1024px
+max-width = 1200px
 gutter-width = 20px
-sidebar-width = 220px
+sidebar-width = 30%
 mobile-nav-width = 260px
 
 // Media queries

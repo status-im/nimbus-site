@@ -8,7 +8,7 @@
             <nav>
                 <ul>
                     <li class="has-submenu">
-                        <a href="#">Status App</a>
+                        <a href="#" class="main-link">Status App</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
@@ -22,7 +22,7 @@
                         </div>
                     </li>
                     <li class="has-submenu">
-                        <a href="#">Embark</a>
+                        <a href="#" class="main-link">Embark</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
@@ -36,7 +36,7 @@
                     <li><a href="https://our.status.im/tag/studio">Studio</a></li>
                     <li><a href="https://status.im/incubate">Incubate</a></li>
                     <li class="current has-submenu">
-                        <a href="/">Nimbus</a>
+                        <a href="/" class="main-link">Nimbus</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>

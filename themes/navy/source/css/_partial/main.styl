@@ -1,56 +1,3 @@
-@font-face {
-  font-family: 'Inter UI';
-  font-style:  normal;
-  font-weight: 400;
-  src: url("../fonts/Inter-UI-Regular.woff2") format("woff2"),
-       url("../fonts/Inter-UI-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: 'Inter UI';
-  font-style:  italic;
-  font-weight: 400;
-  src: url("../fonts/Inter-UI-Italic.woff2") format("woff2"),
-       url("../fonts/Inter-UI-Italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter UI';
-  font-style:  normal;
-  font-weight: 500;
-  src: url("../fonts/Inter-UI-Medium.woff2") format("woff2"),
-       url("../fonts/Inter-UI-Medium.woff") format("woff");
-}
-@font-face {
-  font-family: 'Inter UI';
-  font-style:  italic;
-  font-weight: 500;
-  src: url("../fonts/Inter-UI-MediumItalic.woff2") format("woff2"),
-       url("../fonts/Inter-UI-MediumItalic.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter UI';
-  font-style:  normal;
-  font-weight: 700;
-  src: url("../fonts/Inter-UI-Bold.woff2") format("woff2"),
-       url("../fonts/Inter-UI-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter UI';
-  font-style:  italic;
-  font-weight: 700;
-  src: url("../fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
-       url("../fonts/Inter-UI-BoldItalic.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'GT Walsheim';
-    src: url('../fonts/GTWalsheim-Bold.woff2') format('woff2'),
-        url('../fonts/GTWalsheim-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -228,24 +175,24 @@ select[multiple] {
 }
 
 .backdrop
-  z-index: 9998;
+  z-index: -101;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height 100%;
   background: #000000;
-  opacity: 0.45;
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  display: none;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 .mobile-menu-container
   position: fixed;
-  z-index: 9999;
+  z-index: -100;
   left: 0;
   width: 100%;
   height: 100%;
@@ -255,11 +202,15 @@ select[multiple] {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  .mobile-menu-container-inner
+  display: none;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  max-width: 100vw;
+  overflow: hidden;
+  .mobile-menu-container-inner,
+  .mobile-submenu-container-inner
     top: 16px;
     left: 16px;
     background: #fff;
@@ -267,6 +218,10 @@ select[multiple] {
     box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
     border-radius: 8px;
     width: calc(100vw - 32px);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
     .title
       font-size: 14px;
       text-transform: uppercase;
@@ -317,13 +272,16 @@ select[multiple] {
               font-weight: 500;
     .mobile-menu-header
       position: relative
-      .close
+      .close, .back
         position: absolute;
         top: 50%;
         display: flex;
         padding: 10px;
         margin-top: -22px;
         right: 14px;
+      .back
+        right: auto;
+        left: 14px;
       .logo-wrap
         padding: 16px 24px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -335,7 +293,7 @@ select[multiple] {
         .logo-text
             color: #000;
             font-size: 22px;
-    header
+    .dropdown 
       margin-left: 0
       nav 
         width: 100%;
@@ -347,9 +305,15 @@ select[multiple] {
             margin: 0;
             .sub-menu
               display: none;
+            &.current
+              a
+                color: #000;
             a
-              padding: 12px 0;
+              margin: 0 -24px 0 -24px;
+              padding: 12px 26px;
               color: #000;
+              &:hover
+                background: rgba(250, 157, 1, 0.3);
             .mobile-submenu-trigger
               background-image: url(../img/arrow.svg);
               width: 24px;
@@ -360,17 +324,35 @@ select[multiple] {
               background-repeat: no-repeat;
               background-position: center;
               padding: 0 24px;
+  .mobile-submenu-container-inner
+    position: absolute;
+    margin-bottom: 20px;
+    transform: translateX(100vw);
+    .dropdown
+      padding: 0 24px;
+      margin: 10px 0;
+      nav 
+        ul
+          margin-top: 0;
+    .mobile-menu-header
+      justify-content: center;
+      display: flex;
+      min-height: 77px;
+      align-items: center;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
 
 
 .header
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  max-width: 1240px;
+  padding: 0 20px;
   height: 56px;
   top: 0;
   margin: 24px auto;
   z-index: 9;
+  width: 100%;
   .mobile-menu-trigger
     display: flex;
     height: auto;
@@ -716,45 +698,6 @@ select[multiple] {
   padding: 8px 0 0 0;
 }
 
-@media (max-width: 991px) {
-  .intro {
-    width: 100%;
-    margin: 0;
-    padding: 128px 24px 0;
-    height: 400px;
-  }
-
-  .intro h1 {
-    font-size: 22px;
-    line-height: 26px;
-    padding: 0 0 4px 0;
-  }
-
-  .intro-buttons {
-    flex-direction: column;
-  }
-
-  .intro .button {
-    width: 220px;
-    margin: 0 0 12px 0;
-  }
-
-  .home-cover {
-    height: 400px;
-  }
-
-  .command-wrap {
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
-  }
-
-  .command {
-    border-radius: 0;
-    font-size: 18px;
-  }
-}
-
 .features {
   width: 1024px;
   margin: 0 auto;
@@ -1007,7 +950,7 @@ body {
   clear: both;
 }
 
-.work-item {
+.work-item
   margin: 30px auto;
   text-align: left;
   max-width: 910px;
@@ -1015,10 +958,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  &:nth-of-type(2n)
+    .work-item-inner
+      padding-left: 30px;
+      padding-right: 0;
 
 .work-item-inner{
   max-width: 480px;
+  padding-right: 30px;
 }
 
 .work-item-inner p {
@@ -1052,7 +999,7 @@ body {
 .sections {
   width: 100%;
   margin: 24px 0 0 0;
-  padding: 0 0 60px 0;
+  padding: 0 16px 60px 16px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1199,18 +1146,18 @@ pre {
     padding-bottom: 32px;
   }
 
-  .section-header, .inner-header {
+  .section-header {
     width: 100%;
-    max-width: 680px;
+    max-width: calc(100% - 32px);
     padding: 32px 24px 16px 24px;
   }
 
-  .section-header h2, .inner-header h2 {
+  .section-header h2 {
     font-size: 22px;
     padding: 0 0 8px 0;
   }
 
-  .section-header p, .inner-header p {
+  .section-header p{
     width: 100%;
   }
 
@@ -1322,6 +1269,7 @@ footer
   .container
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 16px;
     display: flex;
     a
       text-decoration: none
@@ -1487,6 +1435,12 @@ footer input[type="email"]{
 }
 
 @media (max-width: 1199px)
+  .backdrop
+    z-index: 9998
+    display: block
+  .mobile-menu-container
+    z-index: 9999
+    display: block
   .open
     .backdrop
       visibility: visible;
@@ -1515,3 +1469,108 @@ footer input[type="email"]{
         display: flex
       .secondary-nav
         display: flex
+  .open-submenu
+    .mobile-menu-container .mobile-menu-container-inner
+      transform: translateX(-100vw);
+    .mobile-submenu-container-inner
+      transform: translateX(0);
+
+@media (max-width: 991px)
+  .section-header
+    margin: -30px auto 0 auto;
+
+  .intro
+    padding: 50px 16px;
+
+  .command-wrap {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .command {
+    border-radius: 0;
+    font-size: 18px;
+  }
+
+  #content-inner
+    flex-direction: column;
+    #sidebar
+      padding: 20px 0;
+      margin-left: -14px;
+      .inner
+        flex-wrap: nowrap;
+        display: flex;
+        overflow: auto;
+        white-space: nowrap;
+        width: calc(100% + 20px);
+        a
+          padding: 9px 14px;
+          margin-bottom: 0;
+
+  .article
+    padding: 0;
+    .inner
+      padding: 0;
+
+  footer .container
+    .social-links
+      flex: 0 0 20%;
+      max-width: 20%;
+    .more
+      flex: 0 0 20%;
+      max-width: 20%;
+
+@media (max-width: 767px)
+  .home-cover
+    position: relative;
+    height: auto;
+  .home-wrap
+    margin-top: 30px;
+  .work-item
+    flex-direction: column-reverse;
+    margin-top: 70px;
+    padding: 0;
+    &:nth-of-type(2n)
+      flex-direction: column;
+      .work-item-inner
+        padding-left: 0;
+    .work-item-inner
+      padding-right: 0;
+      margin-top: 30px;
+  .intro-buttons
+    flex-wrap: wrap;
+    justify-content: center;
+    .button
+      margin-bottom: 16px;
+  .contribute-wrap
+    flex-wrap: wrap;
+    .contribute
+      width: 100%;
+      margin-right: 0;
+  footer .container
+    flex-direction: column-reverse;
+    text-align: center;
+    p
+      margin-top: 10px;
+    ul li
+      margin-bottom: 16px;
+    .info
+      flex: 0 0 100%;
+      max-width: 100%;
+      align-items: center;
+      margin-top: 50px;
+      .blog-logo a span
+        display: none;
+    .social-links
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-left: 0;
+      margin-top: 30px;
+      .community
+        width: 130px;
+        text-align: left;
+        margin: 0 auto;
+    .more
+      flex: 0 0 100%;
+      max-width: 100%;

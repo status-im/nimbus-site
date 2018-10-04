@@ -1,12 +1,12 @@
 #sidebar
-  width: sidebar-width
-  float: left
-  padding-bottom: 40px
-  opacity: 0.8
-  margin-left: sidebar-width * -1
-  display: none
-  @media mq-normal
-    display: block
+  min-width: sidebar-width
+  padding: 40px 0
+  .inner
+    padding: 0;
+    &:before
+      display: none
+    strong
+      display: none
 
 .sidebar-title
   margin-top: 40px
@@ -19,18 +19,21 @@
   line-height: 1
 
 .sidebar-link
-  font-family: font-sans
-  display: block
-  color: color-default
-  text-decoration: none
-  padding: 7px 0
-  line-height: 1
-  position: relative
-  width: 100%
-  text-overflow: ellipsis
-  overflow: hidden
-  white-space: nowrap
-  &.current
-    color: color-link
+  border-radius: 23.5px;
+  font-size: 15px;
+  padding: 9px 24px;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  line-height: normal;
   &:hover
-    color: color-link-hover
+    background: rgba(250, 157, 1, 0.1);
+    color: #fa9d01;
+

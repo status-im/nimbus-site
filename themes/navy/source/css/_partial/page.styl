@@ -7,11 +7,7 @@ note-warn = hsl(0, 100%, 50%)
   position: relative
 
 #content-inner
-  clearfix()
-  @media mq-normal
-    margin-left: sidebar-width
-  @media screen and (min-width: 1500px)
-    margin-left: 2px
+  display: flex;
 
 #content-inner-full
   clearfix()
@@ -29,7 +25,7 @@ note-warn = hsl(0, 100%, 50%)
 .article
   float: left
   width: 100%
-  padding: 40px 0
+  padding: 20px 0
   @media print
     padding: 0
 
@@ -78,17 +74,21 @@ note-warn = hsl(0, 100%, 50%)
     color: color-link-hover
 
 .article-header
-  clearfix()
-  padding-bottom: 20px
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 0 20px;
+  display: flex;
+  justify-content: space-between;
 
 .article-title
-  float: left
   font-family: font-title
   font-size: 26px
   line-height: 32px
   font-weight: 300
   text-decoration: none
-  color: color-title
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
   transition: 0.2s
   a&:hover
     color: color-link-hover
@@ -104,16 +104,18 @@ note-warn = hsl(0, 100%, 50%)
     color: color-link-hover
 
 .article-edit-link
-  float: right
-  color: #bbb
-  font-size: 24px
-  line-height: 36px
-  transition: 0.2s
-  display: none
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  color: #ffffff;
+  display: none;
+  align-items: flex-end;
+  text-decoration: none;
   &:hover
-    color: color-link-hover
+    opacity: 0.7;
   @media mq-normal
-    display: block
+    display: flex
 
 .article-anchor
   margin-left: 10px
@@ -144,8 +146,8 @@ note-warn = hsl(0, 100%, 50%)
     margin: 1em 0
     color: color-title
   a
-    color: color-link
-    text-decoration: none
+    color: #000000;
+    text-decoration: underline;
     &:hover
       color: color-link-hover
       text-decoration: underline
@@ -223,6 +225,7 @@ note-warn = hsl(0, 100%, 50%)
   line-height: 1em
   padding-top: 1em
   position: relative
+  background: transparent
   @media print
     display: none
 
