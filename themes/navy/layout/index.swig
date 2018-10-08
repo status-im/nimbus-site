@@ -92,51 +92,51 @@
         </div>
         <div class="contribute-wrap">
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
+                <img class="contributor" src="../img/cheatfate.jpg" />
                 <h3>Yevhen Kabanov</h3>
                 <p>Engineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
+                <p><a href="https://github.com/cheatfate">See Github profile</a>
+                    <span><a href="https://github.com/cheatfate"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
+                <img class="contributor" src="../img/jacek.jpg" />
                 <h3>Jacek Sieka</h3>
                 <p>Engineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
+                <p><a href="https://github.com/arenetheduck">See Github profile</a>
+                    <span><a href="https://github.com/arenetheduck"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
+                <img class="contributor" src="../img/mamy.jpg" />
                 <h3>Mamy Ratsimbazafy</h3>
                 <p>Engineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
+                <p><a href="https://github.com/mratsim">See Github profile</a>
+                    <span><a href="https://github.com/mratsim"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
+                <img class="contributor" src="../img/ryan.jpg" />
                 <h3>Ryan Lipscombe</h3>
                 <p>Engineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
+                <p><a href="https://github.com/coffeepots">See Github profile</a>
+                    <span><a href="https://github.com/coffeepots"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
+                <img class="contributor" src="../img/zahary.jpg" />
                 <h3>Zahary Karadjov</h3>
                 <p>Engineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
+                <p><a href="https://github.com/zah">See Github profile</a>
+                    <span><a href="https://github.com/zah"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
+                <img class="contributor" src="../img/yuriy.jpg" />
                 <h3>Yuriy Glukhov</h3>
                 <p>Engineer</p>
-                <p><a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
+                <p><a href="https://github.com/yglukhov">See Github profile</a>
+                    <span><a href="https://github.com/yglukhov"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
             <div class="contribute">
@@ -144,8 +144,8 @@
                 <h3>Dustin Brody</h3>
                 <p>Engineer
                 <p>
-                    <a href="https://github.com/">See Github profile</a>
-                    <span><a href="https://github.com/"><img src="../img/arrow_ogn.png" /></a></span>
+                    <a href="https://github.com/tersec">See Github profile</a>
+                    <span><a href="https://github.com/tersec"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
         </div>
         <div class="inner-header">
