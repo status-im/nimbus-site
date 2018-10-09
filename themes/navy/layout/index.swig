@@ -2,7 +2,7 @@
      {{ partial('partial/header') }}
     <div class="intro">
         <h1>Nimbus</h1>
-        <p>Researching and implementing lighter Ethereum 2.0 clients</p>
+        <p>Researching and implementing lighter Ethereum 2.0 clients </p>
         <div class="intro-buttons">
             <a class="button button--main" href="https://gitter.im/status-im/nimbus">JOIN OUR GITTER</a>
             <a class="button button--secondary" href="/docs/">GET INVOLVED</a>
