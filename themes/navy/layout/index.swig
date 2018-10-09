@@ -33,7 +33,6 @@
                     <p>We’re building Nimbus as a common good with liberal licensing to allow the widest deployment of Ethereum 2.0 possible. 
                         Want to integrate Nimbus in your product? Get in touch!
                     </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
                 </div>
             </div>
             <div class="work-item">
@@ -42,7 +41,6 @@
                     <p>We’re translating the latest Ethereum 2.0 research like BN curves, BLS signatures and RANDAO games into practical, 
                         performant and reusable libraries to provide fertile exploration ground for further R&D. Want to run advanced simulations and tests? Get in touch!
                     </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
                 </div>
                 <img class="work-item-image" src="../img/graphic-network.svg" />
             </div>
@@ -53,7 +51,6 @@
                     <p>The Nim language delivers safe and performant code on any platform with a C compiler available. Developing the latest RISC-V 
                         boards or simply have an old Windows machine lying around? Get in touch!
                     </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
                 </div>
             </div>
         </div>
