@@ -8,7 +8,7 @@
             <nav>
                 <ul>
                     <li class="has-submenu">
-                        <a href="#" class="main-link">Status App</a>
+                        <a href="https://status.im" class="main-link">Status App</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
@@ -22,7 +22,7 @@
                         </div>
                     </li>
                     <li class="has-submenu">
-                        <a href="#" class="main-link">Embark</a>
+                        <a href="https://embark.status.im/" class="main-link">Embark</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
@@ -33,7 +33,6 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">Studio</a></li>
                     <li class="has-submenu"><a href="https://status.im/incubate">Incubate</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
@@ -68,9 +67,8 @@
                                 <li><a href="https://status-im.github.io/people-ops.status.im/docs/working_here.html">Working Here</a></li>
                                 <li><a href="https://status-im.github.io/people-ops.status.im/docs/">Docs</a></li>
                                 <li><a href="https://status-im.github.io/people-ops.status.im/docs/life_status.html">Life at Status</a></li>
-                                <li><a href="https://status.im/open-positions.html">Contribute</a></li>
                                 <li><a href="https://status.im/open-positions.html">Jobs</a></li>
-                                <li><a href="https://status-im.github.io/tag/people-ops">Blog</a></li>
+                                <li><a href="https://our.status.im/tag/people-ops/">Blog</a></li>
                             </ul>
                         </div>
                     </li>
@@ -85,7 +83,7 @@
             </div>
             <input type="search" id="search-input" placeholder="Search...">
         </div>
-        <span><a href="http://get.status.im/chat/public/status" class="button button--secondary">Status Public Chat</a></span>
+        <span><a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary">Status Public Chat</a></span>
         <span class="social-link social-link--twitter"><a href="https://twitter.com/ethstatus" target="_blank"></a></span>
         <span class="social-link social-link--github"><a href="https://github.com/status-im" target="_blank"></a></span>
     </div>
