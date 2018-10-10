@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var url = 'https://our-status.ghost.io/ghost/api/v0.1/posts/?limit=3&include=tags&filter=tags:nimbus&formats=plaintext&client_id=ghost-frontend&client_secret=1c5590b47eb4';
+  var url = 'https://our.status.im/ghost/api/v0.1/posts/?limit=3&formats=plaintext&client_id=ghost-frontend&client_secret=2b055fcd57ba';
   var urlBase = [location.protocol, '//', location.host, location.pathname].join('');
   $.ajax({
     type: "get",
