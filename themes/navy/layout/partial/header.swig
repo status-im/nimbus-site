@@ -7,18 +7,8 @@
         <header class="dropdown">
             <nav>
                 <ul>
-                    <li class="has-submenu">
-                        <a href="https://status.im" class="main-link">Status App</a>
-                        <i class="mobile-submenu-trigger"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="https://status.im">About</a></li>
-                                <li><a href="https://desktop.status.im">Desktop</a></li>
-                                <li><a href="https://docs.status.im">Docs</a></li>
-                                <li><a href="https://our.status.im">Blog</a></li>
-                                <li><a href="https://people-ops.status.im/">Contribute</a></li>
-                            </ul>
-                        </div>
+                    <li>
+                        <a href="https://status.im" class="main-link">Status Home</a>
                     </li>
                     <li class="has-submenu">
                         <a href="https://embark.status.im/" class="main-link">Embark</a>
@@ -49,26 +39,13 @@
                             <ul>
                                 <li><a href="/">About</a></li>
                                 <li><a href="/docs/">Docs</a></li>
-                                <li><a href="https://our.status.im/tag/research">Blog</a></li>
+                                <li><a href="https://our.status.im/tag/nimbus">Blog</a></li>
                                 <li><a href="http://get.status.im/chat/public/status-nimbus">Talk To Us</a></li>
                             </ul>
                         </div>
                     </li>
                     <li><a href="https://hardwallet.status.im/">Hardwallet</a></li>
-                    <li class="has-submenu">
-                        <a href="https://people-ops.status.im">Peopleops</a>
-                        <i class="mobile-submenu-trigger"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="https://our.status.im/our-principles/">Our Principles</a></li>
-                                <li><a href="https://status-im.github.io/people-ops.status.im/docs/working_here.html">Working Here</a></li>
-                                <li><a href="https://status-im.github.io/people-ops.status.im/docs/">Docs</a></li>
-                                <li><a href="https://status-im.github.io/people-ops.status.im/docs/life_status.html">Life at Status</a></li>
-                                <li><a href="https://status.im/open-positions.html">Jobs</a></li>
-                                <li><a href="https://our.status.im/tag/people-ops/">Blog</a></li>
-                            </ul>
-                        </div>
-                    </li>
+                    <li><a href="https://people-ops.status.im">Peopleops</a></li>
                 </ul>
             </nav>
         </header>
