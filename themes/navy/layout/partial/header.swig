@@ -45,7 +45,16 @@
                         </div>
                     </li>
                     <li><a href="https://hardwallet.status.im/">Hardwallet</a></li>
-                    <li><a href="https://people-ops.status.im">Peopleops</a></li>
+                    <li class="has-submenu">
+                        <a href="https://people-ops.status.im">Peopleops</a>
+                        <i class="mobile-submenu-trigger"></i>
+                                                <div class="sub-menu">
+                                                    <ul>
+                                                        <li><a href="https://our.status.im/tag/people-ops/">Blog</a></li>
+                                                    </ul>
+                                                </div>
+
+                    </li>
                 </ul>
             </nav>
         </header>
