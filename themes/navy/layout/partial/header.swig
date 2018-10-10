@@ -13,7 +13,6 @@
                         <div class="sub-menu">
                             <ul>
                                 <li><a href="https://status.im">About</a></li>
-                                <li><a href="https://status.im">Features</a></li>
                                 <li><a href="https://desktop.status.im">Desktop</a></li>
                                 <li><a href="https://docs.status.im">Docs</a></li>
                                 <li><a href="https://our.status.im">Blog</a></li>
@@ -37,9 +36,7 @@
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
-                                <li><a href="https://status.im/incubate">About</a></li>
                                 <li><a href="https://status.im/incubate">Projects</a></li>
-                                <li><a href="https://status.im/incubate">Submissions</a></li>
                                 <li><a href="https://get.status.im/chat/public/status-incubate">Community</a></li>
                                 <li><a href="https://our.status.im/tag/incubate">Blog</a></li>
                             </ul>
@@ -50,14 +47,14 @@
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="https://nimbus.status.im/docs/">Docs</a></li>
+                                <li><a href="/">About</a></li>
+                                <li><a href="/docs/">Docs</a></li>
                                 <li><a href="https://our.status.im/tag/research">Blog</a></li>
-                                <li><a href="https://gitter.im/status-im/nimbus">Talk To Us</a></li>
+                                <li><a href="http://get.status.im/chat/public/status-nimbus">Talk To Us</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="https://our.status.im/tag/hardwallet">Hardwallet</a></li>
+                    <li><a href="https://hardwallet.status.im/">Hardwallet</a></li>
                     <li class="has-submenu">
                         <a href="https://people-ops.status.im">Peopleops</a>
                         <i class="mobile-submenu-trigger"></i>
@@ -83,7 +80,7 @@
             </div>
             <input type="search" id="search-input" placeholder="Search...">
         </div>
-        <span><a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary">Status Public Chat</a></span>
+        <span><a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary">Nimbus Status Chat</a></span>
         <span class="social-link social-link--twitter"><a href="https://twitter.com/ethstatus" target="_blank"></a></span>
         <span class="social-link social-link--github"><a href="https://github.com/status-im" target="_blank"></a></span>
     </div>

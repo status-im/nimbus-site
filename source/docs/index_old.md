@@ -5,10 +5,25 @@ title: An Ethereum 2.0 Sharding Client
 
 Nimbus aims to be a [sharding](https://github.com/ethereum/wiki/wiki/Sharding-FAQ) client implementation for the Ethereum Blockchain Application Platform. Because the largest deployment of Ethereum will potentially be on embedded systems, Nimbus will be designed to perform well on IoT and personal mobile devices, including older smartphones with resource-restricted hardware. The extensible, configurable, and modular design of Nimbus will make it production ready for Web 3.0 and will ensure that it can be supported and maintained across all goals of Ethereum 2.0.
 
-For a more comprehensive introduction, please read our Nimbus for Newbies post or proceed directly to [getting started](/docs/building.html) if you're already sold.
+
+## GOALS
 
 
-## Requirements
+1.  Create an Ethereum implementation suitable for resource-restricted devices.
+1.  Create an implementation team for the [Applied Research Objectives](https://hackmd.io/s/HkLkj55yb#objectives-in-applied-research) of [Ethereum Research](http://ethereumresearch.org/) (aka Ethereum Asia Pacific Limited), with focus on the following:
+    1.  Proof of Stake (PoS)
+    1.  Sharding
+    1.  Stateless Clients
+    1.  LES2
+    1.  eWASM
+1.  Close the gap between research modeling and production.
+1.  Pledge to participate in, help implement, and conform to the [Ethereum Improvement Proposal](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md).
+1.  Implement permissive licensing.
+1.  Focus on production-ready [Web 3.0](https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949) Stack ([Whisper](https://github.com/ethereum/wiki/wiki/Whisper), [PSS](https://github.com/nolash/psstalk/blob/master/README.md), and [Swarm](https://swarm-guide.readthedocs.io/en/latest/introduction.html)) and its ongoing research and development.
+1.  Focus on marketing and promotion to address community concerns on scalability and to bolster Ethereum's dominant mindshare.
+
+
+## REQUIREMENTS
 
 [Nim](https://nim-lang.org/) is an efficient, general-purpose systems programming language with a Python-like syntax that compiles to C. Nim will allow us to implement Ethereum rapidly and to take advantage of the mature C-language tooling: in compilation of machine code, and in the analysis of static code. 
 
