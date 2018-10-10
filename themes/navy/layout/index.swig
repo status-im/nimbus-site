@@ -148,23 +148,7 @@
             <h2>Read our Blog</h2>
             <p>Check out the latest Nimbus news and blog posts:</p>
         </div>
-        <div class="contribute-wrap">
-            <div class="contribute blog">
-                <h3>Nimbus for Newbies</h3>
-                <p>In this followup to the announcement post, we look at what Nimbus actually is right now and how to build it.</p>
-                <a href="https://our.status.im/nimbus-for-newbies/">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-                        <div class="contribute blog">
-                            <h3>Status Partners with the Team Behind the Programming Language Nim</h3>
-                            <p>We want the best of the best to build the new Ethereum client. It only makes sense to go to the "source" to get them.</p>
-                            <a href="https://blog.status.im/status-partners-with-the-team-behind-the-programming-language-nim-d438207486fa">Read More <img src="../img/arrow_ogn.png" /></a>
-                        </div>
-            <div class="contribute blog">
-                <h3>Introducing Nimbus</h3>
-                <p>The original announcement post - the official birth of the Nimbus project</p>
-                <a href="https://blog.status.im/introducing-nimbus-3360367bb311">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-
+        <div class="contribute-wrap contribute-wrap-blog">
         </div>
     </div>
 </div>
