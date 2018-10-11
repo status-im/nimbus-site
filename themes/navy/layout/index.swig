@@ -5,7 +5,7 @@
         <p>Researching and implementing lighter Ethereum 2.0 clients </p>
         <div class="intro-buttons">
             <a class="button button--main" href="https://gitter.im/status-im/nimbus">JOIN OUR GITTER</a>
-            <a class="button button--secondary" href="/docs/">GET INVOLVED</a>
+            <a class="button button--main" href="/docs/">GET INVOLVED</a>
         </div>
     </div>
 </div>
@@ -14,7 +14,7 @@
         <h2 id="top-header">Future Plans</h2>
         <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.
         </p>
-        <a href="https://github.com/status-im/nimbus">Learn More on Github <img src="../img/arrow_orange.svg" /></a> 
+        <a href="/docs/milestones.html">Our milestones <img src="../img/arrow_orange.svg" /></a>
         <div class="work-items">
             <div class="work-item">
                 <div class="work-item-inner">
@@ -22,7 +22,7 @@
                     <p>We’re translating the latest Ethereum 2.0 research like BN curves, BLS signatures and RANDAO games into practical, performant and reusable 
                         libraries to provide fertile exploration ground for further R&D. Want to run advanced simulations and tests? Get in touch!
                     </p>
-                    <a href="https://github.com/status-im/nimbus">See docs <img src="../img/arrow_orange.svg" /></a>
+                    <a href="/docs">See docs <img src="../img/arrow_orange.svg" /></a>
                 </div>
                 <img class="work-item-image" src="../img/graphic-research.svg" />
             </div>
@@ -38,8 +38,7 @@
             <div class="work-item">
                 <div class="work-item-inner">
                     <h2>Friendly Networking</h2>
-                    <p>We’re translating the latest Ethereum 2.0 research like BN curves, BLS signatures and RANDAO games into practical, 
-                        performant and reusable libraries to provide fertile exploration ground for further R&D. Want to run advanced simulations and tests? Get in touch!
+                    <p>We're crazy about hacking together. Want to make Nimbus or Nim the focus of your hackathon? Coming to one of ours but not sure where to start? We'd love to help you out and get the ball rolling. Get in touch!
                     </p>
                 </div>
                 <img class="work-item-image" src="../img/graphic-network.svg" />
@@ -79,8 +78,8 @@
                 <h3>Join the Conversation</h3>
                 <p>We are an open community and happy to answer your questions and help you learn more about Nimbus.
                 <p>
-                    <a href="https://get.status.im/chat/public/nimbus">Join us in Status</a>
-                    <span><a href="https://get.status.im/chat/public/nimbus"><img src="../img/arrow_ogn.png" /></a></span>
+                    <a href="https://get.status.im/chat/public/status-nimbus">Join us in Status</a>
+                    <span><a href="https://get.status.im/chat/public/status-nimbus"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
         </div>
         <div class="inner-header">
@@ -149,22 +148,7 @@
             <h2>Read our Blog</h2>
             <p>Check out the latest Nimbus news and blog posts:</p>
         </div>
-        <div class="contribute-wrap">
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
-            <div class="contribute blog">
-                <h3></h3>
-                <p></p>
-                <a href="#">Read More <img src="../img/arrow_ogn.png" /></a>
-            </div>
+        <div class="contribute-wrap contribute-wrap-blog">
         </div>
     </div>
 </div>

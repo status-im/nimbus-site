@@ -7,22 +7,11 @@
         <header class="dropdown">
             <nav>
                 <ul>
-                    <li class="has-submenu">
-                        <a href="#" class="main-link">Status App</a>
-                        <i class="mobile-submenu-trigger"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="https://status.im">About</a></li>
-                                <li><a href="https://status.im">Features</a></li>
-                                <li><a href="https://desktop.status.im">Desktop</a></li>
-                                <li><a href="https://docs.status.im">Docs</a></li>
-                                <li><a href="https://our.status.im">Blog</a></li>
-                                <li><a href="https://people-ops.status.im/">Contribute</a></li>
-                            </ul>
-                        </div>
+                    <li>
+                        <a href="https://status.im" class="main-link">Status Home</a>
                     </li>
                     <li class="has-submenu">
-                        <a href="#" class="main-link">Embark</a>
+                        <a href="https://embark.status.im/" class="main-link">Embark</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
@@ -33,14 +22,11 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">Studio</a></li>
                     <li class="has-submenu"><a href="https://status.im/incubate">Incubate</a>
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
-                                <li><a href="https://status.im/incubate">About</a></li>
                                 <li><a href="https://status.im/incubate">Projects</a></li>
-                                <li><a href="https://status.im/incubate">Submissions</a></li>
                                 <li><a href="https://get.status.im/chat/public/status-incubate">Community</a></li>
                                 <li><a href="https://our.status.im/tag/incubate">Blog</a></li>
                             </ul>
@@ -51,28 +37,23 @@
                         <i class="mobile-submenu-trigger"></i>
                         <div class="sub-menu">
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="https://nimbus.status.im/docs/">Docs</a></li>
-                                <li><a href="https://our.status.im/tag/research">Blog</a></li>
-                                <li><a href="https://gitter.im/status-im/nimbus">Talk To Us</a></li>
+                                <li><a href="/">About</a></li>
+                                <li><a href="/docs/">Docs</a></li>
+                                <li><a href="https://our.status.im/tag/nimbus">Blog</a></li>
+                                <li><a href="http://get.status.im/chat/public/status-nimbus">Talk To Us</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="https://our.status.im/tag/hardwallet">Hardwallet</a></li>
+                    <li><a href="https://hardwallet.status.im/">Hardwallet</a></li>
                     <li class="has-submenu">
                         <a href="https://people-ops.status.im">Peopleops</a>
                         <i class="mobile-submenu-trigger"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="https://our.status.im/our-principles/">Our Principles</a></li>
-                                <li><a href="https://status-im.github.io/people-ops.status.im/docs/working_here.html">Working Here</a></li>
-                                <li><a href="https://status-im.github.io/people-ops.status.im/docs/">Docs</a></li>
-                                <li><a href="https://status-im.github.io/people-ops.status.im/docs/life_status.html">Life at Status</a></li>
-                                <li><a href="https://status.im/open-positions.html">Contribute</a></li>
-                                <li><a href="https://status.im/open-positions.html">Jobs</a></li>
-                                <li><a href="https://status-im.github.io/tag/people-ops">Blog</a></li>
-                            </ul>
-                        </div>
+                                                <div class="sub-menu">
+                                                    <ul>
+                                                        <li><a href="https://our.status.im/tag/people-ops/">Blog</a></li>
+                                                    </ul>
+                                                </div>
+
                     </li>
                 </ul>
             </nav>
@@ -85,9 +66,9 @@
             </div>
             <input type="search" id="search-input" placeholder="Search...">
         </div>
-        <span><a href="http://get.status.im/chat/public/status" class="button button--secondary">Status Public Chat</a></span>
+        <span><a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary">Nimbus Status Chat</a></span>
         <span class="social-link social-link--twitter"><a href="https://twitter.com/ethstatus" target="_blank"></a></span>
-        <span class="social-link social-link--github"><a href="https://github.com/status-im" target="_blank"></a></span>
+        <span class="social-link social-link--github"><a href="https://github.com/status-im/nimbus" target="_blank"></a></span>
     </div>
     <a href="#" class="mobile-menu-trigger">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

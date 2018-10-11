@@ -1,10 +1,12 @@
 docs:
   Nimbus:
     introduction: index.html
+    building: building.html
+    options: options.html
+    libs: libs.html
     milestones: milestones.html
     design: design.html
-    ideas_for_implementation: ideas_for_implementation.html
-    resources: resources.html
     team: team.html
+    faq: faq.html
     contributor_guide: contributor_guide.html
     
