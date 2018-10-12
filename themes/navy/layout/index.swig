@@ -11,7 +11,7 @@
 </div>
 <div class="home-wrap">
     <div class="section-header section-header--main">
-        <h2 id="top-header">☁️️</h2>
+        <h2 id="top-header">What is it?️️</h2>
         <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.
         </p>
         <a href="https://github.com/status-im/nimbus">See our repos <img src="../img/arrow_orange.svg" /></a>
@@ -115,7 +115,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/ryan.jpg" />
                 <h3>Ryan Lipscombe</h3>
-                <p>Statusless Windows User</p>
+                <p>Leading Useful Paperswap</p>
                 <p><a href="https://github.com/coffeepots">See Github profile</a>
                     <span><a href="https://github.com/coffeepots"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
