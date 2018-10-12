@@ -21,7 +21,7 @@ This document will explain how to install, test, and run Nimbus on your local ma
         ```
     - on Linux
         ```bash
-        sudo apt-get install rocksdb # or your own Linux distribution's equivalent
+        sudo apt-get install librocksdb-dev rocksdb # or your own Linux distribution's equivalent
         curl https://nim-lang.org/choosenim/init.sh -sSf | sh     
         ```
         
