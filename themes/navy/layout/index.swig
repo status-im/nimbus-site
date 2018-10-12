@@ -91,7 +91,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/cheatfate.jpg" />
                 <h3>Yevhen Kabanov</h3>
-                <p>Fluid Stimulating Puma</p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x04f05d31956e9c918c35c30defe1ab69bc693d27eb3f79d619c3ba4f9f044b2349a79fb38e3a614ce9af1286910aa19bf24b53c18d48e10657cbf615a380928f6e" style="color: #939ba1; text-decoration: underline">Fluid Stimulating Puma</a></p>
                 <p><a href="https://github.com/cheatfate">See Github profile</a>
                     <span><a href="https://github.com/cheatfate"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -99,7 +99,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/jacek.jpg" />
                 <h3>Jacek Sieka</h3>
-                <p>Piercing Double Honeyeater</p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x049bc24b377c7e97bb94ab993e48fcbfe38f96aad43a42418d7f33f5a99f6f89e2af91875bfe045205771f28c93be50380cdfe5772201fde7019d57f7ead9af9b5" style="color: #939ba1; text-decoration: underline">Piercing Double Honeyeater</a></p>
                 <p><a href="https://github.com/arenetheduck">See Github profile</a>
                     <span><a href="https://github.com/arenetheduck"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -107,7 +107,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/mamy.jpg" />
                 <h3>Mamy Ratsimbazafy</h3>
-                <p>Damp Soulful Allensbigearedbat</p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x04d01118c9cbcf4f9d326c1185bff110d36c96890a37cc47e7ce91e8b53ccc088d9df8c828c0669fb97831502113c1195bb17f1ea25fbccffee6a7fb9e30782a82" style="color: #939ba1; text-decoration: underline">Damp Soulful Allensbigearedbat</a></p>
                 <p><a href="https://github.com/mratsim">See Github profile</a>
                     <span><a href="https://github.com/mratsim"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -115,7 +115,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/ryan.jpg" />
                 <h3>Ryan Lipscombe</h3>
-                <p>Leading Useful Paperswap</p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x048a08a3b252a89dfdd29bbacf54feab7d56a9c4657901177948606958d3c3e96d5905f7b6e965ef3d1dc75d9606f6ba2756c375d047f454a3dcd8c8213ac72510" style="color: #939ba1; text-decoration: underline">Leading Useful Paperswap</a></p>
                 <p><a href="https://github.com/coffeepots">See Github profile</a>
                     <span><a href="https://github.com/coffeepots"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -123,7 +123,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/zahary.jpg" />
                 <h3>Zahary Karadjov</h3>
-                <p>Useless Gainsboro Serpent</p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x049004fb151893f7112d754d92c650d6d35f8151ec0eff1c148812f8741474f7f8906436e782432680b40e96a2549c03d3dd7801c50928c2bf15d56f6d7d2e1246" style="color: #939ba1; text-decoration: underline">Useless Gainsboro Serpent</a></p>
                 <p><a href="https://github.com/zah">See Github profile</a>
                     <span><a href="https://github.com/zah"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -131,7 +131,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/yuriy.jpg" />
                 <h3>Yuriy Glukhov</h3>
-                <p>Quarrelsome Lightgoldenrodyellow Anaconda</p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x0483b5849fddb5c85ef69ebdd7bdf57a87eabc5971736d7e2ff5deea210632dac09dbd82df0f2bbf722cc626f867d0c312b9adb9db3f7be81a5d008c25424ce22d" style="color: #939ba1; text-decoration: underline">Quarrelsome Lightgoldenrodyellow Anaconda</a></p>
                 <p><a href="https://github.com/yglukhov">See Github profile</a>
                     <span><a href="https://github.com/yglukhov"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -139,7 +139,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/ellipse.png" />
                 <h3>Dustin Brody</h3>
-                <p>Pure Quickwitted Indianglassfish</p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276" style="color: #939ba1; text-decoration: underline">Pure Quickwitted Indianglassfish</a></p>
                 <p>
                     <a href="https://github.com/tersec">See Github profile</a>
                     <span><a href="https://github.com/tersec"><img src="../img/arrow_ogn.png" /></a></span></p>
@@ -147,7 +147,7 @@
                         <div class="contribute">
                             <img class="contributor" src="../img/bruno.jpg" />
                             <h3>Bruno Skvorc</h3>
-                            <p>Sarcastic General BlackRussianTerrier</p>
+                            <p><a href="https://get.status.im/user/https://get.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276" style="color: #939ba1; text-decoration: underline">Sarcastic General BlackRussianTerrier</a></p>
                             <p><a href="https://github.com/swader">See Github profile</a>
                                 <span><a href="https://github.com/swader"><img src="../img/arrow_ogn.png" /></a></span>
                             </p>
