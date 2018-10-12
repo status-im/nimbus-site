@@ -115,7 +115,8 @@
             <div class="contribute">
                 <img class="contributor" src="../img/ryan.jpg" />
                 <h3>Ryan Lipscombe</h3>
-                <p><a href="https://get.status.im/user/https://get.status.im/user/0x048a08a3b252a89dfdd29bbacf54feab7d56a9c4657901177948606958d3c3e96d5905f7b6e965ef3d1dc75d9606f6ba2756c375d047f454a3dcd8c8213ac72510" style="color: #939ba1;">Leading Useful Paperswap</a></p>
+                <p><a href="https://get.status.im/user/https://get.status.im/user/0x042afe271620ea84c73e5f8f6846172c74851f4cbe7261b260742337a7f178a17d64738b211c9c5ce6f898bafbf073d61f0a55758e2f48e982dc0de665e6cb79dd
+" style="color: #939ba1;">Descriptive liquid nightcrawler</a></p>
                 <p><a href="https://github.com/coffeepots">See Github profile</a>
                     <span><a href="https://github.com/coffeepots"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
