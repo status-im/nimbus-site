@@ -11,10 +11,11 @@
 </div>
 <div class="home-wrap">
     <div class="section-header section-header--main">
-        <h2 id="top-header">Future Plans</h2>
+        <h2 id="top-header">☁️️</h2>
         <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.
         </p>
-        <a href="/docs/milestones.html">Our milestones <img src="../img/arrow_orange.svg" /></a>
+        <a href="https://github.com/status-im/nimbus">See our repos <img src="../img/arrow_orange.svg" /></a>
+
         <div class="work-items">
             <div class="work-item">
                 <div class="work-item-inner">
@@ -90,7 +91,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/cheatfate.jpg" />
                 <h3>Yevhen Kabanov</h3>
-                <p>Engineer</p>
+                <p>Fluid Stimulating Puma</p>
                 <p><a href="https://github.com/cheatfate">See Github profile</a>
                     <span><a href="https://github.com/cheatfate"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -98,7 +99,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/jacek.jpg" />
                 <h3>Jacek Sieka</h3>
-                <p>Engineer</p>
+                <p>Piercing Double Honeyeater</p>
                 <p><a href="https://github.com/arenetheduck">See Github profile</a>
                     <span><a href="https://github.com/arenetheduck"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -106,7 +107,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/mamy.jpg" />
                 <h3>Mamy Ratsimbazafy</h3>
-                <p>Engineer</p>
+                <p>Damp Soulful Allensbigearedbat</p>
                 <p><a href="https://github.com/mratsim">See Github profile</a>
                     <span><a href="https://github.com/mratsim"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -114,7 +115,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/ryan.jpg" />
                 <h3>Ryan Lipscombe</h3>
-                <p>Engineer</p>
+                <p>Statusless Windows User</p>
                 <p><a href="https://github.com/coffeepots">See Github profile</a>
                     <span><a href="https://github.com/coffeepots"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -122,7 +123,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/zahary.jpg" />
                 <h3>Zahary Karadjov</h3>
-                <p>Engineer</p>
+                <p>Useless Gainsboro Serpent</p>
                 <p><a href="https://github.com/zah">See Github profile</a>
                     <span><a href="https://github.com/zah"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -130,7 +131,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/yuriy.jpg" />
                 <h3>Yuriy Glukhov</h3>
-                <p>Engineer</p>
+                <p>Quarrelsome Lightgoldenrodyellow Anaconda</p>
                 <p><a href="https://github.com/yglukhov">See Github profile</a>
                     <span><a href="https://github.com/yglukhov"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -138,11 +139,19 @@
             <div class="contribute">
                 <img class="contributor" src="../img/ellipse.png" />
                 <h3>Dustin Brody</h3>
-                <p>Engineer
+                <p>Pure Quickwitted Indianglassfish</p>
                 <p>
                     <a href="https://github.com/tersec">See Github profile</a>
-                    <span><a href="https://github.com/tersec"><img src="../img/arrow_ogn.png" /></a></span>
+                    <span><a href="https://github.com/tersec"><img src="../img/arrow_ogn.png" /></a></span></p>
             </div>
+                        <div class="contribute">
+                            <img class="contributor" src="../img/bruno.jpg" />
+                            <h3>Bruno Skvorc</h3>
+                            <p>Sarcastic General BlackRussianTerrier</p>
+                            <p><a href="https://github.com/swader">See Github profile</a>
+                                <span><a href="https://github.com/swader"><img src="../img/arrow_ogn.png" /></a></span>
+                            </p>
+                        </div>
         </div>
         <div class="inner-header">
             <h2>Read our Blog</h2>
