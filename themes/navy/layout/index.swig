@@ -101,7 +101,7 @@
                 <h3>Jacek Sieka</h3>
                 <p><a href="https://get.status.im/user/https://get.status.im/user/0x049bc24b377c7e97bb94ab993e48fcbfe38f96aad43a42418d7f33f5a99f6f89e2af91875bfe045205771f28c93be50380cdfe5772201fde7019d57f7ead9af9b5" style="color: #939ba1;">Piercing Double Honeyeater</a></p>
                 <p><a href="https://github.com/arenetheduck">See Github profile</a>
-                    <span><a href="https://github.com/arenetheduck"><img src="../img/arrow_ogn.png" /></a></span>
+                    <span><a href="https://github.com/arnetheduck"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
             <div class="contribute">
