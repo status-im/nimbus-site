@@ -2,7 +2,6 @@ docs:
   Nimbus:
     introduction: index.html
     building: building.html
-    options: options.html
     libs: libs.html
     milestones: milestones.html
     design: design.html
