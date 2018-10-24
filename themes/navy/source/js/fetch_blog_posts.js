@@ -6,6 +6,7 @@ $(document).ready(function () {
     type: "get",
     url: url,
     success: function (response) {
+      response.posts = response.posts.reverse();
       $.each(response.posts, function (index, val) { 
         var excerpt = '';
         if(val.custom_excerpt != null) {
