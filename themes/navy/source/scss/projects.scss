@@ -1,0 +1,222 @@
+.cards--projects a.card-inner {
+  display: block;
+  padding: 24px;
+  background-color: $colorWhite;
+  border-radius: 16px;
+  margin: 12px;
+  text-decoration: none;
+}
+
+.cards--projects .card-inner:hover {
+  //background-color: rgba(67, 96, 223, .14);
+}
+
+.cards--projects .card-content {
+  height: 186px;
+  overflow: hidden;
+}
+
+.card--app h3,
+.card--app .link-arrow {
+  color: $colorBlue
+}
+
+.card--incubate h3,
+.card--incubate .link-arrow {
+  color: $colorIncubate
+}
+
+.card--embark h3,
+.card--embark .link-arrow {
+  color: $colorEmbark
+}
+
+.card--studio h3,
+.card--studio .link-arrow {
+  color: $colorStudio
+}
+
+.card--nimbus h3,
+.card--nimbus .link-arrow {
+  color: $colorNimbus
+}
+
+.card--hardwallet h3,
+.card--hardwallet .link-arrow {
+  color: $colorHardwallet
+}
+
+.card--incubate .link-arrow::after {
+  background-image: url(../img/icon-arrow-right-incubate.svg);
+}
+
+.card--embark .link-arrow::after {
+  background-image: url(../img/icon-arrow-right-embark.svg);
+}
+
+.card--studio .link-arrow::after {
+  background-image: url(../img/icon-arrow-right-studio.svg);
+}
+
+.card--nimbus .link-arrow::after {
+  background-image: url(../img/icon-arrow-right-nimbus.svg);
+}
+
+.card--hardwallet .link-arrow::after {
+  background-image: url(../img/icon-arrow-right-hardwallet.svg);
+}
+
+.cards--projects .card-inner {
+  transition: background-color .1s ease;
+}
+
+.card--app .card-inner:hover {
+  background-color: $colorBlue;
+}
+
+.card--incubate .card-inner:hover {
+  background-color: $colorIncubate;
+}
+
+.card--embark .card-inner:hover {
+  background-color: $colorEmbark;
+}
+
+.card--studio .card-inner:hover {
+  background-color: $colorStudio;
+}
+
+.card--nimbus .card-inner:hover {
+  background-color: $colorNimbus;
+}
+
+.card--hardwallet .card-inner:hover {
+  background-color: $colorHardwallet;
+}
+
+.cards--projects .card-inner:hover h3 {
+  transition: color .1s ease;
+}
+
+.cards--projects .card-inner:hover h3 {
+  color: $colorWhite;
+}
+
+.cards--projects .card-inner:hover p.secondary-text {
+  transition: color .1s ease;
+}
+
+.cards--projects .card-inner:hover p.secondary-text {
+  color: $colorWhite;
+  opacity: .6
+}
+
+.cards--projects .card-inner:hover .link-arrow {
+  transition: color .1s ease;
+}
+
+.cards--projects .card-inner:hover .link-arrow {
+  color: $colorWhite;
+}
+
+@media (max-width: 1248px) {
+
+  .cards--projects {
+    padding: 0 24px;
+  }
+
+}
+
+@media (max-width: 960px) {
+
+  .cards--projects .card h3 {
+    font-size: 18px;
+    padding: 0 0 8px 0;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  
+}
+
+@media (max-width: 520px) {
+
+  .cards--projects {
+    padding: 0 16px;
+    margin-bottom: -252px;
+  }
+
+  .card--app a.card-inner {
+    background-color: $colorBlue;
+  }
+
+  .card--incubate a.card-inner {
+    background-color: $colorIncubate;
+  }
+
+  .card--embark a.card-inner {
+    background-color: $colorEmbark;
+  }
+
+  .card--studio a.card-inner {
+    background-color: $colorStudio;
+  }
+
+  .card--nimbus a.card-inner {
+    background-color: $colorNimbus;
+  }
+
+  .card--hardwallet a.card-inner {
+    background-color: $colorHardwallet;
+  }
+
+  .cards--projects a.card-inner h3 {
+    transition: color .1s ease;
+  }
+
+  .cards--projects a.card-inner h3 {
+    color: $colorWhite;
+  }
+
+  .cards--projects a.card-inner p.secondary-text {
+    color: $colorWhite;
+    opacity: .6
+  }
+
+  .cards--projects a.card-inner .link-arrow {
+    display: none;
+    color: $colorWhite;
+  }
+
+  .cards--projects .card:nth-child(2) {
+    transform: translate3d(0, -52px, 0);
+  }
+
+  .cards--projects .card:nth-child(3) {
+    transform: translate3d(0, -100px, 0);
+  }
+
+  .cards--projects .card:nth-child(4) {
+    transform: translate3d(0, -148px, 0);
+  }
+
+  .cards--projects .card:nth-child(5) {
+    transform: translate3d(0, -196px, 0);
+  }
+
+  .cards--projects .card:nth-child(6) {
+    transform: translate3d(0, -244px, 0);
+  }
+
+  .cards--projects a.card-inner {
+    padding-bottom: 32px;
+  }
+
+  .cards--projects .card-content {
+    height: auto;
+    padding: 0 0 16px 0;
+  }
+
+}
