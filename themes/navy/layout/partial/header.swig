@@ -13,7 +13,6 @@
     </div>
     <div class="header-right">
         <a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary" style="margin-right: 8px">Nimbus Status Chat</a>
-        <span class="social-link social-link--github"><a href="https://github.com/status-im/nimbus" target="_blank"></a></span>
     </div>
 </div>
 
