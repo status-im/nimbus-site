@@ -783,8 +783,7 @@ footer input[type="email"] {
 }
 
 .home-cover {
-  // position: fixed; // This makes the home-wrap div to overlap popups in menu bar
-  position: absolute;
+  position: fixed; 
   left: 0;
   top: 0;
   right: 0;

@@ -1,4 +1,9 @@
 $(document).ready(function () {
+
+  // Fixes Parallax effect and div to popup overlapping with the main menu options
+  $('div#container').append($('.popup-wrap.popup-wrap--community')[0])
+  $('div#container').append($('.popup-wrap.popup-wrap--projects')[0])
+
   let url = 'https://our.status.im/ghost/api/v0.1/posts/?filter=tag:nimbus&order=published_at%20desc&limit=3&formats=plaintext&client_id=ghost-frontend&client_secret=2b055fcd57ba';
   var urlBase = [location.protocol, '//', location.host, location.pathname].join('');
 
