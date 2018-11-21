@@ -15,8 +15,8 @@
   <meta name="msapplication-TileColor" content="#ff9c00">
   <meta name="msapplication-TileImage" content="{{ url_for('icon/mstile-144x144.png') }}">
 
-  <link rel="icon" type="image/png" href="/img/logo-16.png?v=0.0.5" sizes="16x16" />
-  <link rel="icon" type="image/png" href="/img/logo-32.png?v=0.0.5" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/img/logo-16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/img/logo-32.png" sizes="32x32" />
 
   <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76.png?v=0.0.5">
   <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120.png?v=0.0.5">
@@ -24,12 +24,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180.png?v=0.0.5">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon-1024.png?v=0.0.5">
   <!-- CSS -->
-  <!-- build:css build/css/navy.css -->
-  {{ css('css/navy') }}
-  <!-- endbuild -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  {{ css('css/main.min') }}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
   <!-- RSS -->
   {{ feed_tag('atom.xml') }}
   <meta property="og:image" content="/img/graphic-licensing.png" />
