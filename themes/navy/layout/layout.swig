@@ -7,7 +7,7 @@
       {{ partial('partial/header') }}
     {% endif %}
     {{ body }}
-    {{ partial('partial/footer') }}
+    {{ partial('partial/shared-partials/partials/footer') }}
   </div>
   <div id="mobile-nav-dimmer"></div>
   {{ partial('partial/mobile_nav') }}
