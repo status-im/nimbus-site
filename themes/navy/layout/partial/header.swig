@@ -6,56 +6,7 @@
         </div>
         <header class="dropdown">
             <nav>
-                <ul>
-                    <li>
-                        <a href="https://status.im" class="main-link">Status Home</a>
-                    </li>
-                    <li class="has-submenu">
-                        <a href="https://embark.status.im/" class="main-link">Embark</a>
-                        <i class="mobile-submenu-trigger"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="https://embark.status.im">About</a></li>
-                                <li><a href="https://embark.status.im/docs">Docs</a></li>
-                                <li><a href="https://our.status.im/tag/embark">Blog</a></li>
-                                <li><a href="https://gitter.im/embark-framework/Lobby">Contribute</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="has-submenu"><a href="https://status.im/incubate">Incubate</a>
-                        <i class="mobile-submenu-trigger"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="https://status.im/incubate">Projects</a></li>
-                                <li><a href="https://get.status.im/chat/public/status-incubate">Community</a></li>
-                                <li><a href="https://our.status.im/tag/incubate">Blog</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="has-submenu">
-                        <a href="https://nimbus.status.im" class="main-link">Nimbus</a>
-                        <i class="mobile-submenu-trigger"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li><a href="/">About</a></li>
-                                <li><a href="/docs/">Docs</a></li>
-                                <li><a href="https://our.status.im/tag/nimbus">Blog</a></li>
-                                <li><a href="http://get.status.im/chat/public/status-nimbus">Talk To Us</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="https://hardwallet.status.im/">Hardwallet</a></li>
-                    <li class="has-submenu">
-                        <a href="https://people-ops.status.im">Peopleops</a>
-                        <i class="mobile-submenu-trigger"></i>
-                                                <div class="sub-menu">
-                                                    <ul>
-                                                        <li><a href="https://our.status.im/tag/people-ops/">Blog</a></li>
-                                                    </ul>
-                                                </div>
-
-                    </li>
-                </ul>
+                {{ partial('partial/shared-partials/partials/header-nav') }}
             </nav>
         </header>
     </div>
