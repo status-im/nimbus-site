@@ -17,8 +17,9 @@ If you want to add a page, rather than just edit, you'll need to make sure it ap
 Make sure you have node.js installed first.
 
 1. Open Terminal and navigate to the project root directory,
-2. Run `npm install`,
-3. Run `npm run build`,
-4. Go to `public/` directory,
-5. Start a simple HTTP server serving files, for example: `python -m SimpleHTTPServer 8000`,
-6. Open http://localhost:8000 in a browser.
+1. Run `npm install`,
+1. Run `./node_modules/.bin/gulp build`,
+1. In another terminal, run `./node_modules/.bin/hexo serve -p 8000`,
+1. Open http://localhost:8000 in a browser.
+
+This prevents the need for any global installs, and will allow you to have live reloading for any changes you are making.
