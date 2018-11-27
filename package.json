@@ -9,7 +9,8 @@
     "clean": "rm -rf public/*",
     "build": "gulp run && hexo generate",
     "eslint": "eslint .",
-    "deploy": "hexo deploy"
+    "deploy": "hexo deploy",
+    "update-submodules": "git submodule update --recursive --remote"
   },
   "dependencies": {
     "gulp": "^3.9.1",
