@@ -1,15 +1,7 @@
 <div class="header">
     <div class="header-left">
         <a class="logo" href={{url_for_lang('/')}}></a>
-        <ul class="main-nav">
-            <li class="item--to-show"><a href="https://status.im/get/" class="">App</a></li>
-            <li class="item--to-show"> <a href="https://our.status.im/tag/nimbus/">Blog</a> </li>
-            <li class="item--to-show"> <a href={{url_for_lang('docs')}}>Docs</a></li>
-            <li class="item--dropdown item--dropdown-projects"> <a href="#" class="">Projects</a></li>
-            <li><a href="https://status.im/contribute/">Contribute</a></li>
-            <li class="item--dropdown"><a href="#" class="item--dropdown-community">Community</a></li>
-            <li class="item--more"><a href="#" class="item--more">More</a></li>
-        </ul>
+        {{ partial('partial/shared-partials/partials/header-nav') }}
     </div>
     <div class="header-right">
         <a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary" style="margin-right: 8px">Nimbus Status Chat</a>
@@ -38,8 +30,13 @@
         <div class="mobile-nav-footer">
             <a href="http://get.status.im/chat/public/status-nimbus" class="button button--orange">Nimbus Status Chat</a>
         </div>
+        <header class="dropdown">
+            <nav>
+                {{ partial('partial/shared-partials/partials/header-nav') }}
+            </nav>
+        </header>
     </div>
-    <div class="mobile-nav-overlay"></div>
+    <div class="popup-overlay"></div>
 </div>
 
 <div class="popup-wrap popup-wrap--community">
@@ -49,7 +46,7 @@
         <div class="popup__inner">
             <div class="cards cards--three cards--three--even cards--community cards--community--light">
                 <div class="card">
-                    <a href={{url_for_lang('get')}} class="card-inner">
+                    <a href="https://get.status.im/chat/public/status" class="card-inner">
                         <div class="community-icon community-icon--join"></div>
                         <h4>Join the chat in Status</h4>
                         <p class="secondary-text">Whisper sweet, encrypted nothings on a distributed network that no-one owns.</p>

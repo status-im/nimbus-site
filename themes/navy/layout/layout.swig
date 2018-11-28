@@ -7,7 +7,7 @@
       {{ partial('partial/header') }}
     {% endif %}
     {{ body }}
-    {{ partial('partial/footer') }}
+    {{ partial('partial/shared-partials/partials/footer') }}
   </div>
   {{ partial('partial/after_footer') }}
 </body>
