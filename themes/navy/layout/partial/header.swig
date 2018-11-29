@@ -21,7 +21,6 @@
                 <li><a href="https://incubate.status.im/" class="">Incubate</a></li>
                 <li><a href="https://nimbus.status.im/" class="">Nimbus</a></li>
                 <li><a href="https://embark.status.im/" class="">Embark</a></li>
-                <li><a href="https://studio.status.im/" class="">Studio</a></li>
                 <li><a href="https://hardwallet.status.im/" class="">Hardwallet</a></li>
               </ul>
             </li>
