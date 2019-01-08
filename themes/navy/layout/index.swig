@@ -147,7 +147,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/peter.jpg" />
                 <h3>Peter Munch</h3>
-                <p><a href="https://get.status.im/user/0x04910559b94b70d7c2cd7237f2e6ef3b8110c5fc726e7ef40fc9f3c59eeece2efb69bc9a255a8064f061e16a7b8149fae43ec81559199a50b46f6e4ff8e029c0fe" style="color: #939ba1;">Sarcastic General BlackRussianTerrier</a></p>
+                <p><a href="https://get.status.im/user/0x04910559b94b70d7c2cd7237f2e6ef3b8110c5fc726e7ef40fc9f3c59eeece2efb69bc9a255a8064f061e16a7b8149fae43ec81559199a50b46f6e4ff8e029c0fe" style="color: #939ba1;">Imaginative Admirable Elephant</a></p>
                 <p><a href="https://github.com/PMunch">See Github profile</a>
                     <span><a href="https://github.com/PMunch"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
@@ -155,7 +155,7 @@
             <div class="contribute">
                 <img class="contributor" src="../img/stefan.jpg" />
                 <h3>Ștefan Talpalaru</h3>
-                <p><a href="https://get.status.im/user/0x0479be6aeb209d22f81363d8fc2d199e9cf8edf75731df6d5e4c7f9cb411afaecfd55088e2c8634877203df1f605bf7daaf07245012af2f206d388b80046a0abe8" style="color: #939ba1;">Sarcastic General BlackRussianTerrier</a></p>
+                <p><a href="https://get.status.im/user/0x0479be6aeb209d22f81363d8fc2d199e9cf8edf75731df6d5e4c7f9cb411afaecfd55088e2c8634877203df1f605bf7daaf07245012af2f206d388b80046a0abe8" style="color: #939ba1;">Teeming Frayed Argali</a></p>
                 <p><a href="https://github.com/stefantalpalaru">See Github profile</a>
                     <span><a href="https://github.com/stefantalpalaru"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
