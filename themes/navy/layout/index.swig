@@ -113,15 +113,6 @@
                 </p>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ryan.jpg" />
-                <h3>Ryan Lipscombe</h3>
-                <p><a href="https://get.status.im/user/0x042afe271620ea84c73e5f8f6846172c74851f4cbe7261b260742337a7f178a17d64738b211c9c5ce6f898bafbf073d61f0a55758e2f48e982dc0de665e6cb79dd
-" style="color: #939ba1;">Descriptive Liquid Nightcrawler</a></p>
-                <p><a href="https://github.com/coffeepots">See Github profile</a>
-                    <span><a href="https://github.com/coffeepots"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
                 <img class="contributor" src="../img/zahary.jpg" />
                 <h3>Zahary Karadjov</h3>
                 <p><a href="https://get.status.im/user/0x049004fb151893f7112d754d92c650d6d35f8151ec0eff1c148812f8741474f7f8906436e782432680b40e96a2549c03d3dd7801c50928c2bf15d56f6d7d2e1246" style="color: #939ba1;">Useless Gainsboro Serpent</a></p>
@@ -145,14 +136,30 @@
                     <a href="https://github.com/tersec">See Github profile</a>
                     <span><a href="https://github.com/tersec"><img src="../img/arrow_ogn.png" /></a></span></p>
             </div>
-                        <div class="contribute">
-                            <img class="contributor" src="../img/bruno.jpg" />
-                            <h3>Bruno Skvorc</h3>
-                            <p><a href="https://get.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276" style="color: #939ba1;">Sarcastic General BlackRussianTerrier</a></p>
-                            <p><a href="https://github.com/swader">See Github profile</a>
-                                <span><a href="https://github.com/swader"><img src="../img/arrow_ogn.png" /></a></span>
-                            </p>
-                        </div>
+            <div class="contribute">
+                <img class="contributor" src="../img/bruno.jpg" />
+                <h3>Bruno Skvorc</h3>
+                <p><a href="https://get.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276" style="color: #939ba1;">Sarcastic General BlackRussianTerrier</a></p>
+                <p><a href="https://github.com/swader">See Github profile</a>
+                    <span><a href="https://github.com/swader"><img src="../img/arrow_ogn.png" /></a></span>
+                </p>
+            </div>
+            <div class="contribute">
+                <img class="contributor" src="../img/peter.jpg" />
+                <h3>Peter Munch</h3>
+                <p><a href="https://get.status.im/user/0x04910559b94b70d7c2cd7237f2e6ef3b8110c5fc726e7ef40fc9f3c59eeece2efb69bc9a255a8064f061e16a7b8149fae43ec81559199a50b46f6e4ff8e029c0fe" style="color: #939ba1;">Sarcastic General BlackRussianTerrier</a></p>
+                <p><a href="https://github.com/PMunch">See Github profile</a>
+                    <span><a href="https://github.com/PMunch"><img src="../img/arrow_ogn.png" /></a></span>
+                </p>
+            </div>
+            <div class="contribute">
+                <img class="contributor" src="../img/stefan.jpg" />
+                <h3>Ștefan Talpalaru</h3>
+                <p><a href="https://get.status.im/user/0x0479be6aeb209d22f81363d8fc2d199e9cf8edf75731df6d5e4c7f9cb411afaecfd55088e2c8634877203df1f605bf7daaf07245012af2f206d388b80046a0abe8" style="color: #939ba1;">Sarcastic General BlackRussianTerrier</a></p>
+                <p><a href="https://github.com/stefantalpalaru">See Github profile</a>
+                    <span><a href="https://github.com/stefantalpalaru"><img src="../img/arrow_ogn.png" /></a></span>
+                </p>
+            </div>
         </div>
         <div class="inner-header">
             <h2>Read our Blog</h2>
