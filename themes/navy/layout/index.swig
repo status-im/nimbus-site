@@ -14,7 +14,7 @@
         <h2 id="top-header">Research for Scale️️</h2>
         <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.
         </p>
-        <a href="https://github.com/status-im/nimbus">See our repos <img src="../img/arrow_orange.svg" /></a>
+        <a href="https://github.com/status-im?utf8=%E2%9C%93&q=nim&type=&language=">See our repos <img src="../img/arrow_orange.svg" /></a>
 
         <div class="work-items">
             <div class="work-item">
@@ -65,8 +65,8 @@
                 <h3>Join the Team</h3>
                 <p>We are always looking for passionate and talented individuals to join our team.
                 <p>
-                    <a href="https://status.im/open-positions.html">See list of open roles</a>
-                    <span><a href="https://status.im/open-positions.html"><img src="../img/arrow_ogn.png" /></a></span>
+                    <a href="https://status.im/contribute/open_positions.html">See list of open roles</a>
+                    <span><a href="https://status.im/contribute/open_positions.html"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
             <div class="contribute">
                 <h3>Work on Bounties</h3>
