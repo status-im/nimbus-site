@@ -5,7 +5,7 @@
         <p>Researching and implementing lighter Ethereum 2.0 clients </p>
         <div class="intro-buttons">
             <a class="button button--main" href="https://gitter.im/status-im/nimbus">JOIN OUR GITTER</a>
-            <a class="button button--main" href="/docs/">GET INVOLVED</a>
+            <a class="button button--main" href="/docs/">DOCUMENTATION</a>
         </div>
     </div>
 </div>
@@ -146,7 +146,7 @@
             </div>
             <div class="contribute">
                 <img class="contributor" src="../img/peter.jpg" />
-                <h3>Peter Munch</h3>
+                <h3>Peter Munch-Ellingsen</h3>
                 <p><a href="https://get.status.im/user/0x04910559b94b70d7c2cd7237f2e6ef3b8110c5fc726e7ef40fc9f3c59eeece2efb69bc9a255a8064f061e16a7b8149fae43ec81559199a50b46f6e4ff8e029c0fe" style="color: #939ba1;">Imaginative Admirable Elephant</a></p>
                 <p><a href="https://github.com/PMunch">See Github profile</a>
                     <span><a href="https://github.com/PMunch"><img src="../img/arrow_ogn.png" /></a></span>

@@ -34,7 +34,7 @@ Dustin is the team's Pure Quickwitted Indianglassfish.
 
 Bruno is the technical writer and team's DX guy. He's been in blockchain for 3 years after 15 years of web. His passion for decentralization and forwarding the world's truly censorship-free internet is what drove him to Nimbus. What little free time he has, he tries to spend on sports, board games and VR. You can add him on Oculus and Steam as theswader.
 
-### [Peter Munch](https://github.com/PMunch)
+### [Peter Munch-Ellingsen](https://github.com/PMunch)
 
 Peter has been working with Nim since discovering it during his studies back in 2016. Since a young age he's been interested in programming. Starting out with games, but touching in on everything from web to high-performance and distributed computing through his work and studies.
 
