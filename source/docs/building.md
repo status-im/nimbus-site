@@ -24,7 +24,7 @@ cd nimbus
 ```
 ### Dependencies
 
-To run the Nimbus, we'll need the RocksDB database and a newer version of Nim. On OS X, execute:
+To run Nimbus, we'll need the RocksDB database and a newer version of Nim. On OS X, execute:
 
 ```bash
 brew install rocksdb
@@ -44,7 +44,7 @@ On Windows, please first make sure you have `make` installed - either in the for
 choco install make
 ```
 
-_Note - Windows requires you to add things to your PATH environment variable. This is done by simply opening the Start Menu, searching for "Env", selecting "Edit the system environment variables", clicking on Environment Variables in the popup, and then editing the PATH variable in the list by adding a new entry that corresponds to the folder into which you installed your version of `make` (Choco takes care of this for you, only applies if you installed manually)_
+_Note - Windows requires you to add programs you want to be able to execute from anywhere on your machine to your PATH environment variable. This is done by simply opening the Start Menu, searching for "Env", selecting "Edit the system environment variables", clicking on Environment Variables in the popup, and then editing the PATH variable in the list by adding a new entry that corresponds to the folder into which you installed your version of `make` (Choco takes care of this for you, only applies if you installed manually). [This is what mine looks like](https://imgur.com/a/yQIi6Qa)._
 
 Next, run:
 
@@ -94,6 +94,18 @@ To test, run:
 
 ```bash
 make test # (or mingw32make.exe test on Win if you use mingw32)
+```
+
+To update the source files for a rebuild:
+
+```bash
+make update
+```
+
+To clean the slate and start with a fresh build:
+
+```bash
+make clean
 ```
 
 ### Ethereum 2.0
