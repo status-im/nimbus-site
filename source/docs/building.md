@@ -60,6 +60,8 @@ mingw32make.exe fetch-dlls
 
 This downloads the rocksdb and sqlitedb DLL files into `nimbus/build` so that the built program can read them.
 
+_In the content below, `make` will refer to `make` or `mingw32.exe`, depending on which you're using. Make the change to your commands accordingly._
+
 ### Building, Testing, Running
 
 To build Nimbus:
@@ -68,18 +70,6 @@ On OS X / Linux:
 
 ```bash
 make
-```
-
-On Windows:
-
-```bash
-make
-```
-
-or 
-
-```bash
-mingw32make.exe
 ```
 
 The Nimbus client will now be in `build/nimbus` on any OS and can be run with the same command:
@@ -93,7 +83,7 @@ It should synchronize up to block 49439 and then crash, as mentioned above. Look
 To test, run:
 
 ```bash
-make test # (or mingw32make.exe test on Win if you use mingw32)
+make test
 ```
 
 To update the source files for a rebuild:
@@ -110,31 +100,16 @@ make clean
 
 ### Ethereum 2.0
 
-To run and test the Ethereum 2.0 version of Nimbus:
+To run and test the Ethereum 2.0 version of Nimbus (the network simulation):
 
 ```bash
-git clone git@github.com:status-im/nim-beacon-chain
-cd nim-beacon-chain
+make eth2_network_simulation
 ```
 
-This one still uses Nimble, so:
+You should now see attestations and blocks being produced and confirmed and a bunch of other details from the nodes as they do their thing.
 
-```bash
-nimble install
-```
+![Beacon nodes communicating](/img/beacon.jpg)
 
-It is possible that Nimble will get stuck without output, or that it will ask you strange questions like overwriting a dependency that's already installed in the very same project you're installing it to. In any case, confirm if possible, or restart the installation process by canceling (CTRL+C) and re-running the command.
-
-Once done, run:
-
-```bash
-nimble test
-```
-
-This executes the test written for the Ethereum 2.0 client version of Nimbus. To run the simulation which spins up a few beacon nodes and builds a beacon chain locally (local testnet), run:
-
-```bash
-sh tests/simulation/start.sh
-```
+---
 
 Congrats! You're now running Nimbus for both the Ethereum 1.0 platform, and the coming [Ethereum 2.0](https://our.status.im/tag/two-point-oh).
