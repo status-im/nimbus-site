@@ -37,7 +37,11 @@ var config = {
     paths: {
         src: {
             scss: './themes/navy/source/scss/*.scss',
-            js: './themes/navy/source/js/main.js',
+            js: [
+				'./themes/navy/source/js/shared-js/js/utils.js',
+				'./themes/navy/source/js/shared-js/js/popups.js',
+				'./themes/navy/source/js/main.js',
+			]
         },
         dist: {
             css: './public/css',
