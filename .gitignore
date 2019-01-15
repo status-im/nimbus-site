@@ -55,3 +55,7 @@ packages/*
 .vagrant/*
 
 .env
+
+# built assets
+themes/navy/source/js/vendor.js
+themes/navy/source/js/vendor.js.map
