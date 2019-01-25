@@ -17,11 +17,6 @@ With a keen interest and background in peer-to-peer applications and compilers, 
 
 Mamy joined Status as a Nim developer in the research team. After a career in leading American and French banks and non-profits, he decided that tech, blockchain and AI will eat the world. On the side, instead of mining he is teaching deep learning tricks to his GPU.
 
-### [Ryan Lipscombe](https://github.com/coffeepots)
-
-Fascinated by the transformative potential of blockchain and distributed systems, Ryan joined Status research as a Nim developer. His career spans from data science to embedded systems and has been part of the Nim community since 2015, working on database components and virtual machines for evolutionary systems.
-
-
 ### [Yuriy Glukhov](https://github.com/yglukhov)
 
 Yuriy has deep passion for new technologies and keen interest in many areas of IT. He was one of the first CTOs to successfully use Nim in a commercial project.
@@ -38,6 +33,14 @@ Dustin is the team's Pure Quickwitted Indianglassfish.
 ### [Bruno Skvorc](https://bruno.id)
 
 Bruno is the technical writer and team's DX guy. He's been in blockchain for 3 years after 15 years of web. His passion for decentralization and forwarding the world's truly censorship-free internet is what drove him to Nimbus. What little free time he has, he tries to spend on sports, board games and VR. You can add him on Oculus and Steam as theswader.
+
+### [Peter Munch-Ellingsen](https://github.com/PMunch)
+
+Peter has been working with Nim since discovering it during his studies back in 2016. Since a young age he's been interested in programming. Starting out with games, but touching in on everything from web to high-performance and distributed computing through his work and studies.
+
+### [Ștefan Talpalaru](https://github.com/stefantalpalaru)
+
+Ștefan comes from a decade of professional web development and a decade and a half of amateur free software contributions in a wide range of domains and programming languages. His claim to fame in the Nim world is the grafting of a Go runtime to the Nim compiler by way of the pluggable garbage collector API.
 
 # ETYMOLOGY
 

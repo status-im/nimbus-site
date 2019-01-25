@@ -42,4 +42,4 @@ Within the community at large, we will promote Ethereum as the leader of scalabl
 
 ## Bounty-Based Development
 
-To entice the community to accelerate the development, we will attach bounties to and **[publish](https://openbounty.status.im/app#/)** the tasks that can be self-contained and defined clearly.
+To entice the community to accelerate the development, we will attach bounties to and **[publish](https://openbounty.status.im/app#/)** the tasks that can be self-contained and defined clearly. We'll also have bounties [on Gitcoin](https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created).
