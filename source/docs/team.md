@@ -9,7 +9,7 @@ In addition to a dedicated Nimbus team, Status as an organization will support d
 
 Eugene has deep background and interest in systems programming, reverse engineering, development of high-load and high-performance networking services, and information security. He joined Nim community 3 years ago and has contributed to Nim networking, threading, and multiprocessing.
 
-### [Jacek Sieka](https://www.linkedin.com/in/sieka/) 
+### [Jacek Sieka](https://www.linkedin.com/in/sieka/)
 
 With a keen interest and background in peer-to-peer applications and compilers, Jacek joined Status as Head of Research, coming most recently from the high-frequency trading world. Fun hobby projects from the past include DC++ (a file sharing app), nlvm (an llvm-based Nim compiler) and more!
 
@@ -33,10 +33,6 @@ Dustin is the team's Pure Quickwitted Indianglassfish.
 ### [Bruno Skvorc](https://bruno.id)
 
 Bruno is the technical writer and team's DX guy. He's been in blockchain for 3 years after 15 years of web. His passion for decentralization and forwarding the world's truly censorship-free internet is what drove him to Nimbus. What little free time he has, he tries to spend on sports, board games and VR. You can add him on Oculus and Steam as theswader.
-
-### [Peter Munch-Ellingsen](https://github.com/PMunch)
-
-Peter has been working with Nim since discovering it during his studies back in 2016. Since a young age he's been interested in programming. Starting out with games, but touching in on everything from web to high-performance and distributed computing through his work and studies.
 
 ### [Ștefan Talpalaru](https://github.com/stefantalpalaru)
 

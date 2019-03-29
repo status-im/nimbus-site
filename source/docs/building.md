@@ -3,112 +3,86 @@ id: building
 title: Getting Started with Nimbus
 ---
 
-This document will explain how to install, test, and run Nimbus on your local machine. For a full guide, see the [Nimbus for Newbies](https://our.status.im/nimbus-for-newbies/) post.
+This document will explain how to install, test, and run Nimbus on your local machine. To learn about what Nimbus is, see the [intro post](https://our.status.im/nimbus-for-newbies/).
 
-## Getting Started
+## Installing prerequisites
 
-- [install Nim](https://bitfalls.com/nim1)
-- be on a command-line friendly system (i.e. access to Terminal / Console / Cmder / [Git Bash](https://git-scm.com) / Powershell)
+_Right now, Nimbus is only available on non-Windows operating systems. We're working on Windows support. If you don't have a Linux or OS X machine, please consider using our [pre-configured Vagrant box](https://github.com/status-im/nim-vagrant)._
 
-Alternatively, [download our pre-configured Vagrant box](https://our.status.im/setting-up-a-local-vagrant-environment-for-nim-development/).
-
-_Note: the Nimbus build system uses Makefiles to make the process identical across platforms, easy to update, and compatible with any OS. We don't use Nim's package manager Nimble because it's fundamentally broken._
-
-### Installing
-
-Clone Nimbus.
+We use Makefiles to quickly and easily build our binaries. Before you begin, please make sure you have [RocksDB installed](https://github.com/status-im/nimbus#rocksdb). Then, run:
 
 ```bash
-git clone git@github.com:status-im/nimbus
+git clone https://github.com/status-im/nimbus
 cd nimbus
+make update deps # Downloads and builds submodules, dependencies, and even Nim itself
+./env.sh bash # Optional, but useful. Sets the current shell's environment to use the version of Nim language the `make update deps` command just built
 ```
-### Dependencies
 
-To run Nimbus, we'll need the RocksDB database and a newer version of Nim. On OS X, execute:
+### Building and Running Nimbus
+
+To run Nimbus in Ethereum 1.0 mode:
 
 ```bash
-brew install rocksdb
-curl https://nim-lang.org/choosenim/init.sh -sSf | sh
-```
-
-On Linux, this should do it:
-
-```bash
-sudo apt-get install librocksdb-dev rocksdb # or your own Linux distribution's equivalent
-curl https://nim-lang.org/choosenim/init.sh -sSf | sh
-```
-
-On Windows, please first make sure you have `make` installed - either in the form of `MinGW32make.exe` via [MinGW website](http://www.mingw.org) or regular old make installed through Git Bash or a package manager like Chocolatey:
-
-```bash
-choco install make
-```
-
-_Note - Windows requires you to add programs you want to be able to execute from anywhere on your machine to your PATH environment variable. This is done by simply opening the Start Menu, searching for "Env", selecting "Edit the system environment variables", clicking on Environment Variables in the popup, and then editing the PATH variable in the list by adding a new entry that corresponds to the folder into which you installed your version of `make` (Choco takes care of this for you, only applies if you installed manually). [This is what mine looks like](https://imgur.com/a/yQIi6Qa)._
-
-Next, run:
-
-```
-make fetch-dlls
-```
-
-or 
-
-```
-mingw32make.exe fetch-dlls
-```
-
-This downloads the rocksdb and sqlitedb DLL files into `nimbus/build` so that the built program can read them.
-
-_In the content below, `make` will refer to `make` or `mingw32.exe`, depending on which you're using. Make the change to your commands accordingly._
-
-### Building, Testing, Running
-
-To build Nimbus:
-
-On OS X / Linux:
-
-```bash
-make
-```
-
-The Nimbus client will now be in `build/nimbus` on any OS and can be run with the same command:
-
-```bash
+make nimbus
 ./build/nimbus
 ```
 
-It should synchronize up to block 49439 and then crash, as mentioned above. Look at flags and options with `build/nimbus --help`.
+Nimbus will now run and attempt to synchronize with the Ethereum 1.0 blockchain. It can currently reach block 1.5 million.
 
-To test, run:
+### Building and Running the Ethereum 2.0 local beacon chain simulation
 
-```bash
-make test
-```
+The beacon chain simulation runs several beacon nodes on the local machine, attaches several local validators to each, and builds a beacon chain between them. This is a precursor to our [testnet](https://our.status.im/the-nimbus-mvp-testnet-is-here/).
 
-To update the source files for a rebuild:
+Enter the Ethereum 2.0 realm of Nimbus:
 
 ```bash
-make update
+cd vendor/nim-beacon-chain
 ```
 
-To clean the slate and start with a fresh build:
-
-```bash
-make clean
-```
-
-### Ethereum 2.0
-
-To run and test the Ethereum 2.0 version of Nimbus (the network simulation):
+There, use this submodule's Make commands. To run the simulation:
 
 ```bash
 make eth2_network_simulation
 ```
 
-You should now see attestations and blocks being produced and confirmed and a bunch of other details from the nodes as they do their thing.
+If you'd like to clean the previous run's data:
 
-![Beacon nodes communicating](/img/beacon.jpg)
+```bash
+make clean_eth2_network_simulation_files eth2_network_simulation
+```
+
+If you'd like to see the nodes running on separated sub-terminals inside one big window, install [Multitail](https://www.vanheusden.com/multitail/), then:
+
+```bash
+USE_MULTITAIL="yes" make eth2_network_simulation
+```
+
+You'll get something like this (click for full size):
+
+[![](https://i.imgur.com/Pc99VDO.png)](https://i.imgur.com/Pc99VDO.png)
+
+To change the number of validators and nodes:
+
+```bash
+VALIDATORS=512 NODES=50 make eth2_network_simulation
+```
+
+Find out more about the simulation [here](https://our.status.im/nimbus-development-update-03/).
+
+### Building and Running the Ethereum 2.0 local state transition simulation
+
+The state transition simulation measures how fast it can process the tasks in the beacon chain's state transition.
+
+```bash
+cd research
+nim c -d:release -r state_sim --help
+```
+
+Use the output of the help command to pass desired values to the sim - change number of validators, nodes, etc. to get different results.
+
+### Nimbus Ethereum 2.0 Testnet
+
+We have a publicly available testnet running between Nimbus nodes. Read all about it and learn how you can join it [here](https://our.status.im/the-nimbus-mvp-testnet-is-here/).
 
 ---
 
