@@ -44,7 +44,7 @@ pipeline {
       steps { script {
         sshagent(credentials: ['jenkins-ssh']) {
           sh '''
-            scp -o StrictHostKeyChecking=no -r public/. \
+            rsync -e 'ssh -o StrictHostKeyChecking=no' -r --delete public/. \
             jenkins@node-01.do-ams3.proxy.misc.statusim.net:/var/www/dev-nimbus/
           '''
         }
