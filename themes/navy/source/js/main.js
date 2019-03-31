@@ -63,8 +63,8 @@ $(document).ready(function () {
 
 });
 
-var addClassToElement = require('./shared-js/js/utils').addClassToElement;
-var removeClassFromElement = require('./shared-js/js/utils').removeClassFromElement;
+var addClassToElement = require('./utils').addClassToElement;
+var removeClassFromElement = require('./utils').removeClassFromElement;
 
 /* Code highlighting */
 
