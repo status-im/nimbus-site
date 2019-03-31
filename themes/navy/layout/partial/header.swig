@@ -1,7 +1,7 @@
 <div class="header">
     <div class="header-left">
         <a class="logo" href={{url_for_lang('/')}}></a>
-        {{ partial('partial/shared-partials/partials/header-nav') }}
+        {{ partial('partial/header-nav') }}
     </div>
     <div class="header-right">
         <a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary" style="margin-right: 8px">Nimbus Status Chat</a>
@@ -31,13 +31,13 @@
         </div>
         <header class="dropdown">
             <nav>
-                {{ partial('partial/shared-partials/partials/header-nav') }}
+                {{ partial('partial/header-nav') }}
             </nav>
         </header>
     </div>
     <div class="popup-overlay"></div>
 </div>
 
-{{ partial('partial/shared-partials/partials/community-popup') }}
+{{ partial('partial/community-popup') }}
 
-{{ partial('partial/shared-partials/partials/projects-popup') }}
+{{ partial('partial/projects-popup') }}

@@ -1,3 +1,15 @@
+/* global $ */
+const moment = require('moment');
+
+function formatDate(date) {
+  const day = moment().date(date.get('date')).format('DD');
+  const month = moment().month(date.get('month')).format('MMM');
+  const hour = moment().hour(date.get('hour')).format('HH');
+  const minute = moment().minute(date.get('minute')).format('mm');
+
+  return `${day} ${month} at ${hour}:${minute}`;
+}
+
 $(document).ready(function () {
 
   // Fixes Parallax effect and div to popup overlapping with the main menu options
@@ -28,43 +40,31 @@ $(document).ready(function () {
     return str.split(/\s+/).slice(0,25).join(" ");
   }
 
-  var months = {'01':'Jan', '02':'Feb', '03':'Mar', '04':'Apr', '05':'May', '06':'Jun', '07':'Jul', '08':'Aug', '09':'Sep', '10':'Oct', '11':'Nov', '12':'Dec'};
-  url = 'https://our.status.im/ghost/api/v0.1/posts/?order=published_at%20desc&limit=2&formats=plaintext&client_id=ghost-frontend&client_secret=2b055fcd57ba';
+  let url_news = 'https://our.status.im/ghost/api/v0.1/posts/?order=published_at%20desc&limit=2&formats=plaintext&client_id=ghost-frontend&client_secret=2b055fcd57ba';
 
   $.ajax({
-    type: "get",
-    url: url,
-    success: function (response) {
+    type: 'get',
+    url: url_news,
+    success: function(response) {
       response.posts = response.posts.reverse();
-      $.each(response.posts, function (index, val) {
-        var excerpt = '';
-        if(val.custom_excerpt != null) {
-          excerpt = val.custom_excerpt;
-        }else{
-          excerpt = getWords(val.plaintext);
-        }
-        var newDate = new Date(val.published_at);
-        var minutes = newDate.getMinutes();
-        minutes = minutes + "";
-        if(minutes.length == 1){
-          minutes = '0' + minutes;
-        }
-        $('.latest-posts').prepend(' \
-        <div class="post"> \
-          <time>'+ newDate.getDate() + ' ' + months[(newDate.getMonth()+1)] + ' at ' + newDate.getHours() + ':' + minutes + '</time> \
-          <h4><a href="https://our.status.im/'+ val.slug +'">'+ val.title +'</a></h3> \
-        </div> \
-        ');
+
+      $.each(response.posts, function(index, val) {
+        const date = moment(val.published_at);
+
+        $('.latest-news').prepend(
+          `<div class="post">
+            <time>${formatDate(date)}</time>
+            <h4><a href="https://our.status.im/${val.slug}">${val.title}</a></h4>
+          </div>`
+        );
       });
     }
   });
 
 });
 
-/* Popups */
-
-var addClassToElement = require('./shared-js/js/utils').addClassToElement;
-var removeClassFromElement = require('./shared-js/js/utils').removeClassFromElement;
+var addClassToElement = require('./utils').addClassToElement;
+var removeClassFromElement = require('./utils').removeClassFromElement;
 
 /* Code highlighting */
 
