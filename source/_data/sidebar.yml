@@ -4,7 +4,11 @@ docs:
     building: building.html
 #    milestones: milestones.html
     design: design.html
-    team: team.html
+    # team: team.html
     faq: faq.html
     contributor_guide: contributor_guide.html
+  Guides:
+    Testnet 0: t0.html
+    Testnet 1: t1.html
+    Custom Testnet: custom-nimbus-testnet.html
     

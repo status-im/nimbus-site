@@ -1,6 +1,6 @@
 <div class="header">
     <div class="header-left">
-        <a class="logo" href={{url_for_lang('/')}}></a>
+        <a class="logo" href="/"></a>
         {{ partial('partial/header-nav') }}
     </div>
     <div class="header-right">
@@ -10,11 +10,11 @@
 
 <div class="mobile-nav-wrap">
     <div class="mobile-nav-inner">
-        <a class="logo" href={{url_for_lang('/')}}></a>
+        <a class="logo" href="/"></a>
         <a class="icon-close mobile-nav-close" href="#"></a>
         <ul class="mobile-nav">
             <li><a href="https://our.status.im/tag/nimbus/">Blog</a></li>
-            <li><a href={{url_for_lang('docs')}}>Docs</a></li>
+            <li><a href="/docs">Docs</a></li>
             <li class="item--dropdown item--to-show">
               <span>Projects</span>
               <ul class="mobile-sub-nav">
