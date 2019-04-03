@@ -9,7 +9,7 @@ $sidebar-width: 30%;
       display: none;
     }
     strong {
-      display: none;
+      // display: none;
     }
   }
 }
@@ -17,12 +17,16 @@ $sidebar-width: 30%;
 .sidebar-title {
   margin-top: 40px;
   padding: 10px 0;
-  font-family: font-title;
+  // font-family: font-title;
   font-weight: bold;
   color: color-title;
   display: inline-block;
   border-top: 1px solid color-border;
   line-height: 1;
+}
+
+.sidebar-title:first-child {
+  margin-top: 0;
 }
 
 .sidebar-link {
