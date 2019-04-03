@@ -129,7 +129,7 @@
                 </p>
             </div>
             <div class="contribute">
-                <img class="contributor" src="../img/ellipse.png" />
+                <img class="contributor" src="../img/tersec_moot.png" />
                 <h3>Dustin Brody</h3>
                 <p><a href="https://get.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276" style="color: #939ba1;">Pure Quickwitted Indianglassfish</a></p>
                 <p>
@@ -150,6 +150,14 @@
                 <p><a href="https://get.status.im/user/0x0479be6aeb209d22f81363d8fc2d199e9cf8edf75731df6d5e4c7f9cb411afaecfd55088e2c8634877203df1f605bf7daaf07245012af2f206d388b80046a0abe8" style="color: #939ba1;">Teeming Frayed Argali</a></p>
                 <p><a href="https://github.com/stefantalpalaru">See Github profile</a>
                     <span><a href="https://github.com/stefantalpalaru"><img src="../img/arrow_ogn.png" /></a></span>
+                </p>
+            </div>
+            <div class="contribute">
+                <img class="contributor" src="../img/kdeme_moot.png" />
+                <h3>Kim De Mey</h3>
+                <p><a href="https://get.status.im/" style="color: #939ba1;">? ? ?</a></p>
+                <p><a href="https://github.com/kdeme">See Github profile</a>
+                    <span><a href="https://github.com/kdeme"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
         </div>
