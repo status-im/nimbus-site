@@ -3,6 +3,18 @@ id: contributor_guide
 title: Contributor Guide
 ---
 
+# How to help with funding
+
+We have a donation box set up at address 0x6CC55c39f51a2Da7D2DB5F2c4AAD133eb1418C4f.
+
+We use funds from donations to:
+
+- fund bounties
+- fund audits of our production code
+- fund hardware on which to build Nimbus for you, from Raspberry Pis to feature phones
+
+If you'd like to donate a conditional amount, i.e. one that depends on a certain milestone or deadline, please [get in touch](mailto:bruno@status.im).
+
 # How To Get Involved with Nimbus' development 
 
 - look around [the repo](https://github.com/status-im/nimbus), especially the [open issues](https://github.com/status-im/nimbus/issues)

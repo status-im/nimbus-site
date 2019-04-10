@@ -6,12 +6,12 @@
                 <div class="footer-table__column">
                   <p class="footer-header">Social links</p>
                   <ul class="footer-list">
-                    <li class="footer-link footer-link--fb"><a href="https://www.facebook.com/ethstatus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Facebook</span></a></li>
                     <li class="footer-link footer-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Twitter</span></a></li>
                     <li class="footer-link footer-link--ri"><a href="https://chat.status.im/#/register" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Riot</span></a></li>
                     <li class="footer-link footer-link--gh"><a href="https://github.com/status-im/nimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Github</span></a></li>
                     <li class="footer-link footer-link--rd"><a href="https://www.reddit.com/r/statusim/" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Reddit</span></a></li>
                     <li class="footer-link footer-link--yt"><a href="https://www.youtube.com/statusim" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">YouTube</span></a></li>
+                    <li class="footer-link"><a href="https://etherscan.io/address/0x6CC55c39f51a2Da7D2DB5F2c4AAD133eb1418C4f" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Donate to 0x6CC55c39f51a2Da7D2DB5F2c4AAD133eb1418C4f</span></a></li>
                   </ul>
                 </div>
 
