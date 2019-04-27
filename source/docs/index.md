@@ -10,7 +10,7 @@ For a more comprehensive introduction, please read our Nimbus for Newbies post o
 
 ## Requirements
 
-[Nim](https://nim-lang.org/) is an efficient, general-purpose systems programming language with a Python-like syntax that compiles to C. Nim will allow us to implement Ethereum rapidly and to take advantage of the mature C-language tooling: in compilation of machine code, and in the analysis of static code. 
+[Nim](https://nim-lang.org/) is an efficient, general-purpose systems programming language with a Python-like syntax that compiles to C. Nim will allow us to implement Ethereum rapidly and to take advantage of the mature C-language tooling: in compilation of machine code, and in the analysis of static code.
 
 With Ethereum research currently modeled in Python, the end result of implementing in Nim should be code that:
 

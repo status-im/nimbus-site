@@ -7,14 +7,19 @@ This document will explain how to install, test, and run Nimbus on your local ma
 
 ## Installing prerequisites
 
-_Right now, Nimbus is only available on non-Windows operating systems. We're working on Windows support. If you don't have a Linux or OS X machine, please consider using our [pre-configured Vagrant box](https://github.com/status-im/nim-vagrant)._
+If you are on Windows, instead of using the commands below you can also use our [pre-configured Vagrant box](https://github.com/status-im/nim-vagrant) if you prefer to run things in a Linux environment.
 
-We use Makefiles to quickly and easily build our binaries. Before you begin, please make sure you have [RocksDB installed](https://github.com/status-im/nimbus#rocksdb). Then, run:
+We use Makefiles to quickly and easily build our binaries. Before you begin, please make sure you have [RocksDB installed](https://github.com/status-im/nimbus#rocksdb). On Windows, you can skip this step and instead rely on the "WINDOWS ONLY" part of the process below:
 
 ```bash
 git clone https://github.com/status-im/nimbus
 cd nimbus
-make update deps # Downloads and builds submodules, dependencies, and even Nim itself
+make update # Downloads and builds submodules, dependencies, and even Nim itself
+
+# >>> WINDOWS ONLY <<<
+make fetch-dlls # WINDOWS ONLY
+# >>> WINDOWS ONLY <<<
+
 ./env.sh bash # Optional, but useful. Sets the current shell's environment to use the version of Nim language the `make update deps` command just built
 ```
 
@@ -82,7 +87,7 @@ Use the output of the help command to pass desired values to the sim - change nu
 
 ### Nimbus Ethereum 2.0 Testnet
 
-We have a publicly available testnet running between Nimbus nodes. Read all about it and learn how you can join it [here](https://our.status.im/the-nimbus-mvp-testnet-is-here/).
+We have a publicly available testnet running between Nimbus nodes. Read all about it and learn how you can join it [here](/docs/t0.html).
 
 ---
 
