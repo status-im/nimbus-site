@@ -30,8 +30,15 @@ pipeline {
       }
     }
 
+    stage('Robot') {
+      when { expression { !GIT_BRANCH.endsWith('master') } }
+      steps { script {
+        sh 'echo "Disallow: /" >> public/robots.txt'
+      } }
+    }
+
     stage('Publish Prod') {
-      when { expression { env.GIT_BRANCH ==~ /.*master/ } }
+      when { expression { GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['status-im-auto-ssh']) {
           sh 'npm run deploy'
@@ -40,7 +47,7 @@ pipeline {
     }
 
     stage('Publish Devel') {
-      when { expression { env.GIT_BRANCH ==~ /.*develop/ } }
+      when { expression { !GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['jenkins-ssh']) {
           sh '''

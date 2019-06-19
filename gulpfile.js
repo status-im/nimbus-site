@@ -14,14 +14,23 @@ var minify = require('gulp-minify');
 let cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 
+const gitBranch = require('./scripts/git-branch');
+
 // generate html with 'hexo generate'
 var hexo = new Hexo(process.cwd(), {});
 
+const getEnv = function () {
+    return gitBranch() == 'master' ? 'prod' : 'dev'
+}
+
 gulp.task('generate', function(cb) {
+    var hexo = new Hexo(process.cwd(), {
+        config: `_config.${getEnv()}.yml`,
+        watch: false,
+    });
+
     hexo.init().then(function() {
-        return hexo.call('generate', {
-            watch: false
-        });
+        return hexo.call('generate');
     }).then(function() {
         return hexo.exit();
     }).then(function() {
@@ -38,10 +47,10 @@ var config = {
         src: {
             scss: './themes/navy/source/scss/*.scss',
             js: [
-				'./themes/navy/source/js/utils.js',
-				'./themes/navy/source/js/popups.js',
-				'./themes/navy/source/js/main.js',
-			]
+        './themes/navy/source/js/utils.js',
+        './themes/navy/source/js/popups.js',
+        './themes/navy/source/js/main.js',
+      ]
         },
         dist: {
             css: './public/css',
