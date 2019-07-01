@@ -58,3 +58,4 @@
         </div>
     </div>
     <div class="popup-overlay"></div>
+</div>
