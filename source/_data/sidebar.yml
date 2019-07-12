@@ -8,6 +8,7 @@ docs:
     faq: faq.html
     contributor_guide: contributor_guide.html
   Guides:
+    Ethereum 1: eth1.html
     Testnet 0: t0.html
     Testnet 1: t1.html
     Custom Testnet: custom-nimbus-testnet.html

@@ -87,7 +87,7 @@ Use the output of the help command to pass desired values to the sim - change nu
 
 ### Nimbus Ethereum 2.0 Testnet
 
-We have a publicly available testnet running between Nimbus nodes. Read all about it and learn how you can join it [here](/docs/t0.html).
+We have a publicly available testnet running between Nimbus nodes. Read all about it and learn how you can join it [here](/docs/t0.html). There is also a cutting edge [testnet 1](/docs/t1.html) that's basically a testing ground for testnet 0.
 
 ---
 
