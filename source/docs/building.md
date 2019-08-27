@@ -28,12 +28,13 @@ Nimbus will now run and attempt to synchronize with the Ethereum 1.0 blockchain.
 
 The beacon chain simulation runs several beacon nodes on the local machine, attaches several local validators to each, and builds a beacon chain between them. This is a precursor to our [testnet](https://our.status.im/the-nimbus-mvp-testnet-is-here/).
 
+Prerequisites: Golang 1.12+, because we need it to build the Go libp2p daemon for node communication. You also need `git-lfs` installed to run tests - on Windows that's a command documented below, on other operating systems it can be installed using your system's package manager (e.g. `sudo apt-get install git-lfs`).
+
 Enter the Ethereum 2.0 realm of Nimbus:
 
 ```bash
 git clone https://github.com/status-im/nim-beacon-chain
 cd nim-beacon-chain
-make update
 
 # >>> WINDOWS ONLY <<<
 make fetch-dlls # WINDOWS ONLY
