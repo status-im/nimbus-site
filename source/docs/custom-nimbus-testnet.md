@@ -7,23 +7,28 @@ title: Creating your own Nimbus testnet
 
 All beacon nodes joining your custom testnet MUST be compiled with the same beacon chain constants - i.e. if a node is compiled with 8 slots per epoch, one with 16 slots per epoch will not be compatible with it. With that in mind, let's do this step of building the basic beacon node binary from within `vendor/nim-beacon-chain`, and let's also build the tool that can generate validator keys.
 
-If you haven't cloned Nimbus already, do it now:
+> Note that you need Go 1.12+ installed to build the libp2p Go daemon!
+
+If you haven't cloned the beacon chain implementation already, do it now:
 
 ```bash
-git clone https://github.com/status-im/nimbus
-cd nimbus
+git clone https://github.com/status-im/nim-beacon-chain
+cd nim-beacon-chain
 make update
-cd vendor/nim-beacon-chain
+
+# >>> WINDOWS ONLY <<<
+make fetch-dlls # WINDOWS ONLY
+# >>> WINDOWS ONLY <<<
 ```
 
 Then let's build the binaries of the tools we'll need.
 
 ```bash
-export NIMFLAGS="-d:release -d:SECONDS_PER_SLOT=30 -d:SHARD_COUNT=8 -d:SLOTS_PER_EPOCH=8" \
+export NIMFLAGS="-d:release -d:SECONDS_PER_SLOT=6 -d:SHARD_COUNT=8 -d:SLOTS_PER_EPOCH=64" \
 && make beacon_node validator_keygen
 ```
 
-This will place the `beacon_node` binary and the `validator_keygen` tool in `build` in the current folder, i.e. `vendor/nim-beacon-chain`.
+This will place the `beacon_node` binary and the `validator_keygen` tool in `build/` in the current folder.
 
 Let's generate the folders where the node will store its data and then add the validator keys in there. I picked 500 keys.
 
