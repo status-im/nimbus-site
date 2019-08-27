@@ -24,7 +24,7 @@ make fetch-dlls # WINDOWS ONLY
 Then let's build the binaries of the tools we'll need.
 
 ```bash
-export NIMFLAGS="-d:release -d:SECONDS_PER_SLOT=6 -d:SHARD_COUNT=8 -d:SLOTS_PER_EPOCH=64" \
+export NIMFLAGS="-d:release -d:SECONDS_PER_SLOT=6 -d:SHARD_COUNT=64 -d:SLOTS_PER_EPOCH=64" \
 && make beacon_node validator_keygen
 ```
 
@@ -62,16 +62,50 @@ createTestnet \
 
 Running the above command will result in two new files being created. In my case `$HOME/testnets/custom-network/genesis.json` and `$HOME/testnets/custom-network/custom-network.json`.
 
-We are now ready to connect and to share these files with those who would connect to us. Please note that in order to allow others to connect to you, you need to open the port you chose manually on your router and firewall for as long as Nimbus doesn't yet have UPnP implemented. If you're hosting your bootnode on something like DigitalOcean or AWS, there are firewall controls there that are quite intuitive. For your own local computer, please consult your router's manual on how to do that.
-
-The `genesis.json` file is the starting state, "block 0" of your testnet beacon chain. It contains the listed validators, initial shufflings, and everything the system needs in order to have the clients connecting to the network build on the same foundation. The `custom-network.json` file is the "metadata" file of your new network - it has identified your node, the one this file was generated with - as the bootstrap node and included its enode address under `bootstrapNodes`, along with the other required data and the root of the genesis. You can host these two files on a server somewhere or in a [Github Gist](https://gist.github.com) anyone grabbing them will be able to join your network if they execute the command:
+Because these files that were generated are made for others joining you, we need to make a copy of the `custom-network` file so that we can launch our node, the bootstrap node.
 
 ```bash
-./build/beacon_node --network=$HOME/testnets/custom-network/custom-network.json --stateSnapshot=$HOME/testnets/custom-network/genesis.json --tcpPort=34001 --udpPort=34001
+cp $HOME/testnets/custom-network/custom-network.json $HOME/testnets/custom-network/custom-network_boot.json
 ```
 
-However, they MUST first build their beacon node with the same parameters you did in the beginning of this setup.
+Then open this new file and delete the `bootstrapNodes` object, all of it. If you don't, the node you run will try to connect to a bootstrap node that is effectively its-not-yet-running-self. Without the `bootstrapNodes` part, the node just _runs_ so others can connect _to_ it.
 
-Congrats, you have a custom Nimbus testnet up and running!
+We are now ready to connect and to share these files with those who would connect to us.
+
+The `genesis.json` file is the starting state, "block 0" of your testnet beacon chain. It contains the listed validators, initial shufflings, and everything the system needs in order to have the clients connecting to the network build on the same foundation. 
+
+The `custom-network.json` file is the "metadata" file of your new network - it has identified your node, the one this file was generated with - as the bootstrap node and included its enode address under `bootstrapNodes`, along with the other required data and the root of the genesis. 
+
+Let's run the original node now.
+
+```bash
+./build/beacon_node --network=$HOME/testnets/custom-network/custom-network_boot.json --stateSnapshot=$HOME/testnets/custom-network/genesis.json --tcpPort=34000 --udpPort=34000
+```
+
+You can host `custom-network.json` and `genesis.json` on a server somewhere or in a [Github Gist](https://gist.github.com) so anyone grabbing them will be able to join your network if they execute the command:
+
+```bash
+./build/beacon_node --network=$HOME/testnets/custom-network/custom-network.json --stateSnapshot=$HOME/testnets/custom-network/genesis2.json --tcpPort=34001 --udpPort=34001
+```
+
+Let's run another node on the same machine where the bootstrap node is running. This requires that we create a new data dir, otherwise it'll clash with the current node. Execute the following chain of commands:
+
+```bash
+export DATA_DIR=$HOME/testnets/custom-testnet/node-1 && mkdir -p $DATA_DIR/data && mkdir -p $DATA_DIR/validators && ./build/beacon_node \
+--network=$HOME/testnets/custom-network/custom-network_boot.json \
+--stateSnapshot=$HOME/testnets/custom-network/genesis.json \
+--tcpPort=34000 \
+--udpPort=34000 \
+--dataDir:$DATA_DIR/data \
+--nodename:node1
+```
+
+However, they MUST first build their beacon node with the same parameters you did in the beginning of this setup:
+
+```bash
+export NIMFLAGS="-d:release -d:SECONDS_PER_SLOT=6 -d:SHARD_COUNT=64 -d:SLOTS_PER_EPOCH=64" && make beacon_node
+```
+
+Congrats, you have a custom Nimbus testnet up and running! Host those startup files somewhere, distribute some validator keys, and others can join your testnet!
 
 [![Screenshot-from-2019-03-29-21-25-15](https://our.status.im/content/images/2019/03/Screenshot-from-2019-03-29-21-25-15.png)](https://our.status.im/content/images/2019/03/Screenshot-from-2019-03-29-21-25-15.png)
