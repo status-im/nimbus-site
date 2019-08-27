@@ -27,6 +27,7 @@ To run Nimbus in Ethereum 1.0 mode:
 
 ```bash
 make nimbus
+make test
 ./build/nimbus
 ```
 
