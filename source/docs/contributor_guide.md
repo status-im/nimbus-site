@@ -5,7 +5,7 @@ title: Contributor Guide
 
 # How to help with funding
 
-We have a donation box set up at address 0x6CC55c39f51a2Da7D2DB5F2c4AAD133eb1418C4f.
+We have a donation box set up at address: 0x70E47C843E0F6ab0991A3189c28F2957eb6d3842
 
 We use funds from donations to:
 
@@ -13,7 +13,7 @@ We use funds from donations to:
 - fund audits of our production code
 - fund hardware on which to build Nimbus for you, from Raspberry Pis to feature phones
 
-If you'd like to donate a conditional amount, i.e. one that depends on a certain milestone or deadline, please [get in touch](mailto:bruno@status.im).
+If you'd like to donate a conditional amount, i.e. one that depends on a certain milestone or deadline, please [get in touch](mailto:jacek@status.im).
 
 # How To Get Involved with Nimbus' development 
 
@@ -48,5 +48,5 @@ Whatever you might expect to see in other projects applies here:
 - be nice to others
 - when evaluating PRs, focus exclusively on the quality of the code
 - if submitting code, make sure it's tested. All code MUST come with tests. To speed up the review, ping a [team member](/docs/team).
-- if submitting typo fixes or documentation changes, speed up the review process by pinging a team member. [Swader](https://github.com/swader) will usually review those very quickly.
-- if submitting a tutorial for inclusion on the [official blog](https://our.status.im/tag/nimbus), also feel free to ping [Swader](https://github.com/swader).
+- if submitting typo fixes or documentation changes, speed up the review process by pinging a team member. [arnetheduck](https://github.com/arnetheduck) will usually review those very quickly.
+- if submitting a tutorial for inclusion on the [official blog](https://our.status.im/tag/nimbus), also feel free to ping [arnetheduck](https://github.com/arnetheduck).

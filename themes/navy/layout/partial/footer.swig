@@ -11,7 +11,7 @@
                     <li class="footer-link footer-link--gh"><a href="https://github.com/status-im/nimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Github</span></a></li>
                     <li class="footer-link footer-link--rd"><a href="https://www.reddit.com/r/statusim/" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Reddit</span></a></li>
                     <li class="footer-link footer-link--yt"><a href="https://www.youtube.com/statusim" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">YouTube</span></a></li>
-                    <li class="footer-link"><a href="https://etherscan.io/address/0x6CC55c39f51a2Da7D2DB5F2c4AAD133eb1418C4f" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Donate to 0x6CC55c39f51a2Da7D2DB5F2c4AAD133eb1418C4f</span></a></li>
+                    <li class="footer-link"><a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Donate to 0x70E47C843E0F6ab0991A3189c28F2957eb6d3842</span></a></li>
                   </ul>
                 </div>
 
