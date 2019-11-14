@@ -20,7 +20,7 @@
                     <li class="footer-link"><a href="/contribute/" target="_blank">Github</a></li>
                     <li class="footer-link"><a href="https://our.status.im/" target="_blank">Blog</a></li>
                     <li class="footer-link"><a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842" target="_blank">Donate</a></li>                    
-                    <li class="footer-link"><a href="/privacy-policy.html" target="_blank">Privacy Policy</a></li>
+                    <li class="footer-link"><a href="https://www.iubenda.com/privacy-policy/94457202" target="_blank">Privacy Policy</a></li>
                   </ul>
                 </div>
 
