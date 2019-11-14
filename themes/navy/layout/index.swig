@@ -10,7 +10,7 @@
     </div>
 </div>
 <div class="home-wrap">
-    <div class="section-header section-header--main">
+    <div id="about" class="section-header section-header--main">
         <h2 id="top-header">Research for Scale️️</h2>
         <p>Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices, including older smartphones with resource-restricted hardware.
         </p>
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <div class="sections">
+    <div id="contribute" class="sections">
         <div class="inner-header">
             <h2>Contribute</h2>
             <p>Nimbus is an open source initiative in which anyone can get involved. There are a number of ways to contribute:</p>
@@ -83,7 +83,7 @@
                     <span><a href="https://get.status.im/chat/public/status-nimbus"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
         </div>
-        <div class="inner-header">
+        <div id="team" class="inner-header">
             <h2>Core Contributors</h2>
             <p>We’re a diverse group of researchers, engineers, and scientists with a passion for web3 technologies. We work primarily in Nim.</p>
         </div>

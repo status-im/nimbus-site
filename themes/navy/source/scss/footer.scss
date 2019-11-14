@@ -132,7 +132,6 @@ a.footer-logo:hover {
   border-radius: 50%;
   margin: 0 15px 0 0;
   background-repeat: no-repeat;
-  background-size: 24px;
   background-position: center;
 }
 
@@ -144,21 +143,21 @@ a.footer-logo:hover {
   background-image: url(../img/icon_tw.svg);
 }
 
+.footer-link--gt .footer-icon {
+  background-image: url(../img/icon-gitter.svg);
+}
 
-.footer-link--ri .footer-icon {
-  background-image: url(../img/icon_ri.svg);
+.footer-link--dc .footer-icon {
+  background-image: url(../img/icon_discord.svg);
+  background-size: 70%;
+}
+
+.footer-link--st .footer-icon {
+  background-image: url(../img/footer-logo.svg);
 }
 
 .footer-link--gh .footer-icon {
   background-image: url(../img/icon_gh.svg);
-}
-
-.footer-link--rd .footer-icon {
-  background-image: url(../img/icon_rd.svg);
-}
-
-.footer-link--yt .footer-icon {
-  background-image: url(../img/icon_yt.svg);
 }
 
 .footer-link a {

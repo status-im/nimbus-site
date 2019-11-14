@@ -9,9 +9,18 @@
 	margin: 24px 0 0 -600px;
 }
 
+html {
+	scroll-behavior:smooth
+}
+
 .header-left {
 	display: flex;
 	align-items: center;
+}
+
+.header-logos {
+	display: flex;
+	list-style: none;
 }
 
 .header-right {
@@ -23,7 +32,7 @@
 	display: block;
 	width: 146px;
 	height: 56px;
-	background-image: url(../img/status-logo.svg);
+	background-image: url(../img/Nimbus_logo_white.png);
 	background-size: 146px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -41,6 +50,36 @@
 
 	visibility: hidden;
 	pointer-events: none;
+}
+
+
+.header-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin: 0 25px 0 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-link--gh .header-icon {
+  background-image: url(../img/icon_gh.svg);
+  background-size: 80%;
+}
+
+.header-link--tw .header-icon {
+  background-image: url(../img/icon_tw.svg);
+  background-size: 80%;
+}
+
+.header-link--gt .header-icon {
+  background-image: url(../img/icon-gitter.svg);
+}
+
+.header-link--st .header-icon {
+  background-image: url(../img/footer-logo.svg);
 }
 
 .mobile-nav-wrap.mobile-nav--shown {
@@ -140,11 +179,11 @@
 .main-nav {
 	display: flex;
 	align-items: center;
-	margin-left: 32px;
+	margin-left: 80px;
 }
 
 .main-nav li {
-	margin: 16px 12px 12px 12px;
+	margin: 16px 30px 12px 30px;
 }
 
 .main-nav li.item--dropdown{

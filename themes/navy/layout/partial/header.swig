@@ -4,7 +4,12 @@
         {{ partial('partial/header-nav') }}
     </div>
     <div class="header-right">
-        <a href="http://get.status.im/chat/public/status-nimbus" class="button button--secondary" style="margin-right: 8px">Nimbus Status Chat</a>
+        <ul class="header-logos">
+            <li class="header-link header-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--gh"><a href="https://github.com/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--st"><a href="https://get.status.im/chat/public/nimbus-general" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+        </ul>
     </div>
 </div>
 
@@ -27,7 +32,7 @@
             <li><a href="https://status.im/contribute/" class="">Contribute</a></li>
         </ul>
         <div class="mobile-nav-footer">
-            <a href="http://get.status.im/chat/public/status-nimbus" class="button button--orange">Nimbus Status Chat</a>
+            <a href=" https://get.status.im/chat/public/nimbus-general" class="button button--orange">Nimbus Status Chat</a>
         </div>
         <header class="dropdown">
             <nav>
