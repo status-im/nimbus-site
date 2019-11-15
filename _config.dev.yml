@@ -22,7 +22,7 @@ deploy:
   repo: git@github.com:status-im/nimbus.status.im.git
 
 theme_config:
-    favicon: img/logo-32.png
+    favicon: img/favicon.png
 
 highlight:
   enable: true

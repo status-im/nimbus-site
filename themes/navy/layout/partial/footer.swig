@@ -3,7 +3,7 @@
 
               <div class="footer-table">
 
-                <div class="footer-table__column">
+                <div class="footer-table__column margin-top-15">
                   <p class="footer-header">Social links</p>
                   <ul class="footer-list">
                     <li class="footer-link footer-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Gitter</span></a></li>
@@ -13,7 +13,7 @@
                   </ul>
                 </div>
 
-                <div class="footer-table__column">
+                <div class="footer-table__column margin-top-15">
                   <p class="footer-header">More</p>
                   <ul class="footer-list">
                     <li class="footer-link"><a href="https://status.im/docs/" target="_blank">Docs</a></li>
@@ -24,19 +24,19 @@
                   </ul>
                 </div>
 
-                <div class="footer-table__column">
-                  <p class="footer-header"> We are Part of the Status Network </p>
+                <div class="footer-table__column mobile-margin extend-width">
+                  <p class="footer-header status-network"> The Status Network </p> <img src="/img/footer-logo.svg" width="30px" class="status-logo" alt="Status Logo">
+                    <ul class="footer-project">
+                      <li class="footer-link"><a href="https://status.im/" target="_blank">Status</a></li>
+                      <li class="footer-link"><a href="https://keycard.status.im/" target="_blank">Keycard</a></li>
+                      <li class="footer-link"><a href="https://dap.ps/"  target="_blank">dap.ps</a></li> 
+                      <li class="footer-link"><a href="https://embark.status.im/" class="margin-left" target="_blank">Embark</a></li>                                                               
+                      <li class="footer-link"><a href="https://subspace.status.im/" class="margin-left" target="_blank">Subspace</a></li>               
+                      <li class="footer-link"><a href="https://vac.dev/" class="margin-left" target="_blank">Vac</a></li>
+                  </ul>
                 </div>
 
               </div>
           
-          
-          <div class="footer-logo-wrap">
-            <div class="footer-logo-wrap__inner">
-              <a class="footer-logo" href="https://status.im" target="_blank"></a>
-              <div class="footer-address secondary-text">Status Research & Development GmbH<br/>Baarerstrasse 10<br/>Zug, Switzerland</div>
-            </div>
-          </div>
-
         </div>
       </div>
