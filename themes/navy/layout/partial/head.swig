@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">    
   <script type="text/javascript">
-    document.write("<base href='http://" + document.location.host + "' />");
+    document.write("<base href='" + location.protocol + "//" + document.location.host + "' />");
   </script>
   <!-- Canonical links -->
   <link rel="canonical" href="{{ url }}">
