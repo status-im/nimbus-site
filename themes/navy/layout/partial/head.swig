@@ -3,9 +3,9 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ config.title }}</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <script type="text/javascript">
+  <script type="text/javascript">
     document.write("<base href='http://" + document.location.host + "' />");
-    </script>
+  </script>
   <!-- Canonical links -->
   <link rel="canonical" href="{{ url }}">
   <!-- Alternative links -->
