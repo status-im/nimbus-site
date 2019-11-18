@@ -136,14 +136,7 @@
                     <a href="https://github.com/tersec">See Github profile</a>
                     <span><a href="https://github.com/tersec"><img src="../img/arrow_ogn.png" /></a></span></p>
             </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/bruno.jpg" />
-                <h3>Bruno Skvorc</h3>
-                <p><a href="https://get.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276" style="color: #939ba1;">Sarcastic General BlackRussianTerrier</a></p>
-                <p><a href="https://github.com/swader">See Github profile</a>
-                    <span><a href="https://github.com/swader"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
+
             <div class="contribute">
                 <img class="contributor" src="../img/stefan.jpg" />
                 <h3>Ștefan Talpalaru</h3>

@@ -30,9 +30,6 @@ Zahary is member of the core compiler team of the Nim programming language. He j
 
 Dustin is the team's Pure Quickwitted Indianglassfish.
 
-### [Bruno Skvorc](https://bruno.id)
-
-Bruno is the technical writer and team's DX guy. He's been in blockchain for 3 years after 15 years of web. His passion for decentralization and forwarding the world's truly censorship-free internet is what drove him to Nimbus. What little free time he has, he tries to spend on sports, board games and VR. You can add him on Oculus and Steam as theswader.
 
 ### [Ștefan Talpalaru](https://github.com/stefantalpalaru)
 
