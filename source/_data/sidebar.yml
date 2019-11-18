@@ -1,15 +1,15 @@
 docs:
   Nimbus:
-    introduction: index.html
-    building: building.html
+    introduction: /docs/index.html
+    building: /docs/building.html
 #    milestones: milestones.html
-    design: design.html
+    design: /docs/design.html
     # team: team.html
-    faq: faq.html
-    contributor_guide: contributor_guide.html
+    faq: /docs/faq.html
+    contributor_guide: /docs/contributor_guide.html
   Guides:
-    Ethereum 1: eth1.html
-    Testnet 0: t0.html
-    Testnet 1: t1.html
-    Custom Testnet: custom-nimbus-testnet.html
+    Ethereum 1: /docs/eth1.html
+    Testnet 0: /docs/t0.html
+    Testnet 1: /docs/t1.html
+    Custom Testnet: /docs/custom-nimbus-testnet.html
     

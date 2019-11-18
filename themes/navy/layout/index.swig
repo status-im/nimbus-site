@@ -148,15 +148,15 @@
             <div class="contribute">
                 <img class="contributor" src="../img/kdeme_moot.png" />
                 <h3>Kim De Mey</h3>
-                <p><a href="https://get.status.im/" style="color: #939ba1;">? ? ?</a></p>
+                <p><a href="https://get.status.im/" style="color: #939ba1;"></a></p>
                 <p><a href="https://github.com/kdeme">See Github profile</a>
                     <span><a href="https://github.com/kdeme"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
         </div>
         <div class="inner-header">
-            <h2>Read our Blog</h2>
-            <p>Check out the latest Nimbus news and blog posts:</p>
+            <h2>Read our News</h2>
+            <p>Check out the latest Nimbus news:</p>
         </div>
         <div class="contribute-wrap contribute-wrap-blog">
         </div>
