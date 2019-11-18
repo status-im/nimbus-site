@@ -1,138 +1,77 @@
-var gulp = require('gulp')
-var log = require('fancy-log')
-var source = require('vinyl-source-stream')
-var babelify = require('babelify')
-var watchify = require('watchify')
-var exorcist = require('exorcist')
-var browserify = require('browserify')
-var browserSync = require('browser-sync').create()
-var sass = require('gulp-sass')
-var imagemin = require('gulp-imagemin')
-var Hexo = require('hexo');
-var runSequence = require('run-sequence');
-var minify = require('gulp-minify');
-let cleanCSS = require('gulp-clean-css');
-var rename = require("gulp-rename");
+const log = require('fancy-log')
+const gulp = require('gulp')
+const sass = require('gulp-sass')
+const rename = require("gulp-rename")
+const cleanCSS = require('gulp-clean-css')
+const rollup = require('gulp-better-rollup')
+const terser = require('rollup-plugin-terser').terser
+const browserSync = require('browser-sync').create()
+const Hexo = require('hexo')
+const runSequence = require('run-sequence')
 
-const gitBranch = require('./scripts/git-branch');
-
-// generate html with 'hexo generate'
-var hexo = new Hexo(process.cwd(), {});
+const gitBranch = require('./scripts/git-branch')
 
 const getEnv = function () {
     return gitBranch() == 'master' ? 'prod' : 'dev'
 }
 
-gulp.task('generate', function(cb) {
+gulp.task('generate', (cb) => {
     var hexo = new Hexo(process.cwd(), {
         config: `_config.${getEnv()}.yml`,
         watch: false,
-    });
+    })
 
     hexo.init().then(function() {
-        return hexo.call('generate');
+        return hexo.call('generate')
     }).then(function() {
-        return hexo.exit();
+        return hexo.exit()
     }).then(function() {
         return cb()
     }).catch(function(err) {
-        console.log(err);
-        hexo.exit(err);
-        return cb(err);
+        console.log(err)
+        hexo.exit(err)
+        return cb(err)
     })
 })
 
-var config = {
-    paths: {
-        src: {
-            scss: './themes/navy/source/scss/*.scss',
-            js: [
-        './themes/navy/source/js/utils.js',
-        './themes/navy/source/js/popups.js',
-        './themes/navy/source/js/main.js',
-      ]
-        },
-        dist: {
-            css: './public/css',
-            js: './public/js'
-        }
-    }
-}
+gulp.task('bundle', () => (
+    gulp.src('js/main.js')
+        .on('error', log.error)
+        .pipe(rollup({ plugins: [terser()] }, 'iife'))
+        .pipe(rename("main.min.js"))
+        .pipe(gulp.dest('public/js'))
+))
 
-// Watchify args contains necessary cache options to achieve fast incremental bundles.
-// See watchify readme for details. Adding debug true for source-map generation.
-watchify.args.debug = true
-// Input file.
-var bundler = watchify(browserify(config.paths.src.js, watchify.args))
+gulp.task('sass', () => (
+    gulp.src("./themes/navy/source/scss/main.scss")
+        .on('error', log.error)
+        .pipe(sass())
+        .pipe(gulp.dest('./public/css'))
+        .pipe(browserSync.stream())
+))
 
-// Babel transform
-bundler.transform(
-    babelify.configure({
-        sourceMapRelative: './themes/navy/source/js/'
-    })
-)
-
-// On updates recompile
-bundler.on('update', bundle)
-
-function bundle() {
-    log('Compiling JS...')
-
-    return bundler
-        .bundle()
-        .on('error', function(err) {
-            log(err.message)
-            browserSync.notify('Browserify Error!')
-            this.emit('end')
-        })
-        .pipe(exorcist('./themes/navy/source/js/vendor.js.map'))
-        .pipe(source('vendor.js'))
-        .pipe(gulp.dest('./themes/navy/source/js'))
-        .pipe(browserSync.stream({ once: true }))
-}
-
-gulp.task('compress', ['sass'], function() {
-    gulp.src('./themes/navy/source/js/vendor.js')
-        .pipe(minify({
-            ext: {
-                min: '.min.js'
-            },
-        }))
-        .pipe(gulp.dest('./public/js/'))
-
+gulp.task('css', ['sass'], () => (
     gulp.src('./public/css/main.css')
+        .on('error', log.error)
         .pipe(cleanCSS())
         .pipe(rename("main.min.css"))
-        .pipe(gulp.dest('./public/css/'));
-});
+        .pipe(gulp.dest('./public/css/'))
+))
 
-gulp.task('bundle', function() {
-    return bundle()
-})
+gulp.task('watch', () => (
+    gulp.watch('./themes/navy/source/scss/*.scss', ['css'])
+))
 
-gulp.task('sass', function() {
-    return gulp.src("./themes/navy/source/scss/main.scss")
-        .pipe(sass())
-        .on('error', log)
-        .pipe(gulp.dest(config.paths.dist.css))
-        .pipe(browserSync.stream())
-})
+gulp.task('exit', () => (
+    process.exit(0)
+))
 
-gulp.task('watch', function() {
-    gulp.watch(config.paths.src.scss, ['compress'])
-});
+gulp.task('build', () => (
+    runSequence('generate', 'bundle', 'css', 'watch')
+))
 
-gulp.task('build', function(cb) {
-    runSequence('generate', 'compress', 'bundle', 'watch')
-});
-
-gulp.task('exit', function(cb) {
-    process.exit(0);
-});
-
-gulp.task('run', function(cb) {
-    runSequence('generate', 'compress', 'bundle', 'exit')
-    
-});
+gulp.task('run', () => (
+    runSequence('generate', 'bundle', 'css')
+))
 
 gulp.task('default', [])

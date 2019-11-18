@@ -18,7 +18,7 @@
         <a class="logo" href="/"></a>
         <a class="icon-close mobile-nav-close" href="#"></a>
         <ul class="mobile-nav">
-            <li><a href="https://our.status.im/tag/nimbus/">Blog</a></li>
+            <li><a href="https://news.nimbus.team/">News</a></li>
             <li><a href="/docs">Docs</a></li>
             <li class="item--dropdown item--to-show">
               <span>Projects</span>
@@ -40,9 +40,4 @@
             </nav>
         </header>
     </div>
-    <div class="popup-overlay"></div>
 </div>
-
-{{ partial('partial/community-popup') }}
-
-{{ partial('partial/projects-popup') }}
