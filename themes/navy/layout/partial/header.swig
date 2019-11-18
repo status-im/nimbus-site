@@ -24,9 +24,9 @@
               <span>Projects</span>
               <ul class="mobile-sub-nav">
                 <li><a href="https://incubate.status.im/" class="">Incubate</a></li>
-                <li><a href="https://nimbus.status.im/" class="">Nimbus</a></li>
+                <li><a href="https://nimbus.team/" class="">Nimbus</a></li>
                 <li><a href="https://embark.status.im/" class="">Embark</a></li>
-                <li><a href="https://hardwallet.status.im/" class="">Hardwallet</a></li>
+                <li><a href="https://keycard.tech/" class="">Hardwallet</a></li>
               </ul>
             </li>
             <li><a href="https://status.im/contribute/" class="">Contribute</a></li>

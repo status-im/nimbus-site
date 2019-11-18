@@ -21,7 +21,7 @@
                             <h4>Nimbus</h4>
                             <p class="secondary-text">A research project and light client for Ethereum 2.0 designed to perform well on embedded systems and resource-restricted hardware.</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://nimbus.status.im" class="link-arrow">Learn more</a></div>
+                        <div class="card-community-more__link"><a href="https://nimbus.team/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
                 <div class="card">
@@ -30,7 +30,7 @@
                             <h4>Keycard</h4>
                             <p class="secondary-text">A hardware wallet in the form of a card with a safe, contactless transaction experience</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://hardwallet.status.im/" class="link-arrow">Learn more</a></div>
+                        <div class="card-community-more__link"><a href="https://keycard.tech/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
             </div>

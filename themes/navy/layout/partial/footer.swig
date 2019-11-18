@@ -28,7 +28,7 @@
                   <p class="footer-header status-network"> The Status Network </p> <img src="/img/footer-logo.svg" width="30px" class="status-logo" alt="Status Logo">
                     <ul class="footer-project">
                       <li class="footer-link"><a href="https://status.im/" target="_blank">Status</a></li>
-                      <li class="footer-link"><a href="https://keycard.status.im/" target="_blank">Keycard</a></li>
+                      <li class="footer-link"><a href="https://keycard.tech/" target="_blank">Keycard</a></li>
                       <li class="footer-link"><a href="https://dap.ps/"  target="_blank">dap.ps</a></li> 
                       <li class="footer-link"><a href="https://embark.status.im/" class="margin-left" target="_blank">Embark</a></li>                                                               
                       <li class="footer-link"><a href="https://subspace.status.im/" class="margin-left" target="_blank">Subspace</a></li>               
