@@ -29,7 +29,9 @@
                     <ul class="footer-project">
                       <li class="footer-link"><a href="https://status.im/" target="_blank">Status</a></li>
                       <li class="footer-link"><a href="https://keycard.tech/" target="_blank">Keycard</a></li>
-                      <li class="footer-link"><a href="https://dap.ps/"  target="_blank">dap.ps</a></li> 
+                      <li class="footer-link"><a href="https://dap.ps/"  target="_blank">dap.ps</a></li>
+                      <li class="footer-link"><a href="https://teller.exchange/" target="_blank">Teller</a></li>
+                      <li class="footer-link"><a href="https://assemble.fund/" class="margin-left" target="_blank">Assemble</a></li>
                       <li class="footer-link"><a href="https://embark.status.im/" class="margin-left" target="_blank">Embark</a></li>                                                               
                       <li class="footer-link"><a href="https://subspace.status.im/" class="margin-left" target="_blank">Subspace</a></li>               
                       <li class="footer-link"><a href="https://vac.dev/" class="margin-left" target="_blank">Vac</a></li>
