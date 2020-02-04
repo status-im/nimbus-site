@@ -6,8 +6,8 @@
                 <div class="footer-table__column margin-top-15">
                   <p class="footer-header">Social links</p>
                   <ul class="footer-list">
-                    <li class="footer-link footer-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Gitter</span></a></li>
                     <li class="footer-link footer-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Twitter</span></a></li>
+                    <li class="footer-link footer-link--gh"><a href="https://github.com/status-im/nimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Github</span></a></li>
                     <li class="footer-link footer-link--dc"><a href="https://discord.gg/XRxWahP" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Discord</span></a></li>                    
                     <li class="footer-link footer-link--st"><a href="https://get.status.im/chat/public/nimbus-general" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Status</span></a></li>
                   </ul>
@@ -17,7 +17,6 @@
                   <p class="footer-header">More</p>
                   <ul class="footer-list">
                     <li class="footer-link"><a href="https://status.im/docs/" target="_blank">Docs</a></li>
-                    <li class="footer-link"><a href="/contribute/" target="_blank">Github</a></li>
                     <li class="footer-link"><a href="https://news.nimbus.team/" target="_blank">News</a></li>
                     <li class="footer-link"><a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842" target="_blank">Donate</a></li>                    
                     <li class="footer-link"><a href="https://www.iubenda.com/privacy-policy/94457202" target="_blank">Privacy Policy</a></li>

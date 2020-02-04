@@ -7,7 +7,7 @@
         <ul class="header-logos">
             <li class="header-link header-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
             <li class="header-link header-link--gh"><a href="https://github.com/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
-            <li class="header-link header-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--dc"><a href="https://discord.gg/XRxWahP" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
             <li class="header-link header-link--st"><a href="https://get.status.im/chat/public/nimbus-general" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
         </ul>
     </div>
