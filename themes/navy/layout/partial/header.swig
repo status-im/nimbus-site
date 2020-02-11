@@ -8,7 +8,7 @@
             <li class="header-link header-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
             <li class="header-link header-link--gh"><a href="https://github.com/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
             <li class="header-link header-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
-            <li class="header-link header-link--st"><a href="https://get.status.im/chat/public/nimbus-general" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--st"><a href="https://join.status.im/chat/public/nimbus-general" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
         </ul>
     </div>
 </div>
@@ -32,7 +32,7 @@
             <li><a href="https://status.im/contribute/" class="">Contribute</a></li>
         </ul>
         <div class="mobile-nav-footer">
-            <a href=" https://get.status.im/chat/public/nimbus-general" class="button button--orange">Nimbus Status Chat</a>
+            <a href=" https://join.status.im/chat/public/nimbus-general" class="button button--orange">Nimbus Status Chat</a>
         </div>
         <header class="dropdown">
             <nav>
