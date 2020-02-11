@@ -9,7 +9,7 @@
                     <li class="footer-link footer-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Gitter</span></a></li>
                     <li class="footer-link footer-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Twitter</span></a></li>
                     <li class="footer-link footer-link--dc"><a href="https://discord.gg/XRxWahP" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Discord</span></a></li>                    
-                    <li class="footer-link footer-link--st"><a href="https://get.status.im/chat/public/nimbus-general" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Status</span></a></li>
+                    <li class="footer-link footer-link--st"><a href="https://join.status.im/chat/public/nimbus-general" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Status</span></a></li>
                   </ul>
                 </div>
 
