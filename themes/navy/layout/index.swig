@@ -88,71 +88,16 @@
             <p>We’re a diverse group of researchers, engineers, and scientists with a passion for web3 technologies. We work primarily in Nim.</p>
         </div>
         <div class="contribute-wrap">
+            {% for member in site.data.team %}
             <div class="contribute">
-                <img class="contributor" src="../img/cheatfate.jpg" />
-                <h3>Yevhen Kabanov</h3>
-                <p><a href="https://join.status.im/user/0x04f05d31956e9c918c35c30defe1ab69bc693d27eb3f79d619c3ba4f9f044b2349a79fb38e3a614ce9af1286910aa19bf24b53c18d48e10657cbf615a380928f6e" style="color: #939ba1;">Fluid Stimulating Puma</a></p>
-                <p><a href="https://github.com/cheatfate">See Github profile</a>
-                    <span><a href="https://github.com/cheatfate"><img src="../img/arrow_ogn.png" /></a></span>
+                <img class="contributor" src="{{ member.image }}" />
+                <h3>{{ mamber.name }}</h3>
+                <p><a href="{{ member.statusLink }}" style="color: #939ba1;">{{ member.statusName }}</a></p>
+                <p><a href="{{ member.gitHubLink }}">See Github profile</a>
+                    <span><a href="{{ member.gitHubLink }}"><img src="../img/arrow_ogn.png" /></a></span>
                 </p>
             </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/jacek.jpg" />
-                <h3>Jacek Sieka</h3>
-                <p><a href="https://join.status.im/user/0x049bc24b377c7e97bb94ab993e48fcbfe38f96aad43a42418d7f33f5a99f6f89e2af91875bfe045205771f28c93be50380cdfe5772201fde7019d57f7ead9af9b5" style="color: #939ba1;">Piercing Double Honeyeater</a></p>
-                <p><a href="https://github.com/arnetheduck">See Github profile</a>
-                    <span><a href="https://github.com/arnetheduck"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/mamy.jpg" />
-                <h3>Mamy Ratsimbazafy</h3>
-                <p><a href="https://join.status.im/user/0x04d01118c9cbcf4f9d326c1185bff110d36c96890a37cc47e7ce91e8b53ccc088d9df8c828c0669fb97831502113c1195bb17f1ea25fbccffee6a7fb9e30782a82" style="color: #939ba1;">Damp Soulful Allensbigearedbat</a></p>
-                <p><a href="https://github.com/mratsim">See Github profile</a>
-                    <span><a href="https://github.com/mratsim"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/zahary.jpg" />
-                <h3>Zahary Karadjov</h3>
-                <p><a href="https://join.status.im/user/0x049004fb151893f7112d754d92c650d6d35f8151ec0eff1c148812f8741474f7f8906436e782432680b40e96a2549c03d3dd7801c50928c2bf15d56f6d7d2e1246" style="color: #939ba1;">Useless Gainsboro Serpent</a></p>
-                <p><a href="https://github.com/zah">See Github profile</a>
-                    <span><a href="https://github.com/zah"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/yuriy.jpg" />
-                <h3>Yuriy Glukhov</h3>
-                <p><a href="https://join.status.im/user/0x0483b5849fddb5c85ef69ebdd7bdf57a87eabc5971736d7e2ff5deea210632dac09dbd82df0f2bbf722cc626f867d0c312b9adb9db3f7be81a5d008c25424ce22d" style="color: #939ba1;">Quarrelsome Lightgoldenrodyellow Anaconda</a></p>
-                <p><a href="https://github.com/yglukhov">See Github profile</a>
-                    <span><a href="https://github.com/yglukhov"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/tersec_moot.png" />
-                <h3>Dustin Brody</h3>
-                <p><a href="https://join.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276" style="color: #939ba1;">Pure Quickwitted Indianglassfish</a></p>
-                <p>
-                    <a href="https://github.com/tersec">See Github profile</a>
-                    <span><a href="https://github.com/tersec"><img src="../img/arrow_ogn.png" /></a></span></p>
-            </div>
-
-            <div class="contribute">
-                <img class="contributor" src="../img/stefan.jpg" />
-                <h3>Ștefan Talpalaru</h3>
-                <p><a href="https://join.status.im/user/0x0479be6aeb209d22f81363d8fc2d199e9cf8edf75731df6d5e4c7f9cb411afaecfd55088e2c8634877203df1f605bf7daaf07245012af2f206d388b80046a0abe8" style="color: #939ba1;">Teeming Frayed Argali</a></p>
-                <p><a href="https://github.com/stefantalpalaru">See Github profile</a>
-                    <span><a href="https://github.com/stefantalpalaru"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
-            <div class="contribute">
-                <img class="contributor" src="../img/kdeme_moot.png" />
-                <h3>Kim De Mey</h3>
-                <p><a href="https://join.status.im/" style="color: #939ba1;"></a></p>
-                <p><a href="https://github.com/kdeme">See Github profile</a>
-                    <span><a href="https://github.com/kdeme"><img src="../img/arrow_ogn.png" /></a></span>
-                </p>
-            </div>
+            {% endfor %}
         </div>
         <div class="inner-header">
             <h2>Read our News</h2>

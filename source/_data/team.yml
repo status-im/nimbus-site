@@ -1,0 +1,48 @@
+---
+- name: "Yevhen Kabanov"
+  image: "/img/cheatfate.jpg"
+  statusLink: "https://join.status.im/user/0x04f05d31956e9c918c35c30defe1ab69bc693d27eb3f79d619c3ba4f9f044b2349a79fb38e3a614ce9af1286910aa19bf24b53c18d48e10657cbf615a380928f6e"
+  statusName: "Fluid Stimulating Puma"
+  gitHubLink: "https://github.com/cheatfate"
+
+- name: "Jacek Sieka"
+  image: "/img/jacek.jpg"
+  statusLink: "https://join.status.im/user/0x049bc24b377c7e97bb94ab993e48fcbfe38f96aad43a42418d7f33f5a99f6f89e2af91875bfe045205771f28c93be50380cdfe5772201fde7019d57f7ead9af9b5"
+  statusName: "Piercing Double Honeyeater"
+  gitHubLink: "https://github.com/arnetheduck"
+
+- name: "Mamy Ratsimbazafy"
+  image: "/img/mamy.jpg"
+  statusLink: "https://join.status.im/user/0x04d01118c9cbcf4f9d326c1185bff110d36c96890a37cc47e7ce91e8b53ccc088d9df8c828c0669fb97831502113c1195bb17f1ea25fbccffee6a7fb9e30782a82"
+  statusName: "Damp Soulful Allensbigearedbat"
+  gitHubLink: "https://github.com/mratsim"
+
+- name: "Zahary Karadjov"
+  image: "/img/zahary.jpg"
+  statusLink: "https://join.status.im/user/0x049004fb151893f7112d754d92c650d6d35f8151ec0eff1c148812f8741474f7f8906436e782432680b40e96a2549c03d3dd7801c50928c2bf15d56f6d7d2e1246"
+  statusName: "Useless Gainsboro Serpent"
+  gitHubLink: "https://github.com/zah"
+
+- name: "Yuriy Glukhov"
+  image: "/img/yuriy.jpg"
+  statusLink: "https://join.status.im/user/0x0483b5849fddb5c85ef69ebdd7bdf57a87eabc5971736d7e2ff5deea210632dac09dbd82df0f2bbf722cc626f867d0c312b9adb9db3f7be81a5d008c25424ce22d"
+  statusName: "Quarrelsome Lightgoldenrodyellow Anaconda"
+  gitHubLink: "https://github.com/yglukhov"
+
+- name: "Dustin Brody"
+  image: "/img/tersec_moot.png"
+  statusLink: "https://join.status.im/user/0x04ec0447abf1a0f7308b1acd52d0c4db6ebf287f7aea4588ff3a8e943143c4c3852cdf1b89474b829428e9ec1041d9ba47975b6154f970bf13f2ea2d87707d7276"
+  statusName: "Pure Quickwitted Indianglassfish"
+  gitHubLink: "https://github.com/tersec"
+
+- name: "Ștefan Talpalaru"
+  image: "/img/stefan.jpg"
+  statusLink: "https://join.status.im/user/0x0479be6aeb209d22f81363d8fc2d199e9cf8edf75731df6d5e4c7f9cb411afaecfd55088e2c8634877203df1f605bf7daaf07245012af2f206d388b80046a0abe8"
+  statusName: "Teeming Frayed Argali"
+  gitHubLink: "https://github.com/stefantalpalaru"
+
+- name: "Kim De Mey"
+  image: "/img/kdeme_moot.png"
+  statusLink: ""
+  statusName: ""
+  gitHubLink: "https://github.com/kdeme"
