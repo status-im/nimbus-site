@@ -91,7 +91,7 @@
             {% for member in site.data.team %}
             <div class="contribute">
                 <img class="contributor" src="{{ member.image }}" />
-                <h3>{{ mamber.name }}</h3>
+                <h3>{{ member.name }}</h3>
                 <p><a href="{{ member.statusLink }}" style="color: #939ba1;">{{ member.statusName }}</a></p>
                 <p><a href="{{ member.gitHubLink }}">See Github profile</a>
                     <span><a href="{{ member.gitHubLink }}"><img src="../img/arrow_ogn.png" /></a></span>
