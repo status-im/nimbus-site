@@ -1,15 +1,9 @@
 ---
-- name: "Yevhen Kabanov"
-  image: "/img/cheatfate.jpg"
-  statusLink: "https://join.status.im/user/0x04f05d31956e9c918c35c30defe1ab69bc693d27eb3f79d619c3ba4f9f044b2349a79fb38e3a614ce9af1286910aa19bf24b53c18d48e10657cbf615a380928f6e"
-  statusName: "Fluid Stimulating Puma"
-  gitHubLink: "https://github.com/cheatfate"
-
-- name: "Jacek Sieka"
-  image: "/img/jacek.jpg"
-  statusLink: "https://join.status.im/user/0x049bc24b377c7e97bb94ab993e48fcbfe38f96aad43a42418d7f33f5a99f6f89e2af91875bfe045205771f28c93be50380cdfe5772201fde7019d57f7ead9af9b5"
-  statusName: "Piercing Double Honeyeater"
-  gitHubLink: "https://github.com/arnetheduck"
+- name: "Zahary Karadjov"
+  image: "/img/zahary.jpg"
+  statusLink: "https://join.status.im/user/0x049004fb151893f7112d754d92c650d6d35f8151ec0eff1c148812f8741474f7f8906436e782432680b40e96a2549c03d3dd7801c50928c2bf15d56f6d7d2e1246"
+  statusName: "Nutritious Judicious Flicker"
+  gitHubLink: "https://github.com/zah"
 
 - name: "Mamy Ratsimbazafy"
   image: "/img/mamy.jpg"
@@ -17,17 +11,17 @@
   statusName: "Damp Soulful Allensbigearedbat"
   gitHubLink: "https://github.com/mratsim"
 
-- name: "Zahary Karadjov"
-  image: "/img/zahary.jpg"
-  statusLink: "https://join.status.im/user/0x049004fb151893f7112d754d92c650d6d35f8151ec0eff1c148812f8741474f7f8906436e782432680b40e96a2549c03d3dd7801c50928c2bf15d56f6d7d2e1246"
-  statusName: "Nutritious Judicious Flicker"
-  gitHubLink: "https://github.com/zah"
+- name: "Jacek Sieka"
+  image: "/img/jacek.jpg"
+  statusLink: "https://join.status.im/user/0x049bc24b377c7e97bb94ab993e48fcbfe38f96aad43a42418d7f33f5a99f6f89e2af91875bfe045205771f28c93be50380cdfe5772201fde7019d57f7ead9af9b5"
+  statusName: "Piercing Double Honeyeater"
+  gitHubLink: "https://github.com/arnetheduck"
 
-- name: "Yuriy Glukhov"
-  image: "/img/yuriy.jpg"
-  statusLink: "https://join.status.im/user/0x0483b5849fddb5c85ef69ebdd7bdf57a87eabc5971736d7e2ff5deea210632dac09dbd82df0f2bbf722cc626f867d0c312b9adb9db3f7be81a5d008c25424ce22d"
-  statusName: "Quarrelsome Lightgoldenrodyellow Anaconda"
-  gitHubLink: "https://github.com/yglukhov"
+- name: "Yevhen Kabanov"
+  image: "/img/cheatfate.jpg"
+  statusLink: "https://join.status.im/user/0x04f05d31956e9c918c35c30defe1ab69bc693d27eb3f79d619c3ba4f9f044b2349a79fb38e3a614ce9af1286910aa19bf24b53c18d48e10657cbf615a380928f6e"
+  statusName: "Fluid Stimulating Puma"
+  gitHubLink: "https://github.com/cheatfate"
 
 - name: "Dustin Brody"
   image: "/img/tersec_moot.png"
@@ -46,3 +40,4 @@
   statusLink: ""
   statusName: ""
   gitHubLink: "https://github.com/kdeme"
+
