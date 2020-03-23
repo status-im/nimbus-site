@@ -41,3 +41,8 @@
   statusName: ""
   gitHubLink: "https://github.com/kdeme"
 
+- name: "Giovanni Petrantoni"
+  image: "/img/todo"
+  statusLink: "https://join.status.im/user/0x047e3d1d2fad6abc80b8ef87405c79ef1df7817c157f51f802c5bff2de1779d3b48704ae22648b994642e6c285c5584a10cf9631171011b6df4925b93e0d3e7c75"
+  statusName: "Cylindrical Darling Mastiff"
+  githubLink: "https://github.com/sinkingsugar"
