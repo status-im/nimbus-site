@@ -1,9 +1,10 @@
 const log = require('fancy-log')
 const gulp = require('gulp')
-const sass = require('gulp-sass')
+const gulpSass = require('gulp-sass')
 const rename = require("gulp-rename")
 const cleanCSS = require('gulp-clean-css')
 const rollup = require('gulp-better-rollup')
+const webserver = require('gulp-webserver')
 const terser = require('rollup-plugin-terser').terser
 const browserSync = require('browser-sync').create()
 const Hexo = require('hexo')
@@ -15,7 +16,7 @@ const getEnv = function () {
     return gitBranch() == 'master' ? 'prod' : 'dev'
 }
 
-gulp.task('generate', (cb) => {
+const generate = (done) => {
     var hexo = new Hexo(process.cwd(), {
         config: `_config.${getEnv()}.yml`,
         watch: false,
@@ -26,52 +27,48 @@ gulp.task('generate', (cb) => {
     }).then(function() {
         return hexo.exit()
     }).then(function() {
-        return cb()
+        return done()
     }).catch(function(err) {
         console.log(err)
         hexo.exit(err)
-        return cb(err)
+        return done(err)
     })
-})
+}
 
-gulp.task('bundle', () => (
+const bundle = () =>
     gulp.src('js/main.js')
         .on('error', log.error)
         .pipe(rollup({ plugins: [terser()] }, 'iife'))
         .pipe(rename("main.min.js"))
         .pipe(gulp.dest('public/js'))
-))
 
-gulp.task('sass', () => (
+
+const sass = () =>
     gulp.src("./themes/navy/source/scss/main.scss")
         .on('error', log.error)
-        .pipe(sass())
+        .pipe(gulpSass())
         .pipe(gulp.dest('./public/css'))
         .pipe(browserSync.stream())
-))
 
-gulp.task('css', ['sass'], () => (
+const css = () =>
     gulp.src('./public/css/main.css')
         .on('error', log.error)
         .pipe(cleanCSS())
         .pipe(rename("main.min.css"))
         .pipe(gulp.dest('./public/css/'))
-))
 
-gulp.task('watch', () => (
-    gulp.watch('./themes/navy/source/scss/*.scss', ['css'])
-))
+const devel = () => {
+    gulp.watch('./js/*.js', bundle)
+    gulp.watch(['./source/**/*.{md,yml}', './themes/navy/**/*'], generate)
+    gulp.watch('./themes/navy/source/scss/*.scss', sass, css)
+}
 
-gulp.task('exit', () => (
-    process.exit(0)
-))
+const server = () =>
+  gulp.src('./public').pipe(webserver({livereload: true, open: true}));
 
-gulp.task('build', () => (
-    runSequence('generate', 'bundle', 'css', 'watch')
-))
-
-gulp.task('run', () => (
-    runSequence('generate', 'bundle', 'css')
-))
-
-gulp.task('default', [])
+exports.bundle = bundle
+exports.sass = sass
+exports.css = gulp.series(sass, css)
+exports.devel = gulp.parallel(server, devel)
+exports.build = gulp.parallel(generate, bundle, exports.sass)
+exports.default = exports.build
