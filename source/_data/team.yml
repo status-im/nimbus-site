@@ -37,8 +37,8 @@
 
 - name: "Kim De Mey"
   image: "/img/kdeme_moot.png"
-  statusLink: ""
-  statusName: ""
+  statusLink: "https://join.status.im/user/0x04bdde57301c99af5b61d19a3320a3e73b28929186578cfdfbf4fd2a65e3c090336df3866c15832057f6892f4100c3d7dc6d41cad2cf52e6d66e20c9a41ef2184c"
+  statusName: "Cultivated Careless Sloth"
   gitHubLink: "https://github.com/kdeme"
 
 - name: "Giovanni Petrantoni"
@@ -46,3 +46,9 @@
   statusLink: "https://join.status.im/user/0x047e3d1d2fad6abc80b8ef87405c79ef1df7817c157f51f802c5bff2de1779d3b48704ae22648b994642e6c285c5584a10cf9631171011b6df4925b93e0d3e7c75"
   statusName: "Cylindrical Darling Mastiff"
   githubLink: "https://github.com/sinkingsugar"
+
+- name: "Viktor Kirilov"
+  image: "/img/viktor.jpg"
+  statusLink: "https://join.status.im/user/0x0427fdc3290d711c35c747c282e90737ac05970917ef6cf65cd4b568b7d843103a57f676371bf734ccb82c310d5e1bea33ee236261d3f990d814b29c2ffe342ca7"
+  statusName: "Nimble Powerful Vaquita"
+  gitHubLink: "https://github.com/onqtam"
