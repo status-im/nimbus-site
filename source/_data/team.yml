@@ -52,3 +52,9 @@
   statusLink: "https://join.status.im/user/0x0427fdc3290d711c35c747c282e90737ac05970917ef6cf65cd4b568b7d843103a57f676371bf734ccb82c310d5e1bea33ee236261d3f990d814b29c2ffe342ca7"
   statusName: "Nimble Powerful Vaquita"
   gitHubLink: "https://github.com/onqtam"
+
+- name: "Andri Lim"
+  image: "/img/andri.jpg"
+  statusLink: "https://join.status.im/user/0x045a8d391b5c74fe116e4143a4f9ea80d449ae4f54513043ac2f3b25d4ba2099566578a57d74db424f2feebe45e136113d3b4179505c65b4afa8256ca4ca60e4db"
+  statusName: "Envious Mistyrose Hyracotherium"
+  gitHubLink: "https://github.com/jangko"
