@@ -40,3 +40,9 @@
   statusLink: ""
   statusName: ""
   gitHubLink: "https://github.com/kdeme"
+
+- name: "Viktor Kirilov"
+  image: "/img/viktor.jpg"
+  statusLink: "https://join.status.im/user/0x0427fdc3290d711c35c747c282e90737ac05970917ef6cf65cd4b568b7d843103a57f676371bf734ccb82c310d5e1bea33ee236261d3f990d814b29c2ffe342ca7"
+  statusName: "Nimble Powerful Vaquita"
+  gitHubLink: "https://github.com/onqtam"
