@@ -70,5 +70,5 @@ exports.bundle = bundle
 exports.sass = sass
 exports.css = gulp.series(sass, css)
 exports.devel = gulp.parallel(server, devel)
-exports.build = gulp.parallel(generate, bundle, exports.sass)
+exports.build = gulp.parallel(generate, bundle, exports.css)
 exports.default = exports.build
