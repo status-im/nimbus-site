@@ -41,12 +41,18 @@
   statusName: "Cultivated Careless Sloth"
   gitHubLink: "https://github.com/kdeme"
 
+- name: "Andri Lim"
+  image: "/img/andri.jpg"
+  statusLink: "https://join.status.im/user/0x045a8d391b5c74fe116e4143a4f9ea80d449ae4f54513043ac2f3b25d4ba2099566578a57d74db424f2feebe45e136113d3b4179505c65b4afa8256ca4ca60e4db"
+  statusName: "Envious Mistyrose Hyracotherium"
+  gitHubLink: "https://github.com/jangko"
+
 - name: "Giovanni Petrantoni"
   image: "/img/giovanni.jpg"
   statusLink: "https://join.status.im/user/0x047e3d1d2fad6abc80b8ef87405c79ef1df7817c157f51f802c5bff2de1779d3b48704ae22648b994642e6c285c5584a10cf9631171011b6df4925b93e0d3e7c75"
   statusName: "Cylindrical Darling Mastiff"
   githubLink: "https://github.com/sinkingsugar"
-  
+
 - name: "Tina Lee"
   image: "/img/tina.png"
   statusLink: "https://join.status.im/user/tinaaaaalee.stateofus.eth"
@@ -59,8 +65,3 @@
   statusName: "Nimble Powerful Vaquita"
   gitHubLink: "https://github.com/onqtam"
 
-- name: "Andri Lim"
-  image: "/img/andri.jpg"
-  statusLink: "https://join.status.im/user/0x045a8d391b5c74fe116e4143a4f9ea80d449ae4f54513043ac2f3b25d4ba2099566578a57d74db424f2feebe45e136113d3b4179505c65b4afa8256ca4ca60e4db"
-  statusName: "Envious Mistyrose Hyracotherium"
-  gitHubLink: "https://github.com/jangko"
