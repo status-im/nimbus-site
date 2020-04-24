@@ -65,3 +65,8 @@
   statusName: "Nimble Powerful Vaquita"
   gitHubLink: "https://github.com/onqtam"
 
+- name: "Dmitriy Ryajov"
+  image: "/img/dryajov.jpg"
+  statusLink: "https://join.status.im/user/0x041bee40a44bdd2b0a5cc00a45e3626414194b05ea911c7169b9bcdfa0f8453566212ef982e4b5f9379796e28d9c8befbed26ec6ae2293ab7fcd90656db3d20e51"
+  statusName: "Windy Glass Crayfish"
+  gitHubLink: "https://github.com/dryajov"
