@@ -33,7 +33,7 @@
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lunr": "^2.3.8",
     "rename": "^1.0.4",
     "rollup": "^2.1.0",
