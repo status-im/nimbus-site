@@ -227,10 +227,12 @@ $color-link-hover: lighten($color-link, 10%);
 .article-content {
   line-height: $line-height;
   color: $color-default;
+  max-width: 90% !important;
   @media print {
     font-size: 12pt;
   }
   p, ol, ul, dl, table, blockquote, iframe, .highlight {
+    max-width: 80% !important;
     margin: 1em 0;
   }
   h1 {
@@ -295,7 +297,7 @@ $color-link-hover: lighten($color-link, 10%);
     }
   }
   img, video {
-    max-width: 100%;
+    max-width: 90%;
   }
   blockquote {
     padding: 0 20px;
