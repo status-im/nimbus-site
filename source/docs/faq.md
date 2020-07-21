@@ -5,7 +5,7 @@ title: Frequently Asked Questions
 
 The following questions have been asked more than once by people who are familiar with and new to Ethereum clients:
 
-### Q: When do you expect to have it production-ready?
+### Q: When do you expect Nimbus to be production-ready?
 
 Soon. We've got some network simulations and a [public testnet](https://our.status.im/the-nimbus-mvp-testnet-is-here/) already running for [Ethereum 2.0](https://out.status.im/tag/two-point-oh), and we're syncing up to block 1.5 million on Ethereum 1.0. To stay in the loop, please follow our development updates on [our blog](https://our.status.im/tag/nimbus).
 
