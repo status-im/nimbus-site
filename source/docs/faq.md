@@ -9,9 +9,9 @@ The following questions have been asked more than once by people who are familia
 
 Soon. We've got some network simulations and a [public testnet](https://our.status.im/the-nimbus-mvp-testnet-is-here/) already running for [Ethereum 2.0](https://out.status.im/tag/two-point-oh), and we're syncing up to block 1.5 million on Ethereum 1.0. To stay in the loop, please follow our development updates on [our blog](https://our.status.im/tag/nimbus).
 
-### Q: How is a super-light node different from just calling Infura through Web3js?
+### Q: How is a super-light node different from just calling Infura through web3.js?
 
-A Web3js or any similar JavaScript package for communicating with the blockchain is effectively a more advanced XMLHttpRequest / Fetch wrapper. This means that these packages retrieve information from another node and trust it implicitly. When they ask "has this transaction been confirmed?", they get a response that's either a "yes" or "that transaction is unknown".
+A [web3.js](https://web3js.readthedocs.io) or any similar JavaScript package for communicating with the blockchain is effectively a more advanced [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) / [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) wrapper. This means that these packages retrieve information from another node and trust it implicitly. When they ask "has this transaction been confirmed?", they get a response that's either a "yes" or "that transaction is unknown".
 
 With light nodes, the packages ask to "provide the data to check if this transaction has been confirmed" and then they carry out the checks on their own. This is a trust-minimized setup combining the best of both worlds - it requires very little storage and processing power, while allowing for cryptographic verification of the full node's claims.
 
