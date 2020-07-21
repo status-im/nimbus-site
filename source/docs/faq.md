@@ -3,8 +3,7 @@ id: faq
 title: Frequently Asked Questions
 ---
 
-In talking to people both familiar and complete strangers to Ethereum clients, these questions were asked more than once.
-
+The following questions have been asked more than once by people who are familiar with and new to Ethereum clients:
 
 ### Q: When do you expect to have it production-ready?
 
