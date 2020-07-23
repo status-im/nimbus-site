@@ -64,6 +64,11 @@ html {
   background-position: center;
 }
 
+.header-icon:hover {
+	background-color: rgba(43, 59, 71, 0.124066);
+	color: rgba(255, 255, 255, 1);
+}
+
 .header-link--gh .header-icon {
   background-image: url(../img/icon_gh.svg);
   background-size: 80%;
