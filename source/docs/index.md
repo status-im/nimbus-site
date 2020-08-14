@@ -5,7 +5,7 @@ title: An Ethereum 2.0 Sharding Client
 
 Nimbus aims to be a [sharding](https://eth.wiki/sharding/Sharding-FAQs) client implementation for the Ethereum Blockchain Application Platform. Because the largest deployment of Ethereum will potentially be on embedded systems, Nimbus will be designed to perform well on IoT and personal mobile devices, including older smartphones with resource-restricted hardware. The extensible, configurable, and modular design of Nimbus will make it production ready for Web 3.0 and will ensure that it can be supported and maintained across all goals of Ethereum 2.0.
 
-For a more comprehensive introduction, please read our [Nimbus for Newbies](https://our.status.im/nimbus-for-newbies/#:~:text=Nimbus%20is%20a%20new%20client,come%20to%20the%20right%20place.) post or proceed directly to [getting started](/docs/building.html) if you're already sold.
+For a more comprehensive introduction, please read our [Nimbus for Newbies](https://our.status.im/nimbus-for-newbies/) post or proceed directly to [getting started](/docs/building.html) if you're already sold.
 
 
 ## Requirements
