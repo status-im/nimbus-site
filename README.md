@@ -5,7 +5,9 @@ This repo holds the code for two sites:
 * [nimbus.team](https://nimbus.team) - From `master`, built in [CI](https://ci.status.im/job/misc/job/nimbus.team/), served from `gh-pages`
 * [dev.nimbus.team](https://dev.nimbus.team) - From `develop`, built in [CI](https://ci.status.im/job/misc/job/dev.nimbus.team/), serverd from dev host
 
-There is an `edit` button on each page, which will take you directly to the document you need to edit on the `develop` branch. We can then allow a large group of people to push directly to `develop` and show their changes on the staging site when asking for review, which should smooth out and speed up the process considerably for everyone. `master` is obviously protected, and will only have changes merged in from `develop` once accepted.
+There is an `edit` button on each page, which will take you directly to the document you need to edit on the `develop` branch.
+
+The recommended flow is to create a PR against `develop`. We can then allow a large group of people to push directly to `develop` and show their changes on the staging site when asking for review, which should smooth out and speed up the process considerably for everyone. `master` is obviously protected, and will only have changes merged in from `develop` once accepted.
 
 ## Adding a New Page
 
