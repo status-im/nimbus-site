@@ -20,6 +20,7 @@ If you want to add a page, rather than just edit, you'll need to make sure it ap
 Make sure you have [Node.js](https://nodejs.org/) installed first.
 
 1. Open Terminal and navigate to the project root directory,
+2. Run `yarn start`
 3. Run `yarn build`
 4. Run `yarn devel`
 5. Open http://localhost:8000 in a browser

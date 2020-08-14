@@ -3,11 +3,13 @@ id: building
 title: Getting Started with Nimbus
 ---
 
-This document will explain how to install, test, and run Nimbus on your local machine. To learn about what Nimbus is, see the [intro post](https://our.status.im/nimbus-for-newbies/).
+This document will explain how to install, test, and run Nimbus on your local machine. To learn about what Nimbus is, see the [intro post](https://our.status.im/nimbus-for-newbies/). To dig deeper, see the Nimbus [Ethereum 1.0](https://github.com/status-im/nimbus) and [Ethereum 2.0](https://github.com/status-im/nim-beacon-chain) repositories.
 
-### Building and Running Nimbus
+### Building and running Nimbus
 
-To run Nimbus in Ethereum 1.0 mode:
+To run Nimbus in [Ethereum 1.0 mode](https://github.com/status-im/nimbus), first [install the prerequisites](https://github.com/status-im/nimbus#prerequisites).
+
+Then:
 
 ```bash
 git clone https://github.com/status-im/nimbus
@@ -24,21 +26,17 @@ make nimbus
 
 Nimbus will now run and attempt to synchronize with the Ethereum 1.0 blockchain. It can currently reach block 1.5 million.
 
-### Building and Running the Ethereum 2.0 local beacon chain simulation
+### Building and running the Ethereum 2.0 local beacon chain simulation
 
-The beacon chain simulation runs several beacon nodes on the local machine, attaches several local validators to each, and builds a beacon chain between them. This is a precursor to our [testnet](https://our.status.im/the-nimbus-mvp-testnet-is-here/).
+The beacon chain simulation runs several beacon nodes on the local machine, attaches several local validators to each, and builds a beacon chain between them. 
 
-Prerequisites: Golang 1.12+, because we need it to build the Go libp2p daemon for node communication. You also need `git-lfs` installed to run tests - on Windows that's a command documented below, on other operating systems it can be installed using your system's package manager (e.g. `sudo apt-get install git-lfs`).
+Prerequisites: Follow the instructions outlined [here](https://github.com/status-im/nim-beacon-chain#prerequisites-for-everyone).
 
-Enter the Ethereum 2.0 realm of Nimbus:
+Now, enter the Ethereum 2.0 realm of Nimbus:
 
 ```bash
 git clone https://github.com/status-im/nim-beacon-chain
 cd nim-beacon-chain
-
-# >>> WINDOWS ONLY <<<
-make fetch-dlls # WINDOWS ONLY
-# >>> WINDOWS ONLY <<<
 
 make
 make test
@@ -53,28 +51,19 @@ make eth2_network_simulation
 If you'd like to clean the previous run's data:
 
 ```bash
-make clean  eth2_network_simulation
+make clean_eth2_network_simulation_all
 ```
-
-If you'd like to see the nodes running on separated sub-terminals inside one big window, install [Multitail](https://www.vanheusden.com/multitail/), then:
-
-```bash
-USE_MULTITAIL="yes" make eth2_network_simulation
-```
-
-You'll get something like this (click for full size):
-
-[![](https://i.imgur.com/Pc99VDO.png)](https://i.imgur.com/Pc99VDO.png)
 
 To change the number of validators and nodes:
 
 ```bash
-VALIDATORS=512 NODES=50 make eth2_network_simulation
+# Clear data files from your last run and start the simulation with a new genesis block:
+make VALIDATORS=192 NODES=6 USER_NODES=1 eth2_network_simulation
 ```
 
 Find out more about the simulation [here](https://our.status.im/nimbus-development-update-03/).
 
-### Building and Running the Ethereum 2.0 local state transition simulation
+### Building and running the Ethereum 2.0 local state transition simulation
 
 The state transition simulation quickly runs the Beacon chain state transition function in isolation and outputs JSON snapshots of the state. It runs without networking and blocks are processed without slot time delays.
 
