@@ -53,7 +53,7 @@ make eth2_network_simulation
 If you'd like to clean the previous run's data:
 
 ```bash
-make clean_eth2_network_simulation_files eth2_network_simulation
+make clean  eth2_network_simulation
 ```
 
 If you'd like to see the nodes running on separated sub-terminals inside one big window, install [Multitail](https://www.vanheusden.com/multitail/), then:
@@ -76,19 +76,17 @@ Find out more about the simulation [here](https://our.status.im/nimbus-developme
 
 ### Building and Running the Ethereum 2.0 local state transition simulation
 
-The state transition simulation measures how fast it can process the tasks in the beacon chain's state transition.
+The state transition simulation quickly runs the Beacon chain state transition function in isolation and outputs JSON snapshots of the state. It runs without networking and blocks are processed without slot time delays.
 
 ```bash
-cd research
-nim c -d:release -r state_sim --help
+# build and run the state simulator, then display its help ("-d:release" speeds it
+# up substantially, allowing the simulation of longer runs in reasonable time)
+make NIMFLAGS="-d:release" state_sim
+build/state_sim --help
 ```
 
 Use the output of the help command to pass desired values to the sim - change number of validators, nodes, etc. to get different results.
 
-### Nimbus Ethereum 2.0 Testnet
+### Medalla Ethereum 2.0 Testnet
 
-We have a publicly available testnet running between Nimbus nodes. Read all about it and learn how you can join it [here](/docs/t0.html). There is also a cutting edge [testnet 1](/docs/t1.html) that's basically a testing ground for testnet 0.
-
----
-
-Congrats! You're now running Nimbus for both the Ethereum 1.0 platform, and the coming [Ethereum 2.0](https://our.status.im/tag/two-point-oh).
+There is a publicly available [Ethereum 2.0](https://our.status.im/tag/two-point-oh) multi-client testnet running until at least October. Read all about it [here](https://blog.ethereum.org/2020/08/03/eth2-quick-update-no-14/), and learn how you can join it in [the Nimbus beacon chain book](https://status-im.github.io/nim-beacon-chain/medalla.html).
