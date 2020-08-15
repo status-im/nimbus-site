@@ -2,9 +2,7 @@ docs:
   Nimbus:
     introduction: /docs/index.html
     building: /docs/building.html
-#    milestones: milestones.html
     design: /docs/design.html
-    # team: team.html
     faq: /docs/faq.html
     contributor_guide: /docs/contributor_guide.html
   Guides:
