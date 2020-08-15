@@ -49,4 +49,4 @@ Whatever you might expect to see in other projects applies here:
 - when evaluating PRs, focus exclusively on the quality of the code
 - if submitting code, make sure it's tested. All code MUST come with tests. To speed up the review, ping a [team member](/docs/team).
 - if submitting typo fixes or documentation changes, speed up the review process by pinging a team member. [arnetheduck](https://github.com/arnetheduck) will usually review those very quickly.
-- if submitting a tutorial for inclusion on the [official blog](https://our.status.im/tag/nimbus), also feel free to ping [arnetheduck](https://github.com/arnetheduck).
+- if submitting a tutorial for inclusion on the [official blog](https://our.status.im/tag/nimbus), feel free to ping [arnetheduck](https://github.com/arnetheduck).
