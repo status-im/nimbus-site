@@ -29,4 +29,4 @@ Make sure you have [Node.js](https://nodejs.org/) installed first.
 4. Run `yarn devel`
 5. Open http://localhost:8000 in a browser
 
-This prevents the need for any global installs, and will allow you to live reload any changes you make.
+This prevents the need for any global installs, and allows you to live reload any changes you make.
