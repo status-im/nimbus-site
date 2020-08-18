@@ -53,12 +53,6 @@
   statusName: "Cylindrical Darling Mastiff"
   githubLink: "https://github.com/sinkingsugar"
 
-- name: "Tina Lee"
-  image: "/img/tina.png"
-  statusLink: "https://join.status.im/user/tinaaaaalee.stateofus.eth"
-  statusName: "Incomparable Carefree Paca"
-  githubLink: "https://github.com/tina1998612"
-
 - name: "Viktor Kirilov"
   image: "/img/viktor.jpg"
   statusLink: "https://join.status.im/user/0x0427fdc3290d711c35c747c282e90737ac05970917ef6cf65cd4b568b7d843103a57f676371bf734ccb82c310d5e1bea33ee236261d3f990d814b29c2ffe342ca7"
@@ -70,3 +64,9 @@
   statusLink: "https://join.status.im/user/0x041bee40a44bdd2b0a5cc00a45e3626414194b05ea911c7169b9bcdfa0f8453566212ef982e4b5f9379796e28d9c8befbed26ec6ae2293ab7fcd90656db3d20e51"
   statusName: "Windy Glass Crayfish"
   gitHubLink: "https://github.com/dryajov"
+
+- name: "Sacha Saint-Leger"
+  image: "/img/sacha.jpg"
+  statusLink: "https://join.status.im/u/0x044d9b09ce9b5948105f0e55da8744ce86c7337e187fece22cfb9a77e7210cbb7f83cb28cce97a522399104ba61cfc2746c72ca4eab45d7bbda5201ec01d567c0b"
+  statusName: "Glittering Tubby Blackbird"
+  gitHubLink: "https://github.com/sachayves"
