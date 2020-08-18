@@ -3,11 +3,13 @@ id: building
 title: Getting Started with Nimbus
 ---
 
-This document will explain how to install, test, and run Nimbus on your local machine. To learn about what Nimbus is, see the [intro post](https://our.status.im/nimbus-for-newbies/).
+This document explains how to install, test, and run Nimbus on your local machine. To learn about what Nimbus is, see our original [intro post](https://our.status.im/nimbus-for-newbies/). To dig deeper, see the Nimbus [Ethereum 1.0](https://github.com/status-im/nimbus) and [Ethereum 2.0](https://github.com/status-im/nim-beacon-chain) repositories.
 
-### Building and Running Nimbus
+### Building and running Nimbus
 
-To run Nimbus in Ethereum 1.0 mode:
+To run Nimbus in [Ethereum 1.0 mode](https://github.com/status-im/nimbus), first [install the prerequisites](https://github.com/status-im/nimbus#prerequisites).
+
+Then:
 
 ```bash
 git clone https://github.com/status-im/nimbus
@@ -24,21 +26,17 @@ make nimbus
 
 Nimbus will now run and attempt to synchronize with the Ethereum 1.0 blockchain. It can currently reach block 1.5 million.
 
-### Building and Running the Ethereum 2.0 local beacon chain simulation
+### Building and running the Ethereum 2.0 local beacon chain simulation
 
-The beacon chain simulation runs several beacon nodes on the local machine, attaches several local validators to each, and builds a beacon chain between them. This is a precursor to our [testnet](https://our.status.im/the-nimbus-mvp-testnet-is-here/).
+The beacon chain simulation runs several beacon nodes on the local machine, attaches several local validators to each, and builds a beacon chain between them. 
 
-Prerequisites: Golang 1.12+, because we need it to build the Go libp2p daemon for node communication. You also need `git-lfs` installed to run tests - on Windows that's a command documented below, on other operating systems it can be installed using your system's package manager (e.g. `sudo apt-get install git-lfs`).
+**Prerequisites:** At the moment, Nimbus has to be built from source, and has the following external dependencies -- developer tools (C compiler, Make, Bash, Git), [PCRE](https://www.pcre.org/); follow the instructions outlined [here](https://github.com/status-im/nim-beacon-chain#prerequisites-for-everyone) to install them.
 
-Enter the Ethereum 2.0 realm of Nimbus:
+Once you've installed the prerequisites, you're ready to enter the Ethereum 2.0 realm of Nimbus:
 
 ```bash
 git clone https://github.com/status-im/nim-beacon-chain
 cd nim-beacon-chain
-
-# >>> WINDOWS ONLY <<<
-make fetch-dlls # WINDOWS ONLY
-# >>> WINDOWS ONLY <<<
 
 make
 make test
@@ -53,42 +51,59 @@ make eth2_network_simulation
 If you'd like to clean the previous run's data:
 
 ```bash
-make clean_eth2_network_simulation_files eth2_network_simulation
+make clean_eth2_network_simulation_all
 ```
-
-If you'd like to see the nodes running on separated sub-terminals inside one big window, install [Multitail](https://www.vanheusden.com/multitail/), then:
-
-```bash
-USE_MULTITAIL="yes" make eth2_network_simulation
-```
-
-You'll get something like this (click for full size):
-
-[![](https://i.imgur.com/Pc99VDO.png)](https://i.imgur.com/Pc99VDO.png)
 
 To change the number of validators and nodes:
 
 ```bash
-VALIDATORS=512 NODES=50 make eth2_network_simulation
+# Clear data files from your last run and start the simulation with a new genesis block:
+make VALIDATORS=192 NODES=6 USER_NODES=1 eth2_network_simulation
 ```
 
-Find out more about the simulation [here](https://our.status.im/nimbus-development-update-03/).
+If you’d like to see the nodes running on separated sub-terminals inside one big window, install [Multitail](https://www.vanheusden.com/multitail/index.php) (if you're on a Mac, follow the instructions [here](https://brewinstall.org/Install-multitail-on-Mac-with-Brew/)), then:
 
-### Building and Running the Ethereum 2.0 local state transition simulation
 
-The state transition simulation measures how fast it can process the tasks in the beacon chain's state transition.
+```
+USE_MULTITAIL="yes" make eth2_network_simulation
+```
+
+You’ll get something like this (click for full size):
+
+[![](https://i.imgur.com/Pc99VDO.png)](https://i.imgur.com/Pc99VDO.png)
+
+
+You can find out more about the beacon node simulation [here](https://our.status.im/nimbus-development-update-03/#beaconsimulation).
+
+### Building and running the Ethereum 2.0 local state transition simulation
+
+This simulation is primarily designed for researchers, but we'll cover it briefly here in case you're curious :)
+
+The [state transition](https://github.com/ethereum/annotated-spec/blob/master/phase0/beacon-chain.md#beacon-chain-state-transition-function) simulation quickly runs the beacon chain state transition function in isolation and outputs JSON snapshots of the state (directly to the `nim-beacon-chain` directory). It runs without networking and blocks are processed without slot time delays.
 
 ```bash
-cd research
-nim c -d:release -r state_sim --help
+# build the state simulator, then display its help ("-d:release" speeds it
+# up substantially, allowing the simulation of longer runs in reasonable time)
+make NIMFLAGS="-d:release" state_sim
+build/state_sim --help
 ```
 
-Use the output of the help command to pass desired values to the sim - change number of validators, nodes, etc. to get different results.
+Use the output of the `help` command to pass desired values to the simulator - experiment with changing the number of slots, validators, , etc. to get different results.
 
-### Nimbus Ethereum 2.0 Testnet
+The most important options are:
 
-We have a publicly available testnet running between Nimbus nodes. Read all about it and learn how you can join it [here](/docs/t0.html). There is also a cutting edge [testnet 1](/docs/t1.html) that's basically a testing ground for testnet 0.
+- `slots` : the number of slots to run the simulation for (default 192)
+- `validators`: the number of validators (default 6400)
+- `attesterRatio`: the expected fraction of attesters that actually do their work for every slot (default 0.73)
+- `json_interval`: how often JSON snapshots of the state are outputted (default every 32 slots -- or once per epoch)
 
----
+For example, to run the state simulator for 384 slots, with 20,000 validators, and an average of 66% of attesters doing their work every slot, while outputting snapshots of the state twice per epoch, run:
 
-Congrats! You're now running Nimbus for both the Ethereum 1.0 platform, and the coming [Ethereum 2.0](https://our.status.im/tag/two-point-oh).
+```
+build/state_sim --slots=384 --validators=20000 --attesterRatio=0.66 --json_interval=16
+```
+
+
+### Medalla Ethereum 2.0 Testnet
+
+There is a publicly available [Ethereum 2.0](https://our.status.im/tag/two-point-oh) multi-client testnet running until at least October. Read all about it [here](https://blog.ethereum.org/2020/08/03/eth2-quick-update-no-14/), and learn how you can join it in [the Nimbus beacon chain book](https://status-im.github.io/nim-beacon-chain/medalla.html) 💛
