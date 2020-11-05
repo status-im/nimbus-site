@@ -22,8 +22,6 @@ In addition to our [eth1](https://github.com/status-im/nimbus-eth1) and [eth2](h
 
 - Nim Web3 - https://github.com/status-im/nim-web3
 
-- Nim RLP - encoding / decoding library: https://github.com/status-im/nim-rlp
-
 - Ethereum Smart Contracts in Nim:  https://github.com/status-im/nim-eth-contracts
 
 - Nim JSON-RPC - a library for routing JSON 2.0 format remote procedure calls over different transports: https://github.com/status-im/nim-json-rpc
