@@ -1,45 +1,33 @@
 ---
 id: design
-title: Extensible, Configurable, and Modular Design
+title: Embeddable, Lightweight, and Self-Contained
 ---
 
-The application architecture should have modular abstractions for the following:
+## Design goals
 
-1.  Networking layer
-1.  Sub-protocols
-1.  Consensus
-1.  Privacy
-1.  Database
-1.  Virtual Machine
+One of our most important design goals is an application architecture that makes it **simple to embed Nimbus into other software.**
 
-In addition, the implementation must pass the [common tests for all Ethereum implementations](https://github.com/ethereum/tests).
+Another is to **minimize reliance on third-party software.**
+
+A third is for the application binary to be as **lightweight as possible in terms of resources used.**
+
+## Integration with Status
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I can&#39;t wait to run Nimbus straight from Status Desktop <a href="https://twitter.com/hashtag/hyped?src=hash&amp;ref_src=twsrc%5Etfw">#hyped</a></p>&mdash; JARRAÐ HOPΞ (@jarradhope) <a href="https://twitter.com/jarradhope/status/1293473249347555334?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+As part of our first design goal, our primary objective here is for Nimbus to be tightly integrated into the [Status messaging app](https://status.im/).
+
+The dream is for you to be able to run an eth2 validator on Status desktop. 
 
 ## Commitment to Ethereum Improvement Proposals (EIP)
 
-Nimbus is committed to open standards and to maintaining consensus with other Ethereum-compliant implementations. The development of Nimbus and the changes in its protocols will follow [the EIP process](https://github.com/ethereum/EIPs/).
+We are committed to open standards and to maintaining consensus with other Ethereum-compliant implementations. As such, the development of Nimbus and the changes in its protocols follow [the EIP process](https://github.com/ethereum/EIPs/).
 
-## User Experience
-
-Access to shards and mainchain state should be fast and responsive, the application binary should be lightweight in terms of the resources used, and the client should be dependable and robust against crashes.
 
 ## Licensing: MIT, Apache v2.0
 
-We propose that Nimbus be licensed under Apache 2.0 and MIT. A permissive licensing structure with patent protection would 
+Most of our work is licensed under Apache 2.0 and MIT. A permissive licensing structure with patent protection would 
 
 1.  Ensure the compatibility with GPL 2.0 and LGPL 2.0
 1.  Extend the reach of the Ethereum platform
 1.  Foster the highest degree of adoption by governments and enterprise
-
-One unsolved hurdle faced by Status is the [LGPLv3](https://opensource.org/licenses/LGPL-3.0) license, whose requirement for runtime linking is incompatible with major mobile app distribution channels, such as the App Store of Apple Inc.
-
-Numerous requests for a static-linking exception have gone unanswered. This has blocked the deployment of any legally sound, full Ethereum client on popular channels for distribution of mobile devices. LGPL also prevents the adoption of Ethereum on closed hardware platforms, such as XBox. Still, we remain optimistic this issue will be rectified.
-
-## Biweekly Development Reports, Technical Writing, and Promotion
-
-In addition to the implementation, Nimbus will have a biweekly process for reporting development-related updates. A technical writer will document implementation efforts and translate ongoing research discussions into articles easily understood by the community.
-
-Within the community at large, we will promote Ethereum as the leader of scalable public blockchains.
-
-## Bounty-Based Development
-
-To entice the community to accelerate the development, we will attach bounties to and **[publish](https://openbounty.status.im/app#/)** the tasks that can be self-contained and defined clearly. We'll also have bounties [on Gitcoin](https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created).

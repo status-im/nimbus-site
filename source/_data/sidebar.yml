@@ -1,15 +1,14 @@
 docs:
   Nimbus:
     introduction: /docs/index.html
-    building: /docs/building.html
-#    milestones: milestones.html
     design: /docs/design.html
-    # team: team.html
-    faq: /docs/faq.html
+    eth1: /docs/eth1.html
+    eth2: /docs/eth2.html
+    libraries: /docs/libraries.html
     contributor_guide: /docs/contributor_guide.html
-  Guides:
-    Ethereum 1: /docs/eth1.html
-    Testnet 0: /docs/t0.html
-    Testnet 1: /docs/t1.html
-    Custom Testnet: /docs/custom-nimbus-testnet.html
+#  Guides:
+#    Ethereum 1: /docs/eth1.html
+#    Testnet 0: /docs/t0.html
+#    Testnet 1: /docs/t1.html
+#    Custom Testnet: /docs/custom-nimbus-testnet.html
     

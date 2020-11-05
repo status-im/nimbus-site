@@ -4,8 +4,8 @@
         <h1>Nimbus</h1>
         <p>Researching and implementing lighter Ethereum 2.0 clients </p>
         <div class="intro-buttons">
-            <a class="button button--main" href="https://gitter.im/status-im/nimbus">JOIN OUR GITTER</a>
-            <a class="button button--main" href="/docs/">DOCUMENTATION</a>
+            <a class="button button--main" href="https://discord.gg/qnjVyhatUa">JOIN OUR DISCORD</a>
+            <a class="button button--main" href="https://status-im.github.io/nimbus-eth2/">BECOME AN ETH2 VALIDATOR</a>
         </div>
     </div>
 </div>
