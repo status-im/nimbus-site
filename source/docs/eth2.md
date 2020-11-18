@@ -87,9 +87,3 @@ For example, to run the state simulator for 384 slots, with 20,000 validators, a
 ```
 build/state_sim --slots=384 --validators=20000 --attesterRatio=0.66 --json_interval=16
 ```
-
-
-## Medalla Ethereum 2.0 Testnet
-
-There is a publicly available [Ethereum 2.0](https://our.status.im/tag/two-point-oh) multi-client testnet currently running. Read all about it [here](https://blog.ethereum.org/2020/08/03/eth2-quick-update-no-14/), and learn how you can join it in [the Nimbus beacon chain book](https://status-im.github.io/nimbus-eth2/medalla.html) 💛
-
