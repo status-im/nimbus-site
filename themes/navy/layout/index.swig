@@ -65,8 +65,8 @@
                 <h3>Join the Team</h3>
                 <p>We are always looking for passionate and talented individuals to join our team.
                 <p>
-                    <a href="https://status.im/contribute/open_positions.html">See list of open roles</a>
-                    <span><a href="https://status.im/contribute/open_positions.html"><img src="../img/arrow_ogn.png" /></a></span>
+                    <a href="https://status.im/our_team/open_positions.html">See list of open roles</a>
+                    <span><a href="https://status.im/our_team/open_positions.html"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
             <div class="contribute">
                 <h3>Work on Bounties</h3>
