@@ -21,11 +21,15 @@ sidebar:
   docs:
     Nimbus: Nimbus
     introduction: What Is Nimbus?
+    eth1: eth1 client
+    eth2: eth2 client
+    libraries: Software Libraries
     milestones: Milestones
     design: Design
     faq : FAQ
     libs: Software Libraries
     building: Getting Started
+    the_book: The Book
     resources: Resources
     team: Team
     options: Beyond the Basics

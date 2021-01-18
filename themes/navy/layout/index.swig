@@ -4,8 +4,8 @@
         <h1>Nimbus</h1>
         <p>Researching and implementing lighter Ethereum 2.0 clients </p>
         <div class="intro-buttons">
-            <a class="button button--main" href="https://gitter.im/status-im/nimbus">JOIN OUR GITTER</a>
-            <a class="button button--main" href="/docs/">DOCUMENTATION</a>
+            <a class="button button--main" href="https://discord.gg/qnjVyhatUa">JOIN OUR DISCORD</a>
+            <a class="button button--main" href="https://status-im.github.io/nimbus-eth2/">BECOME AN ETH2 VALIDATOR</a>
         </div>
     </div>
 </div>
@@ -65,8 +65,8 @@
                 <h3>Join the Team</h3>
                 <p>We are always looking for passionate and talented individuals to join our team.
                 <p>
-                    <a href="https://status.im/contribute/open_positions.html">See list of open roles</a>
-                    <span><a href="https://status.im/contribute/open_positions.html"><img src="../img/arrow_ogn.png" /></a></span>
+                    <a href="https://status.im/our_team/open_positions.html">See list of open roles</a>
+                    <span><a href="https://status.im/our_team/open_positions.html"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
             <div class="contribute">
                 <h3>Work on Bounties</h3>

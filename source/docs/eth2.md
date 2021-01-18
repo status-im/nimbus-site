@@ -1,32 +1,17 @@
 ---
-id: building
-title: Getting Started with Nimbus
+id: eth2
+title: Connecting to the eth2 chain
 ---
 
-This document explains how to install, test, and run Nimbus on your local machine. To learn about what Nimbus is, see our original [intro post](https://our.status.im/nimbus-for-newbies/). To dig deeper, see the Nimbus [Ethereum 1.0](https://github.com/status-im/nimbus-eth1) and [Ethereum 2.0](https://github.com/status-im/nimbus-eth2) repositories.
+Depending on your objective, there are various ways to run Nimbus in [Ethereum 2.0 mode](https://github.com/status-im/nimbus-eth2).
 
-### Building and running Nimbus
+## Become an eth2 validator
 
-To run Nimbus in [Ethereum 1.0 mode](https://github.com/status-im/nimbus-eth1), first [install the prerequisites](https://github.com/status-im/nimbus-eth1#prerequisites).
+We're writing a book that explains all the ways in which you can use Nimbus to either monitor the eth2 chain or become a fully-fledged validator.
 
-Then:
+It's hosted here: https://status-im.github.io/nimbus-eth2/
 
-```bash
-git clone https://github.com/status-im/nimbus-eth1
-cd nimbus-eth1
-make update
-
-# >>> WINDOWS ONLY <<<
-make fetch-dlls # WINDOWS ONLY
-# >>> WINDOWS ONLY <<<
-
-make nimbus
-./build/nimbus
-```
-
-Nimbus will now run and attempt to synchronize with the Ethereum 1.0 blockchain. It can currently reach block 1.5 million.
-
-### Building and running the Ethereum 2.0 local beacon chain simulation
+## Build and run the Ethereum 2.0 local beacon chain simulation
 
 The beacon chain simulation runs several beacon nodes on the local machine, attaches several local validators to each, and builds a beacon chain between them. 
 
@@ -75,7 +60,7 @@ You’ll get something like this (click for full size):
 
 You can find out more about the beacon node simulation [here](https://our.status.im/nimbus-development-update-03/#beaconsimulation).
 
-### Building and running the Ethereum 2.0 local state transition simulation
+## Build and run the Ethereum 2.0 local state transition simulation
 
 This simulation is primarily designed for researchers, but we'll cover it briefly here in case you're curious :)
 
@@ -104,6 +89,7 @@ build/state_sim --slots=384 --validators=20000 --attesterRatio=0.66 --json_inter
 ```
 
 
-### Medalla Ethereum 2.0 Testnet
+## Medalla Ethereum 2.0 Testnet
 
-There is a publicly available [Ethereum 2.0](https://our.status.im/tag/two-point-oh) multi-client testnet running until at least October. Read all about it [here](https://blog.ethereum.org/2020/08/03/eth2-quick-update-no-14/), and learn how you can join it in [the Nimbus beacon chain book](https://status-im.github.io/nimbus-eth2/medalla.html) 💛
+There is a publicly available [Ethereum 2.0](https://our.status.im/tag/two-point-oh) multi-client testnet currently running. Read all about it [here](https://blog.ethereum.org/2020/08/03/eth2-quick-update-no-14/), and learn how you can join it in [the Nimbus beacon chain book](https://status-im.github.io/nimbus-eth2/medalla.html) 💛
+
