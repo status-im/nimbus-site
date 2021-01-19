@@ -22,7 +22,7 @@ Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that st
                 <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
                 <div class="work-item-inner">
                     <h2>Ready for eth2</h2>
-                    <p>You can use Nimbus today to both monitor the eth2 chain and become a fully-fledged validator.
+                    <p>You can use Nimbus today to both monitor the eth2 chain and join the network as a fully-fledged validator.
                     </p>
         <a href="https://nimbus.guide">See our book <img src="../img/arrow_orange.svg" /></a>
                 </div>
