@@ -30,7 +30,7 @@ Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that st
 
             <div class="work-item">
                 <div class="work-item-inner">
-                    <h2>Prototyping research</h2>
+                    <h2>Exploring the frontiers of research</h2>
                     <p>Nimbus is a research project. We translate the latest Ethereum 2.0 research into practical, performant and reusable libraries to provide fertile exploration ground for further R&D.
                     </p>
                     <a href="https://github.com/status-im?utf8=%E2%9C%93&q=nim&type=&language=">See our libraries <img src="../img/arrow_orange.svg" /></a>
@@ -40,7 +40,7 @@ Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that st
             <div class="work-item">
                 <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
                 <div class="work-item-inner">
-                    <h2>Open source philosophy</h2>
+                    <h2>Free and open source philosophy</h2>
                     <p>We’re building Nimbus as a common good with liberal licensing to allow for the widest deployment of Ethereum 2.0 possible.
                     </p>
                 </div>
