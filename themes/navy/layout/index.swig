@@ -11,42 +11,43 @@
 </div>
 <div class="home-wrap">
     <div id="about" class="section-header section-header--main">
-        <h2 id="top-header">Ethereum 2.0</h2>
-        <p>Nimbus is a client implementation for Ethereum 2.0 designed to perform well on embedded systems and resource-restricted devices, including Raspberry Pis and mobile devices. You can use Nimbus today to stake on eth2.
+        <h2 id="top-header">Lightweight as possible</h2>
+        <p>
+Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis and mobile devices -- and multi-purpose servers. 
         </p>
-        <a href="https://nimbus.guide">See our book <img src="../img/arrow_orange.svg" /></a>
+        <a href="/docs">See our docs <img src="../img/arrow_orange.svg" /></a>
 
         <div class="work-items">
-            <div class="work-item">
+        <div class="work-item">
                 <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
                 <div class="work-item-inner">
-                    <h2>Ethereum 1.0</h2>
-                    <p>Nimbus is also a client implementation for Ethereum 1.0, currently focused on obtaining feature parity. While we have been mainly focused so far on eth2, this year we will be greatly accelerating our efforts on this front.
+                    <h2>Ready for eth2</h2>
+                    <p>You can use Nimbus today to both monitor the eth2 chain and become a fully-fledged validator.
                     </p>
-                    <a href="https://github.com/status-im?utf8=%E2%9C%93&q=nim&type=&language=">See our repos <img src="../img/arrow_orange.svg" /></a>
-
+        <a href="https://nimbus.guide">See our book <img src="../img/arrow_orange.svg" /></a>
                 </div>
             </div>
+
             <div class="work-item">
                 <div class="work-item-inner">
-                    <h2>Friendly Research</h2>
+                    <h2>Prototyping research</h2>
                     <p>Nimbus is a research project. We translate the latest Ethereum 2.0 research into practical, performant and reusable libraries to provide fertile exploration ground for further R&D.
                     </p>
-                    <a href="/docs">See our docs <img src="../img/arrow_orange.svg" /></a>
+                    <a href="https://github.com/status-im?utf8=%E2%9C%93&q=nim&type=&language=">See our libraries <img src="../img/arrow_orange.svg" /></a>
                 </div>
                 <img class="work-item-image" src="../img/graphic-research.svg" />
             </div>
             <div class="work-item">
                 <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
                 <div class="work-item-inner">
-                    <h2>Friendly Licensing</h2>
+                    <h2>Open source philosophy</h2>
                     <p>We’re building Nimbus as a common good with liberal licensing to allow for the widest deployment of Ethereum 2.0 possible.
                     </p>
                 </div>
             </div>
             <div class="work-item">
                 <div class="work-item-inner">
-                    <h2>Friendly Networking</h2>
+                    <h2>Community first</h2>
                     <p>We're crazy about hacking together. If you want to make Nim or Nimbus the focus of your hackathon, we'd love to help you out and get the ball rolling. Please get in touch!
                     </p>
                 </div>
