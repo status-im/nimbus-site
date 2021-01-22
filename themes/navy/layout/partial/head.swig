@@ -32,5 +32,5 @@
   <!-- RSS -->
   {{ feed_tag('atom.xml') }}
   <meta property="og:image" content="/img/graphic-licensing.png" />
-  <meta property="og:title" content="Nimbus, a Light Client for Ethereum 2.0" />
+  <meta property="og:title" content="Nimbus, a Lighter Ethereum Client" />
 </head>
