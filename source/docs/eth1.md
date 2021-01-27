@@ -3,7 +3,9 @@ id: eth1
 title: Connecting to the eth1 chain
 ---
 
-While our core focus right now is Ethereum 2.0, We are continuing to make progress on an Ethereum 1.0 client (take note, this software is very much experimental).
+While our core focus so far has been Ethereum 2.0, going forward we will be devoting significantly more resources to our Ethereum 1.0 client. As it stands, however, this software is very much experimental.
+
+## Quickstart
 
 To run Nimbus in [Ethereum 1.0 mode](https://github.com/status-im/nimbus-eth1), first [install the prerequisites](https://github.com/status-im/nimbus-eth1#prerequisites).
 

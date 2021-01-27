@@ -37,10 +37,6 @@ make update
 
 If you have research ideas you'd like to throw at us, exotic hardware you'd like to test on, or anything else revolutionary cooking up in your mind let us know. We'll gladly experiment!
 
-## Testing
-
-You can join a testnet by following instructions [here](https://status-im.github.io/nimbus-eth2/).
-
 ## Guidelines
 
 Whatever you might expect to see in other projects applies here:
