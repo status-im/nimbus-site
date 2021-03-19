@@ -53,12 +53,6 @@
   statusName: "Cylindrical Darling Mastiff"
   githubLink: "https://github.com/sinkingsugar"
 
-- name: "Viktor Kirilov"
-  image: "/img/viktor.jpg"
-  statusLink: "https://join.status.im/user/0x0427fdc3290d711c35c747c282e90737ac05970917ef6cf65cd4b568b7d843103a57f676371bf734ccb82c310d5e1bea33ee236261d3f990d814b29c2ffe342ca7"
-  statusName: "Nimble Powerful Vaquita"
-  gitHubLink: "https://github.com/onqtam"
-
 - name: "Dmitriy Ryajov"
   image: "/img/dryajov.jpg"
   statusLink: "https://join.status.im/user/0x041bee40a44bdd2b0a5cc00a45e3626414194b05ea911c7169b9bcdfa0f8453566212ef982e4b5f9379796e28d9c8befbed26ec6ae2293ab7fcd90656db3d20e51"
