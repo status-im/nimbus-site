@@ -19,6 +19,7 @@
         <a class="icon-close mobile-nav-close" href="#"></a>
         <ul class="mobile-nav">
             <li><a href="https://news.nimbus.team/">News</a></li>
+            <li><a href="http://subscribe.nimbus.team/">Newsletter</a></li>
             <li><a href="/docs">Docs</a></li>
             <li class="item--dropdown item--to-show">
               <span>Projects</span>

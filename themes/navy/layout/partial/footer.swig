@@ -19,6 +19,7 @@
                     <li class="footer-link"><a href="https://status.im/docs/" target="_blank">Docs</a></li>
                     <li class="footer-link"><a href="/contribute/" target="_blank">Github</a></li>
                     <li class="footer-link"><a href="https://news.nimbus.team/" target="_blank">News</a></li>
+                    <li class="footer-link"><a href="https://subscribe.nimbus.team/" target="_blank">Newsletter</a></li>
                     <li class="footer-link"><a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842" target="_blank">Donate</a></li>                    
                     <li class="footer-link"><a href="https://www.iubenda.com/privacy-policy/94457202" target="_blank">Privacy Policy</a></li>
                   </ul>
