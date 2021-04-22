@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nimbus.team/docs/index.html</loc>
+    <loc>https://nimbus.team/docs/eth2-temp.html</loc>
     
     <lastmod>2021-04-22</lastmod>
     
@@ -16,9 +16,9 @@
   </url>
   
   <url>
-    <loc>https://nimbus.team/docs/contributor_guide.html</loc>
+    <loc>https://nimbus.team/docs/index.html</loc>
     
-    <lastmod>2021-03-16</lastmod>
+    <lastmod>2021-04-22</lastmod>
     
   </url>
   
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://nimbus.team/index.html</loc>
+    <loc>https://nimbus.team/docs/contributor_guide.html</loc>
     
     <lastmod>2021-03-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://nimbus.team/docs/index_old.html</loc>
+    <loc>https://nimbus.team/index.html</loc>
     
     <lastmod>2021-03-16</lastmod>
     
@@ -129,6 +129,13 @@
   
   <url>
     <loc>https://nimbus.team/extensions/index.html</loc>
+    
+    <lastmod>2021-03-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nimbus.team/docs/index_old.html</loc>
     
     <lastmod>2021-03-16</lastmod>
     
