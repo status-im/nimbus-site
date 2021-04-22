@@ -4,14 +4,14 @@
   <url>
     <loc>https://nimbus.team/docs/index.html</loc>
     
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://nimbus.team/news/2018/09/27/nimbus-partnership/</loc>
+    <loc>https://nimbus.team/docs/eth2.html</loc>
     
-    <lastmod>2021-03-16</lastmod>
+    <lastmod>2021-04-22</lastmod>
     
   </url>
   
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://nimbus.team/docs/eth2.html</loc>
+    <loc>https://nimbus.team/news/2018/09/27/nimbus-partnership/</loc>
     
     <lastmod>2021-03-16</lastmod>
     
@@ -137,7 +137,7 @@
 
   <url>
     <loc>https://nimbus.team/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
