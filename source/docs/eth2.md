@@ -9,4 +9,11 @@ The reference documentation is [the Nimbus Book](https://nimbus.guide): it expla
 
 We encourage you to check it out here: https://nimbus.guide
 
+## Prater testnet
+
+The latest Eth2 testnet, [Prater](https://twitter.com/Butta_eth/status/1374383003011452937), is now open to the public.
+
+Prater's objective is to ensure that the network remains stable under a higher load than we've seen so far on mainnet -- the genesis count for Prater was 210k (almost double the size of the Beacon Chain Mainnet).
+
+For more, see the [Prater page](https://nimbus.guide/prater.html) of the Nimbus guide.
 
