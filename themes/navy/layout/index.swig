@@ -69,10 +69,10 @@ Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that st
                     <span><a href="https://status.im/our_team/open_positions.html"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
             <div class="contribute">
-                <h3>Support us on Gitcoin</h3>
-                <p>As an open source project largely dependent on the Ethereum Foundation for funding, grants are our lifeblood.
+                <h3>Suppport</h3>
+                <p>As an open source project largely dependent on the Ethereum Foundation for funding, grants are our lifeblood. See <a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842">here</a> for our donation address.
                 <p>
-                    <a href="https://gitcoin.co/grants/137/nimbus">Support us</a>
+                    <a href="https://gitcoin.co/grants/137/nimbus">Support us on Gitcoin</a>
                     <span><a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
             <div class="contribute">
