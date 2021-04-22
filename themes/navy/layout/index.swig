@@ -6,6 +6,7 @@
         <div class="intro-buttons">
             <a class="button button--main" href="https://discord.gg/qnjVyhatUa">JOIN OUR DISCORD</a>
             <a class="button button--main" href="https://status-im.github.io/nimbus-eth2/">Play with Nimbus</a>
+                <a class="button button--main" href="http://subscribe.nimbus.team/">Stay updated</a>
         </div>
     </div>
 </div>
