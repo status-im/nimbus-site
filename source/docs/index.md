@@ -3,11 +3,9 @@ title: An Ethereum 2.0 Sharding Client
 
 ## Overview
 
-Nimbus is a project founded by the [Status.im](https://status.im/) network, focused on providing the best Ethereum experience for resource-restricted devices.
+Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, embedded devices -- including Raspberry Pis and mobile devices.
 
-Because the largest deployment of Ethereum will potentially be on embedded systems, Nimbus is designed to perform well on IoT and personal mobile devices, including older smartphones with resource-restricted hardware.
-
-However, resource-restricted hardware is not the only thing Nimbus is good for. Its low resource consumption makes it easy to run Nimbus together with other workloads on your server (this is especially valuable for eth2 stakers looking to lower the cost of their server instances).
+However, **resource-restricted hardware is not the only thing Nimbus is good for.** Its low resource consumption makes it easy to run Nimbus together with other workloads on your server (this is especially valuable for stakers looking to lower the cost of their server instances).
 
 Nimbus' embeddable, lightweight, and self-contained design makes it production ready for Web 3.0 and ensures that it can be supported and maintained across all goals of Ethereum 2.0.
 
