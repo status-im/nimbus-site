@@ -36,4 +36,7 @@ In addition to our [eth1](https://github.com/status-im/nimbus-eth1) and [eth2](h
 
 - Documentation Generator - language agnostic (but Nim-preconfigured) generator for beautiful detailed documentation suites for sets of libraries: https://github.com/status-im/nimbus-docs-suite
 
+- Nim presto - an efficient library for REST API implementation: https://github.com/status-im/nim-presto
+
+
 We hope you take the time to check them out :)

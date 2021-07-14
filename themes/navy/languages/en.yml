@@ -23,6 +23,7 @@ sidebar:
     introduction: What Is Nimbus?
     eth1: eth1 client
     eth2: eth2 client
+    fluffy: Fluffy (Light Portal Network client)
     libraries: Software Libraries
     milestones: Milestones
     design: Design
