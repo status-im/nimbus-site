@@ -1,5 +1,5 @@
 ---
-id: fluffly
+id: fluffy
 title: Fluffy, an ultra light client for Ethereum
 ---
 
