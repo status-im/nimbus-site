@@ -6,7 +6,7 @@ title: Fluffy, an ultra light client for Ethereum
 Nimbus has joined the Ethereum Foundation’s Portal Network team as one of the launch clients for the portal network.
 
 In a sentence, [the Portal Network](https://github.com/ethereum/stateless-ethereum-specs/blob/master/portal-network.md#network-functionality) is an in-progress cross-team effort to re-imagine the ethereum light client, and develop a practical and functional light client experience.
-=======
+
 Nimbus has joined the Ethereum Foundation’s Portal Network team as one of the launch clients for the Portal Network.
 
 In a sentence, [the Portal Network](https://github.com/ethereum/stateless-ethereum-specs/blob/master/portal-network.md#network-functionality) is an in-progress cross-team effort to re-imagine the Ethereum light client, and develop a practical and functional light client experience.
