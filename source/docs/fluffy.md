@@ -1,6 +1,6 @@
 ---
 id: fluffy
-title: Fluffy: an ultra-light client for Ethereum
+title: Fluffy: an ultra light client for Ethereum
 ---
 
 Nimbus has joined the Ethereum Foundation’s Portal Network team as one of the launch clients for the portal network.
