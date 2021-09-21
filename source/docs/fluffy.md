@@ -7,15 +7,12 @@ Nimbus has joined the Ethereum Foundation’s Portal Network team as one of the 
 
 In a sentence, [the Portal Network](https://github.com/ethereum/stateless-ethereum-specs/blob/master/portal-network.md#network-functionality) is an in-progress cross-team effort to re-imagine the ethereum light client, and develop a practical and functional light client experience.
 
-Nimbus has joined the Ethereum Foundation’s Portal Network team as one of the launch clients for the Portal Network.
-
-In a sentence, [the Portal Network](https://github.com/ethereum/stateless-ethereum-specs/blob/master/portal-network.md#network-functionality) is an in-progress cross-team effort to re-imagine the Ethereum light client, and develop a practical and functional light client experience.
 
 In particular, our aim is to work together with the EF to develop a new set of Ethereum protocols alongside the existing Eth protocol that will specifically serve this new way of accessing Ethereum data.
 
 The overarching goal is to provide a mode of operation for Ethereum that serves common usage patterns, as opposed to keeping track of the full state at all times, as current clients do.
 
-What we are talking about building here is the perfect client for a wallet. An ultra-light client that contributes to the network and does not require syncing (i.e. is immediately usable from a fresh install or after being offline).
+What we are talking about building here is **the perfect client for a wallet. An ultra-light client that contributes to the network and does not require syncing** (i.e. is immediately usable from a fresh install or after being offline).
 
 As such, one of the end goals for us is to embed this sort of client directly inside the Status app.
 

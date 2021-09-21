@@ -1,9 +1,9 @@
 ---
 id: eth1
-title: Execution layer client (eth1)
+title: Execution layer (eth1)
 ---
 
-While our core focus so far has been Ethereum 2, we are now devoting significant resources to our Ethereum 1 client.
+While our core focus so far has been Ethereum 2 (consensus layer), we are now devoting significant resources to our Ethereum 1 client (execution layer).
 
 ## Quickstart
 
@@ -24,6 +24,6 @@ make nimbus
 ./build/nimbus
 ```
 
-Nimbus will now run and attempt to synchronize with the Ethereum 1 blockchain. 
+Nimbus will now run and attempt to synchronize with the Ethereum blockchain. 
 
 For a more complete overview see the [repository README](https://github.com/status-im/nimbus-eth1).
