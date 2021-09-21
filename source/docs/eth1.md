@@ -1,13 +1,13 @@
 ---
 id: eth1
-title: Connecting to the eth1 chain
+title: Execution layer client (eth1)
 ---
 
-While our core focus so far has been Ethereum 2.0, going forward we will be devoting significantly more resources to our Ethereum 1.0 client. As it stands, however, this software is very much experimental.
+While our core focus so far has been Ethereum 2, we are now devoting significant resources to our Ethereum 1 client.
 
 ## Quickstart
 
-To run Nimbus in [Ethereum 1.0 mode](https://github.com/status-im/nimbus-eth1), first [install the prerequisites](https://github.com/status-im/nimbus-eth1#prerequisites).
+To run Nimbus in [Ethereum 1 mode](https://github.com/status-im/nimbus-eth1), first [install the prerequisites](https://github.com/status-im/nimbus-eth1#prerequisites).
 
 Then run the following commands:
 
@@ -24,6 +24,6 @@ make nimbus
 ./build/nimbus
 ```
 
->  **Note:** We currently do not guarantee that Nimbus will work on Windows.
+Nimbus will now run and attempt to synchronize with the Ethereum 1 blockchain. 
 
-Nimbus will now run and attempt to synchronize with the Ethereum 1.0 blockchain. 
+For a more complete overview see the [repository README](https://github.com/status-im/nimbus-eth1).
