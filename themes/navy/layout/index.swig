@@ -21,7 +21,7 @@ Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strive
         <div class="work-item">
                 <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
                 <div class="work-item-inner">
-                    <h2>Consensus layer (eth2)</h2>
+                    <h2>Consensus layer(eth2)</h2>
                     <p>You can use Nimbus today to both monitor the eth2 chain and join the network as a fully-fledged validator.
                     </p>
         <a href="https://nimbus.guide">See our guide <img src="../img/arrow_orange.svg" /></a>
