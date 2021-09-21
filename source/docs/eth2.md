@@ -1,6 +1,6 @@
 ---
 id: eth2
-title: Consensus layer client (eth2)
+title: Consensus layer (eth2)
 ---
 
 Depending on your objective, there are various ways to run Nimbus in [Ethereum 2 mode](https://github.com/status-im/nimbus-eth2).
