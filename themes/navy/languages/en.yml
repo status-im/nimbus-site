@@ -21,8 +21,8 @@ sidebar:
   docs:
     Nimbus: Nimbus
     introduction: What Is Nimbus?
-    eth1: Execution layer client
-    eth2: Consensus layer client
+    eth1: Execution layer
+    eth2: Consensus layer
     fluffy: Fluffy
     libraries: Software Libraries
     milestones: Milestones
