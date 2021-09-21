@@ -11,9 +11,9 @@
 </div>
 <div class="home-wrap">
     <div id="about" class="section-header section-header--main">
-        <h2 id="top-header">The lightest Ethereum client</h2>
+        <h2 id="top-header">We build lighter Ethereum clients</h2>
         <p>
-Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis and mobile devices -- and multi-purpose servers. 
+Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis and mobile devices -- and multi-purpose servers. 
         </p>
         <a href="/docs">See our docs <img src="../img/arrow_orange.svg" /></a>
 

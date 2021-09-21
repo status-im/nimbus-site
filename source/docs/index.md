@@ -1,18 +1,14 @@
-title: An Ethereum 2.0 Sharding Client
+title: A lighter Ethereum Client
 ---
 
 ## Overview
 
-Nimbus is a client implementation for both Ethereum 2.0 and Ethereum 1.0 that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, embedded devices -- including Raspberry Pis and mobile devices.
+Nimbus is a client implementation for both Ethereum's consensus layer  (Ethereum 2) and execution layer (Ethereum 1) that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, embedded devices -- including Raspberry Pis and mobile devices.
 
-However, **resource-restricted hardware is not the only thing Nimbus is good for.** Its low resource consumption makes it easy to run Nimbus together with other workloads on your server (this is especially valuable for stakers looking to lower the cost of their server instances).
-
-Nimbus' embeddable, lightweight, and self-contained design makes it production ready for Web 3.0 and ensures that it can be supported and maintained across all goals of Ethereum 2.0.
-
-For a more comprehensive introduction, please read our [Nimbus for Newbies](https://our.status.im/nimbus-for-newbies/) post.
+However, **resource-restricted hardware is not the only thing Nimbus is good for.** Its low resource consumption makes it **easy to run Nimbus together with other workloads on your server** (this is especially valuable for stakers looking to lower the cost of their server instances).
 
 
-## Requirements
+## Programming language
 
 [Nim](https://nim-lang.org/) is an efficient, general-purpose systems programming language with a Python-like syntax that compiles to C. Nim will allow us to implement Ethereum rapidly and take advantage of the mature C-language tooling: in compilation of machine code, and in the analysis of static code.
 
