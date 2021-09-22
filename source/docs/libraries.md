@@ -5,7 +5,6 @@ title: Explore our libraries
 
 In addition to our [eth1](https://github.com/status-im/nimbus-eth1) (execution layer) and [eth2](https://github.com/status-im/nimbus-eth2) (consensus layer) clients we have developed several high-quality libraries (the product of our ethereum work in Nim). These include:
 
-
 - Nim libp2p: https://github.com/status-im/nim-libp2p
 
 - Nim BLS Curve: https://github.com/status-im/nim-blscurve
