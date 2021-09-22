@@ -52,7 +52,6 @@ Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strive
                 </div>
                <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
             </div>
-        </div>
     </div>
     <div id="contribute" class="sections">
         <div class="inner-header">
