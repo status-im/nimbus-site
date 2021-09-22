@@ -16,41 +16,41 @@
 Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis and mobile devices -- and multi-purpose servers. 
         </p>
         <a href="/docs">See our docs <img src="../img/arrow_orange.svg" /></a>
-
-        <div class="work-items">
         <div class="work-item">
-                <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
-                <div class="work-item-inner">
-                    <h2>Consensus layer (eth2)</h2>
-                    <p>You can use Nimbus today to both monitor the eth2 chain and join the network as a fully-fledged validator.
-                    </p>
-        <a href="https://nimbus.guide">See our guide <img src="../img/arrow_orange.svg" /></a>
-                </div>
+            <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
+            <div class="work-item-inner">
+                 <h2>Consensus layer (eth2)</h2>
+                 <p>You can use Nimbus today to both monitor the eth2 chain and join the network as a fully-fledged validator.
+                 </p>
+                 <a href="https://nimbus.guide">See our guide <img src="../img/arrow_orange.svg" /></a>
             </div>
-            <div class="work-item">
-                <img class="work-item-image work-item-image-right" src="../img/graphic-research.svg" />
+        </div>
+        <div class="work-item">
                 <div class="work-item-inner">
                     <h2>Execution layer (eth1)</h2>
                     <p>We are working hard on a lightweight Ethereum 1 client to complement our Ethereum 2 client.
                     </p>
                     <a href="https://github.com/status-im/nimbus-eth1">Keep up with our progress  <img src="../img/arrow_orange.svg" /></a>
+
+                </div>
+             <img class="work-item-image work-item-image-right" src="../img/graphic-research.svg" />
+            </div>
+            <div class="work-item">
+                <img class="work-item-image work-item-image-right" src="../img/graphic-network.svg" />
+                <div class="work-item-inner">
+                    <h2>Fluffy</h2>
+                    <p>We're also working on the perfect client for a wallet. An ultra-light client that contributes to the network and does not require syncing.
+                    </p>
+                    <a href="https://our.status.im/nimbus-fluffly/">Read the introduction post  <img src="../img/arrow_orange.svg" /></a>
                 </div>
             </div>
             <div class="work-item">
-                <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
                 <div class="work-item-inner">
                     <h2>Free and open source philosophy</h2>
                     <p>We’re building Nimbus as a common good with liberal licensing to allow for the widest deployment of Ethereum 2.0 possible.
                     </p>
                 </div>
-            </div>
-            <div class="work-item">
-                <div class="work-item-inner">
-                    <h2>Community first</h2>
-                    <p>We're crazy about hacking together. If you want to make Nim or Nimbus the focus of your hackathon, we'd love to help you out and get the ball rolling. Please get in touch!
-                    </p>
-                </div>
-                <img class="work-item-image" src="../img/graphic-network.svg" />
+               <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
             </div>
         </div>
     </div>
