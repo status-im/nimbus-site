@@ -13,6 +13,10 @@ pipeline {
   environment {
     GIT_USER = 'status-im-auto'
     GIT_MAIL = 'auto@status.im'
+    /* Dev site deployment. */
+    DEV_SITE = 'dev.nimbus.team'
+    DEV_HOST = 'jenkins@node-01.do-ams3.sites.misc.statusim.net'
+    SCP_OPTS = 'StrictHostKeyChecking=no'
   }
 
   stages {
@@ -50,10 +54,10 @@ pipeline {
       when { expression { !GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['jenkins-ssh']) {
-          sh '''
-            rsync -e 'ssh -o StrictHostKeyChecking=no' -r --delete public/. \
-            jenkins@node-01.do-ams3.proxy.misc.statusim.net:/var/www/dev-nimbus/
-          '''
+          sh """
+            rsync -e 'ssh -o ${SCP_OPTS}' -r --delete public/. \
+            ${env.DEV_HOST}:/var/www/${env.DEV_SITE}/
+          """
         }
       } }
     }
