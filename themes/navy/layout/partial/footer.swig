@@ -16,7 +16,7 @@
                 <div class="footer-table__column margin-top-15">
                   <p class="footer-header">More</p>
                   <ul class="footer-list">
-                    <li class="footer-link"><a href="https://status.im/docs/" target="_blank">Docs</a></li>
+                    <li class="footer-link"><a href="https://nimbus.team/docs/" target="_blank">Overview</a></li>
                     <li class="footer-link"><a href="/docs/libraries.html" target="_blank">Github</a></li>
                     <li class="footer-link"><a href="https://news.nimbus.team/" target="_blank">News</a></li>
                     <li class="footer-link"><a href="https://subscribe.nimbus.team/" target="_blank">Newsletter</a></li>

@@ -13,14 +13,14 @@
     <div id="about" class="section-header section-header--main">
         <h2 id="top-header">We build lighter Ethereum clients</h2>
         <p>
-Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis and mobile devices -- and multi-purpose servers. 
+Nimbus is a client implementation that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis and mobile devices -- and multi-purpose servers. 
         </p>
-        <a href="/docs">See our docs <img src="../img/arrow_orange.svg" /></a>
+        <a href="/docs">See our overview <img src="../img/arrow_orange.svg" /></a>
         <div class="work-item">
             <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
             <div class="work-item-inner">
                  <h2>Consensus layer (eth2)</h2>
-                 <p>You can use Nimbus today to both monitor the eth2 chain and join the network as a fully-fledged validator.
+                 <p>You can use Nimbus today to both monitor the beacon chain and join the network as a fully-fledged validator.
                  </p>
                  <a href="https://nimbus.guide">See our guide <img src="../img/arrow_orange.svg" /></a>
             </div>
@@ -28,7 +28,7 @@ Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strive
         <div class="work-item">
                 <div class="work-item-inner">
                     <h2>Execution layer (eth1)</h2>
-                    <p>We are working hard on a lightweight Ethereum 1 client to complement our Ethereum 2 client.
+                    <p>We are working hard on a lightweight execution layer client to complement our consensus layer client.
                     </p>
                     <a href="https://github.com/status-im/nimbus-eth1">Keep up with our progress  <img src="../img/arrow_orange.svg" /></a>
 
@@ -47,7 +47,7 @@ Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strive
             <div class="work-item">
                 <div class="work-item-inner">
                     <h2>Free and open source philosophy</h2>
-                    <p>We’re building Nimbus as a common good with liberal licensing to allow for the widest deployment of Ethereum 2.0 possible.
+                    <p>We’re building Nimbus as a common good with liberal licensing to allow for the widest deployment of Ethereum possible.
                     </p>
                 </div>
                <img class="work-item-image work-item-image-right" src="../img/graphic-licensing.svg" />
@@ -67,8 +67,8 @@ Nimbus is a client implementation for both Ethereum 1 and Ethereum 2 that strive
                     <span><a href="https://status.im/our_team/open_positions.html"><img src="../img/arrow_ogn.png" /></a></span>
             </div>
             <div class="contribute">
-                <h3>Suppport</h3>
-                <p>As an Ethereum public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. See <a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842">here</a> for our donation address</p>
+                <h3>Support</h3>
+                <p>As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. See <a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842">here</a> for our donation address</p>
                 <p>
                     <a href="https://gitcoin.co/grants/137/nimbus">Support us on Gitcoin</a>
                     <span><a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created"><img src="../img/arrow_ogn.png" /></a></span>
