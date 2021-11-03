@@ -3,11 +3,11 @@ id: eth1
 title: Execution layer (eth1)
 ---
 
-While our core focus so far has been Ethereum 2 (consensus layer), we are now devoting significant resources to our Ethereum 1 client (execution layer).
+While our core focus so far has been the consensus layer, we are now devoting significant resources to our execution layer cleint.
 
 ## Quickstart
 
-To run Nimbus in [Ethereum 1 mode](https://github.com/status-im/nimbus-eth1), first [install the prerequisites](https://github.com/status-im/nimbus-eth1#prerequisites).
+To run Nimbus' [execution layer client](https://github.com/status-im/nimbus-eth1), first [install the prerequisites](https://github.com/status-im/nimbus-eth1#prerequisites).
 
 Then run the following commands:
 

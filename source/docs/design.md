@@ -23,6 +23,8 @@ The dream is for you to be able to run an eth2 validator on Status desktop.
 
 We are committed to open standards and to maintaining consensus with other Ethereum-compliant implementations. As such, the development of Nimbus and the changes in its protocols follow [the EIP process](https://github.com/ethereum/EIPs/).
 
+We played a role in drafting [EIP-3076: Slashing Protection Interchange Format](https://eips.ethereum.org/EIPS/eip-3076).
+
 
 ## Licensing: MIT, Apache v2.0
 
