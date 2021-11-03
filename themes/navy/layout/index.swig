@@ -15,7 +15,7 @@
         <p>
 Nimbus is a client implementation that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis and mobile devices -- and multi-purpose servers. 
         </p>
-        <a href="/docs">See here for more information <img src="../img/arrow_orange.svg" /></a>
+        <a href="/docs">See our overview <img src="../img/arrow_orange.svg" /></a>
         <div class="work-item">
             <img class="work-item-image work-item-image-right" src="../img/graphic-platform-support.svg" />
             <div class="work-item-inner">
@@ -68,7 +68,7 @@ Nimbus is a client implementation that strives to be as lightweight as possible 
             </div>
             <div class="contribute">
                 <h3>Support</h3>
-                <p>As a Web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. See <a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842">here</a> for our donation address</p>
+                <p>As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. See <a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842">here</a> for our donation address</p>
                 <p>
                     <a href="https://gitcoin.co/grants/137/nimbus">Support us on Gitcoin</a>
                     <span><a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created"><img src="../img/arrow_ogn.png" /></a></span>
