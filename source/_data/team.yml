@@ -70,3 +70,10 @@
   statusLink: "https://join.status.im/u/0x0438e0760e9476e304ced932f90030044c377a551678c0dce03cc2abf781233949adcc24403feccb727f52f6ad58cbc532dcf694c5635ad157efe5ad95581a1459"
   statusName: "Nimble Identical Shibainu"
   gitHubLink: "https://github.com/jlokier"
+
+- name: "Jordan Hrycaj"
+  image: "/img/jordan.jpg"
+  statusLink: "https://join.status.im/u/0x042c2e0f066c94064869625e353bc0cf18da70318722e3ce9db615145c6276fe6f170e99462d1a93d64d4b75995ea6b60aeb196af54d3cd5e22bf4f975aaf99d8a"
+  statusName: "Lavender Troubled Wildcat"
+  gitHubLink: "https://github.com/mjfh"
+
