@@ -77,3 +77,8 @@
   statusName: "Lavender Troubled Wildcat"
   gitHubLink: "https://github.com/mjfh"
 
+- name: "Konrad Staniec"
+  image: "/img/konrad.jpg"
+  statusLink: "https://join.status.im/u/0x049c728f9dab202f932dca2b255584641ea560e4503b26850943e379472dab1e64c529480068a122bcd59e7f2a6afe7a64924965151067c2898e9ae438b20f7067"
+  statusName: "Good Bitesized Ichthyosaurs"
+  gitHubLink: "https://github.com/KonradStaniec"
