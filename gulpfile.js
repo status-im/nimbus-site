@@ -1,6 +1,6 @@
 const log = require('fancy-log')
 const gulp = require('gulp')
-const gulpSass = require('gulp-sass')
+const gulpSass = require('gulp-sass')(require('sass'))
 const rename = require("gulp-rename")
 const cleanCSS = require('gulp-clean-css')
 const rollup = require('gulp-better-rollup')
@@ -16,7 +16,7 @@ const getEnv = function () {
     return gitBranch() == 'master' ? 'prod' : 'dev'
 }
 
-const generate = (done) => {
+const html = (done) => {
     var hexo = new Hexo(process.cwd(), {
         config: `_config.${getEnv()}.yml`,
         watch: false,
@@ -35,7 +35,7 @@ const generate = (done) => {
     })
 }
 
-const bundle = () =>
+const js = () =>
     gulp.src('js/main.js')
         .on('error', log.error)
         .pipe(rollup({ plugins: [terser()] }, 'iife'))
@@ -58,17 +58,18 @@ const css = () =>
         .pipe(gulp.dest('./public/css/'))
 
 const devel = () => {
-    gulp.watch('./js/*.js', bundle)
-    gulp.watch(['./source/**/*.{md,yml}', './themes/navy/**/*'], generate)
+    gulp.watch('./js/*.js', js)
+    gulp.watch(['./source/**/*.{md,yml}', './themes/navy/**/*'], html)
     gulp.watch('./themes/navy/source/scss/*.scss', sass, css)
 }
 
 const server = () =>
   gulp.src('./public').pipe(webserver({livereload: true, open: true}));
 
-exports.bundle = bundle
+exports.html = html
+exports.js = js
 exports.sass = sass
 exports.css = gulp.series(sass, css)
 exports.devel = gulp.parallel(server, devel)
-exports.build = gulp.parallel(generate, bundle, exports.css)
+exports.build = gulp.parallel(html, js, exports.css)
 exports.default = exports.build

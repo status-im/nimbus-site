@@ -23,14 +23,14 @@ pipeline {
 
     stage('Install Deps') {
       steps {
-        sh 'npm install'
+        sh 'yarn install'
       }
     }
 
     stage('Build') {
       steps {
-        sh 'npm run clean'
-        sh 'npm run build'
+        sh 'yarn run clean'
+        sh 'yarn run build'
       }
     }
 
@@ -45,7 +45,7 @@ pipeline {
       when { expression { GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          sh 'npm run deploy'
+          sh 'yarn run deploy'
         }
       } }
     }
