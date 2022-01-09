@@ -76,3 +76,9 @@
   statusLink: "https://join.status.im/u/0x049c728f9dab202f932dca2b255584641ea560e4503b26850943e379472dab1e64c529480068a122bcd59e7f2a6afe7a64924965151067c2898e9ae438b20f7067"
   statusName: "Good Bitesized Ichthyosaurs"
   gitHubLink: "https://github.com/KonradStaniec"
+
+- name: "Etan Kissling"
+  image: "/img/etan.jpg"
+  statusLink: "https://join.status.im/u/0x041af07ff6d52a28f940efc5eb38470db2811a60e82c7ae0983a19aad991983b11427322442573bef5154ec008ecf2b99fcdb3198cbac127b0dec17641838e8f09"
+  statusName: "Admired Blissful Thunderbird"
+  gitHubLink: "https://github.com/etan-status"
