@@ -3,7 +3,7 @@ id: eth1
 title: Execution layer (eth1)
 ---
 
-While our core focus so far has been the consensus layer, we are now devoting significant resources to our execution layer cleint.
+While our core focus so far has been the consensus layer, we are now devoting significant resources to our execution layer client.
 
 ## Quickstart
 
