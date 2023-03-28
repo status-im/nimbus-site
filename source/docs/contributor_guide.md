@@ -5,7 +5,7 @@ title: Contributor Guide
 
 ## How to help with funding
 
-We have a donation box set up at address `0x70E47C843E0F6ab0991A3189c28F2957eb6d3842`, as well as a [Gitcoin Grant page](https://gitcoin.co/grants/137/nimbus-2/).
+We have a donation box set up at address `0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557`, as well as a [Gitcoin Grant page](https://gitcoin.co/grants/137/nimbus-2/).
 
 We use funds from donations to:
 
