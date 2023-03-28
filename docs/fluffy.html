@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Fluffy, an ultra light client for Ethereum | Nimbus</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <script type="text/javascript">
+    document.write("<base href='" + location.protocol + "//" + document.location.host + "' />");
+  </script>
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://nimbus.team/docs/fluffy.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://nimbus.team/docs/fluffy.html">
+    
+  
+  <!-- Icon -->
+  <meta name="msapplication-TileColor" content="#ff9c00">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+
+  <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76.png?v=0.0.5">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120.png?v=0.0.5">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152.png?v=0.0.5">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180.png?v=0.0.5">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon-1024.png?v=0.0.5">
+  <!-- CSS -->
+  
+<link rel="stylesheet" href="/css/main.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="Nimbus">
+  <meta property="og:image" content="/img/graphic-licensing.png" />
+  <meta property="og:title" content="Nimbus, a Lighter Ethereum Client" />
+</head>
+
+<body>
+  <div id="container">
+    
+      <div class="header">
+    <div class="header-left">
+        <a class="logo" href="/"></a>
+        <ul class="main-nav">
+    <li id="about-header" class="item--to-show"><a href="#about">About</a></li>
+    <li><a href="#contribute">Contribute</a></li>
+    <li class="item--to-show"><a href="#team">Team</a></li>
+    <li class="item--to-show"> <a href="/docs">Overview</a></li>
+    <li class="item--to-show"> <a href="https://our.status.im/tag/nimbus/" target="_blank" rel="noopener">News</a> </li>
+    <li class="item--to-show"> <a href="https://subscribe.nimbus.team/" target="_blank" rel="noopener">Newsletter</a> </li>
+</ul>
+
+    </div>
+    <div class="header-right">
+        <ul class="header-logos">
+            <li class="header-link header-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--gh"><a href="https://github.com/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+            <li class="header-link header-link--st"><a href="https://join.status.im/chat/public/nimbus-general" target="_blank"><span class="header-icon"></span><span class="header-link-label"></span></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="mobile-nav-wrap">
+    <div class="mobile-nav-inner">
+        <a class="logo" href="/"></a>
+        <a class="icon-close mobile-nav-close" href="#"></a>
+        <ul class="mobile-nav">
+            <li><a href="https://our.status.im/tag/nimbus/" target="_blank" rel="noopener">News</a></li>
+            <li><a href="http://subscribe.nimbus.team/" target="_blank" rel="noopener">Newsletter</a></li>
+            <li><a href="/overview">Overview</a></li>
+            <li class="item--dropdown item--to-show">
+              <span>Projects</span>
+              <ul class="mobile-sub-nav">
+                <li><a href="https://incubate.status.im/" target="_blank" rel="noopener" class="">Incubate</a></li>
+                <li><a href="https://nimbus.team/" class="">Nimbus</a></li>
+                <li><a href="https://embark.status.im/" target="_blank" rel="noopener" class="">Embark</a></li>
+                <li><a href="https://keycard.tech/" target="_blank" rel="noopener" class="">Hardwallet</a></li>
+              </ul>
+            </li>
+            <li><a href="https://status.im/contribute/" target="_blank" rel="noopener" class="">Contribute</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+            <a href=" https://join.status.im/chat/public/nimbus-general" class="button button--orange">Nimbus Status Chat</a>
+        </div>
+        <header class="dropdown">
+            <nav>
+                <ul class="main-nav">
+    <li id="about-header" class="item--to-show"><a href="#about">About</a></li>
+    <li><a href="#contribute">Contribute</a></li>
+    <li class="item--to-show"><a href="#team">Team</a></li>
+    <li class="item--to-show"> <a href="/docs">Overview</a></li>
+    <li class="item--to-show"> <a href="https://our.status.im/tag/nimbus/" target="_blank" rel="noopener">News</a> </li>
+    <li class="item--to-show"> <a href="https://subscribe.nimbus.team/" target="_blank" rel="noopener">Newsletter</a> </li>
+</ul>
+
+            </nav>
+        </header>
+    </div>
+</div>
+
+    
+    <div class="page-intro wrapper">
+  <header class="article-header">
+    <h1 class="article-title" itemprop="name">Fluffy, an ultra light client for Ethereum</h1>
+    <a href="https://github.com/status-im/nimbus-site/edit/develop/source/docs/fluffy.md" target="_blank" rel="noopener" class="article-edit-link" title="Improve this doc">Edit on Github</a>
+  </header>
+</div>
+<div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">Nimbus</strong><a href="/docs/index.html" class="sidebar-link">What Is Nimbus?</a><a href="/docs/design.html" class="sidebar-link">Design</a><a href="/docs/eth1.html" class="sidebar-link">Execution layer</a><a href="/docs/eth2.html" class="sidebar-link">Consensus layer</a><a href="/docs/fluffy.html" class="sidebar-link">Fluffy</a><a href="/docs/libraries.html" class="sidebar-link">Software Libraries</a><a href="/docs/contributor_guide.html" class="sidebar-link">Contributor Guide</a>
+  </div>
+</aside>
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <div class="article-content" itemprop="articleBody">
+                <p>Nimbus has joined the Ethereum Foundation’s Portal Network team as one of the launch clients for the portal network.</p>
+<p>In a sentence, <a href="https://github.com/ethereum/stateless-ethereum-specs/blob/master/portal-network.md#network-functionality" target="_blank" rel="noopener">the Portal Network</a> is an in-progress cross-team effort to re-imagine the ethereum light client, and develop a practical and functional light client experience.</p>
+<p>In particular, our aim is to work together with the EF to develop a new set of Ethereum protocols alongside the existing Eth protocol that will specifically serve this new way of accessing Ethereum data.</p>
+<p>The overarching goal is to provide a mode of operation for Ethereum that serves common usage patterns, as opposed to keeping track of the full state at all times, as current clients do.</p>
+<p>What we are talking about building here is <strong>the perfect client for a wallet. An ultra-light client that contributes to the network and does not require syncing</strong> (i.e. is immediately usable from a fresh install or after being offline).</p>
+<p>As such, one of the end goals for us is to embed this sort of client directly inside the Status app.</p>
+<p>This has the potential to both improve the security and privacy of our users (we will no longer have any reliance on Infura), as well as improve Ethereum’s resilience by allowing each user to contribute back to the health of the network.</p>
+<h2 id="Resources" class="article-heading"><a href="#Resources" class="headerlink" title="Resources"></a>Resources<a class="article-anchor" href="#Resources" aria-hidden="true"></a></h2><ul>
+<li><a href="https://our.status.im/nimbus-fluffly/" target="_blank" rel="noopener">Our introductory post</a></li>
+<li>The Portal Wire protocol is added to the nim-eth repository, as Node Discovery v5.1 sub-protocol: <a href="https://github.com/status-im/nim-eth" target="_blank" rel="noopener">https://github.com/status-im/nim-eth</a></li>
+<li>Specifications: <a href="https://github.com/ethereum/stateless-ethereum-specs/" target="_blank" rel="noopener">https://github.com/ethereum/stateless-ethereum-specs/</a></li>
+<li>Website: <a href="https://www.ethportal.net/" target="_blank" rel="noopener">https://www.ethportal.net/</a></li>
+<li>Some quick notes regarding first Portal Wire interop tests with ddht and trin- <a href="https://gist.github.com/kdeme/36795f5deae7d02ce1785e9c7d501e53" target="_blank" rel="noopener">https://gist.github.com/kdeme/36795f5deae7d02ce1785e9c7d501e53</a></li>
+<li>Fluffy, our Portal Network client can be found in our nimbus-eth1 repository: <a href="https://github.com/status-im/nimbus-eth1/tree/master/fluffy" target="_blank" rel="noopener">https://github.com/status-im/nimbus-eth1/tree/master/fluffy</a></li>
+<li>Portal Network specifications: <a href="https://github.com/ethereum/stateless-ethereum-specs/blob/master/portal-network.md" target="_blank" rel="noopener">https://github.com/ethereum/stateless-ethereum-specs/blob/master/portal-network.md</a></li>
+<li>Portal Network website: <a href="https://www.ethportal.net/" target="_blank" rel="noopener">https://www.ethportal.net/</a></li>
+<li><a href="https://snakecharmers.ethereum.org/the-winding-road-to-functional-light-clients/" target="_blank" rel="noopener">The winding road to functional light clients</a> blog post series of Piper Merriam</li>
+<li><a href="https://www.youtube.com/watch?v=MZxqRs_tLNs" target="_blank" rel="noopener">This video talk</a> about the subject.</li>
+</ul>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2023-03-28T09:09:08.520Z" itemprop="dateModified">Last updated: 2023-03-28</time>
+                <a href="/docs/eth2.html" class="article-footer-prev" title="Consensus layer"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="/docs/libraries.html" class="article-footer-next" title="Software Libraries"><span>Next</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+          <div class="footer footer--global">
+        <div class="footer-inner">
+
+              <div class="footer-table">
+
+                <div class="footer-table__column margin-top-15">
+                  <p class="footer-header">Social links</p>
+                  <ul class="footer-list">
+                    <li class="footer-link footer-link--gt"><a href="https://gitter.im/status-im/nimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Gitter</span></a></li>
+                    <li class="footer-link footer-link--tw"><a href="https://twitter.com/ethnimbus" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Twitter</span></a></li>
+                    <li class="footer-link footer-link--dc"><a href="https://discord.gg/XRxWahP" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Discord</span></a></li>                    
+                    <li class="footer-link footer-link--st"><a href="https://join.status.im/chat/public/nimbus-general" target="_blank"><span class="footer-icon"></span><span class="footer-link-label">Status</span></a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-table__column margin-top-15">
+                  <p class="footer-header">More</p>
+                  <ul class="footer-list">
+                    <li class="footer-link"><a href="https://nimbus.team/docs/" target="_blank">Overview</a></li>
+                    <li class="footer-link"><a href="/docs/libraries.html" target="_blank">Github</a></li>
+                    <li class="footer-link"><a href="https://news.nimbus.team/" target="_blank">News</a></li>
+                    <li class="footer-link"><a href="https://subscribe.nimbus.team/" target="_blank">Newsletter</a></li>
+                    <li class="footer-link"><a href="https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557" target="_blank">Donate</a></li>                    
+                    <li class="footer-link"><a href="https://status.im/privacy-policy/" target="_blank">Privacy Policy</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-table__column mobile-margin extend-width">
+                  <p class="footer-header status-network"> The Status Network </p> <img src="/img/footer-logo.svg" width="30px" class="status-logo" alt="Status Logo">
+                    <ul class="footer-project">
+                      <li class="footer-link"><a href="https://status.im/" target="_blank">Status</a></li>
+                      <li class="footer-link"><a href="https://keycard.tech/" target="_blank">Keycard</a></li>
+                      <li class="footer-link"><a href="https://dap.ps/"  target="_blank">dap.ps</a></li>
+                      <li class="footer-link"><a href="https://assemble.fund/" target="_blank">Assemble</a></li>
+                      <li class="footer-link"><a href="https://embark.status.im/" class="margin-left" target="_blank">Embark</a></li>                                                               
+                      <li class="footer-link"><a href="https://subspace.status.im/" class="margin-left" target="_blank">Subspace</a></li>               
+                      <li class="footer-link"><a href="https://vac.dev/" class="margin-left" target="_blank">Vac</a></li>
+                  </ul>
+                </div>
+
+              </div>
+          
+        </div>
+      </div>
+
+  </div>
+  
+<script src="/js/main.min.js"></script>
+
+
+</body>
+</html>
