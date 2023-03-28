@@ -68,7 +68,7 @@ Nimbus is a client implementation that strives to be as lightweight as possible 
             </div>
             <div class="contribute">
                 <h3>Support</h3>
-                <p>As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. See <a href="https://etherscan.io/address/0x70E47C843E0F6ab0991A3189c28F2957eb6d3842">here</a> for our donation address</p>
+                <p>As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. See <a href="https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557">here</a> for our donation address</p>
                 <p>
                     <a href="https://gitcoin.co/grants/137/nimbus">Support us on Gitcoin</a>
                     <span><a href="https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created"><img src="../img/arrow_ogn.png" /></a></span>
