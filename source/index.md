@@ -1,3 +1,0 @@
-title: Nimbus
-layout: index
----

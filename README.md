@@ -1,32 +1,46 @@
-# Nimbus Site
+- [Description](#description)
+- [How to Run Locally](#how-to-run-locally)
+- [Configuration](#configuration)
+- [Customization](#customization)
 
-This repo holds the code for two sites:
+## Description
 
-* [nimbus.team](https://nimbus.team) - From `master`, built in [CI](https://ci.infra.status.im/job/website/job/nimbus.team/), served from `gh-pages`
-* [dev.nimbus.team](https://dev.nimbus.team) - From `develop`, built in [CI](https://ci.infra.status.im/job/website/job/dev.nimbus.team/), serverd from dev host
+This repository contains the content of your documentation website.
 
-There is an `edit` button on each page, which will take you directly to the document you need to edit on the `develop` branch.
+## How to Run Locally
 
-The recommended flow is to create a PR against `develop`. We can then allow a large group of people to push directly to `develop` and show their changes on the staging site when asking for review, which should smooth out and speed up the process considerably for everyone. `master` is obviously protected, and will only have changes merged in from `develop` once accepted.
+1. Clone this repository.
+2. Install the dependencies:
+```bash
+$ yarn
+```
+3. Start and open the website in your browser:
+```bash
+$ yarn start
+```
 
-N.B. make sure you've set up [signed commits](https://docs.github.com/en/github/authenticating-to-github/signing-commits) before submitting a PR (this repository requires all commits to be signed). 
+## Configuration
+Edit the `docusaurus.config.js` file in the repository's root directory, and update the value of the `businessUnit` field in presets section; below is a list of valid values:
+- Logos
+- Codex
+- Waku
 
-## Adding a New Page
+Example:
+```js
+presets: [
+  [
+    '@acid-info/logos-docusaurus-preset',
+    {
+      businessUnit: 'Codex',
+    },
+  ],
+],
+```
 
-If you want to add a page, rather than just edit, you'll need to make sure it appears on the sidebar and is accessible to everyone.
+This is probably enough in most cases, as the Logos plugins will fill in other configurations related to the specified business unit. If you find any error in the information coming from Logos Plugins, please head over to [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins) and create an issue.
 
-1. Add your page to `source/docs/<your_file_here>.md`
-2. In `source/_data/sidebars.yml` add the appropriate text to the appropriate place.
-3. In `themes/navy/languages/en.yml` edit the sidebars section to make sure that your new text in `sidebars.yml` is rendered correctly.
+## Customization
 
-## Testing locally
+You can find the instructions on adding more documentation sections, localization, and versioning on the [Docusaurus](https://docusaurus.io/docs) website.
 
-Make sure you have [Node.js](https://nodejs.org/) installed first.
-
-1. Open Terminal and navigate to the project root directory,
-2. Run `yarn install`
-3. Run `yarn build`
-4. Run `yarn devel`
-5. Open http://localhost:8000 in a browser
-
-This prevents the need for any global installs, and allows you to live reload any changes you make.
+> Note that theme customization is limited; for further instructions on customizing your theme, head over to [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/). 
