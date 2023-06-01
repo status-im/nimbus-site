@@ -1,0 +1,108 @@
+import {
+  Hero,
+  HeroTitle,
+  HeroDescription,
+  HeroActions,
+  HeroAction,
+  CallToActionSection,
+  FeatureList,
+  Showcase,
+  HeroModel,
+  HeroInfo,
+} from '../components/mdx'
+
+<Hero size="large">
+  <HeroInfo>
+    <HeroTitle>The web3 managing standard</HeroTitle>
+    {/*
+            <HeroDescription>
+                Waku is a decentralized communications network that enables private, censorship-resistant messaging for web3 applications.
+            </HeroDescription>
+            * */}
+    <HeroDescription>
+      WAKU IS A DECENTRALIZED COMMUNICATIONS NETWORK.
+    </HeroDescription>
+    <HeroActions>
+      <HeroAction href="https://docs.waku.org" target="_blank">
+        Build on Waku
+      </HeroAction>
+      <HeroAction variant="filled" href="https://docs.waku.org" target="_blank">
+        Run Waku
+      </HeroAction>
+    </HeroActions>
+  </HeroInfo>
+  <HeroModel
+    modelUrl="/hero/bulanding-generic-hand-01.glb"
+    layout="floating"
+    renderer="ascii"
+    initialX={-0.9831336272264352}
+    initialY={-0.14592188008227222}
+    rotateSpeed={0.1}
+    asciiConfig={{
+      characters: ' .,:;ox%#  ||| ||| waku @',
+    }}
+  />
+</Hero>
+
+<FeatureList
+  id="features"
+  features={[
+    {
+      title: 'Private',
+      description:
+        'Waku leverages cutting-edge zero-knowledge encryption to ensure all messages and associated metadata benefit from rock-solid privacy guarantees.',
+    },
+    {
+      title: 'Runs anywhere',
+      description:
+        "Waku's modularity enables developers to integrate Waku protocols according to their use case and users' hardware restraints",
+    },
+    {
+      title: 'Scalable',
+      description:
+        'Waku aims to scale to support millions of users by dividing the flow of messages into shards—not every node needs to forward every message—while discovery protocols ensure users connect to the nodes serving relevant messages.',
+    },
+    {
+      title: 'Secure',
+      description:
+        "Waku's native incentivization mechanisms ensure a wide node distribution, making it highly secure and strengthening its privacy assurances.",
+    },
+  ]}
+/>
+
+<CallToActionSection
+  title="User adoptions"
+  description="Waku has brought private, censorship-resistant communications to several notable web3 DApps, decentralizing their messaging components:"
+  label="Decentralize your DApp"
+  href="/join"
+/>
+
+<Showcase
+  id="showcase"
+  items={[
+    {
+      name: 'XMTP',
+      logo: '/showcase/xmtp-mark-white.svg',
+      description:
+        "Inter-blockchain account messaging protocol XMTP uses Waku's Go implementation to facilitate communication between nodes in its currently permissioned network.",
+    },
+    {
+      name: 'Status',
+      logo: '/showcase/status-mark-white.svg',
+      description:
+        "Waku powers many of the Status super app's features, including its private messaging.",
+    },
+    {
+      name: 'Railgun',
+      logo: '/showcase/railgun-mark-white.svg',
+      description:
+        'The privacy-focused DeFi protocol Railgun anonymizes Ethereum transactions with Waku. ',
+    },
+  ]}
+/>
+
+<CallToActionSection
+  title="Join the community to discover what Waku can bring to your DApp"
+  label="Decentralize your DApp"
+  href="/join"
+/>
