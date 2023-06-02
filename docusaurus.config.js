@@ -5,7 +5,7 @@ require('dotenv').config()
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Nimbus',
-  url: 'https://url',
+  url: 'https://nimbus.team/',
   baseUrl: '/',
 
   customFields: {
@@ -36,18 +36,24 @@ const config = {
           },
         },
         docs: {
-          routeBasePath: '/about',
-          versions: {
-            current: {
-              label: 'current',
-            },
-          },
-          lastVersion: 'current',
+          routeBasePath: '/',
+          path: 'root-pages',
         },
       }),
     ],
   ],
   themes: ['@docusaurus/theme-mermaid'],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        routeBasePath: '/about',
+        path: 'about',
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
@@ -64,10 +70,6 @@ const config = {
           {
             label: 'About',
             to: '/about',
-          },
-          {
-            label: 'Blog',
-            href: '/',
           },
           {
             label: 'Github',
@@ -93,7 +95,7 @@ const config = {
                 label: 'Docs',
               },
               {
-                href: '/',
+                href: 'https://github.com/status-im',
                 label: 'Github',
               },
             ],
@@ -109,11 +111,7 @@ const config = {
                 label: 'Work with us',
               },
               {
-                href: '/',
-                label: 'Privacy policy',
-              },
-              {
-                href: '/',
+                href: '/terms',
                 label: 'Terms & conditions',
               },
             ],

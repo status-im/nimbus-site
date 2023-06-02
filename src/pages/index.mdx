@@ -5,41 +5,37 @@ import {
   HeroActions,
   HeroAction,
   CallToActionSection,
+  CallToActionButton,
   FeatureList,
   Showcase,
   HeroModel,
   HeroInfo,
+  Box,
 } from '../components/mdx'
 
-<Hero size="large">
+<Hero size="medium">
   <HeroInfo>
-    <HeroTitle>The web3 managing standard</HeroTitle>
+    <HeroTitle>Ethereum network participation for everyone</HeroTitle>
+      <HeroDescription>
+        Nimbus promotes client diversity and decentralization on Ethereum by lowering participation barriers and reducing hardware overheads for validators.
+      </HeroDescription>
     {/*
-            <HeroDescription>
-                Waku is a decentralized communications network that enables private, censorship-resistant messaging for web3 applications.
-            </HeroDescription>
-            * */}
     <HeroDescription>
-      WAKU IS A DECENTRALIZED COMMUNICATIONS NETWORK.
+      Nimbus promotes client diversity and decentralization on Ethereum
     </HeroDescription>
+    * */}
     <HeroActions>
-      <HeroAction href="https://docs.waku.org" target="_blank">
-        Build on Waku
-      </HeroAction>
-      <HeroAction variant="filled" href="https://docs.waku.org" target="_blank">
-        Run Waku
+      <HeroAction variant="filled" href="https://github.com/status-im/nimbus-eth2" target="_blank">
+        Explore Nimbus
       </HeroAction>
     </HeroActions>
   </HeroInfo>
   <HeroModel
-    modelUrl="/hero/bulanding-generic-hand-01.glb"
-    layout="floating"
-    renderer="ascii"
-    initialX={-0.9831336272264352}
-    initialY={-0.14592188008227222}
-    rotateSpeed={0.1}
+    modelId={'architecture04'}
+    mode={'abstract'}
+    rotateSpeed={0.04}
     asciiConfig={{
-      characters: ' .,:;ox%#  ||| ||| waku @',
+      characters: ' + ^ ^%%%0 -a @@@ ###',
     }}
   />
 </Hero>
@@ -48,61 +44,82 @@ import {
   id="features"
   features={[
     {
-      title: 'Private',
+      title: 'Resource efficiency',
       description:
-        'Waku leverages cutting-edge zero-knowledge encryption to ensure all messages and associated metadata benefit from rock-solid privacy guarantees.',
+        'Low resource footprints make Nimbus clients more attractive for solo stakers and distributed validators while institutional operators enjoy more headroom when Ethereum is under stress.',
     },
     {
-      title: 'Runs anywhere',
+      title: 'Convenient',
       description:
-        "Waku's modularity enables developers to integrate Waku protocols according to their use case and users' hardware restraints",
+        "Nimbus offers a simple consensus layer setup, combining beacon node and validator clients while also offering the flexibility to run the two independently.",
     },
     {
-      title: 'Scalable',
+      title: 'Multiple clients',
       description:
-        'Waku aims to scale to support millions of users by dividing the flow of messages into shards—not every node needs to forward every message—while discovery protocols ensure users connect to the nodes serving relevant messages.',
+        'Nimbus execution layer and light clients are in development and will bring greater convenience to node operators while empowering network users to verify on-chain data directly.',
     },
     {
-      title: 'Secure',
+      title: 'Mission-driven',
       description:
-        "Waku's native incentivization mechanisms ensure a wide node distribution, making it highly secure and strengthening its privacy assurances.",
+        "Nimbus believes in an internet that is truly free and is owned and operated by the people that use it. All code is open source under MIT and Apache v2 licenses.",
     },
   ]}
-/>
+>
+  <CallToActionButton variant="outlined" href="/about/architect" target="_self">
+    Read More
+  </CallToActionButton>
+</FeatureList>
 
-<CallToActionSection
-  title="User adoptions"
-  description="Waku has brought private, censorship-resistant communications to several notable web3 DApps, decentralizing their messaging components:"
-  label="Decentralize your DApp"
-  href="/join"
-/>
+<Box top={{ xs: 144, lg: 216 }}>
+  <CallToActionSection
+    title="Used by"
+    columns={2}
+    description="Besides building Ethereum clients, Nimbus lends its expertise in decentralized systems to the Logos Collective—a network of aligned projects and contributors building trust-minimized, corruption-resistant governing services and social institutions."
+    label="Streamline your Ethereum validator setup with Nimbus"
+    href="https://github.com/status-im/nimbus-eth2"
+  />
+</Box>
 
-<Showcase
-  id="showcase"
-  items={[
-    {
-      name: 'XMTP',
-      logo: '/showcase/xmtp-mark-white.svg',
-      description:
-        "Inter-blockchain account messaging protocol XMTP uses Waku's Go implementation to facilitate communication between nodes in its currently permissioned network.",
-    },
-    {
-      name: 'Status',
-      logo: '/showcase/status-mark-white.svg',
-      description:
-        "Waku powers many of the Status super app's features, including its private messaging.",
-    },
-    {
-      name: 'Railgun',
-      logo: '/showcase/railgun-mark-white.svg',
-      description:
-        'The privacy-focused DeFi protocol Railgun anonymizes Ethereum transactions with Waku. ',
-    },
-  ]}
-/>
+<Box top={{ xs: 64, lg: 100 }}>
+  <Showcase
+    id="showcase"
+    items={[
+      {
+        name: 'Solo stakers',
+        description:
+          "Individual and hobbyist stakers benefit from reduced hardware demands by running Nimbus clients, making participation in Ethereum widely accessible.",
+      },
+      {
+        name: 'Institutional stakers',
+        description:
+          'Operators with high-specification hardware benefit from reduced system load, freeing resources for other tasks.',
+      },
+      {
+        name: 'Distributed validator and mini-pool operators',
+        description:
+          'Benefit from the simplicity and low resource requirements of Nimbus clients. Nimbus is supported by major DV protocols and hardware vendors.',
+      },
+    ]}
+  />
+</Box>
 
-<CallToActionSection
-  title="Join the community to discover what Waku can bring to your DApp"
-  label="Decentralize your DApp"
-  href="/join"
-/>
+<Box top={{ xs: 144, lg: 216 }}>
+  <CallToActionSection
+    title="Contributors"
+    columns={1}
+    description="Nimbus clients are built and maintained by a group of contributors with extensive software engineering, distributed systems, data science and research expertise that shares a passion for decentralized technologies and democratizing access to their disruptive potential."
+    label="Read more"
+    href="/about/team"
+    target="_self"
+  />
+</Box>
+
+<Box top={{ xs: 144, lg: 216 }}>
+  <CallToActionSection
+    title="Development roadmap"
+    description="Nimbus follows a regular update schedule that is responsive to the Ethereum community's own roadmap, developments in the staking ecosystem and node operator feedback."
+    label="Read more"
+    href="/about/roadmap"
+    target="_self"
+  />
+</Box>
