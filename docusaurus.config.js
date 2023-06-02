@@ -8,9 +8,6 @@ const config = {
   url: 'https://nimbus.team/',
   baseUrl: '/',
 
-  customFields: {
-    ghostAPiKey: process.env.GHOST_API_KEY,
-  },
   markdown: {
     mermaid: true,
   },
@@ -33,6 +30,13 @@ const config = {
           name: 'default',
           options: {
             customCss: [require.resolve('./src/css/custom.scss')],
+            docs: {
+              default: {
+                sidebar: {
+                  hide: true,
+                },
+              },
+            },
           },
         },
         docs: {
@@ -58,10 +62,6 @@ const config = {
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-      },
       navbar: {
         items: [
           {
