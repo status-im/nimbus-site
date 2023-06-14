@@ -91,7 +91,7 @@ const config = {
                 label: 'Discord',
               },
               {
-                href: '/',
+                href: 'https://docs.nimbus.team/',
                 label: 'Docs',
               },
               {
@@ -102,10 +102,6 @@ const config = {
           },
           {
             items: [
-              {
-                href: '/',
-                label: 'Contact us',
-              },
               {
                 href: 'https://jobs.status.im/',
                 label: 'Work with us',
