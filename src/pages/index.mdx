@@ -2,13 +2,13 @@ import {
   Hero,
   HeroTitle,
   HeroDescription,
+  HeroVideo,
   HeroActions,
   HeroAction,
   CallToActionSection,
   CallToActionButton,
   FeatureList,
   Showcase,
-  HeroModel,
   HeroInfo,
   Box,
 } from '../components/mdx'
@@ -16,10 +16,10 @@ import {
 <Hero size="large">
   <HeroInfo>
     <HeroTitle>
-      Ethereum network participation for everyone
+      {'Nimbus is a light-as-a-feather client for all Ethereum validators, large or small'}
     </HeroTitle>
     <HeroDescription>
-      Nimbus promotes client diversity and decentralization on Ethereum by lowering participation barriers and reducing hardware overheads for validators
+      {'Ethereum validators of all sizes trust Nimbus to run their Ethereum nodes. From large node operators, to solo stakers on a Raspberry Pi.'} 
     </HeroDescription>
     <HeroActions>
       <HeroAction variant="outlined" href="https://github.com/status-im/nimbus-eth2" target="_blank">
@@ -27,15 +27,13 @@ import {
       </HeroAction>
     </HeroActions>
   </HeroInfo>
-  <HeroModel
-    modelId={'architecture04'}
-    mode={'abstract'}
-    rotateSpeed={0.04}
-    startY={'bottom'}
-    asciiConfig={{
-      characters: ' + ^ ^%%%0 -a @@@ ###',
-    }}
-  />
+  
+  <HeroVideo
+    placeholderSrc="/hero/david04-1080x1080-placeholder.png"
+  >
+    <source src="/hero/david04-2048x2048-24fps-1M.mov" type='video/mp4; codecs="hvc1"' />
+    <source src="/hero/david04-2048x2048-24fps-1M.webm" type="video/webm" />  
+  </HeroVideo>
 </Hero>
 
 <FeatureList
