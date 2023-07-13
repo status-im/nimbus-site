@@ -1,6 +1,6 @@
 ---
 title: Core contributors
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 The Nimbus client suite is built and maintained by a passionate and driven team of technologists from around the world. 
