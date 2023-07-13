@@ -74,18 +74,26 @@ import {
 <Box top={{ xs: 144, lg: 336 }}>
   <CallToActionSection
     title="Run Nimbus in one of three setups"
-    columns={2}
     description={
       <>
-        1. Simple setup: Run integrated Nimbus Beacon Node and Validator Client together.
-        <br/><br/>
-        2. Use Nimbus Beacon node: Run Nimbus Beacon Node with an alternative validator client.
-        <br/><br/>
-        3. Use Nimbus Validator client: Run Nimbus Validator Client with an alternative Beacon Node.
-        <br/>
+        Follow the detailed<br/>step-by-step guide here
       </>
     }
-    label="Follow the detailed step-by-step guide here"
+    list={[
+      {
+        title: "Simple setup",
+        description: "Run integrated Nimbus Beacon Node and Validator Client together."
+      },
+      {
+        title: "Use Nimbus Beacon node",
+        description: "Run Nimbus Beacon Node with an alternative validator client."
+      },
+      {
+        title: "Use Nimbus Validator client",
+        description: "Run Nimbus Validator Client with an alternative Beacon Node"
+      }
+    ]}
+    label="Get Nimbus"
     target="_blank"
     href="https://nimbus.guide/quick-start.html"
   />
