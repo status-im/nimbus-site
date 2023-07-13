@@ -3,7 +3,7 @@ title: Development roadmap
 sidebar_position: 4
 ---
 
-As a leading Ethereum client implementation already in production, the Nimbus consensus client team's development priorities are largely dependent on Ethereum's core roadmap. Client implementations must support network updates, such as "The Merge" to proof-of-stake, to ensure users face minimal disruption during such events.
+As a leading Ethereum client implementation already in production, the Nimbus consensus client team's development priorities are largely dependent on Ethereum's core roadmap. Client implementations must support network updates, such as the merge to proof-of-stake, to ensure users face minimal disruption during such events.
 
 Known future upgrades and ecosystem developments guiding our research and development efforts include:
 
@@ -13,11 +13,11 @@ After "The Merge" in 2022, the next major Ethereum upgrade is "The Surge," which
 
 ### Distributed Validator Technology
 
-DVT is an open-source protocol already use. It enables a group of validators to combine ETH to reach the minimum stake required to operate a validator. 
+DVT is an open-source protocol already in use. It enables a group of validators to combine ETH to reach the minimum stake required to operate a validator. 
 
 Additionally, Nimbus maintains relationships with various user types, including solo stakers and liquid staking protocol operators, to ensure their feedback informs our work on the client implementations.
 
-Consequently, Nimbus development follows a monthly update schedule that incorporates the above variables while remaining flexible and adaptive to unforeseen ecosystem advances (and potential crises.) Over the last year, for example, Nimbus has shipped more than 20 updates to its consensus client implementation.
+Consequently, Nimbus development follows a monthly update schedule that incorporates the above variables while remaining flexible and adaptive to unforeseen ecosystem advances (and potential crises). Over the last year for example, Nimbus has shipped more than 20 updates to its consensus client implementation.  
 
 <br/>
 
@@ -31,4 +31,4 @@ Despite this responsive approach, the team is working on several focus areas dur
 
 - Enhancing the light client, Nimbus Portal.  
 
-[Contribute to Waku](https://github.com/status-im/nimbus-eth2)
+[Contribute to Nimbus](https://github.com/status-im/nimbus-eth2)
