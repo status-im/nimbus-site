@@ -5,7 +5,7 @@ sidebar_position: 2
 
 Nimbus is a suite of Ethereum client implementations designed to be as lightweight, easy to use, and adaptive as possible. The consensus client is the first of three Nimbus implementations to reach production. Meanwhile, an execution client and a true Ethereum light client are still in development.
 
-From their programming language upwards, Nimbus clients are optimized to conserve system resources, making them suitable to run on embedded systems and lower-specification devices. Nim, the language in which Nimbus clients are written, was chosen for the following reasons:
+From their programming language upwards, Nimbus clients are optimised to conserve system resources, making them suitable to run on embedded systems and lower-specification devices. Nim, the language in which Nimbus clients are written, was chosen for the following reasons:
 
 - It is an efficient, general-purpose systems programming language.
 
@@ -49,14 +49,14 @@ Like the Nimbus consensus client, the execution client is written in Nim and des
 
 ### Nimbus Portal Client
 
-An absence of true light clients presents a major issue in web3 because it contributes toward various centralizing tendencies on Ethereum. When users cannot validate on-chain data themselves (due to the technical or resource overheads of running their own validating node) they fall back on RPC nodes operated by centralized entities. 
+An absence of true light clients presents a major issue in web3 because it contributes toward various centralising tendencies on Ethereum. When users cannot validate on-chain data themselves (due to the technical or resource overheads of running their own validating node) they fall back on RPC nodes operated by centralised entities. 
 
-While convenient, this approach requires users to trust the data returned and represents a pale imitation of the true revolutionary promise of decentralized blockchain technology.
+While convenient, this approach requires users to trust the data returned and represents a pale imitation of the true revolutionary promise of decentralised blockchain technology.
 
-Nimbus Porta Client, our light client implementation known as “Fluffy”, is among a few promising efforts to develop an Ethereum light client. Its development is part of a cross-team Ethereum Foundation initiative called Portal Network that seeks to realize the light client vision. 
+Nimbus Porta Client, our light client implementation known as “Fluffy”, is among a few promising efforts to develop an Ethereum light client. Its development is part of a cross-team Ethereum Foundation initiative called Portal Network that seeks to realise the light client vision. 
 
 Alongside Nimbus Portal, Nimbus has developed a Light Web Proxy that can run in the background of applications, providing on-chain data directly to wallet apps and Ethereum-native operating systems, among other use cases. 
 
-Ultimately, light clients will provide greater security to users, reveal new blockchain use cases, and enable the Ethereum ecosystem to reduce its dependency on centralized entities that represent single points of failure or capture.
+Ultimately, light clients will provide greater security to users, reveal new blockchain use cases, and enable the Ethereum ecosystem to reduce its dependency on centralised entities that represent single points of failure or capture.
 
 [See the docs](https://github.com/status-im/nimbus-eth2)
