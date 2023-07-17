@@ -1,9 +1,0 @@
-docs:
-  Nimbus:
-    introduction: /docs/index.html
-    design: /docs/design.html
-    eth1: /docs/eth1.html
-    eth2: /docs/eth2.html
-    fluffy: /docs/fluffy.html
-    libraries: /docs/libraries.html
-    contributor_guide: /docs/contributor_guide.html    

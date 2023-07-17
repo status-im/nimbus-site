@@ -11,55 +11,51 @@ pipeline {
   }
 
   environment {
-    GIT_USER = 'status-im-auto'
-    GIT_MAIL = 'auto@status.im'
-    /* Dev site deployment. */
-    DEV_SITE = 'dev.nimbus.team'
-    DEV_HOST = 'jenkins@node-01.do-ams3.sites.misc.statusim.net'
-    SCP_OPTS = 'StrictHostKeyChecking=no'
+    GIT_COMMITTER_NAME = 'status-im-auto'
+    GIT_COMMITTER_EMAIL = 'auto@status.im'
+    PROD_SITE = 'nimbus.team'
+    DEV_SITE  = 'dev.nimbus.team'
+    DEV_HOST  = 'jenkins@node-01.do-ams3.sites.misc.statusim.net'
+    SCP_OPTS  = 'StrictHostKeyChecking=no'
   }
 
   stages {
-
-    stage('Install Deps') {
+    stage('Install') {
       steps {
-        sh 'yarn install'
+        sh "yarn install"
       }
     }
 
     stage('Build') {
       steps {
-        sh 'yarn run clean'
-        sh 'yarn run build'
+        sh 'yarn build'
+        sh "echo ${env.PROD_SITE} > build/CNAME"
       }
     }
 
-    stage('Robot') {
-      when { expression { !GIT_BRANCH.endsWith('master') } }
-      steps { script {
-        sh 'echo "Disallow: /" >> public/robots.txt'
-      } }
-    }
-
     stage('Publish Prod') {
-      when { expression { GIT_BRANCH.endsWith('master') } }
-      steps { script {
+      when { expression { env.GIT_BRANCH ==~ /.*master/ } }
+      steps {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          sh 'yarn run deploy'
+          sh "ghp-import -p build"
         }
-      } }
+      }
     }
 
     stage('Publish Devel') {
-      when { expression { !GIT_BRANCH.endsWith('master') } }
-      steps { script {
+      when { expression { env.GIT_BRANCH !=~ /.*master/ } }
+      steps {
         sshagent(credentials: ['jenkins-ssh']) {
           sh """
-            rsync -e 'ssh -o ${SCP_OPTS}' -r --delete public/. \
-            ${env.DEV_HOST}:/var/www/${env.DEV_SITE}/
+            rsync -e 'ssh -o ${SCP_OPTS}' -r --delete build/. \
+              ${env.DEV_HOST}:/var/www/${env.DEV_SITE}/
           """
         }
-      } }
+      }
     }
+  }
+
+  post {
+    cleanup { cleanWs() }
   }
 }
