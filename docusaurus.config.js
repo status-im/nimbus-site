@@ -91,7 +91,7 @@ const config = {
                 label: 'Discord',
               },
               {
-                href: 'https://docs.nimbus.team/',
+                href: 'https://nimbus.team/docs/',
                 label: 'Docs',
               },
               {
