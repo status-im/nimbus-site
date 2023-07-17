@@ -57,6 +57,22 @@ const config = {
         path: 'about',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs',
+        routeBasePath: '/docs',
+        path: 'docs',
+        sidebarPath: 'docs/sidebars.js',
+      },
+    ],
+  ],
+
+  scripts: [
+    {
+      src: 'https://platform.twitter.com/widgets.js',
+      async: true,
+    },
   ],
 
   themeConfig:
@@ -70,6 +86,10 @@ const config = {
           {
             label: 'About',
             to: '/about',
+          },
+          {
+            label: 'Docs',
+            to: '/docs',
           },
           {
             label: 'Github',
@@ -91,7 +111,7 @@ const config = {
                 label: 'Discord',
               },
               {
-                href: 'https://nimbus.team/docs/',
+                to: '/docs',
                 label: 'Docs',
               },
               {
