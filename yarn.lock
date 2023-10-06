@@ -16,14 +16,14 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.91":
-  version "1.0.0-alpha.91"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.91.tgz#8b34f2ace53d3ea3d8f6f6bfe31b3f2ab59198c0"
-  integrity sha512-qNy7VX9vGT3CIGjOuHDem5XXWH0qkfvMsctMho/cdx2ZqTsEzUFZbQXVZKLR7gLv/+0n4sijL0qT0Il7O3ZQBQ==
+"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.102":
+  version "1.0.0-alpha.102"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.102.tgz#09037d5509dc20c412e6fce99382c07653bcf03d"
+  integrity sha512-DVQ5Fwbkk5KsXHd2MhWBGEPZq2jVqll+E+4Z4JHXZyt9a8kGnd3XMCvNBRtjBwg+LMcBp449bstjcZcaFNe6XQ==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.0-alpha.76"
     "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.47"
-    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.91"
+    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.102"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -53,10 +53,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.91":
-  version "1.0.0-alpha.91"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.91.tgz#e12e8727e92c37e58d0e6f79f7144b2722bf453c"
-  integrity sha512-Y38Z7syd+BTO87ynfX0P7YQ4sDk5+OXObRM6141/YCvmmNTKuIQsmpmASkXuUHw61Mhxm9HbzcG0axreXVmcJA==
+"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.102":
+  version "1.0.0-alpha.102"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.102.tgz#c497a1122557b538653dd846a3a82427518c0d94"
+  integrity sha512-sWR+w/OlcWJBuC7DRogJbsiH4xLw4jrYesrzRsRFD4C8Hk363e1cfLiQa9aehkj5x9olFi9iS18eiUOxsHViTQ==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.0-alpha.76"
     "@acid-info/lsd-react" "^0.1.0-alpha.17"
