@@ -96,8 +96,10 @@ const config = {
             to: '/docs',
           },
           {
-            label: 'Github',
-            href: 'https://github.com/status-im',
+            title: 'Nimbus GitHub repository',
+            href: 'https://github.com/status-im/nimbus-eth2',
+            position: 'right',
+            className: 'header-github-link',
           },
         ],
       },

@@ -5,3 +5,7 @@ body,
 html {
   overflow-x: hidden;
 }
+
+.mdx-hero {
+  height: calc(80vh - var(--ifm-navbar-height)) !important;
+}
