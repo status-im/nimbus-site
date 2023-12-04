@@ -7,7 +7,6 @@ import {
   Hero,
   HeroTitle,
   HeroDescription,
-  HeroVideo,
   HeroActions,
   HeroAction,
   CallToActionSection,
@@ -17,7 +16,8 @@ import {
   HeroInfo,
   Roadmap,
   Box,
-  ProfileCards
+  Grid,
+  ProfileCard,
 } from '../components/mdx'
 
 <Hero size="large">
@@ -34,15 +34,6 @@ import {
       </HeroAction>
     </HeroActions>
   </HeroInfo>
-  
-  <HeroVideo
-    placeholderSrc="/hero/halo01-1080x1080-placeholder.png"
-    desktop={{ scale: "1.514792899" }}
-    mobile={{ scale: "1.514792899"  }}
-  >
-    <source src="/hero/halo01-2048x2048-24fps-1M.mov" type='video/mp4; codecs="hvc1"' />
-    <source src="/hero/halo01-2048x2048-24fps-1M.webm" type="video/webm" />  
-  </HeroVideo>
 </Hero>
 
 <FeatureList
@@ -206,6 +197,55 @@ import {
     target="_blank"
     href="https://discord.com/invite/EP8DZnXu9y"
   />
+</Box>
+
+<Box top={{ xs: 144, lg: 216 }}>
+  <CallToActionSection
+    title="Team"
+    columns={1}
+  />
+  <Box top={{ xs: 40, md: 80 }} bottom={{ xs: 40, md: 80 }}>
+    <Grid
+      xs={{ cols: 3, gap: '1rem', wrap: false }}
+      md={{ cols: 4, gap: '1rem', wrap: true }}
+    >
+			<Grid.Item>
+				<ProfileCard
+        	name='Zahary Karadjov'
+        	githubUsername='Zahary'
+        	githubLink='https://github.com/codex-storage'
+        	discordUsername='Zahary'
+        	discordLink='https://discord.gg/2NXGrsqmDq'
+      	/>
+      </Grid.Item>
+      <Grid.Item>
+      	<ProfileCard
+        	name='Mamy Ratsimbazafy'
+        	imgSrc='https://statusim.bamboohr.com/employees/photos/?h=c9028ddcd6da2b7b0aaaf6fabbad7b31'
+        	githubUsername='Mamy'
+        	githubLink='https://github.com/codex-storage'
+        	discordUsername='Mamy'
+        	discordLink='https://discord.gg/2NXGrsqmDq'
+      	/>
+      </Grid.Item>
+      <Grid.Item>
+      	<ProfileCard
+        	name='Jacek Sieka'
+        	imgSrc='https://statusim.bamboohr.com/employees/photos/?h=a620c567ee3da938757bb0a43eda4ec9'
+          	githubUsername='Jacek'
+        	githubLink='https://github.com/codex-storage'
+        	discordUsername='Jacek'
+        	discordLink='https://discord.gg/2NXGrsqmDq'
+      	/>
+      </Grid.Item>
+      <Grid.Item>
+      	<ProfileCard
+        	name='Yevhen Kabanov'
+        	imgSrc='https://statusim.bamboohr.com/employees/photos/?h=8f6066f7e4b7517702c86d85f3ad828d'
+      	/>
+      </Grid.Item>
+    </Grid>
+  </Box>
 </Box>
 
 <Box top={{ xs: 144, lg: 336 }}>
