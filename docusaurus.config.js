@@ -43,6 +43,15 @@ const config = {
           routeBasePath: '/',
           path: 'root-pages',
         },
+        generated: {
+          // challenges: {
+          //   repoArray: [{ owner: 'status-im', repo: 'bounties' }],
+          //   githubAccessToken: process.env.GITHUB_ACCESS_TOKEN,
+          // },
+          jobList: {
+            jobBoard: 'nimbus',
+          },
+        },
         og: {},
       }),
     ],
@@ -94,6 +103,10 @@ const config = {
           {
             label: 'Docs',
             to: '/docs',
+          },
+          {
+            label: 'Join Us',
+            href: '/join-us',
           },
           {
             title: 'Nimbus GitHub repository',
