@@ -64,6 +64,7 @@ const config = {
         id: 'about',
         routeBasePath: '/about',
         path: 'about',
+        breadcrumbs: false,
       },
     ],
     [
