@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@acid-info/docusaurus-og@^1.0.0-alpha.111":
+"@acid-info/docusaurus-og@1.0.0-alpha.111":
   version "1.0.0-alpha.111"
   resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.0-alpha.111.tgz#0a5f96512f5ad1bf22d632009fe5902b184fb53c"
   integrity sha512-LrKfnxdG6P0/YtHP2ugz3QMhFCgavfnWLjpuvdlAUA1CWXBDVX33UGvKh4Zt7m5j3tLtpdlEt3Xa3IMgBUJAUg==
@@ -19,14 +19,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.126":
-  version "1.0.0-alpha.126"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.126.tgz#1c2e7ad6f4a83e44a200d05199f21a4e21c5d014"
-  integrity sha512-qa21bALUqQoqjZa7K0nGQFq5sGI2IQ9LPbxO4LAPTuoaDhf8I910QI7/w8VDzfdGU9voTpEIa17hV9mnKjyQIQ==
+"@acid-info/logos-docusaurus-preset@^1.0.0-topic-upgrade-lsd.10":
+  version "1.0.0-topic-upgrade-lsd.10"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-upgrade-lsd.10.tgz#f8f44c81c7f0200f2710e857b77510f93b151b7c"
+  integrity sha512-+MVHAwVVpFy0vLQv6G9YLGmgyty5UUAWUkp00OSu9zaRfho+V72nWBkWGi16o9Qf9XrOQOFNM9iJxH5GYDzsmA==
   dependencies:
-    "@acid-info/docusaurus-og" "^1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.126"
+    "@acid-info/docusaurus-og" "1.0.0-alpha.111"
+    "@acid-info/logos-docusaurus-search-local" "1.0.0-alpha.111"
+    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-upgrade-lsd.10+6ed7d65"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -40,7 +40,7 @@
     lodash "^4.17.21"
     node-fetch "2"
 
-"@acid-info/logos-docusaurus-search-local@^1.0.0-alpha.111":
+"@acid-info/logos-docusaurus-search-local@1.0.0-alpha.111":
   version "1.0.0-alpha.111"
   resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-search-local/-/logos-docusaurus-search-local-1.0.0-alpha.111.tgz#f4a19ad1fdee4da58b7793dde5294304475cff70"
   integrity sha512-W8ILeA095JgaBcze/zsh7GX5yH+oee7QG7kFqfiO7F5apai/0tGfLm1tq7oiJT+jR7guW1jxwuACIFxP7Jm8pw==
@@ -54,13 +54,13 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.126":
-  version "1.0.0-alpha.126"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.126.tgz#dabce5b251916d943afe34294990995c28a4585a"
-  integrity sha512-CfjyNp//y4GUKsGFbCDwx4PFJb5kOyWn+kL995XghVaxEG5TWA2Q3Dq6+Vdmmky8mdHL/abD8UuolK9EQj7jdQ==
+"@acid-info/logos-docusaurus-theme@1.0.0-topic-upgrade-lsd.10+6ed7d65":
+  version "1.0.0-topic-upgrade-lsd.10"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-upgrade-lsd.10.tgz#8210396d394a205862f01033e8e6e61cef15fbd3"
+  integrity sha512-Y3bxq00WY30DB2f1LQ0y2QTWQspdI8obHBX9Xtue3Mm0Z9011aZ8VtS2pMwPzaTXA9ms4VTBUVM496baGjd/bg==
   dependencies:
-    "@acid-info/docusaurus-og" "^1.0.0-alpha.111"
-    "@acid-info/lsd-react" "^0.1.0-alpha.21"
+    "@acid-info/docusaurus-og" "1.0.0-alpha.111"
+    "@acid-info/lsd-react" "^0.1.0-beta.1"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/mdx-loader" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
@@ -101,10 +101,10 @@
     three-stdlib "^2.23.4"
     utility-types "^3.10.0"
 
-"@acid-info/lsd-react@^0.1.0-alpha.21":
-  version "0.1.0-alpha.21"
-  resolved "https://registry.yarnpkg.com/@acid-info/lsd-react/-/lsd-react-0.1.0-alpha.21.tgz#3a6a6862bc492521197ef354795f1b1fe9bceffe"
-  integrity sha512-zgec9ezT469HBB/rKFzqbgEFiH59Raf8BkWE4XWP4mS9qc2ZQwwYy59TjbJKN5kgwWVnVX/cY1Ryvj9uFcnO8g==
+"@acid-info/lsd-react@^0.1.0-beta.1":
+  version "0.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/lsd-react/-/lsd-react-0.1.0-beta.1.tgz#a6d8dc04a3422a1a840d032fc1d1730f4cc34e29"
+  integrity sha512-YletiehVgoXmMhIH03u67Dxg8ZiFNrGhEsvN9/+jCTnOaBQxf0/JgS7kqBeZUlqK88prU6P/QzZruiWsxVFKgA==
   dependencies:
     "@datepicker-react/hooks" "^2.8.4"
     "@emotion/react" "^11.10.5"
@@ -4185,6 +4185,11 @@ acorn@^8.0.4, acorn@^8.5.0, acorn@^8.7.1:
   version "8.8.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
   integrity sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==
+
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+  integrity sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q==
 
 address@^1.0.1, address@^1.1.2:
   version "1.2.1"
@@ -14574,6 +14579,11 @@ yargs@^15.3.1:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
+
+yarn@^1.22.21:
+  version "1.22.21"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.21.tgz#1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+  integrity sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg==
 
 yocto-queue@^0.1.0:
   version "0.1.0"
