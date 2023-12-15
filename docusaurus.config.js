@@ -98,12 +98,20 @@ const config = {
             type: 'search',
           },
           {
-            label: 'About',
+            label: 'About Nimbus',
             to: '/about',
+          },
+          {
+            label: 'Community',
+            to: '/community',
           },
           {
             label: 'Docs',
             to: '/docs',
+          },
+          {
+            label: 'Blog',
+            href: 'https://blog.nimbus.team/',
           },
           {
             label: 'Join Us',
