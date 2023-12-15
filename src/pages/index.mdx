@@ -23,10 +23,10 @@ import {
 
 <Box top={{ xs: 32 }} bottom={{ xs: 144, lg: 216 }}>
   <HeroTitle>
-    {'LIGHT AND PERFORMANT CLIENTS, FOR ALL ETHEREUM VALIDATORS'}
+    {'NIMBUS OFFERS LIGHT AND HIGH PERFORMING CLIENTS FOR THE ETHEREUM NETWORK'}
   </HeroTitle>
   <HeroDescription>
-    {'Ethereum validators of all sizes trust Nimbus to run their nodes. From large node operators, to solo stakers on a Raspberry Pi.'} 
+    {'Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and enterprise node operators alike.'} 
   </HeroDescription>
   <HeroActions>
     <HeroAction variant="outlined" href="/about" target="_blank">
@@ -44,12 +44,12 @@ import {
     {
       title: 'Consensus Client',
       description:
-        'An ultra-light client that contributes to the network and does not require syncing.',
+        'Use Nimbus today to monitor the beacon chain and join the network as a fully-fledged validator.',
     },
     {
       title: 'Verified Web3 Proxy',
       description:
-        'A lightweight execution layer client to complement the consensus layer - coming soon.',
+        'Enables you to independently verify data received from RPC endpoints.',
     },
     {
       title: 'Portal Client',
@@ -82,24 +82,24 @@ import {
       <Grid.Item>
         <ShowcaseCard
           index={1}
+          name="Easy to use"
+          description={
+            <>Nimbus offers a simple consensus layer setup combining beacon node and validator clients, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
+          }
+        />
+      </Grid.Item>
+      <Grid.Item>
+        <ShowcaseCard
+          index={2}
           name="Lightweight"
           description="A low resource footprint makes Nimbus an attractive option for solo stakers and distributed validators. Institutional operators benefit from having more headroom in their setup, preventing failure when Ethereum is under stress."
         />
       </Grid.Item>
       <Grid.Item>
         <ShowcaseCard
-          index={2}
+          index={3}
           name="Secure"
           description="Nimbus has undergone extensive security testing from some of the leading security firms in blockchain technology, including ConsenSys Diligence, Trail Of Bits, and NCC Group."
-        />
-      </Grid.Item>
-      <Grid.Item>
-        <ShowcaseCard
-          index={3}
-          name="Easy to use"
-          description={
-            <>Nimbus offers a simple consensus layer setup combining beacon node and validator clients, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
-          }
         />
       </Grid.Item>
       <Grid.Item>
@@ -143,9 +143,9 @@ import {
 
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
-    title="User endorsements"
+    title="Community Suppport"
     columns={2}
-    description="Nimbus is trusted by Etherem validators diverse in both size and operating requirements. But don’t just take our word for it."
+    description="Nimbus is trusted by Etherem validators diverse in both size and operating requirements. But don't just take our word for it."
     label="Get Nimbus"
     href="https://nimbus.guide/quick-start.html"
     target="_blank"
@@ -153,42 +153,40 @@ import {
 </Box>
 
 <Box top={{ xs: 64, lg: 100 }}>
-  <Box top={{ xs: 100, lg: 100 }}>
-    <Grid
-      xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
-      lg={{ cols: 4, gap: '1rem' }}
-    >
-      <Grid.Item>
-        <ShowcaseCard
-          name="ethOS"
-          description="We're thankful that Nimbus is building infrastructure that extends Ethereum, and is additive to a crypto-first mobile OS like ethOS. We know first hand that Nimbus is incredibly easy to work with, and boasts great dev support from the team."
-          borderStyle="none"
-        />
-      </Grid.Item>
-      <Grid.Item>
-        <ShowcaseCard
-          name="DSRV"
-          description="DSRV has been keen to improve client diversity, and we've been running Nimbus with close to 2000 validators over the last 16 months including Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator– not just solo stakers."
-          borderStyle="none"
-        />
-      </Grid.Item>
-      <Grid.Item>
-        <ShowcaseCard
-          name="Protolamba"
-          description="Processing 60 billion attestation data points of the Ethereum Beacon Chain only took ~45 min. How? ( . . .) Thanks to the amazing work by Nimbus, this uses their era-format to read all beacon-chain data very quickly, in parallel slices, without much lookup cost."
-          borderStyle="none"
-        />
-      </Grid.Item>
-      <Grid.Item>
-        <ShowcaseCard
-          name="Diva Staking"
-          description="Happy to collaborate with the great minds from Nimbus to push the boundaries of staking & DVT!"
-          borderStyle="none"
-        />
-      </Grid.Item>
-    </Grid>
-  </Box>
-</Box>
+  <Grid
+    xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
+    lg={{ cols: 4, gap: '1rem' }}
+  >
+    <Grid.Item>
+      <ShowcaseCard
+        name="ethOS"
+        description="We're thankful that Nimbus is building infrastructure that extends Ethereum, and is additive to a crypto-first mobile OS like ethOS. We know first hand that Nimbus is incredibly easy to work with, and boasts great dev support from the team."
+        borderStyle="none"
+      />
+    </Grid.Item>
+    <Grid.Item>
+      <ShowcaseCard
+        name="DSRV"
+        description="DSRV has been keen to improve client diversity, and we've been running Nimbus with close to 2000 validators over the last 16 months including Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator– not just solo stakers."
+        borderStyle="none"
+      />
+    </Grid.Item>
+    <Grid.Item>
+      <ShowcaseCard
+        name="Protolamba"
+        description="Processing 60 billion attestation data points of the Ethereum Beacon Chain only took ~45 min. How? ( . . .) Thanks to the amazing work by Nimbus, this uses their era-format to read all beacon-chain data very quickly, in parallel slices, without much lookup cost."
+        borderStyle="none"
+      />
+    </Grid.Item>
+    <Grid.Item>
+      <ShowcaseCard
+        name="Diva Staking"
+        description="Happy to collaborate with the great minds from Nimbus to push the boundaries of staking & DVT!"
+        borderStyle="none"
+      />
+    </Grid.Item>
+  </Grid>
+ </Box>
 
 <Box top={{ xs: 144, lg: 216 }}>
   <LogoCarousel
