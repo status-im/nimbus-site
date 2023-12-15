@@ -1,6 +1,7 @@
 ---
 title: Development roadmap
 sidebar_position: 3
+hide_table_of_contents: true
 ---
 
 As a leading Ethereum client implementation already in production, the Nimbus consensus client team's development priorities are largely dependent on Ethereum's core roadmap. Client implementations must support network updates, such as the merge to proof-of-stake, to ensure users face minimal disruption during such events.
