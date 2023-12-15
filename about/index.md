@@ -1,6 +1,7 @@
 ---
 title: About
 sidebar_position: 1
+hide_table_of_contents: true
 ---
 
 Nimbus was created to promote client diversity and network decentralisation on Ethereum, with the belief that blockchain technology's full transformative potential can only be realised if running Ethereum infrastructure is widely accessible.
