@@ -29,7 +29,7 @@ import {
     {'Ethereum validators of all sizes trust Nimbus to run their nodes. From large node operators, to solo stakers on a Raspberry Pi.'} 
   </HeroDescription>
   <HeroActions>
-    <HeroAction variant="outlined" href="https://nimbus.team/about" target="_blank">
+    <HeroAction variant="outlined" href="/about" target="_blank">
       Learn more
     </HeroAction>
   </HeroActions>
@@ -97,14 +97,16 @@ import {
         <ShowcaseCard
           index={3}
           name="Easy to use"
-          description="Nimbus offers a simple consensus layer setup combining beacon node and validator clients, or the flexibility to run the two independently. Get up and running quickly in one of three steps."
+          description={
+            <>Nimbus offers a simple consensus layer setup combining beacon node and validator clients, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
+          }
         />
       </Grid.Item>
       <Grid.Item>
         <ShowcaseCard
           index={4}
-          name="Downtime resilient"
-          description="Nimbus includes several features to improve redundancy and resilience. For example, distributed keystore support allows for pairing a single Nimbus instance with multiple Web3Signer servers. If one of the instances fails, another takes over. Plus Nimbus can support multiple Beacon Nodes, creating redundancy and resilience against downtime."
+          name="Resilient"
+          description="Nimbus includes several features to improve redundancy and resilience. For example, distributed keystore support allows for pairing a single Nimbus instance with multiple Web3Signer servers. If one of the instances fails, another takes over. Plus, Nimbus can support multiple Beacon Nodes, creating redundancy and resilience against downtime."
         />
       </Grid.Item>
     </Grid>
