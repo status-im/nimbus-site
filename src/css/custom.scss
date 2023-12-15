@@ -1,3 +1,6 @@
+@use "@acid-info/logos-docusaurus-theme/src/client/css/lsd";
+@use "@acid-info/logos-docusaurus-theme/src/client/css/utils";
+
 :root {
 }
 
@@ -6,6 +9,8 @@ html {
   overflow-x: hidden;
 }
 
-.mdx-hero {
-  height: calc(80vh - var(--ifm-navbar-height)) !important;
+@include utils.responsive('lg', 'up') {
+  .mdx-cta-section-heading-large {
+    @include lsd.typography('h1', false);
+  }
 }
