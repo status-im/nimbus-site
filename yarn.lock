@@ -19,14 +19,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-topic-upgrade-lsd.10":
-  version "1.0.0-topic-upgrade-lsd.10"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-upgrade-lsd.10.tgz#f8f44c81c7f0200f2710e857b77510f93b151b7c"
-  integrity sha512-+MVHAwVVpFy0vLQv6G9YLGmgyty5UUAWUkp00OSu9zaRfho+V72nWBkWGi16o9Qf9XrOQOFNM9iJxH5GYDzsmA==
+"@acid-info/logos-docusaurus-preset@^1.0.0-topic-upgrade-lsd.11":
+  version "1.0.0-topic-upgrade-lsd.11"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-upgrade-lsd.11.tgz#2ff7f5ddc60220a8298870126522304b85caac3c"
+  integrity sha512-OfazEHE3v0ZVvyXE7Q1SkYOdzNnFgd+TgjqAaw3WaFuY+Al8Wb0Ae4uHVzOfUmqhJ18zinT/QOu6n5K9V0bRWw==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.111"
     "@acid-info/logos-docusaurus-search-local" "1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-upgrade-lsd.10+6ed7d65"
+    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-upgrade-lsd.11+fbaadc2"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -54,10 +54,10 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@1.0.0-topic-upgrade-lsd.10+6ed7d65":
-  version "1.0.0-topic-upgrade-lsd.10"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-upgrade-lsd.10.tgz#8210396d394a205862f01033e8e6e61cef15fbd3"
-  integrity sha512-Y3bxq00WY30DB2f1LQ0y2QTWQspdI8obHBX9Xtue3Mm0Z9011aZ8VtS2pMwPzaTXA9ms4VTBUVM496baGjd/bg==
+"@acid-info/logos-docusaurus-theme@1.0.0-topic-upgrade-lsd.11+fbaadc2":
+  version "1.0.0-topic-upgrade-lsd.11"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-upgrade-lsd.11.tgz#590e544c43b7fd2f3982bf509d9c5397906f32ec"
+  integrity sha512-y56eIi+/wePZppHVeKrst5bmw3oODQ9+mhWgs9pZBqyh2HQboPM5TuaTt/79b97GgXo1uh/d0ppHp7tmbWjZ6A==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.111"
     "@acid-info/lsd-react" "^0.1.0-beta.1"
