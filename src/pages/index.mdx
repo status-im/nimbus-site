@@ -71,10 +71,10 @@ import {
 <Box top={{ xs: 144, lg: 216 }}>
   <SectionHeader title="Nimbus attributes">
     <CallToActionButton variant="outlined" size="small" href="/">
-      Read mroe
+      Read more
     </CallToActionButton>
   </SectionHeader>
-  <Box top={{ xs: 100, lg: 100 }}>
+  <Box top={{ xs: 64, lg: 100 }}>
     <Grid
       xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
       lg={{ cols: 4, gap: '1rem' }}
@@ -278,10 +278,10 @@ import {
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
     title={
-      <>
+      <span className='mdx-cta-section-heading-large'>
         Want to learn more about Nimbus? <br/> 
         Join the Discord community.
-      </>
+      </span>
     }
     label="Discord"
     target="_blank"
@@ -294,7 +294,7 @@ import {
     title="Team"
     columns={1}
   />
-  <Box top={{ xs: 40, md: 80 }} bottom={{ xs: 40, md: 80 }}>
+  <Box top={{ xs: 40, md: 80 }}>
     <Grid
       xs={{ cols: 3, gap: '1rem', wrap: false, scrollButtons: false }}
       md={{ cols: 4, gap: '1rem', wrap: true }}
