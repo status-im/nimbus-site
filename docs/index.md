@@ -1,14 +1,11 @@
 ---
-title: A lighter Ethereum Client
-sidebar_label: What Is Nimbus?
+title: Get Started
+sidebar_label: Get Started
 ---
 
-## Overview
+## A lighter, high performing Ethereum client
 
 Nimbus is a client implementation for both Ethereum's consensus layer (eth2) and execution layer (eth1) that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, embedded devices -- including Raspberry Pis and mobile devices.
-
-However, **resource-restricted hardware is not the only thing Nimbus is good for.** Its low resource consumption makes it **easy to run Nimbus together with other workloads on your server** (this is especially valuable for stakers looking to lower the cost of their server instances).
-
 
 ## Programming language
 
@@ -30,4 +27,4 @@ Existing implementations of Ethereum have focused on desktop computers and serve
 
 We believe the ability to run a node on resource-restricted hardware is key to a safe and secure Ethereum going forward.
 
-As such, **Nimbus strives to perform just as well on resource-restricted hardware as it does on desktop computers and servers.**
+As such, **Nimbus strives to perform just as well on resource-restricted hardware as it does on desktop computers and servers** as is evidenced by thousands of solo stakers running Nimbus on local hardware and several larger institutional node operators running thousands of validators on enterprise-grade servers with Nimbus.
