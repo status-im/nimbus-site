@@ -145,11 +145,7 @@ const config = {
               {
                 href: 'https://github.com/status-im',
                 label: 'Github',
-              },
-              {
-                href: 'https://guide.nimbus.team/',
-                label: 'Brand Guidelines',
-              },
+              }
             ],
           },
           {
@@ -157,6 +153,10 @@ const config = {
               {
                 href: 'https://jobs.status.im/',
                 label: 'Work with us',
+              },
+              {
+                href: 'https://guide.nimbus.team/',
+                label: 'Brand Guidelines',
               },
               {
                 href: '/terms',
