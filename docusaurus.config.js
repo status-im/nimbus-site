@@ -110,6 +110,10 @@ const config = {
             to: '/docs',
           },
           {
+            label: 'Guide',
+            href: 'https://nimbus.guide/',
+          },
+          {
             label: 'Blog',
             href: 'https://blog.nimbus.team/',
           },
