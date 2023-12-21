@@ -155,12 +155,12 @@ const config = {
           {
             items: [
               {
-                href: 'https://jobs.status.im/',
-                label: 'Work with us',
+                to: '/join-us',
+                label: 'Join us',
               },
               {
                 href: 'https://guide.nimbus.team/',
-                label: 'Brand Guidelines',
+                label: 'Brand guidelines',
               },
               {
                 href: '/terms',
