@@ -19,10 +19,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.134":
-  version "1.0.0-alpha.134"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.134.tgz#015fa534a1ab76da46acb8e92aa40a55ff4d194c"
-  integrity sha512-Rhpjh32a4atkrzMcBU5/41jXgEDhKdHAnVyrnFyJHnBU36dcuG0B+fHRW6VB9mJlWGj+WRMk4de2a9Itan8gbQ==
+"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.135":
+  version "1.0.0-alpha.135"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.135.tgz#3d7116059f5665c553b6e6711a67281811d22293"
+  integrity sha512-ASntf3ui5KDT7xbzXDzwYKvtxiZOsMU+I5nU8Jk0u0jdNuoZRbZ4SKe12VnfQyjc/isXt2pa0jZZg/rA/kK3DA==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.0-alpha.131"
     "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.111"
