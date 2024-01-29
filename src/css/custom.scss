@@ -14,3 +14,13 @@ html {
     @include lsd.typography('h1', false);
   }
 }
+
+
+.mdx-hero-image {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

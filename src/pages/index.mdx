@@ -18,22 +18,30 @@ import {
   ProfileCard,
   ShowcaseCard,
   LogoCarousel,
+  Hero,
+  HeroInfo,
 } from '../components/mdx'
 
 
-<Box top={{ xs: 32 }} bottom={{ xs: 144, lg: 216 }}>
-  <HeroTitle>
-    {'LIGHT AND HIGH PERFORMING ETHEREUM CLIENTS'}
-  </HeroTitle>
-  <HeroDescription>
-    {'Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and node operators alike.'} 
-  </HeroDescription>
-  <HeroActions>
-    <HeroAction variant="outlined" href="/about">
-      Learn more
-    </HeroAction>
-  </HeroActions>
-</Box>
+  <Hero size="large">
+    <HeroInfo>
+      <HeroTitle>
+        {'LIGHT AND HIGH PERFORMING ETHEREUM CLIENTS'}
+      </HeroTitle>
+      <HeroDescription>
+        {'Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and node operators alike.'} 
+      </HeroDescription>
+      <HeroActions>
+        <HeroAction variant="outlined" href="/about">
+          Learn more
+        </HeroAction>
+      </HeroActions>
+    </HeroInfo>
+    <picture>
+      <source srcSet="/hero/key-visual.png" media="(min-width: 100px)" className="mdx-hero-image" />
+      <img src="/hero/key-visual.webp" alt="key-visual" className="mdx-hero-image" />
+    </picture>
+  </Hero>
 
 <FeatureList
   id="clients"
