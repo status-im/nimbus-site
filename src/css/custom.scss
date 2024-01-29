@@ -15,12 +15,12 @@ html {
   }
 }
 
+.mdx-hero-picture {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  position: relative;
+  flex-grow: 1;
 
-.mdx-hero-image {
-  display: flex;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  pointer-events: none;
 }

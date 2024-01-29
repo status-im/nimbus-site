@@ -20,6 +20,7 @@ import {
   LogoCarousel,
   Hero,
   HeroInfo,
+  HeroVideo,
 } from '../components/mdx'
 
 
@@ -37,10 +38,10 @@ import {
         </HeroAction>
       </HeroActions>
     </HeroInfo>
-    <picture>
-      <source srcSet="/hero/key-visual.png" media="(min-width: 100px)" className="mdx-hero-image" />
-      <img src="/hero/key-visual.webp" alt="key-visual" className="mdx-hero-image" />
-    </picture>
+    <HeroVideo
+      placeholderSrc="/hero/key-visual2.webp"
+      mobile={{ height: "100%", minHeight: "80vh" }}
+    />
   </Hero>
 
 <FeatureList
