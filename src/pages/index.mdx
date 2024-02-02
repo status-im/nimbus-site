@@ -20,29 +20,27 @@ import {
   LogoCarousel,
   Hero,
   HeroInfo,
-  HeroVideo,
+  // HeroVideo,
 } from '../components/mdx'
 
+import { HeroAsset } from '../components/HeroAsset'
 
-  <Hero size="large">
-    <HeroInfo>
-      <HeroTitle>
-        {'LIGHT AND HIGH PERFORMING ETHEREUM CLIENTS'}
-      </HeroTitle>
-      <HeroDescription>
-        {'Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and node operators alike.'} 
-      </HeroDescription>
-      <HeroActions>
-        <HeroAction variant="outlined" href="/about">
-          Learn more
-        </HeroAction>
-      </HeroActions>
-    </HeroInfo>
-    <HeroVideo
-      placeholderSrc="/hero/key-visual2.webp"
-      mobile={{ height: "100%", minHeight: "80vh" }}
-    />
-  </Hero>
+<Hero size="large">
+  <HeroInfo>
+    <HeroTitle>
+      {'LIGHT AND HIGH PERFORMING ETHEREUM CLIENTS'}
+    </HeroTitle>
+    <HeroDescription>
+      {'Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and node operators alike.'} 
+    </HeroDescription>
+    <HeroActions>
+      <HeroAction variant="outlined" href="/about">
+        Learn more
+      </HeroAction>
+    </HeroActions>
+  </HeroInfo>
+  <HeroAsset />
+</Hero>
 
 <FeatureList
   id="clients"
