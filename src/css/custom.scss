@@ -14,3 +14,13 @@ html {
     @include lsd.typography('h1', false);
   }
 }
+
+
+.mdx-roadmap {
+  .mdx-roadmap__header {
+    border-top: none !important;
+  }
+  .mdx-roadmap__timeline {
+    margin-top: 32px !important;
+  }
+}
