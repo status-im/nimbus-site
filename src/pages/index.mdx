@@ -1,6 +1,6 @@
 ---
 title: Light and high-performing Ethereum clients
-description: Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and node operators alike.
+description: Run Nimbus on lightweight devices or enterprise-grade servers with equal ease. Trusted by solo stakers and institutional node operators alike.
 ---
 
 import {
@@ -44,22 +44,22 @@ import {
     {
       title: 'Consensus Client',
       description:
-        'Use Nimbus today to monitor the beacon chain and join the network as a validator.',
+        'Monitor the beacon chain and join the network as a validator.',
     },
     {
       title: 'Verified Web3 Proxy',
       description:
-        'Enables you to independently verify data received from RPC endpoints.',
+        'Independently verify data received from RPC endpoints and add a layer of protection.',
     },
     {
       title: 'Portal Client',
       description:
-        'An ultra-light client that contributes to the network and does not require syncing.',
+        'An ultra-light client that contributes to the network and immediately usable from a fresh install.',
     },
     {
       title: 'Execution Client',
       description:
-        'A lightweight execution layer client to complement the consensus layer - coming soon.',
+        'A lightweight execution layer client to complement the consensus client - coming soon.',
     },
   ]}
 >
@@ -84,7 +84,7 @@ import {
           index={1}
           name="Easy to use"
           description={
-            <>Nimbus offers a simple consensus layer setup combining beacon node and validator clients, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
+            <>Nimbus offers a simple and easy to use consensus layer client that combines beacon node and validator client in one, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
           }
         />
       </Grid.Item>
@@ -92,22 +92,23 @@ import {
         <ShowcaseCard
           index={2}
           name="Lightweight"
-          description="A low resource footprint makes Nimbus an attractive option for solo stakers and distributed validators. Institutional operators benefit from having more headroom in their setup, preventing failure when Ethereum is under stress."
+          description="Nimbus' low resource footprint makes it an attractive option for solo stakers. Institutional node operators benefit from having more headroom in their setup, preventing failure when Ethereum is under stress."
         />
       </Grid.Item>
       <Grid.Item>
         <ShowcaseCard
           index={3}
-          name="Secure"
-          description="Nimbus has undergone extensive security testing from some of the leading security firms in blockchain technology, including ConsenSys Diligence, Trail Of Bits, and NCC Group."
+          name="Resilient"
+          description="Nimbus offers the ability to connect the validator client with multiple beacon nodes, and the beacon node with multiple execution layer clients, creating redundancy and resilience in your setup."
+          
         />
       </Grid.Item>
       <Grid.Item>
         <ShowcaseCard
           index={4}
-          name="Resilient"
-          description="Nimbus boosts resilience with distributed keystore support for pairing with multiple Web3Signer servers. It also creates redundancy and resilience against downtime by supporting multiple Beacon Nodes."
-        />
+	name="Secure"
+          description="Nimbus has undergone extensive security testing from some of the leading security firms in blockchain technology, including ConsenSys Diligence, Trail Of Bits, and NCC Group."
+/>
       </Grid.Item>
     </Grid>
   </Box>
@@ -126,7 +127,7 @@ import {
       {
         title: "Simple setup",
         href: "https://nimbus.guide/quick-start.html",
-        description: "Run integrated Nimbus Beacon Node and Validator Client together."
+        description: "Run integrated Nimbus Beacon Node and Validator client together."
       },
       {
         title: "Use Nimbus Beacon node",
@@ -136,7 +137,7 @@ import {
       {
         title: "Use Nimbus Validator client",
         href: "https://nimbus.guide/validator-client.html",
-        description: "Use Nimbus Validator Client with an alternative Beacon Node."
+        description: "Use Nimbus Validator client with an alternative Beacon Node."
       }
     ]}
     label="Get Nimbus"
