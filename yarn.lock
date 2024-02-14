@@ -19,14 +19,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-topic-cta.1":
-  version "1.0.0-topic-cta.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-cta.1.tgz#f140ec42327407825eab03d72d765a8661c6da4c"
-  integrity sha512-hW91QVyp+mjSf/J03TB/oEVZxjrC53gGFrPFgXqFJB1CtNxdYTvpOt6tPjRNFp09n8R41+CcRVLArLHon8MI+A==
+"@acid-info/logos-docusaurus-preset@^1.0.0-topic-nimbus.4":
+  version "1.0.0-topic-nimbus.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-nimbus.4.tgz#f7c4a341314c393bf1682a707eba7499e85e8985"
+  integrity sha512-XC14q3iXFot1FxVgWzL3nYOZSzE6pCLZix3MgWo5ROo9E6SNIUIRR0tOOIwJwzwhoafr91/0AVCSfg1wJcp9xA==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.131"
     "@acid-info/logos-docusaurus-search-local" "1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-cta.1+fc595fb"
+    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-nimbus.4+2ad533b"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -54,10 +54,10 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@1.0.0-topic-cta.1+fc595fb":
-  version "1.0.0-topic-cta.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-cta.1.tgz#75e03ccccc7548cc7a850eee6293531406ef2cc2"
-  integrity sha512-ifE4egHZtZV/TFYxGpN1Fj1l40w9kATEcEz9foqP8OWMzcZre4raTZQ3HMaXQf+/XxBVIzhazn9xaXnhCfQwKQ==
+"@acid-info/logos-docusaurus-theme@1.0.0-topic-nimbus.4+2ad533b":
+  version "1.0.0-topic-nimbus.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-nimbus.4.tgz#3f8813446bbb5cf5d90f4f92b0138e97d63647b6"
+  integrity sha512-S9mKgbJXzpVSmq7ilCRFoeDZ0Ed60m+p0rfbUx2wxJtwalYGqQdDKoiHZ9D4daqDqZ8eUgNKe5RYzZdTpTZokQ==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.131"
     "@acid-info/lsd-react" "^0.1.0-beta.1"
