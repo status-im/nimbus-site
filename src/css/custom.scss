@@ -16,11 +16,10 @@ html {
 }
 
 
-.mdx-roadmap {
-  .mdx-roadmap__header {
-    border-top: none !important;
-  }
-  .mdx-roadmap__timeline {
-    margin-top: 32px !important;
+html[data-theme='light'] {
+  .mdx-showcase-card__inner {
+    img {
+      filter: invert(1);
+    }
   }
 }

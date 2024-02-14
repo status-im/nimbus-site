@@ -4,77 +4,45 @@ description: Run Nimbus on lightweight devices or enterprise-grade servers with 
 ---
 
 import {
+  Hero,
   HeroTitle,
   HeroDescription,
   HeroActions,
   HeroAction,
   CallToActionSection,
-  CallToActionButton,
   FeatureList,
-  SectionHeader,
-  Roadmap,
+  HeroInfo,
   Box,
   Grid,
   ProfileCard,
+  Roadmap,
+  SectionHeader,
   ShowcaseCard,
   LogoCarousel,
+  InputCTASection,
 } from '../components/mdx'
 
 
-<Box top={{ xs: 32 }} bottom={{ xs: 144, lg: 216 }}>
-  <HeroTitle>
-    {'LIGHT AND HIGH PERFORMING ETHEREUM CLIENTS'}
-  </HeroTitle>
-  <HeroDescription>
-    {'Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and node operators alike.'} 
-  </HeroDescription>
-  <HeroActions>
-    <HeroAction variant="outlined" href="/about">
-      Learn more
-    </HeroAction>
-  </HeroActions>
-</Box>
+<Hero size="large" verticalAlign="center">
+  <HeroInfo hideScrollToBottom>
+    <HeroTitle uppercase={false}>
+      Light and High Performing Ethereum Clients
+    </HeroTitle>
+    <HeroDescription>
+      Run Nimbus on lightweight devices or enterprise-grade servers with equal
+      ease and peace of mind. Trusted by solo stakers and node operators alike.
+    </HeroDescription>
+    <HeroActions>
+      <HeroAction variant="outlined" href="/about">
+        Get Involved
+      </HeroAction>
+    </HeroActions>
+  </HeroInfo>
+</Hero>
 
-<FeatureList
-  id="clients"
-  alignment="top"
-  ctaPosition="top"
-  title="Features"
-  features={[
-    {
-      title: 'Consensus Client',
-      description:
-        'Monitor the beacon chain and join the network as a validator.',
-    },
-    {
-      title: 'Verified Web3 Proxy',
-      description:
-        'Independently verify data received from RPC endpoints and add a layer of protection.',
-    },
-    {
-      title: 'Portal Client',
-      description:
-        'An ultra-light client that contributes to the network and immediately usable from a fresh install.',
-    },
-    {
-      title: 'Execution Client',
-      description:
-        'A lightweight execution layer client to complement the consensus client - coming soon.',
-    },
-  ]}
->
-  <CallToActionButton variant="outlined" size="small" href="/about/clients" target="_self">
-    Read more
-  </CallToActionButton>
-</FeatureList>
-
-<Box top={{ xs: 144, lg: 216 }}>
-  <SectionHeader title="Nimbus attributes">
-    <CallToActionButton variant="outlined" size="small" href="/about">
-      Read more
-    </CallToActionButton>
-  </SectionHeader>
-  <Box top={{ xs: 64, lg: 100 }}>
+<Box>
+  <SectionHeader noBorder title="Nimbus Clients"></SectionHeader>
+  <Box top={{ xs: 64 }}>
     <Grid
       xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
       lg={{ cols: 4, gap: '1rem' }}
@@ -82,63 +50,126 @@ import {
       <Grid.Item>
         <ShowcaseCard
           index={1}
-          name="Easy to use"
-          description={
-            <>Nimbus offers a simple and easy to use consensus layer client that combines beacon node and validator client in one, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
-          }
+          name="Consensus Client"
+          description="Use Nimbus today to monitor the beacon chain and join the network as a validator."
+          borderStyle="none"
+          cta={{
+            label: 'Read more',
+            href: '/about/clients#consensus-client',
+            target: '_self',
+          }}
         />
       </Grid.Item>
       <Grid.Item>
         <ShowcaseCard
           index={2}
-          name="Lightweight"
-          description="Nimbus' low resource footprint makes it an attractive option for solo stakers. Institutional node operators benefit from having more headroom in their setup, preventing failure when Ethereum is under stress."
+          name="Verified Web3 Proxy"
+          description="Enables you to independently verify data received from RPC endpoints."
+          borderStyle="none"
+          cta={{
+            label: 'Read more',
+            href: '/about/clients#verified-web3-proxy',
+            target: '_self',
+          }}
         />
       </Grid.Item>
       <Grid.Item>
         <ShowcaseCard
           index={3}
-          name="Resilient"
-          description="Nimbus offers the ability to connect the validator client with multiple beacon nodes, and the beacon node with multiple execution layer clients, creating redundancy and resilience in your setup."
-          
+          name="Portal Client"
+          description="An ultra-light client that contributes to the network and does not require syncing."
+          borderStyle="none"
+          cta={{
+            label: 'Read more',
+            href: '/about/clients#portal-client',
+            target: '_self',
+          }}
         />
       </Grid.Item>
       <Grid.Item>
         <ShowcaseCard
           index={4}
-	name="Secure"
-          description="Nimbus has undergone extensive security testing from some of the leading security firms in blockchain technology, including ConsenSys Diligence, Trail Of Bits, and NCC Group."
-/>
+          name="Execution Client"
+          description="A lightweight execution layer client to complement the consensus layer.  [coming soon]"
+          borderStyle="none"
+          cta={{
+            label: 'Read more',
+            href: '/about/clients#execution-client',
+            target: '_self',
+          }}
+        />
       </Grid.Item>
     </Grid>
   </Box>
 </Box>
 
+<Box top={{ xs: 144, lg: 214 }}>
+  <FeatureList
+    id="clients"
+    alignment="top"
+    ctaPosition="top"
+    title="Nimbus Attributes"
+    indexStyle="number"
+    borderStyle="none"
+    features={[
+      {
+        title: 'Easy to use',
+        description:
+          'Nimbus offers a simple consensus layer setup combining beacon node and validator clients, or the flexibility to run the two independently. Get up and running quickly using this simple guide.',
+      },
+      {
+        title: 'Lightweight',
+        description:
+          'A low resource footprint makes Nimbus an attractive option for solo stakers and distributed validators. Institutional operators benefit from having more headroom in their setup, preventing failure when Ethereum is under stress.',
+      },
+      {
+        title: 'Secure',
+        description:
+          'Nimbus has undergone extensive security testing from some of the leading security firms in blockchain technology, including ConsenSys Diligence, Trail Of Bits, and NCC Group.',
+      },
+      {
+        title: 'Resilient',
+        description:
+          'Nimbus boosts resilience with distributed keystore support for pairing with multiple Web3Signer servers. It also creates redundancy and resilience against downtime by supporting multiple Beacon Nodes.',
+      },
+    ]}
+  ></FeatureList>
+</Box>
+
+
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
-    title="Run the Nimbus Consensus client"
-    description={
+    title={
       <>
-        Follow the detailed<br/>step-by-step guide here
+        Follow the detailed
+        <br />
+        step-by-step guide here
       </>
     }
+    description={<>Run Nimbus in one of three setups</>}
     border={false}
     list={[
       {
-        title: "Simple setup",
-        href: "https://nimbus.guide/quick-start.html",
-        description: "Run integrated Nimbus Beacon Node and Validator client together."
+        title: 'Simple setup',
+        description:
+          'Run integrated Nimbus Beacon Node and Validator Client together.',
+        href: 'https://nimbus.guide/quick-start.html',
+        target: '_blank',
       },
       {
-        title: "Use Nimbus Beacon node",
-        href: "https://nimbus.guide/quick-start.html",
-        description: "Use Nimbus Beacon Node with an alternative validator client."
+        title: 'Beacon setup',
+        description:
+          'Use Nimbus Beacon Node with an alternative validator client.',
+        href: 'https://nimbus.guide/quick-start.html',
+        target: '_blank',
       },
       {
-        title: "Use Nimbus Validator client",
-        href: "https://nimbus.guide/validator-client.html",
-        description: "Use Nimbus Validator client with an alternative Beacon Node."
-      }
+        title: 'Validator setup',
+        description:
+          'Use Nimbus Validator Client with an alternative Beacon Node',
+        href: 'https://nimbus.guide/quick-start.html',
+        target: '_blank',
+      },
     ]}
     label="Get Nimbus"
     target="_blank"
@@ -146,7 +177,62 @@ import {
   />
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+
+<Box top={{ xs: 144, lg: 166 }}>
+  <CallToActionSection
+    columns={1}
+    title="User Endorsements"
+    border={false}
+    align="left"
+    description={
+      <span>
+        Nimbus is trusted by Etherem validators diverse in both size and operating requirements. <br/> 
+        But don't just take our word for it.
+      </span>
+    }
+    ctaPosition="top"
+    href="https://nimbus.team"
+    label="Get Nimbus"
+    target="_blank"
+  />
+  <Box top={{ xs: 80 }}>
+    <Grid
+      xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
+      lg={{ cols: 4, gap: '1rem' }}
+    >
+      <Grid.Item>
+        <ShowcaseCard
+          name="ethOS"
+          description="We're thankful that Nimbus is building infrastructure that extends Ethereum, and is additive to a crypto-first mobile OS like ethOS. We know first hand that Nimbus is incredibly easy to work with, and boasts great dev support from the team."
+          borderStyle="none"
+        />
+      </Grid.Item>
+      <Grid.Item>
+        <ShowcaseCard
+          name="DSRV"
+          description="DSRV has been keen to improve client diversity, and we've been running Nimbus with close to 2000 validators over the last 16 months including Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator– not just solo stakers."
+          borderStyle="none"
+        />
+      </Grid.Item>
+      <Grid.Item>
+        <ShowcaseCard
+          name="Protolamba"
+          description="Processing 60 billion attestation data points of the Ethereum Beacon Chain only took ~45 min. How? ( . . .) Thanks to the amazing work by Nimbus, this uses their era-format to read all beacon-chain data very quickly, in parallel slices, without much lookup cost."
+          borderStyle="none"
+        />
+      </Grid.Item>
+      <Grid.Item>
+        <ShowcaseCard
+          name="Diva Staking"
+          description="Happy to collaborate with the great minds from Nimbus to push the boundaries of staking & DVT!"
+          borderStyle="none"
+        />
+      </Grid.Item>
+    </Grid>
+  </Box>
+</Box>
+
+<Box top={{ xs: 144, lg: 190 }}>
   <LogoCarousel
     title="Nimbus Users"
     items={[
@@ -230,86 +316,22 @@ import {
   />
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+<Box top={{ xs: 144, lg: 166 }}>
   <CallToActionSection
-    title="Community Suppport"
-    border={false}
-    columns={2}
-    description={"Nimbus is trusted by Ethereum validators diverse in both size and operating requirements. But don't just take our word for it."}
-    label="Try Nimbus for yourself"
-    href="https://nimbus.guide/quick-start.html"
-    target="_blank"
-  />
-</Box>
-
-<Box top={{ xs: 144, lg: 216 }}>
-  <CallToActionSection
-    columns={1}
-    title="User Endorsements"
-    border={false}
-    align="center"
-    description={
-      <span>
-        Nimbus is trusted by Etherem validators diverse in both size and operating requirements. <br/> 
-        But don't just take our word for it.
-      </span>
-    }
-    href="https://nimbus.team"
-    label="Get Nimbus"
-    target="_blank"
-  />
-  <Box top={{ xs: 100, lg: 100 }}>
-    <Grid
-      xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
-      lg={{ cols: 4, gap: '1rem' }}
-    >
-      <Grid.Item>
-        <ShowcaseCard
-          name="ethOS"
-          description="We're thankful that Nimbus is building infrastructure that extends Ethereum, and is additive to a crypto-first mobile OS like ethOS. We know first hand that Nimbus is incredibly easy to work with, and boasts great dev support from the team."
-          borderStyle="none"
-        />
-      </Grid.Item>
-      <Grid.Item>
-        <ShowcaseCard
-          name="DSRV"
-          description="DSRV has been keen to improve client diversity, and we've been running Nimbus with close to 2000 validators over the last 16 months including Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator– not just solo stakers."
-          borderStyle="none"
-        />
-      </Grid.Item>
-      <Grid.Item>
-        <ShowcaseCard
-          name="Protolamba"
-          description="Processing 60 billion attestation data points of the Ethereum Beacon Chain only took ~45 min. How? ( . . .) Thanks to the amazing work by Nimbus, this uses their era-format to read all beacon-chain data very quickly, in parallel slices, without much lookup cost."
-          borderStyle="none"
-        />
-      </Grid.Item>
-      <Grid.Item>
-        <ShowcaseCard
-          name="Diva Staking"
-          description="Happy to collaborate with the great minds from Nimbus to push the boundaries of staking & DVT!"
-          borderStyle="none"
-        />
-      </Grid.Item>
-    </Grid>
-  </Box>
-</Box>
-
-<Box top={{ xs: 144, lg: 216 }}>
-  <CallToActionSection 
     columns={1}
     title="Free and open source"
-    description="Nimbus is being developed as a common good with liberal licensing to enable the broadest deployment of Ethereum possible."
+    description="We're building Nimbus as a common good with liberal licensing to allow for the widest deployment of Ethereum possible."
     border={false}
-    label='Donate'
+    label="Get Nimbus"
+    align="center"
     href="https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557"
   />
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+<Box top={{ xs: 144, lg: 166 }}>
   <Roadmap
     title="Roadmap"
-    alignment="top"
+    noBorder
     timeline={[
       {
         period: [2018],
@@ -344,26 +366,21 @@ import {
   </Roadmap>
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+<Box top={{ xs: 144, lg: 166 }}>
   <CallToActionSection
-    title={
-      <span className='mdx-cta-section-heading-large'>
-        Want to learn more about Nimbus? <br/> 
-        Join the Discord community.
-      </span>
-    }
+    title="Community Suppport"
     border={false}
-    label="Discord"
+    columns={1}
+    align='center'
+    description={"Nimbus is trusted by Ethereum validators diverse in both size and operating requirements. But don't just take our word for it."}
+    label="Try Nimbus for yourself"
+    href="https://nimbus.guide/quick-start.html"
     target="_blank"
-    href="https://discord.com/invite/EP8DZnXu9y"
   />
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
-  <CallToActionSection
-    title="Team"
-    columns={1}
-  />
+<Box top={{ xs: 144, lg: 166 }}>
+  <SectionHeader title="Team" noBorder />
   <Box top={{ xs: 40, md: 80 }}>
     <Grid
       xs={{ cols: 3, gap: '1rem', wrap: false, scrollButtons: false }}
@@ -471,7 +488,7 @@ import {
   </Box>
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+<Box top={{ xs: 144, lg: 166 }}>
   <CallToActionSection
     title="Logos Network State"
     columns={1}
@@ -489,4 +506,45 @@ import {
     href="https://logos.co/"
     target="_blank"
   />
+</Box>
+
+<Box top={{ xs: 152, lg: 300 }}>
+  <Grid
+    xs={{ cols: 1, gap: '1rem' }}
+    md={{ cols: 2 }}
+    className="events-cta-sections"
+  >
+    <Grid.Item xs={1}>
+      <InputCTASection
+        description={
+          'Want to get involved with Nimbus?\nJoin the Discord community.'
+        }
+        link="https://logos.co"
+        label="Get Involved"
+      />
+    </Grid.Item>
+    <Grid.Item xs={1}>
+      <InputCTASection
+        description={'Subscribe\nto our newsletter'}
+        label="Subscribe"
+        formInput={[
+          {
+            label: 'Name',
+            placeholder: 'Name',
+            type: 'text',
+            name: 'name',
+            required: true,
+          },
+          {
+            label: 'Email',
+            placeholder: 'Enter your email',
+            type: 'email',
+            name: 'email',
+            required: true,
+          },
+        ]}
+        formListId={5}
+      />
+    </Grid.Item>
+  </Grid>
 </Box>
