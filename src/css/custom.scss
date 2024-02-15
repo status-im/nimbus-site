@@ -24,3 +24,8 @@ html[data-theme='light'] {
     }
   }
 }
+
+.main-wrapper > .container {
+  padding-bottom: 0 !important;
+  margin-bottom: 96px !important;
+}
