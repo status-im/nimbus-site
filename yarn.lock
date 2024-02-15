@@ -19,14 +19,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-topic-nimbus.6":
-  version "1.0.0-topic-nimbus.6"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-nimbus.6.tgz#a4c20898946ac711729484f9612d31c5080ccf38"
-  integrity sha512-wRm5FF/iH4CWaMkxjvgy6VRApBLeF9E4OWyG97c0xLteBb9858JoFK0KhO4L/fTNToAPR9M8ZDPNIoCK8EDmYA==
+"@acid-info/logos-docusaurus-preset@^1.0.0-topic-nimbus.7":
+  version "1.0.0-topic-nimbus.7"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-nimbus.7.tgz#94b8d554d604af170d7350ace49d66b28ab06ed2"
+  integrity sha512-WoB1coOZvT8KNYs3aU9GAb4RjZGcNnpb1Iu7H9MvKPl2PnC0B6u/timAeq5JFEf5INalKRQexCgpbz1CoimJPg==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.131"
     "@acid-info/logos-docusaurus-search-local" "1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-nimbus.6+c0e37aa"
+    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-nimbus.7+8ccc402"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -54,13 +54,13 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@1.0.0-topic-nimbus.6+c0e37aa":
-  version "1.0.0-topic-nimbus.6"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-nimbus.6.tgz#9663b6436e96591dec329e8eafdc76fc3f21d415"
-  integrity sha512-LqHRcKOQVDCmhyIF5WcCLZ7NzJylNm+GV6y94hNEIdUPGibnTb0lp2Dt4xo7OXFAzK6cXHhSqzI3cEgIxEwhqg==
+"@acid-info/logos-docusaurus-theme@1.0.0-topic-nimbus.7+8ccc402":
+  version "1.0.0-topic-nimbus.7"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-nimbus.7.tgz#837201a1479a579312c6795c56b5d8d897a4876a"
+  integrity sha512-5fbu429nr4jTYE3iKvtTO+U980ujekzVxMG37YhnAhsS4qn0UBN1dxoUmgkPDQPLE2QgqIYucuDzBpR1Bt0kXQ==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.131"
-    "@acid-info/lsd-react" "^0.1.0-beta.1"
+    "@acid-info/lsd-react" "^0.1.0-beta.3"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/mdx-loader" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
@@ -101,10 +101,10 @@
     three-stdlib "^2.23.4"
     utility-types "^3.10.0"
 
-"@acid-info/lsd-react@^0.1.0-beta.1":
-  version "0.1.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/lsd-react/-/lsd-react-0.1.0-beta.1.tgz#a6d8dc04a3422a1a840d032fc1d1730f4cc34e29"
-  integrity sha512-YletiehVgoXmMhIH03u67Dxg8ZiFNrGhEsvN9/+jCTnOaBQxf0/JgS7kqBeZUlqK88prU6P/QzZruiWsxVFKgA==
+"@acid-info/lsd-react@^0.1.0-beta.3":
+  version "0.1.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@acid-info/lsd-react/-/lsd-react-0.1.0-beta.3.tgz#2f211b647d68d6fce163afb60989494f555354be"
+  integrity sha512-lD/x1BZyYdQCUmtMH3YpKSInEO73wRFRxUM6lzbz5UDDUnPfDpj/g4mQrXKL1keV3ujGJbMLaCC36cZT8VgNNw==
   dependencies:
     "@datepicker-react/hooks" "^2.8.4"
     "@emotion/react" "^11.10.5"
