@@ -25,7 +25,7 @@ html[data-theme='light'] {
   }
 }
 
-.main-wrapper > .container {
+.main-wrapper > .container.container--fluid {
   padding-bottom: 0 !important;
   margin-bottom: 96px !important;
 }
