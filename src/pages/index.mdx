@@ -29,12 +29,11 @@ import {
       Light and High Performing Ethereum Clients
     </HeroTitle>
     <HeroDescription>
-      Run Nimbus on lightweight devices or enterprise-grade servers with equal
-      ease and peace of mind. Trusted by solo stakers and node operators alike.
+      Run Nimbus on lightweight devices or enterprise-grade servers with equal ease and peace of mind. Trusted by solo stakers and node operators alike.
     </HeroDescription>
     <HeroActions>
       <HeroAction variant="outlined" href="/about">
-        Get Involved
+        Learn more
       </HeroAction>
     </HeroActions>
   </HeroInfo>
@@ -51,7 +50,7 @@ import {
         <ShowcaseCard
           index={1}
           name="Consensus Client"
-          description="Use Nimbus today to monitor the beacon chain and join the network as a validator."
+          description="Monitor the beacon chain and join the network as a validator."
           borderStyle="none"
           cta={{
             label: 'Read more',
@@ -64,7 +63,7 @@ import {
         <ShowcaseCard
           index={2}
           name="Verified Web3 Proxy"
-          description="Enables you to independently verify data received from RPC endpoints."
+          description="Independently verify data received from RPC endpoints and add a layer of protection."
           borderStyle="none"
           cta={{
             label: 'Read more',
@@ -77,7 +76,7 @@ import {
         <ShowcaseCard
           index={3}
           name="Portal Client"
-          description="An ultra-light client that contributes to the network and does not require syncing."
+          description="An ultra-light client that contributes to the network and immediately usable from a fresh install."
           borderStyle="none"
           cta={{
             label: 'Read more',
@@ -90,7 +89,7 @@ import {
         <ShowcaseCard
           index={4}
           name="Execution Client"
-          description="A lightweight execution layer client to complement the consensus layer.  [coming soon]"
+          description="A lightweight execution layer client to complement the consensus client - coming soon."
           borderStyle="none"
           cta={{
             label: 'Read more',
@@ -114,23 +113,19 @@ import {
     features={[
       {
         title: 'Easy to use',
-        description:
-          'Nimbus offers a simple consensus layer setup combining beacon node and validator clients, or the flexibility to run the two independently. Get up and running quickly using this simple guide.',
+        description: <>Nimbus offers a simple and easy to use consensus layer client that combines beacon node and validator client in one, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
       },
       {
         title: 'Lightweight',
-        description:
-          'A low resource footprint makes Nimbus an attractive option for solo stakers and distributed validators. Institutional operators benefit from having more headroom in their setup, preventing failure when Ethereum is under stress.',
-      },
-      {
-        title: 'Secure',
-        description:
-          'Nimbus has undergone extensive security testing from some of the leading security firms in blockchain technology, including ConsenSys Diligence, Trail Of Bits, and NCC Group.',
+        description: "Nimbus' low resource footprint makes it an attractive option for solo stakers. Institutional node operators benefit from having more headroom in their setup, preventing failure when Ethereum is under stress."
       },
       {
         title: 'Resilient',
-        description:
-          'Nimbus boosts resilience with distributed keystore support for pairing with multiple Web3Signer servers. It also creates redundancy and resilience against downtime by supporting multiple Beacon Nodes.',
+        description: "Nimbus offers the ability to connect the validator client with multiple beacon nodes, and the beacon node with multiple execution layer clients, creating redundancy and resilience in your setup."
+      },
+            {
+        title: 'Secure',
+        description: "Nimbus has undergone extensive security testing from some of the leading security firms in blockchain technology, including ConsenSys Diligence, Trail Of Bits, and NCC Group."
       },
     ]}
   ></FeatureList>
@@ -139,34 +134,29 @@ import {
 
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
-    title={
+    title="Get started"
+    description={
       <>
-        Follow the detailed
-        <br />
-        step-by-step guide here
+        Run the Nimbus consensus client <br/>in one of three ways
       </>
     }
-    description={<>Run Nimbus in one of three setups</>}
     border={false}
     list={[
       {
         title: 'Simple setup',
-        description:
-          'Run integrated Nimbus Beacon Node and Validator Client together.',
+        description: "Setup the Nimbus Beacon Node with Validator client duties.",
         href: 'https://nimbus.guide/quick-start.html',
         target: '_blank',
       },
       {
         title: 'Beacon setup',
-        description:
-          'Use Nimbus Beacon Node with an alternative validator client.',
+        description: "Use Nimbus Beacon Node with an alternative validator client.",
         href: 'https://nimbus.guide/quick-start.html',
         target: '_blank',
       },
       {
         title: 'Validator setup',
-        description:
-          'Use Nimbus Validator Client with an alternative Beacon Node',
+        description: "Use Nimbus Validator client with an alternative Beacon Node.",
         href: 'https://nimbus.guide/quick-start.html',
         target: '_blank',
       },
@@ -182,6 +172,7 @@ import {
   <CallToActionSection
     columns={1}
     title="User Endorsements"
+    ctaPosition="top"
     border={false}
     align="left"
     description={
@@ -190,7 +181,6 @@ import {
         But don't just take our word for it.
       </span>
     }
-    ctaPosition="top"
     href="https://nimbus.team"
     label="Get Nimbus"
     target="_blank"
@@ -212,7 +202,7 @@ import {
       <Grid.Item>
         <ShowcaseCard
           name="DSRV"
-           logoSrc="/logo/dsrv.svg"
+          logoSrc="/logo/dsrv.svg"
           logoSrcDark="/logo/dsrv.svg"
           description="DSRV has been keen to improve client diversity, and we've been running Nimbus with close to 2000 validators over the last 16 months including Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator– not just solo stakers."
           borderStyle="none"
@@ -328,7 +318,7 @@ import {
   <CallToActionSection
     columns={1}
     title="Free and open source"
-    description="We're building Nimbus as a common good with liberal licensing to allow for the widest deployment of Ethereum possible."
+    description="Nimbus is being developed as a common good with liberal licensing to enable the broadest deployment of Ethereum possible."
     border={false}
     label="Get Nimbus"
     align="center"
