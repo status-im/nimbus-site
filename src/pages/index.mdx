@@ -22,6 +22,8 @@ import {
   InputCTASection,
 } from '../components/mdx'
 
+import { Button } from '@acid-info/lsd-react'
+
 
 <Hero size="large" verticalAlign="center">
   <HeroInfo hideScrollToBottom>
@@ -317,25 +319,32 @@ import {
     title="Free and open source"
     description="Nimbus is being developed as a common good with liberal licensing to enable the broadest possible deployment of Ethereum."
     border={false}
+  />
+  <div className='buttons-row'>
+    <a href="https://github.com/status-im/nimbus-eth2" target='_blank'>
+      <Button className='link-button' size='small'>
+        <div alt="GitHub" class='header-github-link' />
+        <p>Consensus Client</p>
+      </Button>
+    </a>
+    <a href="https://github.com/status-im/nimbus-eth1" target='_blank'>
+      <Button className='link-button' size='small'>
+        <div alt="GitHub" class='header-github-link' />
+        <p>Execution Client</p>
+      </Button>
+    </a>
+  </div>
+</Box>
 
-
-<! -- 
-ADD A BUTTON WITH GITHUB ICON (Important to add the github icon!!): Consensus Client
-LINK BUTTON TO: https://github.com/status-im/nimbus-eth2
-
-ADD A BUTTON WITH GITHUB ICON (Important to add the github icon!!): Execution Client
-LINK BUTTON TO: https://github.com/status-im/nimbus-eth1
--->
-
-
-<! -- COPY TO ADD IN THIS SECTION: 
-Support
-As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. Donate to Nimbus and to support us in our pursuit for building and maintaining the lightest Ethereum clients accessible to all.
-
-ADD A BUTTON: Donate
-LINK BUTTON TO: https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557
--->
-
+<Box top={{ xs: 144, lg: 166 }}>
+  <CallToActionSection
+    columns={1}
+    title="Support"
+    description="As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. Donate to Nimbus and to support us in our pursuit for building and maintaining the lightest Ethereum clients accessible to all."
+    border={false}
+    label="Donate"
+    target="_blank"
+    href="https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557s"
   />
 </Box>
 
@@ -467,10 +476,7 @@ LINK BUTTON TO: https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb270
       <Grid.Item>
         <ProfileCard
           name='Kaushal'
-
-<!-- WOULD IT BE POSSIBLE TO ADD A TWITTER LINK AND TAKE THE IMAGE FROm THE TWITTER PROFILE? https://twitter.com/liftlines -->
-
-	/>
+	      />
       </Grid.Item>
       <Grid.Item>
         <ProfileCard
