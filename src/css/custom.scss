@@ -57,4 +57,10 @@ h2 {
   a {
     margin-top: 24px;
   }
+
+  .mdx-grid > div:last-child {
+    .lsd-button {
+      padding: 6px 12px !important;
+    }
+  }
 }
