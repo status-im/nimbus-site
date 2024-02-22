@@ -66,3 +66,22 @@ h2 {
     }
   }
 }
+
+@media (max-width: 768px) {
+  #open-source-and-support {
+    .mdx-grid__content {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  h3 {
+    margin-top: 16px !important;
+  }
+
+  .mdx-grid__content > div:first-child {
+    a {
+      margin-top: 16px !important;
+    }
+  }
+}
