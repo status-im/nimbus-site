@@ -16,7 +16,6 @@ html {
   }
 }
 
-
 html[data-theme='light'] {
   .mdx-showcase-card__inner {
     img {
@@ -28,4 +27,18 @@ html[data-theme='light'] {
 .main-wrapper > .container.container--fluid {
   padding-bottom: 0 !important;
   margin-bottom: 96px !important;
+}
+
+.buttons-row {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.link-button {
+  & > span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
 }
