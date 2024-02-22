@@ -104,7 +104,7 @@ import { Button } from '@acid-info/lsd-react'
   </Box>
 </Box>
 
-<Box top={{ xs: 144, lg: 214 }}>
+<Box top={{ xs: 144, lg: 190 }}>
   <FeatureList
     id="clients"
     alignment="top"
@@ -134,7 +134,7 @@ import { Button } from '@acid-info/lsd-react'
 </Box>
 
 
-<Box top={{ xs: 144, lg: 216 }}>
+<Box top={{ xs: 144, lg: 190 }}>
   <CallToActionSection
     title="Get started"
     description={
@@ -203,7 +203,7 @@ import { Button } from '@acid-info/lsd-react'
           name="DSRV"
           logoSrc="/logo/dsrv.svg"
           logoSrcDark="/logo/dsrv.svg"
-          description="DSRV iis running Nimbus with close to 2000 validators on the Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator – not just solo stakers."
+          description="DSRV is running Nimbus with close to 2000 validators on the Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator – not just solo stakers."
           borderStyle="none"
         />
       </Grid.Item>
@@ -313,42 +313,48 @@ import { Button } from '@acid-info/lsd-react'
   />
 </Box>
 
-<Box top={{ xs: 144, lg: 166 }}>
-  <CallToActionSection
-    columns={1}
-    title="Free and open source"
-    description="Nimbus is being developed as a common good with liberal licensing to enable the broadest possible deployment of Ethereum."
-    border={false}
-  />
-  <div className='buttons-row'>
-    <a href="https://github.com/status-im/nimbus-eth2" target='_blank'>
-      <Button className='link-button' size='small'>
-        <div alt="GitHub" class='header-github-link' />
-        <p>Consensus Client</p>
-      </Button>
-    </a>
-    <a href="https://github.com/status-im/nimbus-eth1" target='_blank'>
-      <Button className='link-button' size='small'>
-        <div alt="GitHub" class='header-github-link' />
-        <p>Execution Client</p>
-      </Button>
-    </a>
-  </div>
+<Box top={{ xs: 144, lg: 190 }} id="open-source-and-support">
+  <Grid
+    xs={{ cols: 2, gap: '1.5rem 1rem', wrap: false, scrollButtons: false }}
+    md={{ cols: 2, gap: '1.5rem 1rem', wrap: true }}
+  >
+    <Grid.Item>
+      <CallToActionSection
+        columns={1}
+        title="Free and open source"
+        description="Nimbus is being developed as a common good with liberal licensing to enable the broadest possible deployment of Ethereum."
+        border={false}
+      />
+      <div className='buttons-row'>
+        <a href="https://github.com/status-im/nimbus-eth2" target='_blank'>
+          <Button className='link-button' size='small'>
+            <div alt="GitHub" class='header-github-link' />
+            <p>Consensus Client</p>
+          </Button>
+        </a>
+        <a href="https://github.com/status-im/nimbus-eth1" target='_blank'>
+          <Button className='link-button' size='small'>
+            <div alt="GitHub" class='header-github-link' />
+            <p>Execution Client</p>
+          </Button>
+        </a>
+      </div>
+    </Grid.Item>
+    <Grid.Item>
+      <CallToActionSection
+        columns={1}
+        title="Support"
+        description="As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. Donate to Nimbus and to support us in our pursuit for building and maintaining the lightest Ethereum clients accessible to all."
+        border={false}
+        label="Donate"
+        target="_blank"
+        href="https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557s"
+      />
+      </Grid.Item>
+  </Grid>
 </Box>
 
-<Box top={{ xs: 144, lg: 166 }}>
-  <CallToActionSection
-    columns={1}
-    title="Support"
-    description="As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. Donate to Nimbus and to support us in our pursuit for building and maintaining the lightest Ethereum clients accessible to all."
-    border={false}
-    label="Donate"
-    target="_blank"
-    href="https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557s"
-  />
-</Box>
-
-<Box top={{ xs: 144, lg: 166 }}>
+<Box top={{ xs: 144, lg: 190 }}>
   <Roadmap
     title="Timeline"
     noBorder
@@ -395,7 +401,7 @@ import { Button } from '@acid-info/lsd-react'
 </Box>
 
 
-<Box top={{ xs: 144, lg: 166 }}>
+<Box top={{ xs: 144, lg: 190 }}>
   <SectionHeader title="Team" noBorder />
   <Box top={{ xs: 40, md: 80 }}>
     <Grid
