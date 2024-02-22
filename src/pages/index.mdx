@@ -113,7 +113,7 @@ import {
     features={[
       {
         title: 'Easy to use',
-        description: <>Nimbus offers a simple and easy to use consensus layer client that combines beacon node and validator client in one, or the flexibility to run the two independently. Get up and running quickly using <a href='https://nimbus.guide/quick-start.html'>this simple guide</a>.</>
+        description: <>Nimbus offers a simple and easy to use consensus layer client that combines beacon node and validator client in one, or the flexibility to run the two independently.</>
       },
       {
         title: 'Lightweight',
@@ -137,31 +137,31 @@ import {
     title="Get started"
     description={
       <>
-        Run the Nimbus consensus client <br/>in one of three ways
+        Run the Nimbus Consensus Client <br/>in one of three ways
       </>
     }
     border={false}
     list={[
       {
         title: 'Simple setup',
-        description: "Setup the Nimbus Beacon Node with Validator client duties.",
+        description: "Setup the Nimbus Beacon Node with Validator Client duties built in.",
         href: 'https://nimbus.guide/quick-start.html',
         target: '_blank',
       },
       {
-        title: 'Beacon setup',
-        description: "Use Nimbus Beacon Node with an alternative validator client.",
-        href: 'https://nimbus.guide/quick-start.html',
+        title: 'Beacon Node setup',
+        description: "Use Nimbus Beacon Node with an alternative Validator Client.",
+        href: 'https://nimbus.guide/validator-client.html',
         target: '_blank',
       },
       {
         title: 'Validator setup',
         description: "Use Nimbus Validator client with an alternative Beacon Node.",
-        href: 'https://nimbus.guide/quick-start.html',
+        href: 'https://nimbus.guide/validator-client.html',
         target: '_blank',
       },
     ]}
-    label="Get Nimbus"
+    label="Quick-start guide"
     target="_blank"
     href="https://nimbus.guide/quick-start.html"
   />
@@ -171,19 +171,16 @@ import {
 <Box top={{ xs: 144, lg: 166 }}>
   <CallToActionSection
     columns={1}
-    title="User Endorsements"
+    title="Testimonials"
     ctaPosition="top"
     border={false}
     align="left"
     description={
       <span>
-        Nimbus is trusted by Etherem validators diverse in both size and operating requirements. <br/> 
+        Nimbus is trusted by a diverse set of node operators which includes solo stakers, professional node operators, emerging liquid staking protocols and projects. <br/> 
         But don't just take our word for it.
       </span>
     }
-    href="https://nimbus.team"
-    label="Get Nimbus"
-    target="_blank"
   />
   <Box top={{ xs: 80 }}>
     <Grid
@@ -204,7 +201,7 @@ import {
           name="DSRV"
           logoSrc="/logo/dsrv.svg"
           logoSrcDark="/logo/dsrv.svg"
-          description="DSRV has been keen to improve client diversity, and we've been running Nimbus with close to 2000 validators over the last 16 months including Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator– not just solo stakers."
+          description="DSRV iis running Nimbus with close to 2000 validators on the Ethereum mainnet. We found Nimbus consensus client to be both reliable and easy to operate while requiring fewer resources, making it worth recommending to every validator – not just solo stakers."
           borderStyle="none"
         />
       </Grid.Item>
@@ -213,7 +210,7 @@ import {
           name="Protolamba"
           logoSrc="/logo/protolamba.svg"
           logoSrcDark="/logo/protolamba.svg"
-          description="Processing 60 billion attestation data points of the Ethereum Beacon Chain only took ~45 min. How? ( . . .) Thanks to the amazing work by Nimbus, this uses their era-format to read all beacon-chain data very quickly, in parallel slices, without much lookup cost."
+          description="Processing 60 billion attestation data points of the Ethereum Beacon Chain only took ~45 min. How? Thanks to the amazing work by Nimbus, this uses their era-format to read all beacon-chain data very quickly, in parallel slices, without much lookup cost."
           borderStyle="none"
         />
       </Grid.Item>
@@ -318,11 +315,27 @@ import {
   <CallToActionSection
     columns={1}
     title="Free and open source"
-    description="Nimbus is being developed as a common good with liberal licensing to enable the broadest deployment of Ethereum possible."
+    description="Nimbus is being developed as a common good with liberal licensing to enable the broadest possible deployment of Ethereum."
     border={false}
-    label="Get Nimbus"
-    align="center"
-    href="https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557"
+
+
+<! -- 
+ADD A BUTTON WITH GITHUB ICON (Important to add the github icon!!): Consensus Client
+LINK BUTTON TO: https://github.com/status-im/nimbus-eth2
+
+ADD A BUTTON WITH GITHUB ICON (Important to add the github icon!!): Execution Client
+LINK BUTTON TO: https://github.com/status-im/nimbus-eth1
+-->
+
+
+<! -- COPY TO ADD IN THIS SECTION: 
+Support
+As a web3 public good, largely dependent on both Status and the Ethereum Foundation for funding, grants are our lifeblood. Donate to Nimbus and to support us in our pursuit for building and maintaining the lightest Ethereum clients accessible to all.
+
+ADD A BUTTON: Donate
+LINK BUTTON TO: https://etherscan.io/address/0xDeb4A0e8d9a8dB30a9f53AF2dCc9Eb27060c6557
+-->
+
   />
 </Box>
 
@@ -349,33 +362,29 @@ import {
       },
       {
         period: [2022],
-        description: "Feature enhancements to Nimbus consensus client and continued work on Execution client"
+        description: "Feature enhancements to Nimbus Consensus Client and continued work on Execution Client"
       },
       {
         period: [2023],
-        description: "Improved resilience and performance of Consensus client from multi-BN, multi-EL support"
+        description: "Improved resilience and performance of Consensus Client from multi-BN, multi-EL support"
       },
       {
         period: [2024],
-        description: "Nimbus Execution client launch on mainnet, Introduction of the Nimbus node management UI, Distributed Validator features and improvements to the Nimbus Consensus client"
+        description: "Nimbus Execution Client launch on mainnet"
+      },
+      {
+        period: [2024],
+        description: "Introduction of the Nimbus node management UI"
+      },
+      {
+        period: [2024],
+        description: "Distributed Validator features and improvements to the Nimbus Consensus Client"
       },
     ]}
   >
   </Roadmap>
 </Box>
 
-<Box top={{ xs: 144, lg: 166 }}>
-  <CallToActionSection
-    title="Community Suppport"
-    border={false}
-    columns={1}
-    align='center'
-    description={"Nimbus is trusted by Ethereum validators diverse in both size and operating requirements. But don't just take our word for it."}
-    label="Try Nimbus for yourself"
-    href="https://nimbus.guide/quick-start.html"
-    target="_blank"
-  />
-</Box>
 
 <Box top={{ xs: 144, lg: 166 }}>
   <SectionHeader title="Team" noBorder />
@@ -458,7 +467,10 @@ import {
       <Grid.Item>
         <ProfileCard
           name='Kaushal'
-        />
+
+<!-- WOULD IT BE POSSIBLE TO ADD A TWITTER LINK AND TAKE THE IMAGE FROm THE TWITTER PROFILE? https://twitter.com/liftlines -->
+
+	/>
       </Grid.Item>
       <Grid.Item>
         <ProfileCard
@@ -477,26 +489,6 @@ import {
       </Grid.Item>
     </Grid>
   </Box>
-</Box>
-
-<Box top={{ xs: 144, lg: 166 }}>
-  <CallToActionSection
-    title="Logos Network State"
-    columns={1}
-    align="center"
-    border={false}
-    description={
-      <>
-        Nimbus is part of the Logos Network State Ecosystem. Logos is a grassroots movement to provide trust-minimised, corruption-resistant governing services and social institutions to peaceful people worldwide.
-        <br/>
-        <br/>
-        Learn more about our ambitious vision.  
-      </>
-    }
-    label="Explore Logos"
-    href="https://logos.co/"
-    target="_blank"
-  />
 </Box>
 
 <Box top={{ xs: 152, lg: 300 }}>
