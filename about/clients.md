@@ -44,7 +44,7 @@ While convenient, this approach requires users to trust the returned data, repre
 
 Nimbus portal client, our light client implementation known as “Fluffy”, is among a few promising efforts to develop an Ethereum light client. Its development is part of a cross-team Ethereum Foundation initiative called Portal Network that seeks to realise the light client vision. 
 
-Alongside the Nimbus portal client, Nimbus has developed a Light Web Proxy that can run in the background of applications, providing on-chain data directly to wallet apps and Ethereum-native operating systems, among other use cases. 
+Alongside the Nimbus portal client, Nimbus has developed a light web3 proxy that can run in the background of applications, providing on-chain data directly to wallet apps and Ethereum-native operating systems, among other use cases. 
 
 Ultimately, light clients will provide greater security to users, reveal new blockchain use cases, and enable the Ethereum ecosystem to reduce its dependency on centralised entities that represent single points of failure or capture.
 
