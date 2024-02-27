@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 Nimbus was created to promote client diversity and network decentralisation on Ethereum, believing that blockchain technology's full transformative potential can only be realised if running Ethereum infrastructure is widely accessible.
 
-Nimbus is a startup supported by the [Institute of Free Technology](https://free.technology/) (IFT), a mission-driven technology startup studio focused on building public goods to safeguard civil liberties in the digital age.
+Nimbus is a startup supported by the [Institute of Free Technology](https://free.technology/), a mission-driven technology startup studio focused on building public goods to safeguard civil liberties in the digital age.
 
 <br/>
 
