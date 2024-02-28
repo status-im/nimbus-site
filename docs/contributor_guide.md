@@ -15,7 +15,7 @@ We use funds from donations to:
 
 If you'd like to donate a conditional amount, i.e. one that depends on a certain milestone or deadline, please [get in touch](mailto:jacek@status.im).
 
-## How To Get Involved with Nimbus' development 
+## How to get involved with Nimbus' development 
 
 - look around [the repo](https://github.com/status-im/nimbus-eth2), especially the [open issues](https://github.com/status-im/nimbus-eth2/issues)
 - check out some [open bounties](https://gitcoin.co/explorer?keywords=nimbus&order_by=-web3_created)
@@ -31,7 +31,7 @@ make update
 
 [Build](/docs/eth2.html) and start hacking!
 
-## Thought Experiments
+## Thought experiments
 
 <blockquote className="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Still hoping to just have my <a href="https://twitter.com/ethstatus?ref_src=twsrc%5Etfw">@ethstatus</a> desktop wallet be my bn, and have my mobile device be my <a href="https://twitter.com/ethnimbus?ref_src=twsrc%5Etfw">@ethnimbus</a> vc 🤷🏽‍♀️😅. And then a nice little Rocketpool Staas run by <a href="https://twitter.com/search?q=%24SNT&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$SNT</a>... And anonymous staking in &quot;dark pools&quot; build on application layer, fees paid to client/network nodes. 👌🏽😻.</p>&mdash; chloethedev.eth ⟠ δούλος 🏳️‍⚧️ (@Chloethedev) <a href="https://twitter.com/Chloethedev/status/1320710462032515072?ref_src=twsrc%5Etfw">October 26, 2020</a></blockquote>
 
