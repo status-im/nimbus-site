@@ -1,6 +1,6 @@
 ---
 title: Nimbus clients 
-sidebar_position: 1.1
+sidebar_position: 2
 sidebar_label: Nimbus clients
 hide_table_of_contents: true
 ---

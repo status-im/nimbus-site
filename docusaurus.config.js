@@ -67,15 +67,15 @@ const config = {
         breadcrumbs: false,
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs',
-        routeBasePath: '/docs',
-        path: 'docs',
-        sidebarPath: 'docs/sidebars.js',
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'docs',
+    //     routeBasePath: '/docs',
+    //     path: 'docs',
+    //     sidebarPath: 'docs/sidebars.js',
+    //   },
+    // ],
   ],
 
   scripts: [
@@ -104,10 +104,6 @@ const config = {
           {
             label: 'Community',
             to: '/community',
-          },
-          {
-            label: 'Docs',
-            to: '/docs',
           },
           {
             label: 'Guide',
@@ -143,13 +139,9 @@ const config = {
                 label: 'Discord',
               },
               {
-                to: '/docs',
-                label: 'Docs',
-              },
-              {
                 href: 'https://github.com/status-im',
                 label: 'Github',
-              }
+              },
             ],
           },
           {
