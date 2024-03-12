@@ -10,6 +10,10 @@ html {
   overflow-x: hidden;
 }
 
+#__docusaurus {
+  overflow: hidden;
+}
+
 @include utils.responsive('lg', 'up') {
   .mdx-cta-section-heading-large {
     @include lsd.typography('h1', false);
@@ -27,6 +31,72 @@ html[data-theme='light'] {
 .main-wrapper > .container.container--fluid {
   padding-bottom: 0 !important;
   margin-bottom: 96px !important;
+}
+
+#hero-image-container {
+  button {
+    display: none !important;
+  }
+}
+
+.hero-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: -65%;
+}
+
+.mdx-hero {
+  h1 {
+    font-size: 48px !important;
+    line-height: 56px !important;
+  }
+}
+
+@include utils.responsive('xl', 'up') {
+  .hero-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: calc(-1 * ((100vw - var(--container-max-width)) / 2 + 300px));
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-image {
+    margin-right: calc(-1 * ((100vw - var(--container-max-width)) / 2 + 400px));
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-image {
+    margin-right: calc(-1 * ((100vw - var(--container-max-width)) / 2 + 450px));
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero-image {
+    margin-right: -32px;
+    margin-left: 0;
+    scale: 1;
+    margin-top: -30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    margin-right: 48px;
+    scale: 1.4;
+    margin-top: -10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-image {
+    margin-right: 32px;
+    scale: 1.36;
+    margin-top: -20%;
+  }
 }
 
 .buttons-row {
@@ -83,5 +153,42 @@ h2 {
     a {
       margin-top: 16px !important;
     }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mdx-hero {
+    margin-bottom: 200px;
+  }
+
+  .mdx-section-header {
+    h2 {
+      font-size: 28px !important;
+      line-height: 36px !important;
+    }
+  }
+
+  .mdx-feature-list__header {
+    h2 {
+      font-size: 28px !important;
+      line-height: 36px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mdx-hero {
+    margin-bottom: 210px;
+
+    h1 {
+      font-size: 32px !important;
+      line-height: 40px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mdx-hero {
+    margin-bottom: 40px;
   }
 }
