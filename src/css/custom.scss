@@ -34,6 +34,7 @@ html[data-theme='light'] {
 }
 
 #hero-image-container {
+  z-index: -1;
   button {
     display: none !important;
   }
@@ -51,6 +52,7 @@ html[data-theme='light'] {
     font-size: 48px !important;
     line-height: 56px !important;
   }
+  z-index: 10;
 }
 
 @include utils.responsive('xl', 'up') {
