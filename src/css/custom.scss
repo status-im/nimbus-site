@@ -1,19 +1,6 @@
 @use "@acid-info/logos-docusaurus-theme/src/client/css/lsd";
 @use "@acid-info/logos-docusaurus-theme/src/client/css/utils";
 
-:root {
-  --container-max-width: 1072px !important;
-}
-
-body,
-html {
-  overflow-x: hidden;
-}
-
-#__docusaurus {
-  overflow: hidden;
-}
-
 @include utils.responsive('lg', 'up') {
   .mdx-cta-section-heading-large {
     @include lsd.typography('h1', false);
@@ -33,39 +20,16 @@ html[data-theme='light'] {
   margin-bottom: 96px !important;
 }
 
-#hero-image-container {
-  z-index: -1;
-  button {
-    display: none !important;
-  }
+.mdx-hero-image {
+  position: relative;
 }
 
-.navbar {
-  background: transparent !important;
-}
-
-.hero-image {
+.mdx-hero > .mdx-hero-image > img {
   position: absolute;
   right: 0;
   top: 0;
   margin-top: -65%;
 }
-
-.mdx-hero {
-  h1 {
-    font-size: 48px !important;
-    line-height: 56px !important;
-  }
-  z-index: 10;
-}
-
-// @include utils.responsive('xl', 'up') {
-//   .hero-image {
-//     position: absolute;
-//     right: 0;
-//     top: 0;
-//   }
-// }
 
 .buttons-row {
   display: flex;
@@ -78,10 +42,6 @@ html[data-theme='light'] {
     align-items: center;
     gap: 8px;
   }
-}
-
-h2 {
-  margin-top: unset !important;
 }
 
 #open-source-and-support {
@@ -106,13 +66,13 @@ h2 {
 }
 
 @media screen and (max-width: 1200px) {
-  .hero-image {
+  .mdx-hero > .mdx-hero-image > img {
     margin-right: -280px;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .hero-image {
+@media screen and (min-width: 996px) {
+  .mdx-hero > .mdx-hero-image > img {
     position: absolute;
     right: 0;
     top: 0;
@@ -123,8 +83,8 @@ h2 {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .hero-image {
+@media screen and (max-width: 996px) {
+  .mdx-hero > .mdx-hero-image > img {
     margin-right: -32px;
     margin-left: 0;
     scale: 1;
@@ -134,30 +94,11 @@ h2 {
   .mdx-hero {
     margin-bottom: 200px;
   }
-
-  .mdx-section-header {
-    h2 {
-      font-size: 28px !important;
-      line-height: 36px !important;
-    }
-  }
-
-  .mdx-feature-list__header {
-    h2 {
-      font-size: 28px !important;
-      line-height: 36px !important;
-    }
-  }
 }
 
 @media screen and (max-width: 768px) {
   .mdx-hero {
     margin-bottom: 210px;
-
-    h1 {
-      font-size: 32px !important;
-      line-height: 40px !important;
-    }
   }
 
   #open-source-and-support {
@@ -177,7 +118,7 @@ h2 {
     }
   }
 
-  .hero-image {
+  .mdx-hero > .mdx-hero-image > img {
     margin-right: 22px;
     scale: 1.15;
     margin-top: -27%;
@@ -185,7 +126,7 @@ h2 {
 }
 
 @media screen and (max-width: 650px) {
-  .hero-image {
+  .mdx-hero > .mdx-hero-image > img {
     margin-top: -24%;
     scale: 1;
   }
@@ -200,7 +141,7 @@ h2 {
     margin-bottom: 140px;
   }
 
-  .hero-image {
+  .mdx-hero > .mdx-hero-image > img {
     margin-right: 32px;
     scale: 1.36;
     margin-top: -18%;

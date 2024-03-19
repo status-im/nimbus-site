@@ -9,6 +9,7 @@ import {
   HeroDescription,
   HeroActions,
   HeroAction,
+  HeroImage,
   CallToActionSection,
   FeatureList,
   HeroInfo,
@@ -38,9 +39,7 @@ import { Button } from '@acid-info/lsd-react'
       </HeroAction>
     </HeroActions>
   </HeroInfo>
-  <div id="hero-image-container">
-    <img src="/hero/hero-image.png" alt="hero-image" className="hero-image"/>
-  </div>
+  <HeroImage src="/hero/hero-image.png" alt="alt" />
 </Hero>
 
 <Box>
@@ -545,3 +544,4 @@ import { Button } from '@acid-info/lsd-react'
     </Grid.Item>
   </Grid>
 </Box>
+
