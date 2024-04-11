@@ -8,9 +8,9 @@ As a leading Ethereum client implementation already in production, the Nimbus co
 
 Known future upgrades and ecosystem developments guiding our research and development efforts include:
 
-### Dencun hardfork 
+### Dencun hard fork 
 
-After "The Merge" in 2022, the next major Ethereum upgrade is "The Surge," which aims to significantly increase the network's maximum transaction throughput via the implementation of an early form of sharding. The Dencun hard fork is anticipated to go live on mainnet in Q2 2024.
+After "The Merge" in 2022, the next major Ethereum upgrade was "The Surge," which aims to significantly increase the network's maximum transaction throughput via the implementation of an early form of sharding. The Dencun hard fork went live on mainnet in Q2 2024.
 
 ### Distributed validator technology
 
