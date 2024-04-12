@@ -12,4 +12,4 @@ The three subgroups include Nimbus consensus, Nimbus execution, and Nimbus porta
 
 Nimbus is looking to expand the above structure and currently has multiple openings for core contributors. As an open-source public goods project Nimbus also welcomes community contributions. 
 
-[Work with us](https://jobs.status.im/)
+[Work with us](/join-us)
