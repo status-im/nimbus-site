@@ -40,6 +40,7 @@ const config = {
           },
         },
         docs: {
+          id: 'root-pages',
           routeBasePath: '/',
           path: 'root-pages',
         },
