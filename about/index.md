@@ -1,5 +1,6 @@
 ---
-title: About
+title: Client Diversity and Network Decentralisation For Ethereum
+description: Nimbus is a suite of Ethereum client implementations designed to be as lightweight, easy to use, and adaptive as possible.
 sidebar_position: 1
 hide_table_of_contents: true
 ---

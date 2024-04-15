@@ -4,7 +4,7 @@ require('dotenv').config()
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Nimbus',
+  title: 'Nimbus | Light and High-Performing Ethereum Clients',
   url: 'https://nimbus.team/',
   baseUrl: '/',
 
