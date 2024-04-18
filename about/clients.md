@@ -26,7 +26,7 @@ The Nimbus consensus client offers significant advantages for all levels of user
 
 - Convenient: Nimbus will be among the first client teams to offer both a consensus and execution client, simplifying initial installation and making it easy for operators to receive tailored support.
 
-View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/nimbus) or the [setup guide.](https://nimbus.guide/quick-start.html) 
+View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/nimbus) or the [setup guide.](https://nimbus.guide/quick-start.html).
 
 ## Verified web3 proxy
 
@@ -34,7 +34,7 @@ Nimbus is working with ethOS on a native and embedded proof of concept to provid
 
 It simply requires the user to set up a light web3 proxy on their phone and scan the proxy, which fetches the state root from the LC network. This allows the proxy to request the balance and proof from any provider or untrusted node, checking this against the state root and verifying the balance.
 
-View the [Github repository.](https://github.com/status-im/nimbus-eth1/tree/master/nimbus_verified_proxy)
+View the [Github repository.](https://github.com/status-im/nimbus-eth1/tree/master/nimbus_verified_proxy).
 
 ## Portal client
 
@@ -49,7 +49,7 @@ Alongside the portal client, Nimbus has developed a light, verified web3 proxy t
 Ultimately, light clients will provide greater security to users, reveal new blockchain use cases, and enable the Ethereum ecosystem to reduce its dependency on centralised entities that represent single points of failure or capture.
 
 
-View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/fluffy) or [read more.](nimbus.team/docs/fluffy)
+View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/fluffy) or [read more.]( https://fluffy.guide/quick-start.html).
 
 ## Execution client
 Following Ethereum's switch to proof-of-stake in 2022, Ethereum validators must operate clients on both the consensus and execution layers. Yet, as of today, no client team offers both an execution and consensus layer client.
@@ -58,4 +58,4 @@ Although the Nimbus execution client is still in development when in production,
 
 Like the Nimbus consensus client, the execution client is written in Nim and designed to be as lightweight as possible, preserving valuable system resources.
 
-View the [Github repository](https://github.com/status-im/nimbus-eth1) or [read more.](nimbus.team/docs/eth1)
+View the [Github repository](https://github.com/status-im/nimbus-eth1).
