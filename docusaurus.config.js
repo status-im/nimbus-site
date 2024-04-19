@@ -127,7 +127,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: 'Nimbus @2023<br/>All Rights Reserved.',
+        copyright: 'Nimbus',
         links: [
           {
             items: [
