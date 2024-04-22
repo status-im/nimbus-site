@@ -53,7 +53,9 @@ const config = {
             jobBoard: 'nimbus',
           },
         },
-        og: {},
+        og: {
+          path: '_og',
+        },
       }),
     ],
   ],
