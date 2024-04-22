@@ -69,6 +69,10 @@ html[data-theme='light'] {
   margin-top: -40%;
 }
 
+.hash-link {
+  position: absolute;
+}
+
 @media screen and (min-width: 996px) {
   .mdx-hero > .mdx-hero-image > img {
     position: absolute;
