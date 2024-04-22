@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-04-22T17:23:22Z",
+    "git": {
+        "commit": "9e6e23cc9ba8f053a0619d8f280d1779ae04cc99",
+        "branch": "origin/develop",
+        "url": "git@github.com:status-im/nimbus-site.git"
+    },
+    "build": {
+        "id": "106",
+        "number": "106",
+        "name": "website/nimbus.team",
+        "slave": "linux-01",
+        "url": "https://ci.infra.status.im/job/website/job/nimbus.team/106/"
+    }
+}
