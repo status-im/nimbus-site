@@ -45,4 +45,4 @@ Whatever you might expect to see in other projects applies here:
 - Be nice to others
 - When evaluating PRs, focus exclusively on the quality of the code
 - If submitting code, make sure it's tested. All code MUST come with tests. To speed up the review, ping a team member.
-- If submitting typo fixes or documentation changes, speed up the review process by pinging a team member. [Jacek](https://github.com/arnetheduck) or [Sacha](https://github.com/unixpi) will usually review those very quickly. The same applies if submitting a tutorial for inclusion on the [official blog](https://our.status.im/tag/nimbus).
+- If submitting typo fixes or documentation changes, speed up the review process by pinging a team member. [Jacek](https://github.com/arnetheduck) or [Sacha](https://github.com/unixpi) will usually review those very quickly. The same applies if submitting a tutorial for inclusion on the [official blog](https://blog.nimbus.team/).
