@@ -53,9 +53,7 @@ const config = {
             jobBoard: 'nimbus',
           },
         },
-        og: {
-          path: '_og',
-        },
+        og: {},
       }),
     ],
   ],
@@ -164,6 +162,10 @@ const config = {
               {
                 href: '/privacy-policy',
                 label: 'Privacy Policy',
+              },
+              {
+                href: '/security',
+                label: 'Security',
               },
             ],
           },
