@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-05-30T08:03:26Z",
+    "timestamp": "2024-06-03T17:52:15Z",
     "git": {
-        "commit": "b97849e847a8c614225a7509cd17b107317e73cc",
+        "commit": "1a078f86468d93c68e796c7c0b650545ed1df3a4",
         "branch": "origin/master",
         "url": "git@github.com:status-im/nimbus-site.git"
     },
     "build": {
-        "id": "403",
-        "number": "403",
+        "id": "404",
+        "number": "404",
         "name": "website/nimbus.team",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/nimbus.team/403/"
+        "url": "https://ci.infra.status.im/job/website/job/nimbus.team/404/"
     }
 }
