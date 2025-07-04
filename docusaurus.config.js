@@ -119,6 +119,14 @@ const config = {
             href: '/join-us',
           },
           {
+            href: 'https://x.com/ethnimbus',
+            position: 'right',
+            className: 'header-x-link',
+            title: 'Logos on X',
+            'data-umami-event': 'X click',
+            'data-umami-event-source': 'navbar',
+          },
+          {
             title: 'Nimbus GitHub repository',
             href: 'https://github.com/status-im/nimbus-eth2',
             position: 'right',
