@@ -1,5 +1,14 @@
-@use "@acid-info/logos-docusaurus-theme/src/client/css/lsd";
-@use "@acid-info/logos-docusaurus-theme/src/client/css/utils";
+@use '@acid-info/logos-docusaurus-theme/src/client/css/lsd';
+@use '@acid-info/logos-docusaurus-theme/src/client/css/utils';
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+#__docusaurus {
+  overflow-x: clip;
+}
 
 @include utils.responsive('lg', 'up') {
   .mdx-cta-section-heading-large {

@@ -141,10 +141,10 @@
     three "^0.152.2"
     utility-types "^3.10.0"
 
-"@acid-info/logos-docusaurus-theme@^1.0.3-topic-ci-issue.4":
-  version "1.0.3-topic-ci-issue.4"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-topic-ci-issue.4.tgz#8df4e43288e27394ed1c1ae16c09f55787e83532"
-  integrity sha512-KpBwEsKMaO0vbiv0J9EC1K+igFRFYwtQmKys1b3tOWVB5cTxphTrvPTIUn0FZJlpDbvM7ReCSliIpUd7sLh6sg==
+"@acid-info/logos-docusaurus-theme@^1.0.3-topic-test-2.0":
+  version "1.0.3-topic-test-2.0"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-topic-test-2.0.tgz#3f143958176008d102e624924257275785f16f4a"
+  integrity sha512-vrYaLB8QVa5f+tron9wTUUXUeri6mE8oV1Cd1FwyFL4q+uPPHhE+P/+7MEKB8LbBPWNr90TwGt9iokUfwYL3RA==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.3-alpha.0"
     "@acid-info/lsd-react" "^v0.2.0-beta.2"
