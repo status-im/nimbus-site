@@ -53,10 +53,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-brand-guidelines-theme@^1.0.3-topic-community-feedback-carousel.1":
-  version "1.0.3-topic-community-feedback-carousel.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-brand-guidelines-theme/-/logos-docusaurus-brand-guidelines-theme-1.0.3-topic-community-feedback-carousel.1.tgz#42d3fb82f5d9dcde530054e5dae9b2a29e807d84"
-  integrity sha512-+NmK830LGTYhUGO/80+jJInyN7xwsQ7u3ZeI1sLHaz/7jhvxdQOtyKaneMIwlVE/MC6hfwDM8oVcNYlRISGPww==
+"@acid-info/logos-docusaurus-brand-guidelines-theme@v1.0.3-alpha.1":
+  version "1.0.3-alpha.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-brand-guidelines-theme/-/logos-docusaurus-brand-guidelines-theme-1.0.3-alpha.1.tgz#fcf70b1092e3fbd28818eec5e3ada226ead02b75"
+  integrity sha512-xnE2D/hR7Nseln1CP9DvmzTSvNyT0Em1bTfs80TkqNi423qkaM4RrZS6Rg/eD0TWxXR4WNQNKgREhdnOvEiS8Q==
 
 "@acid-info/logos-docusaurus-preset@^1.0.2-alpha.1":
   version "1.0.2-alpha.1"
@@ -141,10 +141,10 @@
     three "^0.152.2"
     utility-types "^3.10.0"
 
-"@acid-info/logos-docusaurus-theme@^1.0.3-topic-community-feedback-carousel.0":
-  version "1.0.3-topic-community-feedback-carousel.0"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-topic-community-feedback-carousel.0.tgz#b6f18ee087b2fddd99a67efd7692d8e0d0e048fd"
-  integrity sha512-s86rI3q9JspzJyEsFyGJprTM1PVuJP8mVjnrkBzaNYw2xIF6i2V9QsNcH5YPZWhud3rR+nVn6Bjwv+CqYSTgMg==
+"@acid-info/logos-docusaurus-theme@^1.0.3-topic-ci-issue.4":
+  version "1.0.3-topic-ci-issue.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-topic-ci-issue.4.tgz#8df4e43288e27394ed1c1ae16c09f55787e83532"
+  integrity sha512-KpBwEsKMaO0vbiv0J9EC1K+igFRFYwtQmKys1b3tOWVB5cTxphTrvPTIUn0FZJlpDbvM7ReCSliIpUd7sLh6sg==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.3-alpha.0"
     "@acid-info/lsd-react" "^v0.2.0-beta.2"
