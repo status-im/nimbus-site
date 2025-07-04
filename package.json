@@ -15,7 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@acid-info/logos-docusaurus-brand-guidelines-theme": "v1.0.3-alpha.1",
+    "@acid-info/logos-docusaurus-brand-guidelines-theme": "v1.0.3-alpha.2",
     "@acid-info/logos-docusaurus-preset": "^1.0.2-alpha.1",
     "@acid-info/logos-docusaurus-theme": "^1.0.3-topic-ci-issue.4",
     "@docusaurus/theme-mermaid": "^3.7.0",

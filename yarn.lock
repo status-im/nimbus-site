@@ -53,10 +53,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-brand-guidelines-theme@v1.0.3-alpha.1":
-  version "1.0.3-alpha.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-brand-guidelines-theme/-/logos-docusaurus-brand-guidelines-theme-1.0.3-alpha.1.tgz#fcf70b1092e3fbd28818eec5e3ada226ead02b75"
-  integrity sha512-xnE2D/hR7Nseln1CP9DvmzTSvNyT0Em1bTfs80TkqNi423qkaM4RrZS6Rg/eD0TWxXR4WNQNKgREhdnOvEiS8Q==
+"@acid-info/logos-docusaurus-brand-guidelines-theme@v1.0.3-alpha.2":
+  version "1.0.3-alpha.2"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-brand-guidelines-theme/-/logos-docusaurus-brand-guidelines-theme-1.0.3-alpha.2.tgz#42a700154e210aef26f4362d7703a815466b29cc"
+  integrity sha512-io3mPcY6VzEEOCH6OnteixDRyDjwBghqwWvpxdBCilLb1aZGX8Wb7hdbPwMF2atMyXmY0QbH+UCH3ujyKiEsBg==
 
 "@acid-info/logos-docusaurus-preset@^1.0.2-alpha.1":
   version "1.0.2-alpha.1"
