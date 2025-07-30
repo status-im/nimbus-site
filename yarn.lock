@@ -19,14 +19,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.3-beta.10":
-  version "1.0.3-beta.10"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.3-beta.10.tgz#47c2f47a4571768edc82fc6d7c678d787d62a08f"
-  integrity sha512-g8UaSHWAVXJ46bv5rXRMLMaWcrC9OSmC5/dKOWKLum7eU8vAu772SqrO95foxgJ/MbZJ0UeD8rCdMOF2Rbaxag==
+"@acid-info/logos-docusaurus-preset@^1.0.3-beta.11":
+  version "1.0.3-beta.11"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.3-beta.11.tgz#0e740f16be217945a226a1fc4b2e69abcb00c880"
+  integrity sha512-cmunmhJl9MCAkVirefKUyCxFfq6XbAFtY/Cw1MSkcrZMn92ZR5YjUSo7oBxJHtRn4nolK1MHDycDr1zb9IWC7w==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.3-beta.2"
     "@acid-info/logos-docusaurus-search-local" "^1.0.3-beta.2"
-    "@acid-info/logos-docusaurus-theme" "^1.0.3-beta.10"
+    "@acid-info/logos-docusaurus-theme" "^1.0.3-beta.11"
     "@docusaurus/core" "3.8.1"
     "@docusaurus/module-type-aliases" "3.8.1"
     "@docusaurus/preset-classic" "3.8.1"
@@ -54,13 +54,13 @@
     "@easyops-cn/docusaurus-search-local" "0.49.2"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@^1.0.3-beta.10":
-  version "1.0.3-beta.10"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-beta.10.tgz#952e3bac3a10d5d1ba60234bd3b44d75a9a751c5"
-  integrity sha512-Iq2JEFuXIUP+v2AFaUzFCirT+XWSz9csNrhd0CrV9whppPpdPtzkYTtdXDLPU4fI88K6QEuSOguMoaW4WVBAAQ==
+"@acid-info/logos-docusaurus-theme@^1.0.3-beta.11":
+  version "1.0.3-beta.11"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.3-beta.11.tgz#dde53935686847f3c7eaa852f813b5eb40b88089"
+  integrity sha512-baFC9oG8NszlLtrQPtazZW5JHdjCDDSDAA2IEN3TFdt0AHwHYDAEASVXSIP2Hfwu666/fJTzgTnfFptwQtE2bA==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.3-beta.2"
-    "@acid-info/lsd-react" "^v0.2.0-beta.2"
+    "@acid-info/lsd-react" "0.2.0-beta.2"
     "@docusaurus/core" "3.8.1"
     "@docusaurus/mdx-loader" "3.8.1"
     "@docusaurus/module-type-aliases" "3.8.1"
@@ -102,7 +102,7 @@
     three "^0.152.2"
     utility-types "^3.10.0"
 
-"@acid-info/lsd-react@^v0.2.0-beta.2":
+"@acid-info/lsd-react@0.2.0-beta.2":
   version "0.2.0-beta.2"
   resolved "https://registry.yarnpkg.com/@acid-info/lsd-react/-/lsd-react-0.2.0-beta.2.tgz#d7ae2e091923036f2ddcf9a56f960f65ddba8bb0"
   integrity sha512-xDqtZc2FEaSt32kVImGPJotDStRi476kz/68GEltteoZag5zPEMDIJXb72KYi8OfYVWYzRe4at70NKU0f5fLOg==
