@@ -26,7 +26,7 @@ The Nimbus consensus client offers significant advantages for all levels of user
 
 - Convenient: Nimbus will be among the first client teams to offer both a consensus and execution client, simplifying initial installation and making it easy for operators to receive tailored support.
 
-View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/nimbus) or the [setup guide.](https://nimbus.guide/quick-start.html)
+View the [Github repository](https://github.com/status-im/nimbus-eth2) or the [setup guide.](https://nimbus.guide/quick-start.html)
 
 ## Verified web3 proxy
 
