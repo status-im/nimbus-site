@@ -49,7 +49,7 @@ Alongside the portal client, Nimbus has developed a light, verified web3 proxy t
 Ultimately, light clients will provide greater security to users, reveal new blockchain use cases, and enable the Ethereum ecosystem to reduce its dependency on centralised entities that represent single points of failure or capture.
 
 
-View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/fluffy) or [read more.]( https://fluffy.guide/quick-start.html)
+View the [Github repository](https://github.com/status-im/nimbus-eth1) or [read more.]( https://fluffy.guide/quick-start.html)
 
 ## Execution client
 Following Ethereum's switch to proof-of-stake in 2022, Ethereum validators must operate clients on both the consensus and execution layers. Yet, as of today, no client team offers both an execution and consensus layer client.
