@@ -1,15 +1,15 @@
 {
-    "timestamp": "2025-08-30T02:37:48Z",
+    "timestamp": "2025-10-23T10:21:22Z",
     "git": {
-        "commit": "9e18b46590b91e484a8c5b672240d7dd7bc08abe",
+        "commit": "d51b96f526d8b189e962bd27d39846c675a78289",
         "branch": "origin/develop",
         "url": "git@github.com:status-im/nimbus-site.git"
     },
     "build": {
-        "id": "583",
-        "number": "583",
+        "id": "584",
+        "number": "584",
         "name": "website/dev.nimbus.team",
-        "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/dev.nimbus.team/583/"
+        "slave": "linux-02-container",
+        "url": "https://ci.infra.status.im/job/website/job/dev.nimbus.team/584/"
     }
 }
