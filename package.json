@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "test": "node --test \"src/**/*.test.mjs\""
   },
   "dependencies": {
     "@acid-info/logos-docusaurus-preset": "^1.0.3-beta.11",

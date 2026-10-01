@@ -8,6 +8,29 @@ const config = {
   url: 'https://nimbus.team/',
   baseUrl: '/',
 
+  // The Logos preset appends shared "Research" / "Infrastructure" footer
+  // groups that cannot be changed through `themeConfig.footer`.
+  // `src/theme/Footer/Layout` swaps their items for the links below.
+  customFields: {
+    sharedFooterLinks: {
+      Research: [
+        { label: 'Logos Research', href: 'https://research.logos.co/' },
+      ],
+      Infrastructure: [
+        {
+          label: 'Messaging',
+          href: 'https://logos.co/technology-stack/messaging',
+        },
+        { label: 'Nimbus', href: 'https://nimbus.team/' },
+        { label: 'Storage', href: 'https://logos.co/technology-stack/storage' },
+        {
+          label: 'Blockchain',
+          href: 'https://logos.co/technology-stack/blockchain',
+        },
+      ],
+    },
+  },
+
   markdown: {
     mermaid: true,
   },
